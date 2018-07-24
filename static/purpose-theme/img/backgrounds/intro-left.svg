@@ -1,0 +1,16 @@
+<svg width="1363" height="667" viewBox="0 0 1363 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Polygon 2.2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(9974 2422)">
+<g id="Polygon 2.2">
+<use xlink:href="#path0_fill" transform="matrix(1 -2.77556e-17 -2.77556e-17 -1 -10668 -1739)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10 674 -764.689 436.406 1545.84 -218.203)">
+<stop offset="0" stop-color="#450a93"/>
+<stop offset="1" stop-color="#450a93"/>
+</linearGradient>
+<path id="path0_fill" d="M 840.627 31.7201C 874.648 12.09 916.555 12.09 950.576 31.7201L 2084.97 686.257C 2104.97 697.803 2104.97 726.682 2084.97 738.227L 1249.39 1220.35C 1240.11 1225.7 1228.68 1225.7 1219.41 1220.35L 45.0346 542.743C 25.0254 531.197 25.0254 502.318 45.0346 490.773L 840.627 31.7201Z"/>
+</defs>
+</svg>

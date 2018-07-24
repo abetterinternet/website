@@ -1,0 +1,26 @@
+baseURL = "https://www.abetterinternet.org/"
+languageCode = "en-us"
+
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[params]
+copyrighthtml = "&copy; 2018 Internet Security Research Group. All rights reserved."
+address = "1 Letterman Drive, Suite D4700, San Francisco, CA 94129"
+
+# Date and time formatting, see https://gohugo.io/functions/format/
+time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
+time_format_RFC822 = "Mon, 02 Jan 2006 15:04:05 -0700" 
+time_format_default = "Jan 2, 2006"
+
+[languages]
+[languages.en]
+title = "Internet Security Research Group"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
+description = """
+  ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to
+  secure communication over the Internet.
+"""

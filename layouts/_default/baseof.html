@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ if not .Params.nohero }}{{ partial "hero.html" . }}{{ end }}
+{{ if eq .File.Ext "md" }}{{ partial "md-top-context.html" . }}{{ end }}
+{{ block "main" . }}{{ end }}
+{{ if eq .File.Ext "md" }}{{ partial "md-bot-context.html" . }}{{ end }}
+{{ partial "footer.html" . }}
+</html>
