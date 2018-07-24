@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div>
+  <ul>
+    {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
+    {{ range $posts }}
+    <li>
+      <span>{{ .Date.Format $.Site.Params.time_format_default }}</span>
+      <h2>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ with .Params.excerpt }}
+      {{ . | markdownify }}
+      {{ else }}
+      {{ .Summary }}
+      {{ end }}
+      <p><a href="{{ .Permalink }}">{{ i18n "read_more" }}</a></p>
+    </li>
+    {{ end }}
+  </ul>
+  {{ with .Site.Home.OutputFormats.Get "RSS" -}}
+  <p>{{ i18n "subscribe_rss" . | safeHTML }}</p>
+  {{ end  }}
+</div>
+{{ end }}

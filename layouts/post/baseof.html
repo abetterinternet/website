@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+{{ partial "header.html" . }}
+        <section class="slice slice-lg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom" style="background-image: url('/purpose-theme/img/backgrounds/img-10.jpg');">
+            <span class="mask bg-gradient-secondary alpha-8"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="pt-lg-lg pb-lg-md">
+                            <h2 class="heading display-4 font-weight-300 lh-110 mb-4">Blog</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<main>
+        <section class="slice slice-lg delimiter-bottom">
+            <div class="container">
+                {{ block "main" . }}{{ end }}
+            </div>
+        </section>
+</main>
+{{ partial "footer.html" . }}
+</body>
+</html>

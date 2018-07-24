@@ -1,0 +1,33 @@
+// Add your custom styles below
+
+.link {
+	@if $enable-transitions {
+		transition: all .3s ease-in-out;
+	}
+}
+
+[data-link="1"] {
+	padding-bottom: 8px;
+	border-bottom: 3px solid $primary;
+	color: $primary;
+
+	&:hover {
+		color: $secondary;
+	}
+}
+
+.link-secondary {
+	@if $enable-transitions {
+		transition: all .3s ease-in-out;
+	}
+}
+
+[data-link-secondary="1"] {
+	padding-bottom: 8px;
+	border-bottom: 3px solid $primary;
+	color: $primary;
+
+	&:hover {
+		color: white;
+	}
+}

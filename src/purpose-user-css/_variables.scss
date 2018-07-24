@@ -1,0 +1,18 @@
+// Copy and paste the variables that you want to modify from _variables.scss and remove the !default flag.
+// The default ones will be overridden. Below we added the most wanted variables that a user needs to change.
+// Uncomment the variables starting with "$" that you want to edit.
+
+
+// Colors
+
+$primary: #3771C8;
+$secondary: #C2E9E9;
+$navbar-dark-color:                 $primary;
+$navbar-dark-hover-color:           $primary;
+$navbar-dark-active-color:          $primary;
+$navbar-dark-disabled-color:        $primary;
+
+// Typography
+
+// $font-family-base: 'Nunito', sans-serif !default;
+// $font-family-alt: 'Nunito', sans-serif !default;
