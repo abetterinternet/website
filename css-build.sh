@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script uses node-sass and gulp
-# npm install -g node-sass gulp
+# npm install -g node-sass gulp gulp-cli
 
 # Store the theme package filename
 theme_filename='purpose-website-ui-kit-v1.0.1'
