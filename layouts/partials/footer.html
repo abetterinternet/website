@@ -1,14 +1,11 @@
     </main>
-    <footer class="footer py-5  footer-dark">
+    <footer class="footer py-5 bg-secondary">
         <div class="container">
             <div class="align-items-center">
                 <div class="text-center">
-                    <a href="/">
-                        <img src="/images/ISRG-Logo-White.svg" class="alpha-6 alpha-10--hover" style="width: 120px;">
-                    </a>
                     <span class="d-block mt-4">
+                    {{ .Site.Params.copyrighthtml | safeHTML}}<br>
                     {{ .Site.Params.address}}<br>
-                    {{ .Site.Params.copyrighthtml | safeHTML}}
                     </span>
                 </div>
             </div>
