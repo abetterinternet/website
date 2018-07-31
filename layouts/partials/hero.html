@@ -1,14 +1,11 @@
-        <section class="slice slice-lg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom" style="background-image: url('{{ if .Params.bgimage }}{{ .Params.bgimage }}{{ else }}/images/Looking-At-Cellphone.jpg{{ end }}');">
-            <span class="mask bg-gradient-secondary alpha-8"></span>
-            <div class="container">
+        <section class="slice slice-lg bg-gradient-secondary" data-separator="rounded-left" data-separator-orientation="bottom">
+            <div class="container pt-lg-md">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pt-lg-lg pb-lg-md">
-                            <h2 class="heading display-4 font-weight-300 lh-110 mb-4">{{ .Params.Title }}</h2>
-                            {{ if .Params.subtitle }}
-                            <p class="lead lh-180">{{ .Params.Subtitle }}</p>
-                            {{ end }}
-                        </div>
+                    <div class="col-lg-8">
+                        <h2 class="display-4 text-black">{{ .Params.Title }}</h2>
+                        {{ if .Params.subtitle }}
+                        <h5 class="mb-4 text-black">{{ .Params.Subtitle }}</h5>
+                        {{ end }}
                     </div>
                 </div>
             </div>
