@@ -1,5 +1,14 @@
 // Add your custom styles below
 
+body
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+    background-color: #fff;
+}
+
 .link {
 	@if $enable-transitions {
 		transition: all .3s ease-in-out;

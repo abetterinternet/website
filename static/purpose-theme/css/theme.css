@@ -19717,6 +19717,16 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     background: #3771c8;
 }
 
+body
+{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: normal;
+
+    color: black;
+    background-color: #fff;
+}
+
 .link
 {
     transition: all .3s ease-in-out;

@@ -1,10 +1,8 @@
 ---
 title: Privacy Policy
 slug: privacy-policy
-lastmod: 2018-07-11
+subtitle: Updated July 31, 2018
 ---
-
-{{< lastmod >}}
 
 The Internet Security Research Group (ISRG) Privacy Policy describes how we collect, use, and disclose your information in three different contexts:
 
