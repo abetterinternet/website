@@ -2,7 +2,7 @@
 <div>
 	<header>
 		<h1>{{ .Title }}</h1>
-		<p>{{ .Date.Format $.Site.Params.time_format_default }}{{ with .Params.author }} • {{ . }}{{ end }}{{ with .Params.meta }} • {{ . }}{{ end }}</p>
+		<p>{{ .Params.author }}<br>{{ .Date.Format $.Site.Params.time_format_default }}</p>
 	</header>
 	<article>
 		{{ .Content }}
