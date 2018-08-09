@@ -21,29 +21,32 @@
         </section>
         <section class="slice slice-lg">
             <div class="container">
+                {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 1 }}
+                {{ range $posts }}
+                    <p>
+                    <h2 class="heading h2">{{ .Title }}</h2>
+                    {{ with .Params.excerpt }}
+                      {{ . | markdownify }}
+                    {{ else }}
+                      {{ .Summary }}
+                    {{ end }}
+                    </p>
+                    <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+                {{ end }}
+            </div>
+        </section>
+        <section class="slice slice-lg delimiter-top">
+            <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
                         <img src="/images/LE-Logo-Standard.svg" style="width: 100%;" class="img-center img-fluid">
                     </div>
                     <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
                         <div class="pr-md-4">
-                            <h3 class="heading h3">Our First Project</h3>
+                            <h2 class="heading h2">Our First Project</h2>
                             <p class="lead text-gray my-4">Let's Encrypt is a free, automated, and open Certificate
                             Authority.</p>
                             <a href="https://letsencrypt.org/" target="_blank" class="link font-weight-bold" data-link="1">Find out more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="slice slice-lg bg-secondary">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-7 text-center">
-                        <h3 class="h1">Invest in a better Internet.</h3>
-                        <p class="lead">Help us build a more secure and privacy-respecting Internet.</p>
-                        <div class="mt-5">
-                            <a href="https://letsencrypt.org/donate/" target="_blank" class="btn btn-lg btn-primary btn-circle px-4">Donate now</a>
                         </div>
                     </div>
                 </div>
