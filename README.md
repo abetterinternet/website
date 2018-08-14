@@ -3,7 +3,8 @@ Internet Security Research Group (ISRG) Website
 
 This is the repository for the [ISRG website](https://abetterinternet.org/).
 
-This site is built with [Hugo](https://gohugo.io/). It's entirely static, no server-side code/scripting.
+This site is built with [Hugo](https://gohugo.io/) and requires version 0.40 or
+newer. It's entirely static, no server-side code/scripting.
 
 To see your changes, [install
 Hugo](https://gohugo.io/getting-started/installing), then run it with:
