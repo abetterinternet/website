@@ -4,7 +4,7 @@
 # npm install -g node-sass gulp gulp-cli
 
 # Store the theme package filename
-theme_filename='purpose-website-ui-kit-v1.0.1'
+theme_filename='purpose-website-ui-kit-v1.1.1'
 
 # Save current directory
 site_dir=$(pwd)
