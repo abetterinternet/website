@@ -41,15 +41,76 @@ $(window).on('load resize', function() {
             }
         }
     });
+
+    // Trigger automatic negative margins for certain elements
+    $('[data-negative-margin]').each(function() {
+        var $this = $(this),
+            target = $($this.data('negative-margin'));
+
+        if ($(window).width() > 991) {
+            $this.css({'margin-top': '-' + target.height() + 'px'});
+        } 
+        else {
+            $this.css({'margin-top': '0'});
+        }
+        
+    });
+
+    // Sticky navbar
+    if ($(window).width() > 991) {
+        $('.navbar-fixed-top')[0] && $(".navbar-fixed-top").stick_in_parent({
+            parent: 'body',
+            recalc_every: 1
+        });
+    }
 });
 
-$(document).ready(function() {
+$(document).ready(function() {  
+   
+    // Collapse navigation
+    $('#navbar-main .collapse').on('show.bs.collapse', function () {
+        var navbar = $('#navbar-main'),
+            navbarTop = $('#navbar-top-main');
+
+        navbar.addClass('navbar-collapsed');
+        navbarTop.addClass('navbar-collapsed');
+    });
+
+    $('#navbar-main .collapse').on('hide.bs.collapse', function () {
+        var $this = $(this),
+            navbar = $('#navbar-main'),
+            navbarTop = $('#navbar-top-main');
+
+        $this.removeClass('collapsing').addClass('collapsing-out');
+        navbar.removeClass('navbar-collapsed').addClass('navbar-collapsed-out');
+        navbarTop.removeClass('navbar-collapsed').addClass('navbar-collapsed-out');
+    });
+    
+    $('#navbar-main .collapse').on('hidden.bs.collapse', function () {
+        var $this = $(this),
+            navbar = $('#navbar-main'),
+            navbarTop = $('#navbar-top-main');
+
+        $this.removeClass('collapsing-out');
+        navbar.removeClass('navbar-collapsed-out');
+        navbarTop.removeClass('navbar-collapsed-out');
+    });
+
+    // Animated dropdowns
+    $('.dropdown-animate').on('hide.bs.dropdown', function () {
+        var $this = $(this).find('.dropdown-menu');
+
+        $this.addClass('hide');
+
+        setTimeout(function(){
+            $this.removeClass('hide');
+        }, 300);
+
+    });
 
     // Plugins init
-
     $(".highlight")[0] && hljs.initHighlightingOnLoad();
     $(".scrollbar-inner")[0] && $(".scrollbar-inner").scrollbar().scrollLock();
-    $('[data-stick-in-parent="true"]')[0] && $('[data-stick-in-parent="true"]').stick_in_parent();
     $('.selectpicker')[0] && $('.selectpicker').selectpicker();
     $('.textarea-autosize')[0] && autosize($('.textarea-autosize'));
     $('[data-toggle="tooltip"]').tooltip();
@@ -64,10 +125,36 @@ $(document).ready(function() {
         })
     });
     
+    // Sticky elements
+    $('[data-toggle="sticky"]')[0] && $('[data-toggle="sticky"]').each(function() {
+        var $this = $(this),
+            offset = $this.data('sticky-offset') ? $this.data('sticky-offset') : 0;
+
+        $this.stick_in_parent({
+            'offset_top': offset
+        });
+    });
+
+    // Datepicker
+    $('.datepicker')[0] && $('.datepicker').each(function() {
+        $('.datepicker').datepicker({
+            disableTouchKeyboard: true,
+            autoclose: false
+        });
+    });
+
+    // Wavify
+    $('[data-toggle="wavify"]').each(function() {
+        var $this = $(this).find('path');
+
+        $this.wavify({
+            height: 50, bones: 5, amplitude: 40, speed: .15
+        }); 
+    });
 
     // Floating label
     $('.form-control').on('focus blur', function(e) {
-        $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
+        $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus'));
     }).trigger('blur');
     
 
@@ -100,7 +187,6 @@ $(document).ready(function() {
             $input.removeClass('has-focus');
         });
     });
-    
     
     // NoUI Slider
     if ($(".input-slider-container")[0]) {
@@ -152,7 +238,6 @@ $(document).ready(function() {
             f[b].textContent = a[b]
         })
     }
-
 
     // Scroll to anchor with scroll animation
     $('.scroll-me, [data-scroll-to], .toc-entry a').on('click', function(event) {
@@ -258,8 +343,10 @@ $(document).ready(function() {
                 el: $swiperContainer.find('.swiper-pagination'),
                 clickable: true
             },
-            nextButton: $swiperContainer.find('.swiper-button-next'),
-            prevButton: $swiperContainer.find('.swiper-button-prev'),
+            navigation: {
+                nextEl: $swiperContainer.find('.swiper-button-next'),
+                prevEl: $swiperContainer.find('.swiper-button-prev'),
+            },
             slidesPerView: slidesPerViewLg,
             spaceBetween: spaceBetweenSlidesLg,
             initialSlide: $swiper.data('initial-slide'),
@@ -324,7 +411,6 @@ $(document).ready(function() {
                 defaultFilterButton.addClass('active');
             }
 
-
             $masonry.isotope({
                 itemSelector: '.masonry-item',
                 filter: defaultFilterValue
@@ -357,12 +443,19 @@ $(document).ready(function() {
 
     // Background image holder - Takes the img and transforms it in a bg image
     $(".bg-img-holder")[0] && $(".bg-img-holder").each(function(){
-        var $this = $(this);
-        var img = $this.children("img").attr("src");
-
-        $this.css("background-image",'url("'+img+'")').css("background-position","initial").css("opacity","1")
+        var $this = $(this),
+            img = $this.children("img").attr("src"),
+            position = $this.data('bg-position') ? $this.data('bg-position') : 'initial',
+            size = $this.data('bg-size') ? $this.data('bg-size') : 'auto',
+            height = $this.data('bg-height') ? $this.data('bg-height') : '100%';
+        
+        $this
+        .css("background-image", 'url("'+img+'")')
+        .css("background-position", position)
+        .css("background-size", size)
+        .css("opacity", "1")
+        .css("height", height)
     });
-
 
     // Pricing switcher
     $('.pricing-container')[0] && $('.pricing-container button[data-pricing]').click(function() {
@@ -388,9 +481,7 @@ $(document).ready(function() {
         }
     });
 
-
     // Containers with animated elements on hover
-
     $('[data-animate-items="hover"]')[0] && $('[data-animate-items="hover"]').hover(function() {
         var $this = $(this);
         var elems = $this.find(".animate-item");
@@ -431,7 +522,6 @@ $(document).ready(function() {
 
 
     // Quick product view (requires Fancybox 3)
-
     $(".quick_view")[0] && $(".quick_view").fancybox({
         baseClass: 'quick-view-container',
         infobar: false,
@@ -502,14 +592,69 @@ $(document).ready(function() {
         }
     });
 
-    
-    $("body").on("click touchstart", "[data-action]", function(e) {
+    // Product actions
+    $('.card-product').mouseenter(function() {
+
+        var $this = $(this).find('.card-product-actions');
+        var animationIn = $this.data('animation-in');
+
+        if ($(this).find('.card-product-actions')[0]) {
+            $this.addClass('in animated ' + animationIn);
+            $this.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $this.removeClass('animated ' + animationIn);
+            });
+        }
+    })
+
+    .mouseleave(function() {  
+
+        var $this = $(this).find('.card-product-actions');
+        var animationOut = $this.data('animation-out');
+
+        if ($(this).find('.card-product-actions')[0]) {
+            $this.addClass('animated ' + animationOut);
+            $this.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $this.removeClass('in animated ' + animationOut);
+            });
+        }
+    });
+
+    // Instafeed
+    $('.instafeed')[0] && $('.instafeed').each(function() {
+        var $this = $(this);
+        var target = $this.attr('id');
+        var userId = $this.data('user-id');
+        var limit = $this.data('limit');
+        var col = $this.data('col');
+        var template;
+        var classes = $this.data('classes') ? $this.data('classes') : '';
+        var lightbox = $this.data('lightbox') ? ' data-fancybox ' : '';
+
+        // Fill with the data from Instagram API
+        var clientID = 'c81e735d834e4960ab5bfdc89fff7b7a';
+        var accessToken = '4168279954.c81e735.bd435dd21a344208ad569b028b372088';
+
+        var instafeed = new Instafeed({
+            target: target,
+            clientId: clientID,
+            accessToken: accessToken,
+            get: 'user',
+            userId: userId,
+            limit: limit,
+            resolution: 'thumbnail',
+            template: '<div class="col-sm-' + col + ' col-6"><a href="{{link}}"'+lightbox+'><img src="{{image}}" class="img-fluid '+classes+'" /></a></div>'
+        });
+        instafeed.run();
+    });
+
+    // Click events
+    $("body").on("click", "[data-action]", function(e) {
 
         e.preventDefault();
 
         var $this = $(this);
         var action = $this.data('action');
-        var target = '';
+        var target = $this.data('target');
 
         switch (action) {
             case "offcanvas-open":
@@ -521,18 +666,30 @@ $(document).ready(function() {
 
             case 'aside-open':
                 target = $this.data('target');
-                $this.data('action', 'aside-close');
-                $this.addClass('toggled');
-                $(target).addClass('toggled');
-                $('.content').append('<div class="body-backdrop" data-action="aside-close" data-target='+target+' />');
+                $this.addClass('active');
+                $(target).addClass('show');
+                $('body').append('<div class="body-backdrop" data-action="aside-close" data-target='+target+' />');
                 break;
-
 
             case 'aside-close':
                 target = $this.data('target');
-                $this.data('action', 'aside-open');
-                $('[data-action="aside-open"], '+target).removeClass('toggled');
-                $('.content, .header').find('.body-backdrop').remove();
+                $this.removeClass('active');
+                $(target).removeClass('show');
+                $('body').find('.body-backdrop').remove();
+                break;
+
+            case 'search-open':
+                target = $this.data('target');
+                $this.addClass('active');
+                $(target).addClass('show');
+                $('body').addClass('navbar-search-open').append('<div class="body-backdrop body-backdrop-dark" data-action="search-close" data-target="'+target+'" />');
+                break;
+
+            case 'search-close':
+                target = $this.data('target');
+                $('[data-action="search-open"]').removeClass('active');
+                $(target).removeClass('show');
+                $('body').removeClass('navbar-search-open').find('.body-backdrop').remove();
                 break;
         }
     })
