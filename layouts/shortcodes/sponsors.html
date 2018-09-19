@@ -1,14 +1,20 @@
 <h3 class="heading h3">Platinum</h3>
+<center>
 {{ range $.Site.Data.sponsors.platinum }}
       <a href="{{ .url }}" {{ if .id }}id="{{ .id }}"{{ end }} {{ if .nofollow }}rel="nofollow"{{ end }}><img src="/images/sponsors/{{ .image }}" alt="{{ .name }}" width="180" height="108" style="padding-left: 20px; padding-right: 20px; padding-top: 8px; padding-bottom: 8px;"></a>
 {{ end }}
+</center>
 
 <h3 class="heading h3">Gold</h3>
+<center>
 {{ range $.Site.Data.sponsors.gold }}
       <a href="{{ .url }}" {{ if .id }}id="{{ .id }}"{{ end }} {{ if .nofollow }}rel="nofollow"{{ end }}><img src="/images/sponsors/{{ .image }}" alt="{{ .name }}" width="180" height="108" style="padding-left: 20px; padding-right: 20px; padding-top: 8px; padding-bottom: 8px;"></a>
 {{ end }}
+</center>
 
 <h3 class="heading h3">Silver</h3>
+<center>
 {{ range $.Site.Data.sponsors.silver }}
       <a href="{{ .url }}" {{ if .id }}id="{{ .id }}"{{ end }} {{ if .nofollow }}rel="nofollow"{{ end }}><img src="/images/sponsors/{{ .image }}" alt="{{ .name }}" width="180" height="108" style="padding-left: 20px; padding-right: 20px; padding-top: 8px; padding-bottom: 8px;"></a>
 {{ end }}
+</center>
