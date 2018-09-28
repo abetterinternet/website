@@ -68,17 +68,17 @@ $(window).on('load resize', function() {
 $(document).ready(function() {  
    
     // Collapse navigation
-    $('#navbar-main .collapse').on('show.bs.collapse', function () {
-        var navbar = $('#navbar-main'),
+    $('#navbar_main .collapse').on('show.bs.collapse', function () {
+        var navbar = $('#navbar_main'),
             navbarTop = $('#navbar-top-main');
 
         navbar.addClass('navbar-collapsed');
         navbarTop.addClass('navbar-collapsed');
     });
 
-    $('#navbar-main .collapse').on('hide.bs.collapse', function () {
+    $('#navbar_main .collapse').on('hide.bs.collapse', function () {
         var $this = $(this),
-            navbar = $('#navbar-main'),
+            navbar = $('#navbar_main'),
             navbarTop = $('#navbar-top-main');
 
         $this.removeClass('collapsing').addClass('collapsing-out');
@@ -86,9 +86,9 @@ $(document).ready(function() {
         navbarTop.removeClass('navbar-collapsed').addClass('navbar-collapsed-out');
     });
     
-    $('#navbar-main .collapse').on('hidden.bs.collapse', function () {
+    $('#navbar_main .collapse').on('hidden.bs.collapse', function () {
         var $this = $(this),
-            navbar = $('#navbar-main'),
+            navbar = $('#navbar_main'),
             navbarTop = $('#navbar-top-main');
 
         $this.removeClass('collapsing-out');
