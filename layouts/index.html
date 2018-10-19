@@ -19,7 +19,7 @@
                 </div>
             </div>
         </section>
-        <section class="slice slice-lg">
+        <section class="slice">
             <div class="container">
                 {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 1 }}
                 {{ range $posts }}
@@ -35,7 +35,7 @@
                 {{ end }}
             </div>
         </section>
-        <section class="slice slice-lg delimiter-top">
+        <section class="slice delimiter-top">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </section>
-        <section class="slice slice-lg delimiter-top">
+        <section class="slice delimiter-top">
             <div class="container"> 
                 <div class="blurable--hover">
                     <a href="/sponsors/">
