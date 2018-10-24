@@ -2327,11 +2327,6 @@ pre code
     background-color: #fff;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 20px rgba(55, 113, 200, .1);
 }
-.form-control:-ms-input-placeholder
-{
-    opacity: 1; 
-    color: #adb5bd;
-}
 .form-control::-ms-input-placeholder
 {
     opacity: 1; 
@@ -16747,10 +16742,6 @@ footer
 }
 
 /* Form controls */
-.form-control:focus:-ms-input-placeholder
-{
-    color: #adb5bd;
-}
 .form-control:focus::-ms-input-placeholder
 {
     color: #adb5bd;
@@ -16907,10 +16898,6 @@ textarea[resize='horizontal']
     border: .0625rem solid #254d88; 
     background-color: #254d88;
 }
-.form-primary .form-control:-ms-input-placeholder
-{
-    color: rgba(255, 255, 255, .8);
-}
 .form-primary .form-control::-ms-input-placeholder
 {
     color: rgba(255, 255, 255, .8);
@@ -16930,10 +16917,6 @@ textarea[resize='horizontal']
 {
     border: .0625rem solid #dd0c00; 
     background-color: #dd0c00;
-}
-.form-danger .form-control:-ms-input-placeholder
-{
-    color: rgba(255, 255, 255, .8);
 }
 .form-danger .form-control::-ms-input-placeholder
 {
@@ -18257,10 +18240,6 @@ Styled shaped wrappers for displaying code and images in a more stylish manner
     border: 0;
     background-color: transparent;
     background-image: none;
-}
-.navbar-search .navbar-search-form .form-control:-ms-input-placeholder
-{
-    color: #adb5bd;
 }
 .navbar-search .navbar-search-form .form-control::-ms-input-placeholder
 {
@@ -21113,11 +21092,6 @@ select.selectpicker
     background-color: transparent;
     box-shadow: none;
 }
-.bootstrap-tagsinput input:-ms-input-placeholder
-{
-    opacity: 1; 
-    color: #adb5bd;
-}
 .bootstrap-tagsinput input::-ms-input-placeholder
 {
     opacity: 1; 
@@ -22136,4 +22110,10 @@ body
 [data-link-secondary='1']:hover
 {
     color: white;
+}
+
+.slice-isrg
+{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
 }
