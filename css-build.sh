@@ -4,13 +4,14 @@
 # npm install -g node-sass gulp gulp-cli
 
 # Store the theme package filename
-theme_filename='purpose-website-ui-kit-v1.1.1'
+theme_filename='purpose-website-ui-kit-v1.1.3'
 
 # Save current directory
 site_dir=$(pwd)
 
 # Clean up the tmp directory where we'll work
 rm -Rf /tmp/${theme_filename}
+rm -Rf /tmp/__MACOSX
 
 # Unzip purpose theme to tmp directory
 unzip ./src/${theme_filename}.zip -d /tmp/
