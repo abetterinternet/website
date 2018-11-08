@@ -21,17 +21,21 @@
         </section>
         <section class="slice">
             <div class="container">
-                {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 1 }}
+                {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }}
                 {{ range $posts }}
-                    <p>
-                    <h2 class="heading h2">{{ .Title }}</h2>
-                    {{ with .Params.excerpt }}
-                      {{ . | markdownify }}
-                    {{ else }}
-                      {{ .Summary }}
-                    {{ end }}
-                    </p>
-                    <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+                <div class="row row-grid">
+                    <div class="col-md-12 col-lg-12">
+                        <h2 class="heading h2">{{ .Title }}</h2>
+                        <p>
+                        {{ with .Params.excerpt }}
+                        {{ . | markdownify }}
+                        {{ else }}
+                        {{ .Summary }}
+                        {{ end }}
+                        </p>
+                        <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+                    </div>
+                </div>
                 {{ end }}
             </div>
         </section>
