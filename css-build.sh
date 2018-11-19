@@ -14,7 +14,7 @@ rm -Rf /tmp/${theme_filename}
 rm -Rf /tmp/__MACOSX
 
 # Unzip purpose theme to tmp directory
-unzip ./src/${theme_filename}.zip -d /tmp/
+unzip /home/josh/Downloads/${theme_filename}.zip -d /tmp/
 
 # Copy custom CSS to build directory
 rm /tmp/${theme_filename}/assets/scss/user/_styles.scss

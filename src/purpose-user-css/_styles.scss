@@ -45,3 +45,12 @@ body
     padding-top: $spacer * 6;
     padding-bottom: $spacer * 3;
 }
+
+@include media-breakpoint-up(md) {
+    .pic-quote-right {
+	    float: right !important;
+        max-width: 33.33333%; 
+        flex: 0 0 33.33333%;
+        margin-left: 25px;
+    }
+}

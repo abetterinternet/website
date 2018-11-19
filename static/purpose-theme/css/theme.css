@@ -21785,3 +21785,16 @@ body
     padding-top: 6rem;
     padding-bottom: 3rem;
 }
+
+@media (min-width: 768px)
+{
+    .pic-quote-right
+    {
+        float: right !important;
+
+        max-width: 33.33333%;
+        margin-left: 25px; 
+
+        flex: 0 0 33.33333%;
+    }
+}
