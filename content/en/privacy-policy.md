@@ -4,7 +4,7 @@ slug: privacy-policy
 subtitle: Updated July 31, 2018
 ---
 
-The Internet Security Research Group (ISRG) Privacy Policy describes how we collect, use, and disclose your information in three different contexts:
+The Internet Security Research Group (ISRG) Privacy Policy describes how we collect, use, and disclose your information in two different contexts:
 
 * When you interact with an ISRG project
 * When you are a Visitor to the ISRG web site (abetterinternet.org), community discussion forum, other web pages under abetterinternet.org, and third-party social media sites on which ISRG operates an account.
