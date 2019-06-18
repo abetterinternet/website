@@ -1,5 +1,5 @@
 /*
-    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://donorbox.org; img-src 'self' data:; frame-src 'self' https://donorbox.org https://youtube.com https://www.youtube.com; font-src https://fonts.gstatic.com; connect-src 'self'; object-src 'self';
+    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://donorbox.org; img-src 'self' data:; frame-src 'self' https://donorbox.org https://youtube.com https://www.youtube.com https://youtube-nocookie.com https://www.youtube-nocookie.com; font-src https://fonts.gstatic.com; connect-src 'self'; object-src 'self';
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
