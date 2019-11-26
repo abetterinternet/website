@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="115px" viewBox="0 0 148 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Safe_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Safe_2" transform="translate(1.000000, 1.000000)">
+            <path d="M136.7,104.4 L9,104.4 C4.4,104.4 0.6,100.7 0.6,96 L0.6,9.3 C0.6,4.7 4.3,0.9 9,0.9 L136.8,0.9 C141.4,0.9 145.2,4.6 145.2,9.3 L145.2,96 C145.1,100.7 141.4,104.4 136.7,104.4 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M137,104.4 L11.4,104.4 C6.9,104.4 3.3,100.8 3.3,96.3 L3.3,13.8 C3.3,9.3 6.9,5.7 11.4,5.7 L137,5.7 C141.5,5.7 145.1,9.3 145.1,13.8 L145.1,96.3 C145.1,100.8 141.5,104.4 137,104.4 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M41,1 L136.8,1 C141.4,1 145.2,4.7 145.2,9.4 L145.2,96.1 C145.2,100.7 141.5,104.5 136.8,104.5 L9,104.5 C4.4,104.5 0.6,100.8 0.6,96.1 L0.6,9.4 C0.6,4.8 4.3,1 9,1 L18.8,1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M25.7,1 L27,1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M90.5,92.3 L18.2,92.3 C15.2,92.3 12.7,89.9 12.7,86.8 L12.7,18.6 C12.7,15.6 15.1,13.1 18.2,13.1 L33,13.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M44.7,13.2 L127.5,13.2 C130.5,13.2 133,15.6 133,18.7 L133,86.9 C133,89.9 130.6,92.4 127.5,92.4 L104.8,92.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M46.4,30.2 C47.1,30.1 47.9,30.1 48.6,30.1 C48.8,30.1 49.1,30.1 49.3,30.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="48.7" cy="52.9" r="7.3"></circle>
+            <path d="M56.3,31.3 C65.2,34.4 71.6,42.9 71.6,52.9 C71.6,65.5 61.4,75.8 48.7,75.8 C36,75.8 25.8,65.6 25.8,52.9 C25.8,43.3 31.7,35.1 40.1,31.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="48.7" cy="52.9" r="7.3"></circle>
+            <path d="M54,58 L64.3,68.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M32.7,36.7 L43.6,47.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="81.9 41 81.9 34.3 88.7 34.3 88.7 41"></polyline>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="95.6" y="34.3" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="109.3" y="34.3" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="81.9" y="49.7" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="95.6" y="49.7" width="6.7" height="6.7"></rect>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="116 49.7 116.1 49.7 116.1 56.4 109.3 56.4 109.3 49.7 112.5 49.7"></polyline>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="81.9" y="65.1" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="95.6" y="65.1" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="109.3" y="65.1" width="6.7" height="6.7"></rect>
+            <rect id="Rectangle-path" stroke-width="3" class="stroke-primary fill-primary-500" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="13.3" y="104.5" width="14.5" height="7.7"></rect>
+            <rect id="Rectangle-path" stroke-width="3" class="stroke-primary fill-primary-500" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="115.5" y="104.5" width="14.5" height="7.7"></rect>
+        </g>
+    </g>
+</svg>

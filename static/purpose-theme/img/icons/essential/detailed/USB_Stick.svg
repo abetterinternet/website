@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>USB_Stick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="USB_Stick" transform="translate(1.000000, 2.000000)">
+            <g id="Group" transform="translate(87.000000, 0.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <polyline id="Shape" points="3.2 29.5 0.1 32.7 29.8 62.4 62.1 30 32.4 0.3 8.4 24.3"></polyline>
+                <path d="M30.3,18.1 L16.7,31.6" id="Shape"></path>
+                <path d="M43.3,31.1 L29.8,44.6" id="Shape"></path>
+            </g>
+            <path d="M76.3,27.7 L76.5,27.5 C79.8,24.2 85,24.2 88.3,27.5 L122,61.2 C125.3,64.5 125.3,69.7 122,73 L48.9,146.1 C45.6,149.4 40.4,149.4 37.1,146.1 L3.4,112.4 C0.1,109.1 0.1,103.9 3.4,100.6 L42.8,61.2" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M64.5,39.4 L69.7,34.2" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M118.8,76.1 L48.5,146.4 C45.4,149.5 40.4,149.5 37.4,146.4 L6.4,115.4 C3.3,112.3 3.3,107.3 6.4,104.3 L7.5,103.2 L76.7,34 C79.8,30.9 84.8,30.9 87.8,34 L118.8,65 C118.8,65 118.8,65 118.8,65 C121.8,68.1 121.8,73.1 118.8,76.1 Z" id="Shape" fill="#BCDAFE" fill-rule="nonzero"></path>
+            <path d="M118.8,65 L56.8,127 C49.7,134.1 38.2,134.1 31.1,127 L7.3,103.2 C7.3,103.2 7.3,103.2 7.3,103.2 L76.5,34 C79.6,30.9 84.6,30.9 87.6,34 L118.8,65 C118.8,65 118.8,65 118.8,65 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M71.3,32.7 L76.5,27.5 C79.8,24.2 85,24.2 88.3,27.5 L122,61.2 C125.3,64.5 125.3,69.7 122,73 L48.9,146.1 C45.6,149.4 40.4,149.4 37.1,146.1 L3.4,112.4 C0.1,109.1 0.1,103.9 3.4,100.6 L54.4,49.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M63.5,40.4 L66,38" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke-width="2.99997123" class="stroke-primaryfill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(30.385450, 119.036370) rotate(-45.000000) translate(-30.385450, -119.036370) " cx="30.38545" cy="119.03637" r="7.19993095"></circle>
+            <path d="M30.5,126.3 C29.8,124.7 28.9,123.2 27.6,121.9 C22,116.3 12.3,116.8 6,123.1 C-0.3,129.4 -0.8,139 4.8,144.7 C10.4,150.3 20.1,149.8 26.4,143.5 C27.7,142.2 28.7,140.9 29.5,139.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="57.8 116.4 52.5 121.7 28.8 98 83.6 43.2 107.2 66.9 66.5 107.6"></polyline>
+        </g>
+    </g>
+</svg>

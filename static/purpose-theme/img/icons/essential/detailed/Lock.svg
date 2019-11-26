@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="143px" viewBox="0 0 150 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lock" transform="translate(1.000000, 1.000000)">
+            <g id="Group" transform="translate(0.000000, 140.000000)" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8784">
+                <path d="M2,0.1 L0.9,0.1" id="Shape"></path>
+                <path d="M30.5,0.1 L6.3,0.1" id="Shape"></path>
+                <path d="M36.1,0.1 L35.1,0.1" id="Shape"></path>
+                <path d="M123,0.1 L41.9,0.1" id="Shape"></path>
+                <path d="M141.3,0.1 L127.6,0.1" id="Shape"></path>
+                <path d="M147.2,0.1 L145.6,0.1" id="Shape"></path>
+            </g>
+            <path d="M104.1,14 C97.1,7.9 88,4.2 78,4.2 C56.2,4.2 38.4,22 38.4,43.8 L38.4,49.3 L45.5,49.3 L45.5,40.1 C45.5,24.2 58.4,11.3 74.3,11.3 C83.2,11.3 91.1,15.3 96.4,21.7 C100.6,26.7 103.1,33.1 103.1,40.1 L103.1,49.3 L114,49.3 L114,40.1 C113.9,30.1 110.2,21 104.1,14 Z" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M120.9,140.5 L27.3,140.5 C23.8,140.5 20.9,137.6 20.9,134.1 L20.9,55.7 C20.9,52.2 23.8,49.3 27.3,49.3 L120.9,49.3 C124.4,49.3 127.3,52.2 127.3,55.7 L127.3,134.1 C127.3,137.6 124.4,140.5 120.9,140.5 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M127.3,59.5 L127.3,134.7 C127.3,137.9 124.7,140.5 121.5,140.5 L35,140.5 C31.8,140.5 29.2,137.9 29.2,134.7 L29.2,59.5 C29.2,56.3 31.8,53.7 35,53.7 L121.5,53.7 C122,53.7 122.5,53.8 122.9,53.9 C125.4,54.5 127.3,56.8 127.3,59.5 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M123,53.9 L123,122.8 C123,126 120.4,128.6 117.2,128.6 L30.7,128.6 C30.2,128.6 29.7,128.5 29.2,128.4 L29.2,59.5 C29.2,56.3 31.8,53.7 35,53.7 L121.5,53.7 C122,53.7 122.5,53.7 123,53.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M20.9,76.4 L20.9,74.8" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M127.3,134.7 C127.1,137.9 124.4,140.5 121.1,140.5 L27.1,140.5 C23.7,140.5 20.9,137.7 20.9,134.3 L20.9,88.9" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M127.3,97 L127.3,126.5" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20.9,68.9 L20.9,55.5 C20.9,52.1 23.7,49.3 27.1,49.3 L121.1,49.3 C124.5,49.3 127.3,52.1 127.3,55.5 L127.3,78.3" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M64.3,86.9 C64.2,92 65.6,95.3 70.3,96.6 L70.3,109.8 C70.3,111.4 71.6,112.8 73.3,112.8 C74.9,112.8 78.2,111.5 78.2,109.8 L78.2,97.5 C82.8,96.2 86.1,92 86.1,87.1 C86.1,80.7 80.5,75.6 74,76.3 C69,76.9 65,80.9 64.4,85.9 C64.4,86.3 64.3,86.6 64.3,86.9" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M70.9,108.9 L70.9,109.6 C70.9,111.4 72.4,112.9 74.2,112.9 C76,112.9 77.5,111.4 77.5,109.6 L77.5,96.1 C82.5,94.7 86.2,90.1 86.2,84.6 C86.2,77.6 80.1,71.9 72.9,72.7 C67.4,73.3 63,77.8 62.4,83.2 C62.3,83.7 62.3,84.2 62.3,84.6" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M64.1,91.1 C65.7,93.5 68,95.3 70.9,96.1 L70.9,100.8" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M50.6,8.4 C50.4,8.5 50.2,8.7 50.1,8.8 M46.3,12.1 C39.1,19.3 34.7,29.2 34.7,40.1 L34.7,49.3 L45.6,49.3 L45.6,40.1 C45.6,24.2 58.5,11.3 74.4,11.3 C90.3,11.3 103.2,24.2 103.2,40.1 L103.2,49.3 L114.1,49.3 L114.1,40.1 C114.1,18.2 96.3,0.5 74.5,0.5 C68.8,0.5 63.3,1.7 58.4,3.9" id="Shape" class="stroke-primary" stroke-width="2.8784" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

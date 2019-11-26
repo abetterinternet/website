@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="109px" viewBox="0 0 148 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Online_Store_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Online_Store_2" transform="translate(1.000000, 2.000000)">
+            <g id="Group" class="fill-neutral" fill-rule="nonzero">
+                <path d="M0.9,97.9 C0.9,101.6 3.9,104.6 7.5,104.6 L138.5,104.6 C142.2,104.6 145.1,101.6 145.1,97.9 L145.1,17.1 L0.8,17.1 L0.8,97.9 L0.9,97.9 Z" id="Shape"></path>
+                <path d="M138.5,0.3 L7.5,0.3 C3.8,0.3 0.9,3.3 0.9,6.9 L0.9,17.1 L102.3,17.1 L122.9,17.1 L145.2,17.1 L145.2,6.9 C145.2,3.2 142.2,0.3 138.5,0.3 Z" id="Shape"></path>
+            </g>
+            <path d="M138.5,0.3 L7.5,0.3 C3.8,0.3 0.9,3.3 0.9,6.9 L0.9,17.1 L102.3,17.1 L122.9,17.1 L145.2,17.1 L145.2,6.9 C145.2,3.2 142.2,0.3 138.5,0.3 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <g id="Group" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <g id="Shape">
+                    <path d="M0.9,17.1 L0.9,97.9 C0.9,101.6 3.9,104.6 7.5,104.6 L138.5,104.6 C142.2,104.6 145.1,101.6 145.1,97.9 L145.1,17.1"></path>
+                    <path d="M114.6,17.1 L102.2,17.1 L0.8,17.1 L0.8,6.9 C0.8,3.2 3.8,0.3 7.4,0.3 L138.4,0.3 C142.1,0.3 145,3.3 145,6.9 L145,17.1"></path>
+                    <path d="M125.9,17.1 L124.7,17.1"></path>
+                </g>
+                <circle id="Oval" cx="10" cy="8.9" r="1"></circle>
+                <circle id="Oval" cx="18.1" cy="8.9" r="1"></circle>
+                <circle id="Oval" cx="26.2" cy="8.9" r="1"></circle>
+            </g>
+            <path d="M13.9,35.3 L19.8,35.3 C20.9,35.3 21.9,36 22.3,37 L32.4,62.5 C33,64 34.5,65 36.1,65 L58.8,65 C60.4,65 61.9,64 62.5,62.5 L70.7,42.9 C71.1,41.9 70.4,40.7 69.2,40.7 L35.8,40.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="36.5" cy="77.2" r="4.1"></circle>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="57.5" cy="77.2" r="4.1"></circle>
+            <path d="M89.6,42.5 L125,42.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M89.6,58.8 L125,58.8" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M89.6,75.2 L110,75.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

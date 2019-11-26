@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="100px" viewBox="0 0 149 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Calendar_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calendar_2" transform="translate(1.000000, 1.000000)">
+            <g id="Group">
+                <g id="Shape">
+                    <polygon class="fill-neutral" fill-rule="nonzero" points="104 97.2 0.9 97.2 19.8 10.6 122.9 10.6"></polygon>
+                    <polygon class="fill-primary-400" fill-rule="nonzero" points="104 97.2 0.9 97.2 19.8 10.6 122.9 10.6"></polygon>
+                    <path d="M119.1,97.2 L23.2,97.2 C19.3,97.2 16.2,93.9 16.3,90 L19.8,10.6 L122.9,10.6 L119.1,97.2 Z" fill="#5CA5FF" fill-rule="nonzero"></path>
+                    <polyline class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="54 10.6 122.9 10.6 104 97.2 14.4 97.2"></polyline>
+                    <polyline class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="4.5 97.2 0.9 97.2 19.8 10.6 19.9 10.6"></polyline>
+                    <polygon class="fill-neutral" fill-rule="nonzero" points="145.6 97.2 42.5 97.2 25.1 30.6 19.8 10.6 122.9 10.6 128.2 30.6"></polygon>
+                    <polyline class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="49.5 10.6 122.9 10.6 128.2 30.6 145.6 97.2 42.5 97.2 25.1 30.6 19.8 10.6 24.5 10.6"></polyline>
+                    <path d="M128.2,30.2 L29.2,30.2 L25.9,19.1 C25.1,16.5 27.1,13.9 29.7,13.9 L123.3,13.9 L128.2,30.2 Z" class="fill-primary-100" fill-rule="nonzero"></path>
+                    <path d="M45.4,30.6 L32.3,30.6" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="48.3 10.6 122.9 10.6 128.2 30.6 52.2 30.6"></polyline>
+                    <path d="M35,10.6 L39.2,10.6" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="25.1 30.6 19.8 10.6 29.6 10.6"></polyline>
+                    <path d="M39.6,10.6 C39.7,5.1 42.6,0.8 46,0.8 C49.6,0.8 52.4,5.4 52.4,11 C52.4,16.6 49.5,21.2 46,21.2" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M99.5,10.6 C99.6,5.1 102.5,0.8 105.9,0.8 C109.5,0.8 112.3,5.4 112.3,11 C112.3,16.6 109.4,21.2 105.9,21.2" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g transform="translate(37.000000, 38.000000)" id="Shape" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                    <path d="M8.1,0.1 L22.2,50.1"></path>
+                    <path d="M25,0.1 L39,50.1"></path>
+                    <path d="M41.8,0.1 L55.9,50"></path>
+                    <path d="M70.7,42.6 L72.8,50"></path>
+                    <path d="M58.7,0.1 L68.7,35.3"></path>
+                    <path d="M75.6,0.1 L89.7,50.1"></path>
+                    <path d="M52.4,5.6 L87,5.6"></path>
+                    <path d="M39.5,5.6 L46.6,5.6"></path>
+                    <path d="M26.5,5.6 L32.3,5.6"></path>
+                    <path d="M0.9,5.6 L19.6,5.6"></path>
+                    <path d="M80.7,18 L90.1,18"></path>
+                    <path d="M70.8,18 L74.4,18"></path>
+                    <path d="M46.9,18 L63.8,18"></path>
+                    <path d="M4,18 L40.6,18"></path>
+                    <path d="M62,30.3 L93.2,30.3"></path>
+                    <path d="M28.3,30.3 L54.8,30.3"></path>
+                    <path d="M7.1,30.3 L21.2,30.3"></path>
+                    <path d="M10.2,42.6 L96.3,42.6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

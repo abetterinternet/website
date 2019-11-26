@@ -1,0 +1,41 @@
+<svg width="285px" height="543px" viewBox="0 0 285 543" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="11.9533898" y="413.602941" width="193.09322" height="86.3970588"></rect>
+        <filter x="-43.0%" y="-63.7%" width="186.0%" height="292.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="28" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.177139946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="13" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="14" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0439594656 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M215.161017,144.301471 L216.080882,144.301471 C216.588497,144.301471 217,144.712974 217,145.220588 L217,172.794118 C217,173.301732 216.588497,173.713235 216.080882,173.713235 L215.161017,173.713235 L215.161017,433.823529 C215.161017,450.067199 201.992921,463.235294 185.749252,463.235294 L31.2507478,463.235294 C15.0070786,463.235294 1.83898305,450.067199 1.83898305,433.823529 L1.83898305,199.448529 L0.919117647,199.448529 C0.411502987,199.448529 1.73187169e-16,199.037026 1.11022302e-16,198.529412 L-1.11022302e-16,170.955882 C-1.73187169e-16,170.448268 0.411502987,170.036765 0.919117647,170.036765 L1.83898305,170.036765 L1.83898305,143.382353 L0.919117647,143.382353 C0.411502987,143.382353 4.00543245e-15,142.97085 1.11022302e-16,142.463235 L-1.11022302e-16,79.9632353 C-1.73187169e-16,79.4556206 0.411502987,79.0441176 0.919117647,79.0441176 L1.83898305,79.0441176 L1.83898305,29.4117647 C1.83898305,13.1680956 15.0070786,-1.12269411e-14 31.2507478,-1.42108547e-14 L185.749252,0 C201.992921,1.14433628e-14 215.161017,13.1680956 215.161017,29.4117647 L215.161017,144.301471 Z" id="path-3"></path>
+        <filter x="-23.5%" y="-7.1%" width="147.0%" height="122.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="18" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="14" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <pattern id="pattern-5" patternUnits="objectBoundingBox" x="-18.4908789%" width="118.490879%" height="100%">
+            <use xlink:href="#image-6" transform="scale(0.254938272,0.254938272)"></use>
+        </pattern>
+        <image id="image-6" width="1080" height="1620" xlink:href="assets/img/theme/light/img-1-201x413.png"></image>
+    </defs>
+    <g id="Ultimate-Designer-Mockup-Pack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Two-Galaxy-S8" transform="translate(-120.000000, -57.000000)">
+            <g id="Galaxy-S8-Left" transform="translate(154.000000, 67.000000)">
+                <g id="Shadow" opacity="0.206351902" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Body">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <rect id="Screen" fill="url(#pattern-5)" x="8" y="26" width="201" height="413" rx="16.5441176"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

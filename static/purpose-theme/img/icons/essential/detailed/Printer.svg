@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="148px" viewBox="0 0 149 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Printer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Printer" transform="translate(2.000000, 1.000000)">
+            <path d="M14.4,38 L14.4,28.8 C14.4,20.7 20.8,14.1 28.8,13.7 L115.9,13.7 C124.2,13.7 131,20.4 131,28.8 L131,38" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M18.7,38 L18.7,29.9 C18.7,22.7 24.8,16.9 32.5,16.6 L116.4,16.6 C124.4,16.6 130.9,22.6 130.9,29.9 L130.9,38" id="Shape" fill="#63A9FF" fill-rule="nonzero"></path>
+            <path d="M14.4,38 L14.4,28.8 C14.4,20.7 20.8,14.1 28.8,13.7 L115.9,13.7 C124.2,13.7 131,20.4 131,28.8 L131,38" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="28.8 38 28.8 0.9 99.7 0.9 115.1 13.8 115.1 38"></polyline>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="99.9 1.1 99.9 13.8 115.1 13.8"></polyline>
+            <path d="M145.4,49.9 L145.4,119.1 C145.4,125.7 140.1,131 133.5,131 L12,131 C9.4,131 7,130.2 5,128.7 C2,126.5 0,123 0,119 L0,49.8 C0,43.2 5.3,37.9 11.9,37.9 L133.4,37.9 C137.1,37.9 140.4,39.6 142.6,42.2 C144.3,44.4 145.4,47.1 145.4,49.9 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M145.4,49.9 L145.4,119.1 C145.4,125.7 140.1,131 133.5,131 L12,131 C9.4,131 7,130.2 5,128.7 L5,54.9 C5,47.8 10.6,42.1 17.6,42.1 L142.7,42.1 C144.3,44.4 145.4,47.1 145.4,49.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M145.4,51.6 L145.4,119.2 C145.4,125.8 140.1,131.1 133.5,131.1 L12,131.1 C9.4,131.1 7,130.3 5,128.8 L5,128 C125.8,124.2 142.2,84 145.4,51.6 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M49.5,38 L133.4,38 C140,38 145.3,43.3 145.3,49.9 L145.3,119.1 C145.3,125.7 140,131 133.4,131 L115.1,131" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0,56.1 L0,50 C0,43.4 5.3,38.1 11.9,38.1 L37,38.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0,66.7 L0,64.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M28.8,131.1 L12,131.1 C5.4,131.1 0.1,125.8 0.1,119.2 L0.1,83.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="fill-primary" fill-rule="nonzero" points="28.8 111.4 12.1 111.4 12.1 100.1 134 100.1 134 111.4 115.1 111.4"></polyline>
+            <polyline id="Shape" class="fill-neutral" fill-rule="nonzero" points="115.1 100.1 115.1 145.5 28.8 145.5 28.8 100.1"></polyline>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="84.8 145.5 28.8 145.5 28.8 100.1"></polyline>
+            <path d="M95.5,145.5 L92.9,145.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M115.1,100.1 L115.1,145.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M89.7,113 L102.2,113" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M57.2,113 L81.6,113" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M42.4,113 L49.6,113" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M80.3,123.6 L102.2,123.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M42.4,123.6 L72.5,123.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="99.8" cy="59" r="4.9"></circle>
+            <circle id="Oval" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="119.4" cy="59" r="4.9"></circle>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="28.8 111.4 12.1 111.4 12.1 100.1 134 100.1 134 111.4 115.1 111.4"></polyline>
+        </g>
+    </g>
+</svg>

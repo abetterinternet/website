@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="848.348" height="450.014" viewBox="0 0 848.348 450.014">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.141;
+      }
+
+      .cls-2 {
+        fill: rgba(189,126,111,0);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.749" y1="1.25" x2="0.251" y2="-0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Shape_789_copy" data-name="Shape 789 copy" class="cls-1" transform="translate(-2786.795 -10244.985)">
+    <path id="Shape_789_copy-2" data-name="Shape 789 copy" class="cls-2" d="M3615.012,10244.985l20.132,314.533L2786.8,10695v-309.065Z"/>
+    <path id="Gradient_Overlay" data-name="Gradient Overlay" class="cls-3" d="M3615.012,10244.985l20.132,314.533L2786.8,10695v-309.065Z"/>
+  </g>
+</svg>

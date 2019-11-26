@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="149px" viewBox="0 0 130 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Shield</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shield" transform="translate(1.000000, 1.000000)">
+            <path d="M127.1,21.9 L127.1,22.1 C126.8,57.7 125.4,80.8 116.9,99 C108.4,117.1 92.8,130.1 64.4,145.5 C64.2,145.6 64.1,145.7 63.9,145.7 C6.4,114.7 1.2,93.2 0.7,21.9 C1.2,21.9 1.8,21.9 2.3,21.9 C18.4,21.9 45,13.4 63.9,0.5 C83.4,13.9 111.2,22.6 127.1,21.9 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M127.1,22.1 C126.8,57.7 125.4,80.8 116.9,99 C108.4,117.1 92.8,130.1 64.4,145.5 C64.3,145.4 64.3,145.3 64.4,145.3 C14,110.4 5.5,97.8 5,26.4 C20.9,27 46.8,16.8 66.4,3.5 L67.8,4.5 C85.9,16.8 110.9,21.9 127.1,22.1 Z" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M127,31 C127,28.1 127.1,25 127.1,21.9 C111.2,22.5 83.5,13.9 63.9,0.6 C60.7,2.8 57.2,4.8 53.7,6.8" id="Shape" class="stroke-primary" stroke-width="2.9264" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M126.8,40.4 C126.8,39.2 126.9,38 126.9,36.8" id="Shape" class="stroke-primary" stroke-width="2.9264" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M44.8,11.1 C28.9,18.2 11.8,22.4 0.7,21.9 C1.2,93.2 6.4,114.7 63.9,145.7 C108.8,121.5 121.8,103.1 125.6,62.2" id="Shape" class="stroke-primary" stroke-width="2.9264" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M116.8,31.6 C116.8,32 116.8,32.4 116.8,32.8 C116.3,62.1 114.4,80.4 107.7,94.7 C101,108.9 88.9,120.1 65.2,133.5 C64.8,133.7 64.3,134 63.9,134.3 C39.4,120.6 26.9,109.2 20.1,94.8 C13.3,80.3 11.4,61.7 10.9,31.7 C27.3,29.7 47.6,22.5 63.8,12.8 C65.1,13.6 66.4,14.3 67.7,15.1 C72.4,17.7 77.4,20.1 82.5,22.2 C82.5,22.2 82.5,22.2 82.5,22.2 C94.3,26.9 106.3,30.3 116.8,31.6 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M116.8,32.8 C116.3,62.1 114.4,80.4 107.7,94.7 C101,108.9 88.9,120.1 65.2,133.5 C52.4,126.1 43.1,119.4 36.3,112.4 C31.3,107.2 27.6,101.9 24.9,96.1 C18.1,81.8 16.3,63.2 15.8,33.5 C31.9,31.5 51.8,24.5 67.8,15 C68,14.9 68.2,14.8 68.3,14.7 C72.8,17.4 77.6,19.9 82.6,22.2 C82.6,22.2 82.6,22.2 82.6,22.2 C90.9,25.9 99.5,29 107.7,31 C110.9,31.6 113.9,32.3 116.8,32.8 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M116.8,32.8 C116.3,62.1 114.4,80.4 107.7,94.7 C101,108.9 88.9,120.1 65.2,133.5 C52.4,126.1 43.1,119.4 36.3,112.4 C61.6,109.3 99.8,100.5 116,31.9 C119.1,32.6 113.9,32.3 116.8,32.8 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M15.6,81.9 C15.5,81.3 15.3,80.8 15.2,80.2" id="Shape" class="stroke-primary" stroke-width="2.9264" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M13,67.9 C11.7,57.9 11.2,46.1 10.9,31.6 C27.3,29.6 47.6,22.4 63.8,12.7 C80,22.4 100.3,29.6 116.7,31.6 C116.2,61.6 114.4,80.2 107.5,94.7 C100.7,109.2 88.2,120.5 63.7,134.2 C39.2,120.5 26.7,109.1 19.9,94.7 C19.3,93.5 18.8,92.3 18.3,91" id="Shape" class="stroke-primary" stroke-width="2.9264" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M55.9,77.5 L59.1,80.6 L92.6,47.1 C94.8,44.9 98.4,44.9 100.6,47.1 C102.8,49.3 102.8,52.9 100.6,55.1 L63.2,92.5 C62.1,93.6 60.6,94.2 59.2,94.2 C57.8,94.2 56.3,93.7 55.2,92.6 L37.6,75.6 C35.4,73.4 35.3,69.8 37.5,67.6 C39.7,65.4 43.3,65.3 45.5,67.5" id="Shape" class="stroke-primary" stroke-width="2.9264" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M50,71.9 L51.7,73.5" id="Shape" class="stroke-primary" stroke-width="2.9264" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

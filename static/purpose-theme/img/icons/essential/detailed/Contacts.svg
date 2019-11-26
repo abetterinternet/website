@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="148px" viewBox="0 0 125 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Contacts</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contacts" transform="translate(2.000000, 2.000000)">
+            <g id="Group" transform="translate(97.000000, 19.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.0485">
+                <rect id="Rectangle-path" class="fill-primary-300" fill-rule="nonzero" x="0.8" y="0.2" width="22.9" height="35.1"></rect>
+                <polyline id="Shape" points="23.7 51 23.7 70.4 0.8 70.4 0.8 35.3 23.7 35.3"></polyline>
+                <rect id="Rectangle-path" x="0.8" y="70.4" width="22.9" height="35.1"></rect>
+            </g>
+            <path d="M112.6,3.7 L112.6,140.1 C112.6,141.9 111.1,143.4 109.3,143.4 L5.2,143.4 C2.7,143.4 0.6,141.4 0.6,138.8 L0.6,4.9 C0.6,2.4 2.6,0.3 5.2,0.3 L109.3,0.3 C111.1,0.3 112.6,1.8 112.6,3.7 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M112.6,11.1 L112.6,140.2 C112.6,141.9 111.2,143.3 109.5,143.3 L11.7,143.3 C9.3,143.3 7.4,141.4 7.4,139 L7.4,12.2 C7.4,9.8 9.3,7.9 11.7,7.9 L109.5,7.9 C111.2,8 112.6,9.4 112.6,11.1 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M65.9,102.5 C49.2,102.5 37.5,91.4 37.5,75.5 C37.5,59.7 49.3,47.7 65.1,47.7 C79.6,47.7 90.5,57.7 90.5,70.9 C90.5,81.2 84.7,89.2 77.2,89.2 C73.7,89.2 71.1,87.6 70.5,84.9 L70.3,84 L69.8,84.7 C67.8,87.5 64.7,89.3 61.6,89.3 C55.2,89.3 51,84.5 51,77.4 C51,68.2 57.2,61 65,61 C67.8,61 71.3,62.4 72.3,65.5 L73.1,65.4 L73.4,63.9 C73.6,62.8 74.6,62 75.7,62 C76.4,62 77.1,62.3 77.5,62.9 C77.9,63.4 78.1,64.2 78,64.9 L74.8,79.7 C74.6,80.5 74.6,81.1 74.6,81.8 C74.6,83.9 75.7,85.2 77.7,85.2 C82,85.2 85.9,78.5 85.9,71.1 C85.9,60 77.4,52.3 65.3,52.3 C52,52.3 42.8,61.9 42.8,75.7 C42.8,89.1 52.2,98.2 66.1,98.2 C70.9,98.2 75.4,96.9 79.2,94.4 C79.5,94.2 79.9,94.1 80.3,94.1 C81,94.1 81.6,94.4 82,94.9 C82.4,95.4 82.5,96 82.4,96.5 C82.3,97 82,97.5 81.6,97.8 C77.3,100.6 71.2,102.5 65.9,102.5 Z M64.9,65.7 C59.4,65.7 55.9,71.4 55.9,76.7 C55.9,82.2 58.1,85 62.4,85 C67.4,85 71.1,80 71.3,72.9 C71.3,68.4 68.9,65.7 64.9,65.7 Z" id="Shape" class="fill-primary" fill-rule="nonzero"></path>
+            <path d="M20.8,8 L20.8,143.4 L11.6,143.4 C9.2,143.4 7.3,141.5 7.3,139.1 L7.3,12.3 C7.3,9.9 9.2,8 11.6,8 L20.8,8 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M57.4,0.3 L109.3,0.3 C111.1,0.3 112.6,1.8 112.6,3.6 L112.6,140 C112.6,141.8 111.1,143.3 109.3,143.3 L5.2,143.3 C2.7,143.3 0.6,141.3 0.6,138.7 L0.6,4.8 C0.6,2.3 2.6,0.2 5.2,0.2 L28.2,0.2" id="Shape" class="stroke-primary" stroke-width="4.0485" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M38.2,0.3 L38.9,0.3" id="Shape" class="stroke-primary" stroke-width="4.0485" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.2,122.1 L22.2,122.8" id="Shape" class="stroke-primary" stroke-width="4.0485" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.2,143.4 L5.2,143.4 C2.7,143.4 0.6,141.4 0.6,138.8 L0.6,4.9 C0.6,2.4 2.6,0.3 5.2,0.3 L22.2,0.3 L22.2,110.5" id="Shape" class="stroke-primary" stroke-width="4.0485" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

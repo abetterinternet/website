@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="113px" viewBox="0 0 151 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Tap</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tap" transform="translate(1.000000, 1.000000)">
+            <g id="Group" transform="translate(28.000000, 15.000000)">
+                <path d="M79.4,3.5 C76.5,0.6 71.7,0.6 68.8,3.5 C66.2,6.1 65.9,10.2 68,13.2 L65.6,15.6 L61.5,11.5 C58.6,8.6 53.8,8.6 50.9,11.5 C48,14.4 48,19.2 50.9,22.1 L54.9,26.1 L52.7,28.3 L44.5,20.1 C41.4,17 36.2,17 33.1,20.1 C30,23.2 30,28.4 33.1,31.5 L41.2,39.6 L39.3,41.5 L15.1,17.3 C12,14.2 6.8,14.2 3.7,17.3 C0.6,20.4 0.6,25.6 3.7,28.7 L38.6,63.6 L41.4,66.4 L53.4,78.4 L51.3,80.5 L42.8,72 C36.5,65.7 26.3,65.7 20,72 L40.9,92.9 C42.1,94.1 43.6,94.9 45.2,95.1 C45.2,95.1 45.2,95.1 45.3,95.2 C50.8,96.4 72.7,94.7 82.7,93.9 C86,93.6 89.1,92.2 91.4,89.9 L114.6,66.7 C122.3,59 122.3,46.5 114.6,38.8 L79.4,3.5 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M78.7,2.8 L113.8,37.9 C121.5,45.6 121.5,58.1 113.8,65.8 L90.6,89 C88.3,91.3 85.2,92.8 81.9,93.1 C71.8,94 49.9,95.6 44.5,94.4 C44.5,94.4 44.5,94.3 44.4,94.3 C42.8,94 41.3,93.3 40.1,92.1 L19.1,71.1 C25.4,64.8 35.6,64.8 41.9,71.1 L50.4,79.6 L52.5,77.5 L2.8,27.8 C-0.3,24.7 -0.4,19.6 2.8,16.4 C6,13.2 11.1,13.3 14.2,16.4 L38.4,40.6 L40.3,38.7 L32.2,30.6 C29,27.4 29,22.3 32.2,19.2 C35.4,16 40.5,16.1 43.6,19.2 L51.8,27.4 L54,25.2 L50,21.2 C47.1,18.3 47.1,13.5 50,10.6 C52.9,7.7 57.7,7.7 60.6,10.6 L64.7,14.7 L67.1,12.3 C65,9.4 65.3,5.3 67.9,2.6 C71,-0.1 75.8,-0.2 78.7,2.8 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M82.8,6.9 L113.8,37.9 C121.5,45.6 121.5,58.1 113.8,65.8 L90.6,89 C88.3,91.3 85.2,92.8 81.9,93.1 C71.8,94 49.9,95.6 44.5,94.4 C44.5,94.4 44.5,94.3 44.4,94.3 C42.8,94 41.3,93.3 40.1,92.1 L23.2,75.2 C29.5,68.9 39.7,68.9 46,75.2 L54.5,83.7 L56.6,81.6 L7,32 C3.9,28.9 3.8,23.8 7,20.6 C10.2,17.4 15.3,17.5 18.4,20.6 L42.6,44.8 L44.5,42.9 L36.4,34.8 C33.2,31.6 33.2,26.5 36.4,23.4 C39.6,20.2 44.7,20.3 47.8,23.4 L56,31.6 L58.2,29.4 L54.1,25.3 C51.3,22.4 51.3,17.7 54.2,14.8 C57.1,11.9 61.9,11.9 64.8,14.8 C64.8,14.8 64.8,14.8 64.8,14.8 L68.9,18.9 L71.3,16.5 C69.2,13.6 69.5,9.5 72.1,6.8 C75.1,4 79.9,3.9 82.8,6.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+                <path d="M79.3,3.4 C76.4,0.6 71.7,0.6 68.8,3.5 C66.2,6.1 65.9,10.2 68,13.2 L65.6,15.6 L61.5,11.5 C58.6,8.6 53.8,8.6 50.9,11.5 C48,14.4 48,19.2 50.9,22.1 L54.9,26.1 L52.7,28.3 L44.5,20.1 C41.4,17 36.2,17 33.1,20.1 C30,23.2 30,28.4 33.1,31.5 L41.2,39.6 L39.3,41.5 L15.1,17.3 C12,14.2 6.8,14.2 3.7,17.3 C0.6,20.4 0.6,25.6 3.7,28.7 L9.4,34.4" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M23,48 L38.4,63.4 L41.2,66.2 L53.2,78.2 L51.1,80.3 L42.6,71.8 C36.3,65.5 26.1,65.5 19.8,71.8 L40.7,92.7 C41.9,93.9 43.4,94.7 45,94.9 C45,94.9 45,94.9 45.1,95 C50.6,96.2 72.5,94.5 82.5,93.7 C85.8,93.4 88.9,92 91.2,89.7 L114.4,66.5 C122.1,58.8 122.1,46.3 114.4,38.6 L87.4,11.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.1,39.1 L14.7,39.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <path d="M35.6,15 C36.1,15 36.6,14.9 37.2,14.9 C45.8,14.9 53.3,19.8 57,27" id="Shape" class="stroke-primary-300" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M37.2,59.7 C24.9,59.7 14.8,49.7 14.8,37.3 C14.8,29 19.3,21.8 26,17.9" id="Shape" class="stroke-primary-300" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M63.7,12.3 C66.8,15.6 69.2,19.4 71,23.6" id="Shape" class="stroke-primary-300" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M29.5,73.1 C13,69.6 0.6,54.9 0.6,37.3 C0.6,17.1 17,0.8 37.1,0.8 C44.3,0.8 51.1,2.9 56.7,6.5" id="Shape" class="stroke-primary-300" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M47.3,72.5 C44.6,73.3 41.8,73.7 38.9,73.9" id="Shape" class="stroke-primary-300" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

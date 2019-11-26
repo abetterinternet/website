@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="77px" viewBox="0 0 150 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Yogamat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Yogamat" transform="translate(1.000000, 2.000000)">
+            <path d="M147.3,24.4 C147.3,11.2 136.6,0.4 123.3,0.4 C118.7,0.4 114.4,1.7 110.8,3.9 L73.1,23.5 L77.6,27.6 L82.1,58.8 L96.8,68.9 L135.1,45.1 C135.7,44.8 136.3,44.4 136.8,44 L137,43.9 C143.2,39.7 147.3,32.6 147.3,24.4 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M145.5,27.8 C145.5,35.3 141.7,42 136,46 L135.8,46.1 C135.3,46.5 134.7,46.8 134.2,47.1 L98.7,69.1 L85,59.7 L84.4,55.6 L80.8,30.8 L76.6,27 L111.6,8.8 C115,6.7 119,5.5 123.2,5.5 C131.2,5.5 138.2,9.7 142.1,16 C144.3,19.5 145.5,23.5 145.5,27.8 Z" id="Shape" fill="#BAD8FF" fill-rule="nonzero"></path>
+            <path d="M142.2,16.1 C140.8,22.6 137,28.1 131.8,31.8 L131.6,31.9 C131,32.3 130.4,32.7 129.7,33.1 L88.7,58.6 L84.5,55.7 L80.9,30.9 L76.7,27.1 L111.7,8.9 C115.1,6.8 119.1,5.6 123.3,5.6 C131.3,5.6 138.3,9.8 142.2,16.1 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M147.3,24.4 C147.3,11.2 136.6,0.4 123.3,0.4 C118.7,0.4 114.4,1.7 110.8,3.9 L73.1,23.5 L77.6,27.6 L82.1,58.8 L96.8,68.9 L135.1,45.1 C135.7,44.8 136.3,44.4 136.8,44 L137,43.9 C143.2,39.7 147.3,32.6 147.3,24.4 Z" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M59.1,42.3 L66.5,42.3 C66.5,42.3 85.5,71.7 85.5,72.6 L0.6,72.6 L40.7,42.3 L41,42.3" id="Shape" class="stroke-primary" stroke-width="3" fill="#BAD8FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="84.3" cy="46.7" r="25.6"></circle>
+            <circle id="Oval" class="fill-primary-100" fill-rule="nonzero" cx="84.3" cy="49.2" r="23.2"></circle>
+            <path d="M66.5,28.3 C71.1,23.8 77.4,21.1 84.3,21.1 C98.5,21.1 109.9,32.6 109.9,46.7 C109.9,60.9 98.4,72.3 84.3,72.3 C70.1,72.3 58.7,60.8 58.7,46.7 C58.7,42.1 59.9,37.9 62,34.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M72.4,57.6 C69.8,54.7 68.2,50.9 68.2,46.7 C68.2,37.8 75.4,30.5 84.4,30.5 C85,30.5 85.6,30.5 86.2,30.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M92.9,33 C97.4,35.9 100.4,40.9 100.4,46.7 C100.4,55.6 93.2,62.9 84.2,62.9 C82.6,62.9 81.1,62.7 79.7,62.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M86.7,52.4 C86,52.7 85.2,52.9 84.4,52.9 C81,52.9 78.3,50.2 78.3,46.8 C78.3,43.4 81,40.7 84.4,40.7 C87.1,40.7 89.3,42.4 90.2,44.8" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="145px" viewBox="0 0 150 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Appreciation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Appreciation" transform="translate(2.000000, 2.000000)">
+            <path d="M30.8,45.7 L30.8,118.1 L7.4,118.1 L7.4,45.7 C7.4,44.2 8.6,43 10.1,43 L28.1,43 C29.6,43 30.8,44.2 30.8,45.7 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M68.5,26.5 L68.5,118.1 L45.1,118.1 L45.1,26.5 C45.1,25.1 46.2,24 47.6,24 L66.1,24 C67.5,24 68.5,25.1 68.5,26.5 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M106,65.6 L106,2.2 C106,1 105,0 103.8,0 L84.7,0 C83.5,0 82.5,1 82.5,2.2 L82.5,75.7" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M30.8,108.5 L30.8,118.2 L7.4,118.2 L7.4,51.8 C7.4,50.4 8.6,49.2 10.1,49.2 L28.1,49.2 C29.6,49.2 30.8,50.4 30.8,51.8 L30.8,108.5" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M68.5,31.3 L68.5,118.2 L45.1,118.2 L45.1,31.3 C45.1,30 46.2,29 47.6,29 L66.1,29 C67.5,28.9 68.5,30 68.5,31.3 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M106,68.3 L106,5.9 C106,4.8 105,3.8 103.8,3.8 L84.7,3.8 C83.5,3.8 82.5,4.7 82.5,5.9 L82.5,78" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="108.3" cy="103.2" r="37.6"></circle>
+            <circle id="Oval" class="fill-primary-500" fill-rule="nonzero" cx="110.5" cy="105.4" r="35.4"></circle>
+            <g id="Group" transform="translate(90.000000, 86.000000)" fill-rule="nonzero">
+                <path d="M7,32.3 C5.7,32.3 4.6,31.8 3.7,30.9 C1.9,29.1 1.9,26.1 3.7,24.3 L16.5,11.5 L13.6,11.5 C11,11.5 8.9,9.4 8.9,6.8 C8.9,5.5 9.4,4.4 10.3,3.5 C11.2,2.6 12.4,2.1 13.6,2.1 L27.8,2.1 C29,2.1 30.2,2.6 31.1,3.5 C32,4.4 32.5,5.6 32.5,6.8 L32.5,21 C32.5,23.6 30.4,25.7 27.8,25.7 C26.5,25.7 25.4,25.2 24.5,24.3 C23.6,23.4 23.1,22.2 23.1,21 L23.1,18.1 L10.3,30.9 C9.4,31.9 8.3,32.3 7,32.3 Z" id="Shape" class="fill-neutral"></path>
+                <path d="M27.8,3.7 C28.6,3.7 29.5,4 30.1,4.6 C30.7,5.2 31,6 31,6.9 L31,21.1 C31,22.9 29.6,24.3 27.8,24.3 C26,24.3 24.6,22.9 24.6,21.1 L24.6,14.6 L9.2,30 C8.6,30.6 7.8,30.9 6.9,30.9 C6.1,30.9 5.3,30.6 4.6,30 C3.4,28.8 3.4,26.7 4.6,25.5 L20,10.1 L13.5,10.1 C11.7,10.1 10.3,8.7 10.3,6.9 C10.3,6 10.7,5.2 11.2,4.6 C11.8,4 12.6,3.7 13.5,3.7 L27.8,3.7 Z M27.8,0.7 L13.6,0.7 C11.9,0.7 10.4,1.3 9.2,2.5 C8,3.7 7.4,5.2 7.4,6.9 C7.4,10.1 9.8,12.7 12.9,13 L2.6,23.3 C1.4,24.5 0.8,26 0.8,27.7 C0.8,29.4 1.4,30.9 2.6,32.1 C3.8,33.3 5.3,33.9 7,33.9 C8.7,33.9 10.2,33.3 11.4,32.1 L21.7,21.8 C21.9,23.2 22.5,24.5 23.5,25.5 C24.7,26.7 26.2,27.3 27.9,27.3 C31.3,27.3 34.1,24.5 34.1,21.1 L34.1,6.9 C34.1,5.2 33.5,3.7 32.3,2.5 C31,1.3 29.4,0.7 27.8,0.7 Z" id="Shape" class="fill-primary"></path>
+            </g>
+            <path d="M137,78.8 C142.6,85.4 146,93.9 146,103.2 C146,124 129.1,140.8 108.4,140.8 C87.6,140.8 70.8,123.9 70.8,103.2 C70.8,82.5 87.7,65.6 108.4,65.6 C111.2,65.6 113.9,65.9 116.6,66.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M124.4,69.1 C124.8,69.3 125.2,69.5 125.5,69.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0.4 118.1 7.4 118.1 30.8 118.1 45.1 118.1 68.5 118.1 73.4 118.1"></polyline>
+            <path d="M30.8,113.3 L30.8,118.1 L7.4,118.1 L7.4,45.7 C7.4,44.2 8.6,43 10.1,43 L28.1,43 C29.6,43 30.8,44.2 30.8,45.7 L30.8,103.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M45.1,40.3 L45.1,26.5 C45.1,25.1 46.2,24 47.6,24 L66.1,24 C67.5,24 68.6,25.1 68.6,26.5 L68.6,118.1 L45.2,118.1 L45.2,68.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M45.1,57.7 L45.1,51.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M106,65.6 L106,2.2 C106,1 105,0 103.8,0 L84.7,0 C83.5,0 82.5,1 82.5,2.2 L82.5,75.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

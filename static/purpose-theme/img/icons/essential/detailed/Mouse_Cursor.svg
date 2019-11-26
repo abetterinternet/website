@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="121px" viewBox="0 0 138 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Mouse_Cursor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mouse_Cursor" transform="translate(1.000000, 2.000000)">
+            <path d="M112.3,54.9 C111.7,56.4 110.4,57.6 108.5,58.2 L84,68 C76.9,70.8 71.3,76.4 68.5,83.5 L58.7,108 C57.7,111.8 53.7,113.1 50.7,111.8 C49.5,111.3 48.4,110.3 47.8,108.9 L1.2,7.1 C-0.7,3 3.6,-1.3 7.7,0.6 L109.5,47.2 C112.6,48.7 113.5,52.2 112.3,54.9 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M112.3,54.9 C111.7,56.4 110.4,57.6 108.5,58.2 L84,68 C81,69.2 78.3,70.9 76,72.9 C72.7,75.7 70.2,79.3 68.5,83.4 L58.7,107.9 C57.7,111.7 53.7,113 50.7,111.7 L6.9,16 C5.5,13 7.4,9.9 10.2,9.2 C11.2,8.9 12.4,9 13.5,9.5 L112.3,54.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M76,73 C72.7,75.8 70.2,79.4 68.5,83.5 L58.7,108 C57.7,111.8 53.7,113.1 50.7,111.8 L6.9,16.1 C5.5,13.1 7.4,10 10.2,9.3 L76,73 Z" id="Shape" fill="#C1DDFE" fill-rule="nonzero"></path>
+            <path d="M47.7,18.9 L109.5,47.2 C114.5,49.5 113.9,56.7 108.6,58.2 L84.1,68 C77,70.8 71.4,76.4 68.6,83.5 L58.8,108 C57.4,113.3 50.1,113.9 47.8,108.9 L1.2,7.1 C-0.7,3 3.6,-1.3 7.7,0.6 L26.3,9.1" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M39.9,15.4 L40.7,15.8" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26.2,9.1 L27.2,9.6" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M131.3,116.9 C130.3,116.9 129.3,116.5 128.5,115.7 L95,82.2 C93.4,80.6 93.4,78.1 95,76.5 C96.6,74.9 99.1,74.9 100.7,76.5 L134.2,110 C135.8,111.6 135.8,114.1 134.2,115.7 C133.3,116.5 132.3,116.9 131.3,116.9 Z" id="Shape" class="stroke-primary" stroke-width="3.2" class="fill-primary-300" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M97.4,117.1 C96.4,117.1 95.4,116.7 94.6,115.9 L79.6,100.9 C78,99.3 78,96.8 79.6,95.2 C81.2,93.6 83.7,93.6 85.3,95.2 L100.3,110.2 C101.9,111.8 101.9,114.3 100.3,115.9 C99.4,116.8 98.4,117.1 97.4,117.1 Z" id="Shape" class="stroke-primary" stroke-width="3.2" class="fill-primary-300" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

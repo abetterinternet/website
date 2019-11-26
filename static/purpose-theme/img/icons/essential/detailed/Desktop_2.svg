@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="126px" viewBox="0 0 149 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_2" transform="translate(1.000000, 1.000000)">
+            <polyline id="Shape" fill="#8ABEFF" fill-rule="nonzero" points="51.8 117.6 51.8 96.5 95 96.5 95 117.6 73.5 117.6"></polyline>
+            <polyline id="Shape" class="fill-primary-500" fill-rule="nonzero" points="51.8 107.2 51.8 95.6 95 95.6 95 107.2 73.5 107.2"></polyline>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="51.8 117.6 51.8 96.5 95 96.5 95 117.6 73.5 117.6"></polyline>
+            <path d="M56.9,115.7 L54.3,115.7" id="Shape" stroke-width="3" class="stroke-primary fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M57.4,115.7 L50.4,115.7 C46.2,115.7 42.7,119.1 42.7,123.4 L104.1,123.4 C104.1,119.2 100.7,115.7 96.4,115.7 L80.1,115.7" id="Shape" stroke-width="3" class="stroke-primary fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M146.1,5.7 L146.1,96.2 C146.1,99 143.8,101.3 141,101.3 L5.4,101.3 C2.6,101.3 0.3,99 0.3,96.2 L0.3,5.7 C0.3,2.9 2.6,0.6 5.4,0.6 L141,0.6 C143.7,0.6 146,2.7 146.1,5.4 C146.1,5.4 146.1,5.6 146.1,5.7 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M146.1,5.7 L146.1,96.2 C146.1,99 143.8,101.3 141,101.3 L6,101.3 L6,8.5 C6,6.7 7.4,5.3 9.2,5.3 L146.1,5.3 C146.1,5.4 146.1,5.6 146.1,5.7 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M146.1,5.7 L146.1,88.5 C146.1,91.3 143.8,93.6 141,93.6 L6,93.6 L6,8.5 C6,6.7 7.4,5.3 9.2,5.3 L146.1,5.3 C146.1,5.4 146.1,5.6 146.1,5.7 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M100.5,101.3 L5.6,101.3 C2.8,101.3 0.5,99 0.5,96.2 L0.5,5.7 C0.5,2.9 2.8,0.6 5.6,0.6 L25.1,0.6" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60,0.5 L141.2,0.5 C144,0.5 146.3,2.8 146.3,5.6 L146.3,96.1 C146.3,98.9 144,101.2 141.2,101.2 L116,101.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M32.9,0.5 L33.6,0.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="fill-neutral" fill-rule="nonzero" points="138.6 65.7 138.6 79.2 8.1 79.2 8.1 10.1 138.6 10.1 138.6 51.7"></polyline>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="101.9 79.2 8.1 79.2 8.1 10.1 138.6 10.1 138.6 51.7"></polyline>
+            <path d="M113.8,79.2 L111.6,79.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="138.6 65.7 138.6 79.2 126.4 79.2"></polyline>
+            <path d="M73.7,84 C75.4,84.2 76.7,85.6 76.7,87.3 C76.7,87.7 76.6,88 76.5,88.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M73.8,90.7 C73.7,90.7 73.6,90.7 73.4,90.7 C71.5,90.7 70,89.2 70,87.3 C70,87 70,86.7 70.1,86.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M69.4,115.7 L63.9,115.7" id="Shape" stroke-width="3" class="stroke-primary fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

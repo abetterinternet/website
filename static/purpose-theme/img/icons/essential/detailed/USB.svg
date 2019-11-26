@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="153px" viewBox="0 0 92 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>USB</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="USB" transform="translate(2.000000, 2.000000)">
+            <g id="Group" class="fill-neutral" fill-rule="nonzero">
+                <path d="M54.4,35.4 L54.4,0 L7.1,0 L7.1,35.4 L0.3,35.4 L0.3,79.5 C0.3,81.8 1,84.1 2.3,86 L13.5,100.2 C15.5,103.2 18.9,105 22.5,105 L38.8,105 C42.4,105 45.8,103.2 47.8,100.2 L59,86 C60.3,84.1 61,81.8 61,79.5 L61,35.4 L54.4,35.4 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="23.7" y="105" width="14.7" height="10.7"></rect>
+            </g>
+            <path d="M0.4,64.1 L0.4,79.5 C0.4,81.8 1.1,84.1 2.4,86 L13.6,100.2 C15.6,103.2 19,105 22.6,105 L38.9,105 C42.5,105 45.9,103.2 47.9,100.2 L59.1,86 C60.4,84.1 61.1,81.8 61.1,79.5 L61.1,35.4 L0.3,35.4 L0.3,43.3" id="Shape" fill="#C1DDFE" fill-rule="nonzero"></path>
+            <path d="M0.4,53.1 L0.4,79.4 C0.4,81.7 1.1,84 2.4,85.9 L13.6,100.1 C15.6,103.1 19,104.9 22.6,104.9 L38.9,104.9 C42.5,104.9 45.9,103.1 47.9,100.1 L59.1,85.9 C60.4,84 61.1,81.7 61.1,79.4 L61.1,35.3 L0.3,35.3 L0.3,45.1" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" x="7.1" y="0" width="47.3" height="35.4"></rect>
+            <path d="M20.7,11.8 L20.7,24.3" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M40.5,11.8 L40.5,24.3" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3.2" fill="#C1DDFE" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="38.4 110.1 38.4 115.7 23.7 115.7 23.7 105 38.4 105"></polyline>
+            <path d="M88.4,85.4 L88.4,119.9 C88.4,135.7 75.6,148.6 59.7,148.6 C43.9,148.6 31,135.8 31,119.9 L31,115.7" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(21.000000, 49.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                <path d="M9.8,0.4 L9.8,38" id="Shape"></path>
+                <polyline id="Shape" points="0 10.5 0 18.6 9.8 26.7"></polyline>
+                <polyline id="Shape" points="9.8 19.6 19.8 11.1 19.8 4.4"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1546.029" height="1133.014" viewBox="0 0 1546.029 1133.014">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f33cab;
+        opacity: 0.212;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        opacity: 0.141;
+      }
+
+      .cls-5 {
+        fill: rgba(189,126,111,0);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-5);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.035" y1="1.25" x2="0.965" y2="-0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fedf8b"/>
+      <stop offset="0.474" stop-color="#fe947f"/>
+      <stop offset="1" stop-color="#ff4071"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.272" y1="-0.25" x2="0.728" y2="1.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4628b3"/>
+      <stop offset="1" stop-color="#de5c9a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.826" y1="-0.25" x2="0.174" y2="1.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.282" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.749" y1="1.25" x2="0.251" y2="-0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.035" y1="1.25" x2="0.965" y2="-0.25" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="bg" transform="translate(-2740.853 -9854.985)">
+    <path id="Shape_818_copy" data-name="Shape 818 copy" class="cls-1" d="M3279,10917l954-97,9-162Z"/>
+    <path id="Shape_818" data-name="Shape 818" class="cls-2" d="M2986,10956l1247-161,9-138Z"/>
+    <path id="Rectangle_788" data-name="Rectangle 788" class="cls-3" d="M2741.751,10078.811l-.9,505.664,132.621,333.686c14.309,33,49.006,48.023,81.069,42.88l1332.339-214.848-2.49-659.354Z"/>
+    <g id="Shape_789" data-name="Shape 789" class="cls-4">
+      <path id="Shape_789-2" data-name="Shape 789" class="cls-5" d="M3615.012,10699.985l20.132,152.533L2786.8,10988v-147.066Z"/>
+      <path id="Gradient_Overlay" data-name="Gradient Overlay" class="cls-6" d="M3615.012,10699.985l20.132,152.533L2786.8,10988v-147.066Z"/>
+    </g>
+    <g id="Shape_789_copy" data-name="Shape 789 copy" class="cls-4">
+      <path id="Shape_789_copy-2" data-name="Shape 789 copy" class="cls-5" d="M3615.012,10244.985l20.132,314.533L2786.8,10695v-309.065Z"/>
+      <path id="Gradient_Overlay-2" data-name="Gradient Overlay" class="cls-7" d="M3615.012,10244.985l20.132,314.533L2786.8,10695v-309.065Z"/>
+    </g>
+    <g id="Shape_789_copy_2" data-name="Shape 789 copy 2" class="cls-4">
+      <path id="Shape_789_copy_2-2" data-name="Shape 789 copy 2" class="cls-5" d="M4259.385,9854.985l20.1,389.533L3432.645,10380V9995.933Z"/>
+      <path id="Gradient_Overlay-3" data-name="Gradient Overlay" class="cls-8" d="M4259.385,9854.985l20.1,389.533L3432.645,10380V9995.933Z"/>
+    </g>
+  </g>
+</svg>

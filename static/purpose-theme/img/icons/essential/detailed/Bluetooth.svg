@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="142px" viewBox="0 0 143 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Bluetooth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bluetooth" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="70.2" cy="70" r="69.4"></circle>
+            <path d="M139.6,72.9 C139.6,109.6 109.8,139.4 73.1,139.4 C58.3,139.4 44.6,134.6 33.5,126.3 C17.2,114.2 6.6,94.8 6.6,72.9 C6.6,36.2 36.4,6.4 73.1,6.4 C91.8,6.4 108.6,14.1 120.7,26.4 C132.4,38.5 139.6,54.9 139.6,72.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M139.6,72.9 C139.6,109.6 109.8,139.4 73.1,139.4 C58.3,139.4 44.6,134.6 33.5,126.3 C82.8,106.8 108.9,65.3 120.7,26.5 C132.4,38.5 139.6,54.9 139.6,72.9 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M66.8,62.9 L66.8,32.5 C66.8,31 67.7,29.7 69.1,29.1 C70.5,28.5 72,28.8 73.1,29.9 L92.4,49.2 C93.1,49.9 93.5,50.8 93.5,51.8 C93.5,52.8 93.1,53.7 92.4,54.4 L75.4,71.4 L66.8,62.9 Z M80.1,76.1 L91.9,87.9 C92.6,88.6 93,89.5 93,90.5 C93,91.5 92.6,92.4 91.9,93.1 L73,112 C72.3,112.7 71.4,113.1 70.4,113.1 C69.9,113.1 69.5,113 69,112.8 C67.6,112.2 66.7,110.9 66.7,109.4 L66.7,79.9 L53.2,93.4 C51.8,94.8 49.4,94.8 48,93.4 C46.6,92 46.6,89.6 48,88.2 L64.9,71.3 L47.7,54.1 C46.3,52.7 46.3,50.3 47.7,48.9 C49.1,47.5 51.5,47.5 52.9,48.9 L60.2,56.2 L80.1,76.1 Z M74.2,80.6 L74.2,100.6 L84.2,90.6 L74.2,80.6 Z M74.2,41.3 L74.2,62.2 L84.7,51.7 L74.2,41.3 Z" id="Shape" class="stroke-primary" stroke-width="3.2" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M56.8,1.9 C61.1,1.1 65.6,0.6 70.1,0.6 C108.4,0.6 139.5,31.7 139.5,70 C139.5,108.3 108.4,139.4 70.1,139.4 C31.8,139.4 0.7,108.3 0.7,70 C0.7,48 10.9,28.5 26.8,15.7" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M35.3,10 C35.6,9.8 35.9,9.7 36.2,9.5" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

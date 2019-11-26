@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="153px" viewBox="0 0 104 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Ai_Speaker</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ai_Speaker" transform="translate(1.000000, 1.000000)">
+            <path d="M11.5,14.7 C8.9,16.7 7.4,18.7 7.3,20.5 L7.2,20.5 L0.7,116.2 C-0.5,134.2 13.7,149.4 31.7,149.4 L70,149.4 C88.5,149.4 102.9,133.4 100.9,115 L89.5,8.3 C89.5,8.1 89.5,8 89.5,7.8 C88.4,1.3 69.2,-1 46.5,2.7 C43.6,3.2 40.8,3.7 38,4.3" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M70.1,149.5 L31.8,149.5 C13.8,149.5 -0.5,134.2 0.8,116.3 L2.7,88.8 C24.9,101.5 71,101.9 97.9,85.8 L98,85.7 L101.1,115 C103,133.5 88.6,149.5 70.1,149.5 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M37,4.7 C40,4 43.2,3.4 46.5,2.8 C69.2,-0.9 88.5,1.4 89.5,7.9 C90.6,14.4 73,22.6 50.3,26.3 C27.6,30 8.3,27.7 7.3,21.2 C6.8,17.9 11,14.2 18.3,10.8" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24.9,8.2 C25.3,8.1 25.7,7.9 26,7.8" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M7.2,20.6 L0.7,116.3 C-0.5,134.3 13.7,149.5 31.7,149.5 L70,149.5 C88.5,149.5 102.9,133.5 100.9,115.1 L89.5,8.4" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M45.8,98.1 C64.3,98.1 83.7,94.2 97.8,85.8" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26.8,96.6 C27.3,96.7 27.7,96.7 28.2,96.8" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M2.6,88.8 C7.3,91.5 13.1,93.6 19.5,95.2" id="Shape" class="stroke-primary" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(38.000000, 10.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2">
+                <path d="M0.6,3.2 L0.7,3.1" id="Shape"></path>
+                <path d="M8,7.6 L8.1,7.6" id="Shape"></path>
+                <path d="M13.9,0.3 L14,0.2" id="Shape"></path>
+                <path d="M21.2,4.7 L21.3,4.6" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="122px" viewBox="0 0 152 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Shopping_Basket</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shopping_Basket" transform="translate(2.000000, -1.000000)">
+            <g id="Group" transform="translate(0.000000, 121.000000)" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <path d="M1.2,0 L0,0" id="Shape"></path>
+                <path d="M15.8,0 L5.9,0" id="Shape"></path>
+                <path d="M21.9,0 L20.8,0" id="Shape"></path>
+                <path d="M116.1,0 L28.1,0" id="Shape"></path>
+                <path d="M147.8,0 L121,0" id="Shape"></path>
+            </g>
+            <path d="M134.2,61.3 L124.4,112.3 C123.7,116.8 119.8,120.1 115.3,120.1 L36.2,120.1 C31.7,120.1 27.8,116.8 27.1,112.3 L17.3,61.3" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M134.2,61.3 L133.3,66.1 L124.4,112.3 C123.7,116.8 119.8,120.1 115.3,120.1 L36.2,120.1 C31.7,120.1 27.8,116.8 27.1,112.3 L18.2,66.1 L17.3,61.3 L134.2,61.3 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <polygon id="Shape" fill="#9ECBFF" fill-rule="nonzero" points="134.2 61.3 132.8 68.1 18.8 68.2 17.2 61.3"></polygon>
+            <path d="M62.1,40.1 L137.4,40.1 C141.2,40.1 144.3,43.2 144.3,47 L144.3,54.4 C144.3,58.2 141.2,61.3 137.4,61.3 L134.1,61.3" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M49.4,40.1 L53.6,40.1" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M17.2,61.3 L13.9,61.3 C10.1,61.3 7,58.2 7,54.4 L7,47 C7,43.2 10.1,40.1 13.9,40.1 L49.3,40.1" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M21.2,61.3 L18.1,61.3 C14.4,61.3 11.4,58.7 11.4,55.6 L11.4,49.4 C11.4,46.2 14.4,43.7 18.1,43.7 L137.6,43.7 C141.3,43.7 144.3,46.3 144.3,49.4 L144.3,55.6 C144.3,58.8 141.3,61.3 137.6,61.3 L134.5,61.3" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M56.9,40.1 L137.4,40.1 C141.2,40.1 144.3,43.2 144.3,47 L144.3,54.4 C144.3,58.2 141.2,61.3 137.4,61.3 L134.1,61.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M47.8,40.1 L48.1,40.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M17.2,61.3 L13.9,61.3 C10.1,61.3 7,58.2 7,54.4 L7,47 C7,43.2 10.1,40.1 13.9,40.1 L40.9,40.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24.5,98.9 L17.2,61.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M134.2,61.3 L124.4,112.3 C123.7,116.8 119.8,120.1 115.3,120.1 L36.2,120.1 C31.7,120.1 27.8,116.8 27.1,112.3 L26.6,109.8" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(39.000000, 75.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <path d="M0.4,0.3 L6.5,31.1" id="Shape"></path>
+                <path d="M20.6,24.1 L21.6,31.1" id="Shape"></path>
+                <path d="M17.3,0.3 L19.7,17.6" id="Shape"></path>
+                <path d="M36.7,0.3 L36.7,31.1" id="Shape"></path>
+                <path d="M54.4,12.5 L51.8,31.1" id="Shape"></path>
+                <path d="M56.1,0.3 L55.2,6.9" id="Shape"></path>
+                <path d="M67.2,29.7 L66.9,31.1" id="Shape"></path>
+                <path d="M73,0.3 L68.6,22.6" id="Shape"></path>
+            </g>
+            <circle id="Oval" stroke-width="2.99997123" class="stroke-primaryfill-primary-200" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(66.892780, 8.874300) rotate(-45.000000) translate(-66.892780, -8.874300) " cx="66.89278" cy="8.8743" r="5.89994342"></circle>
+            <path d="M62.7,4.7 L27.3,40.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke-width="2.99997123" class="stroke-primaryfill-primary-200" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(85.304020, 8.902060) rotate(-45.000000) translate(-85.304020, -8.902060) " cx="85.30402" cy="8.90206" r="5.89994342"></circle>
+            <path d="M89.5,4.7 L124.9,40.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M123.6,61.3 L27.8,61.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

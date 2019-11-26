@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="150px" viewBox="0 0 151 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Servers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Servers" transform="translate(1.000000, 2.000000)">
+            <g id="Group" transform="translate(20.000000, 18.000000)">
+                <path d="M100.8,25.3 L5,25.3 C2.3,25.3 0.1,23.1 0.1,20.4 L0.1,4.9 C0.1,2.2 2.3,9.09494702e-13 5,9.09494702e-13 L100.7,9.09494702e-13 C103.4,9.09494702e-13 105.6,2.2 105.6,4.9 L105.6,20.4 C105.7,23.1 103.5,25.3 100.8,25.3 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M101.2,25.3 L9,25.3 C6.5,25.3 4.5,23.3 4.5,20.8 L4.5,7.4 C4.5,4.9 6.5,2.9 9,2.9 L101.1,2.9 C103.6,2.9 105.6,4.9 105.6,7.4 L105.6,20.8 C105.7,23.3 103.7,25.3 101.2,25.3 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+                <path d="M54.7,25.3 L5,25.3 C2.3,25.3 0.1,23.1 0.1,20.4 L0.1,4.9 C0.1,2.2 2.3,9.09494702e-13 5,9.09494702e-13 L11.1,9.09494702e-13" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M28,0 L100.8,0 C103.5,0 105.7,2.2 105.7,4.9 L105.7,20.4 C105.7,23.1 103.5,25.3 100.8,25.3 L62.3,25.3" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16.8,0 L17.1,0" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.1,12.7 L12.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.1,12.7 L21.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M27.1,12.7 L30.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36.1,12.7 L39.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M45.1,12.7 L48.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M54.1,12.7 L57.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M63.1,12.7 L66.4,12.7" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" class="stroke-primary" stroke-width="2.8286" class="fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="92.2" cy="12.7" r="3.7"></circle>
+            </g>
+            <g id="Group" transform="translate(20.000000, 53.000000)">
+                <path d="M100.8,26.2 L5,26.2 C2.3,26.2 0.1,24 0.1,21.3 L0.1,5.8 C0.1,3.1 2.3,0.9 5,0.9 L100.7,0.9 C103.4,0.9 105.6,3.1 105.6,5.8 L105.6,21.3 C105.7,24 103.5,26.2 100.8,26.2 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M101.2,26.2 L9,26.2 C6.5,26.2 4.5,24.2 4.5,21.7 L4.5,8.3 C4.5,5.8 6.5,3.8 9,3.8 L101.1,3.8 C103.6,3.8 105.6,5.8 105.6,8.3 L105.6,21.7 C105.7,24.1 103.7,26.2 101.2,26.2 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+                <path d="M54.7,26.2 L5,26.2 C2.3,26.2 0.1,24 0.1,21.3 L0.1,5.8 C0.1,3.1 2.3,0.9 5,0.9 L11.1,0.9" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M28,0.8 L100.8,0.8 C103.5,0.8 105.7,3 105.7,5.7 L105.7,21.2 C105.7,23.9 103.5,26.1 100.8,26.1 L62.3,26.1" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16.8,0.8 L17.1,0.8" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.1,13.5 L12.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.1,13.5 L21.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M27.1,13.5 L30.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36.1,13.5 L39.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M45.1,13.5 L48.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M54.1,13.5 L57.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M63.1,13.5 L66.4,13.5" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" class="stroke-primary" stroke-width="2.8286" class="fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="92.2" cy="13.5" r="3.7"></circle>
+            </g>
+            <g id="Group" transform="translate(11.000000, 43.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8286">
+                <circle id="Oval" class="fill-primary-300" fill-rule="nonzero" cx="61.9" cy="95.8" r="6.9"></circle>
+                <circle id="Oval" cx="61.9" cy="95.8" r="1"></circle>
+                <path d="M121.6,95.8 L122.9,95.8" id="Shape"></path>
+                <path d="M68.8,95.8 L115.2,95.8" id="Shape"></path>
+                <path d="M12.3,95.8 L55,95.8" id="Shape"></path>
+                <path d="M5.3,95.8 L6.8,95.8" id="Shape"></path>
+                <path d="M0.9,95.8 L1.1,95.8" id="Shape"></path>
+                <path d="M61.9,9.5 L61.9,0.3" id="Shape"></path>
+                <path d="M61.9,44.5 L61.9,36.8" id="Shape"></path>
+                <path d="M61.9,88.8 L61.9,69.9" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(20.000000, 89.000000)">
+                <path d="M100.8,26 L5,26 C2.3,26 0.1,23.8 0.1,21.1 L0.1,5.6 C0.1,2.9 2.3,0.7 5,0.7 L100.7,0.7 C103.4,0.7 105.6,2.9 105.6,5.6 L105.6,21.1 C105.7,23.8 103.5,26 100.8,26 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M101.2,26 L9,26 C6.5,26 4.5,24 4.5,21.5 L4.5,8 C4.5,5.5 6.5,3.5 9,3.5 L101.1,3.5 C103.6,3.5 105.6,5.5 105.6,8 L105.6,21.4 C105.7,24 103.7,26 101.2,26 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+                <path d="M54.7,26 L5,26 C2.3,26 0.1,23.8 0.1,21.1 L0.1,5.6 C0.1,2.9 2.3,0.7 5,0.7 L11.1,0.7" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M28,0.6 L100.8,0.6 C103.5,0.6 105.7,2.8 105.7,5.5 L105.7,21 C105.7,23.7 103.5,25.9 100.8,25.9 L62.3,25.9" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16.8,0.6 L17.1,0.6" id="Shape" class="stroke-primary" stroke-width="2.8286" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.1,13.3 L12.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.1,13.3 L21.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M27.1,13.3 L30.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M36.1,13.3 L39.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M45.1,13.3 L48.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M54.1,13.3 L57.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M63.1,13.3 L66.4,13.3" id="Shape" class="stroke-primary" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" class="stroke-primary" stroke-width="2.8286" class="fill-primary-100" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="92.2" cy="13.3" r="3.7"></circle>
+            </g>
+            <g id="Group" transform="translate(4.000000, 0.000000)" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8286">
+                <path d="M0,53.9 L0,53.5" id="Shape"></path>
+                <path d="M0,46.6 L0,7.4 C0,3.4 3.3,0.1 7.3,0.1 L62.2,0.1" id="Shape" stroke-dasharray="0.9734,6.8141"></path>
+                <path d="M65.7,0.1 L66.1,0.1" id="Shape"></path>
+            </g>
+            <circle id="Oval" class="stroke-primary-300" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="4" cy="54.9" r="3.4"></circle>
+            <g id="Group" transform="translate(125.000000, 70.000000)" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8286">
+                <path d="M19.9,0.3 L19.9,0.8" id="Shape"></path>
+                <path d="M19.9,7.1 L19.9,49 C19.9,53 16.6,56.3 12.6,56.3 L3.8,56.3" id="Shape" stroke-dasharray="0.9066,6.3462"></path>
+                <path d="M0.7,56.3 L0.2,56.3" id="Shape"></path>
+            </g>
+            <circle id="Oval" class="stroke-primary-300" stroke-width="2.8286" class="fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="145" cy="68.9" r="3.4"></circle>
+        </g>
+    </g>
+</svg>

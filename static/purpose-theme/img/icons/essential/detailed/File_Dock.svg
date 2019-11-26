@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="149px" viewBox="0 0 139 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>File_Dock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="File_Dock" transform="translate(1.000000, 2.000000)">
+            <path d="M109.7,5.9 C109.6,2.8 107.1,0.4 104.1,0.4 L32.7,0.4 C29.6,0.4 27.1,2.9 27.1,6 L27.1,79.3 L109.8,79.3 L109.8,17.7" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M35.9,0.4 L32.7,0.4 C29.6,0.4 27.1,2.9 27.1,6 L27.1,79.3 L109.8,79.3 L109.8,17.7" id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M42.9,0.4 L42.6,0.4" id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M109.7,5.9 C109.6,2.8 107.1,0.4 104.1,0.4 L58.3,0.4" id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M117.9,17.7 C117.9,14 114.9,11 111.2,11 L25.7,11 C22,11 19,14 19,17.7 L19,105.4 L118,105.4 L118,26.7" id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M11.3,99.9 L11.3,132.1 L125.5,132.1 L125.5,30.9 C125.5,26.6 122,23.1 117.7,23.1 L19.1,23.1 C14.8,23.1 11.3,26.6 11.3,30.9 L11.3,81.7" id="Shape" stroke-width="3" class="stroke-primary fill-neutral" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M136.4,99.9 L136.4,134.9 C136.4,140.5 131.8,145.1 126.2,145.1 L11.1,145.1 C5.5,145.1 0.9,140.5 0.9,134.9 L0.9,99.9 L43.5,99.9 C43.5,100 43.5,100.1 43.5,100.2 C43.5,114.1 54.8,125.4 68.7,125.4 C82.6,125.4 93.9,114.1 93.9,100.2 C93.9,100.1 93.9,100 93.9,99.9 L136.4,99.9 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M136.4,103.8 L136.4,135.8 C136.4,140.9 132,145.1 126.6,145.1 L16.1,145.1 C10.7,145.1 6.3,140.9 6.3,135.8 L6.3,109.3 C6.3,106.3 8.7,103.9 11.7,103.9 L44,103.9 L44,104.1 C44,114.1 54.8,125.6 68.2,125.6 C81.5,125.6 93.4,116.8 93.4,104.1 L93.4,103.9 L136.4,103.9 L136.4,103.8 Z" id="Shape" fill="#A6D0FF" fill-rule="nonzero"></path>
+            <path d="M136.4,103.8 L136.4,126.1 C136.4,131.2 132,135.4 126.6,135.4 L16.1,135.4 C10.7,135.4 6.3,131.2 6.3,126.1 L6.3,109.2 C6.3,106.2 8.7,103.8 11.7,103.8 L44,103.8 L44,104 C44,114 54.8,125.5 68.2,125.5 C81.5,125.5 93.4,116.7 93.4,104 L93.4,103.8 L136.4,103.8 Z" id="Shape" fill="#C4E0FF" fill-rule="nonzero"></path>
+            <path d="M38.2,99.9 L43.4,99.9 C43.4,100 43.4,100.1 43.4,100.2 C43.4,114.1 54.7,125.4 68.6,125.4 C82.5,125.4 93.8,114.1 93.8,100.2 C93.8,100.1 93.8,100 93.8,99.9 L136.4,99.9 L136.4,134.9 C136.4,140.5 131.8,145.1 126.2,145.1 L11.1,145.1 C5.5,145.1 0.9,140.5 0.9,134.9 L0.9,99.9 L15.2,99.9" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M27.3,99.9 L29.6,99.9" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="32.1 73.3 62.3 52.9 77.9 75.8 105.6 55.3"></polyline>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" fill="#C4E0FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="32.1" cy="73.3" r="6"></circle>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" fill="#C4E0FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="62.3" cy="52.9" r="6"></circle>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" fill="#C4E0FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="77.9" cy="75.8" r="6"></circle>
+            <circle id="Oval" class="stroke-primary" stroke-width="3" fill="#C4E0FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="105.6" cy="55.3" r="6"></circle>
+        </g>
+    </g>
+</svg>

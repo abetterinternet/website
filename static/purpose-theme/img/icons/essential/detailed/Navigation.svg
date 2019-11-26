@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Navigation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="72.8" cy="72.6" r="72"></circle>
+            <circle id="Oval" class="fill-primary-400" fill-rule="nonzero" cx="75.6" cy="75.4" r="69.2"></circle>
+            <path d="M41.9,7.6 C42.6,7.3 43.3,6.9 44,6.6" id="Shape" class="stroke-primary" stroke-width="3.2179" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M55.5,2.8 C61,1.4 66.8,0.7 72.8,0.7 C112.5,0.7 144.8,32.9 144.8,72.7 C144.8,112.5 112.6,144.7 72.8,144.7 C33.1,144.7 0.8,112.5 0.8,72.7 C0.8,46.2 15.1,23 36.5,10.5" id="Shape" class="stroke-primary" stroke-width="3.2179" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="72.8" cy="72.6" r="59.9"></circle>
+            <path d="M132.7,75.7 C132.7,107.1 107.3,132.5 75.9,132.5 C57.7,132.5 41.4,123.9 31,110.5 C23.5,100.9 19.1,88.8 19.1,75.7 C19.1,44.3 44.5,18.9 75.9,18.9 C99.6,18.9 119.8,33.3 128.4,53.9 C131.2,60.6 132.7,68 132.7,75.7 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M128.4,53.9 C117.9,87.8 86.3,112.5 48.9,112.5 C42.8,112.5 36.8,111.8 31.1,110.6 C23.6,101 19.2,88.9 19.2,75.8 C19.2,44.4 44.6,19 76,19 C99.6,18.9 119.8,33.4 128.4,53.9 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M109,120.4 C99,128 86.4,132.5 72.9,132.5 C39.8,132.5 13,105.7 13,72.6 C13,39.5 39.8,12.7 72.9,12.7 C106,12.7 132.8,39.5 132.8,72.6 C132.8,83.6 129.8,94 124.6,102.9" id="Shape" class="stroke-primary" stroke-width="3.2179" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(72.000000, 13.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2179">
+                <path d="M0.8,0 L0.8,8" id="Shape"></path>
+                <path d="M0.8,111.5 L0.8,119.3" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(13.000000, 72.000000)" class="stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2179">
+                <path d="M0.2,0.6 L8.2,0.6" id="Shape"></path>
+                <path d="M111.7,0.6 L119.5,0.6" id="Shape"></path>
+            </g>
+            <polygon id="Shape" class="fill-primary-200" fill-rule="nonzero" points="106 46.8 81.4 88.6 39.5 113.2 39.8 112.8 64.1 71.3 105.6 47"></polygon>
+            <polygon id="Shape" class="fill-neutral" fill-rule="nonzero" points="106 39.3 81.4 81.1 39.5 105.7 39.8 105.3 64.1 63.8 105.6 39.5"></polygon>
+            <polygon id="Shape" class="fill-primary-100" fill-rule="nonzero" points="39.8 105.3 105.6 39.5 81.3 81"></polygon>
+            <polyline id="Shape" class="stroke-primary" stroke-width="3.2179" stroke-linecap="round" stroke-linejoin="round" points="73.4 58.3 106 39.3 81.4 81.1 39.5 105.7 64.1 63.8 66.3 62.5"></polyline>
+            <circle id="Oval" class="stroke-primary" stroke-width="3.21786914" stroke-linecap="round" stroke-linejoin="round" transform="translate(72.676020, 72.486880) rotate(-45.000000) translate(-72.676020, -72.486880) " cx="72.67602" cy="72.48688" r="1.99998082"></circle>
+        </g>
+    </g>
+</svg>

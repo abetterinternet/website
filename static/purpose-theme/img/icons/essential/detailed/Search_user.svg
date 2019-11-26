@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="149px" viewBox="0 0 149 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Search_user</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search_user" transform="translate(1.000000, 2.000000)">
+            <polygon id="Shape" class="stroke-primary" stroke-width="3.8271" fill="#5EA6FF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="126.5 115.7 116.5 125.7 87.5 97.1 97.5 87"></polygon>
+            <path d="M17.1,16.6 C-4.4,38.1 -4.4,73.1 17.1,94.6 C38.6,116.1 73.6,116.1 95.1,94.6 C116.6,73.1 116.6,38.1 95.1,16.6 C73.5,-4.9 38.6,-4.9 17.1,16.6 Z M88.1,87.7 C70.4,105.4 41.7,105.4 24,87.7 C6.3,70 6.3,41.3 24,23.6 C41.7,5.9 70.4,5.9 88.1,23.6 C105.8,41.3 105.8,70 88.1,87.7 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M18.8,21.7 C-1.8,42.3 -1.8,75.7 18.8,96.3 C39.4,116.9 72.8,116.9 93.4,96.3 C114,75.7 114,42.3 93.4,21.7 C72.8,1.1 39.4,1.1 18.8,21.7 Z M88.1,87.7 C70.4,105.4 41.7,105.4 24,87.7 C6.3,70 6.3,41.3 24,23.6 C41.7,5.9 70.4,5.9 88.1,23.6 C105.8,41.3 105.8,70 88.1,87.7 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M18.1,15.6 C18,15.7 18,15.7 17.9,15.8 M13.5,20.5 C-4.4,42.2 -3.2,74.3 17.1,94.6 C38.6,116.1 73.6,116.1 95.1,94.6 C116.6,73.1 116.6,38.1 95.1,16.6 C77.1,-1.4 49.9,-4.3 28.8,7.6 M46.1,99.8 C38,98 30.3,93.9 24,87.6 C6.3,69.9 6.3,41.2 24,23.5 C41.7,5.8 70.4,5.8 88.1,23.5 C105.8,41.2 105.8,69.9 88.1,87.6 C82.6,93.1 76.1,96.9 69.1,99" id="Shape" class="stroke-primary" stroke-width="3.8271" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M142.2,141.3 C137.7,145.8 130.5,145.8 126,141.3 L93.3,109 L109.5,92.8 L142.2,125.1 C146.6,129.6 146.6,136.9 142.2,141.3 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M139.8,143.7 C136.6,146.9 130.7,146.2 126.7,142.1 L97,112.7 L108.6,101.1 L138.3,130.5 C142.3,134.6 143,140.5 139.8,143.7 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M119.7,103 L142.1,125.2 C146.6,129.7 146.6,136.9 142.1,141.4 C137.6,145.9 130.4,145.9 125.9,141.4 L93.2,109.1 L109.4,92.9 L112.3,95.8" id="Shape" class="stroke-primary" stroke-width="3.8271" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(31.000000, 27.000000)">
+                <path d="M11.4,21 C13.7,25.4 18.4,28.4 23.7,28.4 C31.4,28.4 37.7,22.1 37.7,14.4 C37.7,6.7 31.4,0.4 23.7,0.4 C16,0.4 9.7,6.7 9.7,14.4 C9.8,16.8 10.4,19 11.4,21" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <circle id="Oval" class="fill-primary-100" fill-rule="nonzero" cx="26" cy="16.7" r="11.7"></circle>
+                <path d="M39.3,30.5 C45.7,35.4 50.4,41.8 50.4,49.3 C50.4,51.6 48.1,51.6 48.1,51.6 L30.8,51.6 L20.2,51.6 L2.9,51.6 C2.9,51.6 0.6,51.6 0.6,49.3 C0.6,39.6 8.3,31.8 17.4,26.8" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M22.1,30.4 C13.6,33.3 7.7,41.4 7.7,49.7 C7.7,51.7 9.7,51.7 9.7,51.7 L24.5,51.7 L33.6,51.7 L48.4,51.7 C48.4,51.7 50.4,51.7 50.4,49.7 C50.4,43.2 47.4,37.3 42.2,32.8 C40.6,31.4 38.9,30.1 36.8,29.3 C32.2,27.6 27.1,28.7 22.6,30.2 C22.5,30.3 22.3,30.3 22.1,30.4 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+                <path d="M17.3,26.8 C19.2,27.8 21.4,28.4 23.8,28.4 C31.5,28.4 37.8,22.1 37.8,14.4 C37.8,6.7 31.5,0.4 23.8,0.4 C16.1,0.4 9.8,6.7 9.8,14.4 C9.8,16 10.1,17.5 10.6,18.9" id="Shape" class="stroke-primary" stroke-width="3.8271" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M39.3,30.5 C45.7,35.4 50.4,41.8 50.4,49.3 C50.4,51.6 48.1,51.6 48.1,51.6 L30.8,51.6 L20.2,51.6 L2.9,51.6 C2.9,51.6 0.6,51.6 0.6,49.3 C0.6,39.6 8.3,31.8 17.4,26.8" id="Shape" class="stroke-primary" stroke-width="3.8271" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

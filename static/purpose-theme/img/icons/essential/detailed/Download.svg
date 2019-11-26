@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="145px" viewBox="0 0 151 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Download" transform="translate(1.000000, 2.000000)">
+            <g id="Group" transform="translate(0.000000, 39.000000)">
+                <path d="M1.5,65.8 L17.3,9.2 C18.7,4 23.4,0.4 28.7,0.4 L120.1,0.4 C125.4,0.4 130.1,3.9 131.5,9.1 L147.4,66.4" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M147.3,66.4 L3.3,65.9 L19.8,12.9 C21.1,8 25.8,4.6 31.1,4.6 L120.4,4.6 C125.6,4.6 130.2,7.9 131.6,12.7 L147.3,66.4 Z" id="Shape" fill="#ADD2FF" fill-rule="nonzero"></path>
+                <path d="M112,4.6 C110.8,16.1 104.3,26.1 95.1,32.2 C89.1,36.1 82,38.4 74.3,38.4 C54.7,38.4 38.7,23.6 36.6,4.6 L112,4.6 Z" id="Shape" fill="#91C4FF" fill-rule="nonzero"></path>
+                <path d="M147.8,91.1 C147.8,97.2 142.9,102.1 136.8,102.1 L11.7,102.1 C5.6,102.1 0.7,97.2 0.7,91.1 L0.7,69.9 C0.7,63.8 5.6,58.9 11.7,58.9 L136.8,58.9 C142.9,58.9 147.8,63.8 147.8,69.9 L147.8,91.1 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+                <path d="M147.8,91.8 C147.8,97.5 143.2,102.1 137.5,102.1 L14.6,102.1 C8.9,102.1 4.3,97.5 4.3,91.8 L4.3,73.7 C4.3,68 8.9,63.4 14.6,63.4 L137.5,63.4 C143.2,63.4 147.8,68 147.8,73.7 L147.8,91.8 Z" id="Shape" fill="#D4E7FF" fill-rule="nonzero"></path>
+                <path d="M45.9,58.9 L47,58.9" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M109.6,102 L11.8,102 C5.7,102 0.8,97.1 0.8,91 L0.8,69.8 C0.8,63.7 5.7,58.8 11.8,58.8 L33.9,58.8" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M63,58.9 L136.9,58.9 C143,58.9 147.9,63.8 147.9,69.9 L147.9,91.1 C147.9,97.2 143,102.1 136.9,102.1 L120.5,102.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7.7,39.8 L17.3,9.2 C18.7,4 23.4,0.4 28.7,0.4 L120.1,0.4 C125.4,0.4 130.1,3.9 131.5,9.1 L147.4,66.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3.7,52.7 L5,48.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.1,71.6 L14.1,89.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M24.2,71.6 L24.2,89.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M34.3,71.6 L34.3,89.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.4,71.6 L44.4,89.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="126" cy="80.5" r="10.1"></circle>
+                <path d="M134.6,75.3 C135.5,76.8 136,78.6 136,80.5 C136,86.1 131.5,90.6 125.9,90.6 C120.3,90.6 115.8,86.1 115.8,80.5 C115.8,79 116.1,77.5 116.8,76.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M121.4,71.5 C122.8,70.8 124.3,70.4 126,70.4 C127.2,70.4 128.3,70.6 129.4,71" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <g id="Group" transform="translate(39.000000, 0.000000)">
+                <path d="M54.5,64.5 C49,68.1 42.4,70.2 35.3,70.2 C16,70.2 0.3,54.6 0.3,35.2 C0.3,15.9 15.9,0.2 35.3,0.2 C54.6,0.2 70.3,15.8 70.3,35.2 C70.3,47.4 64,58.2 54.5,64.5" id="Shape" class="fill-primary-500" fill-rule="nonzero"></path>
+                <path d="M46.3,68.4 C46,68.5 45.7,68.6 45.4,68.7 C42.2,69.7 38.8,70.2 35.3,70.2 C27.5,70.2 20.3,67.7 14.5,63.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0.7,40.4 C0.5,38.7 0.3,37 0.3,35.2 C0.3,15.9 15.9,0.2 35.3,0.2 C54.6,0.2 70.3,15.8 70.3,35.2 C70.3,46 65.4,55.7 57.6,62.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.6,55.2 C6.2,54.6 5.8,54 5.5,53.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g transform="translate(18.000000, 13.000000)" fill-rule="nonzero" id="Shape">
+                    <path d="M17.3,42.1 C16,42.1 14.8,41.6 13.9,40.7 L3.6,30.4 C1.7,28.5 1.7,25.5 3.6,23.6 C4.5,22.7 5.7,22.2 7,22.2 C8.3,22.2 9.5,22.7 10.4,23.6 L12.6,25.8 L12.6,7.1 C12.6,4.5 14.7,2.3 17.4,2.3 C20,2.3 22.2,4.4 22.2,7.1 L22.2,25.8 L24.4,23.6 C25.3,22.7 26.5,22.2 27.8,22.2 C29.1,22.2 30.3,22.7 31.2,23.6 C32.1,24.5 32.6,25.7 32.6,27 C32.6,28.3 32.1,29.5 31.2,30.4 L20.9,40.7 C19.8,41.6 18.6,42.1 17.3,42.1 Z" class="fill-neutral"></path>
+                    <path d="M17.3,3.8 C19.1,3.8 20.6,5.3 20.6,7.1 L20.6,29.5 L25.3,24.8 C25.9,24.2 26.8,23.8 27.6,23.8 C28.4,23.8 29.3,24.1 29.9,24.8 C30.5,25.4 30.9,26.3 30.9,27.1 C30.9,27.9 30.6,28.8 29.9,29.4 L19.6,39.7 C19,40.3 18.2,40.7 17.3,40.7 C16.4,40.7 15.6,40.4 15,39.7 L4.7,29.4 C3.4,28.1 3.4,26 4.7,24.8 C5.3,24.2 6.2,23.8 7,23.8 C7.8,23.8 8.7,24.1 9.3,24.8 L14,29.5 L14,7.1 C14,5.3 15.5,3.8 17.3,3.8 Z M17.3,0.8 C13.8,0.8 11,3.6 11,7.1 L11,22.2 C9.9,21.2 8.5,20.7 7,20.7 C5.3,20.7 3.7,21.4 2.6,22.5 C0.2,24.9 0.2,28.9 2.6,31.4 L12.9,41.7 C14.1,42.9 15.7,43.5 17.3,43.5 C19,43.5 20.6,42.8 21.7,41.7 L32,31.4 C33.2,30.2 33.8,28.6 33.8,27 C33.8,25.3 33.1,23.7 32,22.6 C30.8,21.4 29.2,20.8 27.6,20.8 C26.1,20.8 24.7,21.3 23.6,22.3 L23.6,7.2 C23.6,3.6 20.8,0.8 17.3,0.8 Z" class="fill-primary"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

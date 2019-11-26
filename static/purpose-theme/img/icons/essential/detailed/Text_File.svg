@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="149px" viewBox="0 0 118 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Text_File</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Text_File" transform="translate(2.000000, 1.000000)">
+            <path d="M112.6,36.5 L113.8,140.1 C113.8,143.6 111,146.4 107.5,146.4 L6.7,146.4 C3.2,146.4 0.4,143.6 0.4,140.1 L0.4,6.9 C0.4,3.4 3.2,0.6 6.7,0.6 L79.8,0.6 L112.6,36.5 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M112.7,37.1 L113.8,140.4 C113.8,143.7 111.1,146.4 107.8,146.4 L12.2,146.4 C8.9,146.4 6.2,143.7 6.2,140.4 L6.2,11.9 C6.2,8.6 8.9,5.9 12.2,5.9 L85,5.9 L112.7,37.1 Z" id="Shape" class="fill-primary-100" fill-rule="nonzero"></path>
+            <path d="M79.8,0.6 L79.8,29.2 C79.8,33.1 83.3,36.5 87.2,36.5 L112.6,36.5" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M83.3,3.5 L83.3,29.5 C83.3,33.1 86.5,36.1 90,36.1 L113.1,36.1" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M83.3,8.7 L83.3,34.7 C83.3,38.3 86.5,41.3 90,41.3 L113.1,41.3 L113.1,36" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M79.8,22.9 L79.8,29.2 C79.8,33.1 83.3,36.5 87.2,36.5 L112.6,36.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M79.8,0.6 L79.8,16" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.3,34.6 L0.3,33.1" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.3,25.8 L0.3,6.9 C0.3,3.4 3.1,0.6 6.6,0.6 L79.7,0.6 L112.5,36.5 L113.7,140.1 C113.7,143.6 110.9,146.4 107.4,146.4 L6.7,146.4 C3.2,146.4 0.4,143.6 0.4,140.1 L0.4,50.4" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26.5,61.5 C27.1,56.7 29.2,54.9 35.3,54.9" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26.3,67.4 C26.3,67.3 26.3,67.1 26.3,67" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M35.3,116.6 C24.4,116.6 26.4,111 26.4,91.7 C26.4,88.1 23.7,85.9 20.6,85.9 L20.6,85.5 C23.7,85.5 26.4,83.3 26.4,79.7 C26.4,77.3 26.4,75.2 26.3,73.2" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M86,88.1 C87.1,86.8 88.7,86 90.5,86 L90.5,85.6 C87.4,85.6 84.7,83.4 84.7,79.8 C84.7,60.7 86.8,54.9 75.8,54.9" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M75.9,116.6 C86.5,116.6 84.9,111.3 84.8,93.3" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M52.3,104.5 L44.7,110.3 L43.5,101.1 L57.6,64.6 C58.5,62.2 61.3,61 63.7,61.9 C66.1,62.8 67.3,65.6 66.4,68 L52.3,104.5 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M52.3,104.5 L46.5,111 L46.9,102.4 L61,66 C61.9,63.6 63.9,62.1 65.4,62.7 C66.9,63.3 67.3,65.7 66.4,68.1 L52.3,104.5 Z" id="Shape" class="fill-primary-300" fill-rule="nonzero"></path>
+            <path d="M52.3,104.5 L44.7,110.3 L43.5,101.1 L57.6,64.6 C58.5,62.2 61.3,61 63.7,61.9 C66.1,62.8 67.3,65.6 66.4,68 L52.3,104.5 Z" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M43.5,101.2 L52.3,104.5" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M55.8,69.3 L64.6,72.7" id="Shape" class="stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

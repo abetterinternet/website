@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="123px" viewBox="0 0 149 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Servers_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Servers_2" transform="translate(1.000000, 1.000000)">
+            <g id="Group" transform="translate(0.000000, 120.000000)" class="stroke-primary-300" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7594">
+                <path d="M1.4,0.5 L0.4,0.5" id="Shape"></path>
+                <path d="M27.3,0.5 L5.5,0.5" id="Shape"></path>
+                <path d="M32.6,0.5 L31.6,0.5" id="Shape"></path>
+                <path d="M114.7,0.5 L38.1,0.5" id="Shape"></path>
+                <path d="M146.5,0.5 L119,0.5" id="Shape"></path>
+            </g>
+            <rect id="Rectangle-path" fill="#63A9FF" fill-rule="nonzero" x="37.2" y="28.6" width="92.1" height="12.3"></rect>
+            <rect id="Rectangle-path" fill="#4A9BFF" fill-rule="nonzero" x="37.2" y="31.8" width="92.1" height="3.2"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" x="37.2" y="28.6" width="92.1" height="12.3"></rect>
+            <polyline id="Shape" fill="#9ECBFF" fill-rule="nonzero" points="23.3 32.7 23.3 28.6 115.3 28.6 115.3 40.9 23.3 40.9 23.3 36.7"></polyline>
+            <rect id="Rectangle-path" fill="#75B5FF" fill-rule="nonzero" x="23.3" y="31.8" width="92.1" height="3.2"></rect>
+            <polyline id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" points="23.3 32.7 23.3 28.6 115.3 28.6 115.3 40.9 23.3 40.9 23.3 36.7"></polyline>
+            <path d="M127,31.6 L25,31.6 C21.9,31.6 19.3,29 19.3,25.9 L19.3,6.3 C19.3,3.2 21.9,0.6 25,0.6 L127,0.6 C130.1,0.6 132.7,3.2 132.7,6.3 L132.7,25.9 C132.7,29 130.2,31.6 127,31.6 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M127,31.6 L44.2,31.6 C41.1,31.6 38.5,29 38.5,25.9 L38.5,9.5 C38.5,6.4 41.1,3.8 44.2,3.8 L128.2,3.8 C130.7,3.8 132.7,5.8 132.7,8.3 L132.7,25.9 C132.7,29 130.2,31.6 127,31.6 Z" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M42.5,0.5 L129.2,0.5 C131,0.5 132.5,2 132.5,3.8 L132.5,28.2 C132.5,30 131,31.5 129.2,31.5 L84.2,31.5" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M113.4,31.6 L25.8,31.6 C24,31.6 22.5,30.1 22.5,28.3 L22.5,7 C22.5,5.2 24,3.7 25.8,3.7 L116.5,3.7 C116.6,5.2 116.7,5.2 116.7,7 L116.7,28.2 C116.7,30.1 115.2,31.6 113.4,31.6 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M32.6,0.5 L113.4,0.5 C115.2,0.5 116.7,2 116.7,3.8 L116.7,28.2 C116.7,30 115.2,31.5 113.4,31.5 L22.6,31.5 C20.8,31.5 19.3,30 19.3,28.2 L19.3,3.8 C19.3,2 20.8,0.5 22.6,0.5 L24.8,0.5" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M27.5,0.5 L27.8,0.5" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(55.000000, 9.000000)" class="fill-primary" fill-rule="nonzero">
+                <circle id="Oval" transform="translate(2.411640, 1.912440) rotate(-45.000000) translate(-2.411640, -1.912440) " cx="2.41164" cy="1.91244" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.420930, 7.808730) rotate(-45.000000) translate(-2.420930, -7.808730) " cx="2.42093" cy="7.80873" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.429720, 13.705020) rotate(-45.000000) translate(-2.429720, -13.705020) " cx="2.42972" cy="13.70502" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.370560, 5.177480) rotate(-45.000000) translate(-8.370560, -5.177480) " cx="8.37056" cy="5.17748" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.309140, 11.003060) rotate(-45.000000) translate(-8.309140, -11.003060) " cx="8.30914" cy="11.00306" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.204220, 1.894660) rotate(-45.000000) translate(-14.204220, -1.894660) " cx="14.20422" cy="1.89466" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.213510, 7.790850) rotate(-45.000000) translate(-14.213510, -7.790850) " cx="14.21351" cy="7.79085" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.222300, 13.687140) rotate(-45.000000) translate(-14.222300, -13.687140) " cx="14.2223" cy="13.68714" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.163140, 5.159700) rotate(-45.000000) translate(-20.163140, -5.159700) " cx="20.16314" cy="5.1597" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.101720, 10.985180) rotate(-45.000000) translate(-20.101720, -10.985180) " cx="20.10172" cy="10.98518" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(25.996700, 1.876780) rotate(-45.000000) translate(-25.996700, -1.876780) " cx="25.9967" cy="1.87678" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.005490, 7.773070) rotate(-45.000000) translate(-26.005490, -7.773070) " cx="26.00549" cy="7.77307" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.014780, 13.669260) rotate(-45.000000) translate(-26.014780, -13.669260) " cx="26.01478" cy="13.66926" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.955620, 5.141820) rotate(-45.000000) translate(-31.955620, -5.141820) " cx="31.95562" cy="5.14182" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.894200, 10.967400) rotate(-45.000000) translate(-31.894200, -10.967400) " cx="31.8942" cy="10.9674" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.789180, 1.858900) rotate(-45.000000) translate(-37.789180, -1.858900) " cx="37.78918" cy="1.8589" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.797970, 7.754890) rotate(-45.000000) translate(-37.797970, -7.754890) " cx="37.79797" cy="7.75489" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.807260, 13.651180) rotate(-45.000000) translate(-37.807260, -13.651180) " cx="37.80726" cy="13.65118" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.748100, 5.123740) rotate(-45.000000) translate(-43.748100, -5.123740) " cx="43.7481" cy="5.12374" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.686180, 10.949220) rotate(-45.000000) translate(-43.686180, -10.949220) " cx="43.68618" cy="10.94922" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.510950, 1.911530) rotate(-45.000000) translate(-49.510950, -1.911530) " cx="49.51095" cy="1.91153" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.519840, 7.807820) rotate(-45.000000) translate(-49.519840, -7.807820) " cx="49.51984" cy="7.80782" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.529130, 13.704010) rotate(-45.000000) translate(-49.529130, -13.704010) " cx="49.52913" cy="13.70401" r="1.29998753"></circle>
+            </g>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="36.1" cy="17.4" r="6.4"></circle>
+            <path d="M35.4,11 C35.6,11 35.9,11 36.1,11 C39.6,11 42.5,13.9 42.5,17.4 C42.5,20.9 39.6,23.8 36.1,23.8 C32.6,23.8 29.7,20.9 29.7,17.4 C29.7,16.6 29.8,15.9 30.1,15.2" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round"></path>
+            <path d="M31.7,12.7 C31.8,12.6 31.8,12.6 31.9,12.5" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round"></path>
+            <rect id="Rectangle-path" fill="#63A9FF" fill-rule="nonzero" x="37.2" y="68.2" width="92.1" height="12.3"></rect>
+            <rect id="Rectangle-path" fill="#4A9BFF" fill-rule="nonzero" x="37.2" y="71.4" width="92.1" height="3.2"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" x="37.2" y="68.2" width="92.1" height="12.3"></rect>
+            <polyline id="Shape" fill="#9ECBFF" fill-rule="nonzero" points="23.3 72.3 23.3 68.2 115.3 68.2 115.3 80.5 23.3 80.5 23.3 76.3"></polyline>
+            <rect id="Rectangle-path" fill="#75B5FF" fill-rule="nonzero" x="23.3" y="71.4" width="92.1" height="3.2"></rect>
+            <polyline id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" points="23.3 72.3 23.3 68.2 115.3 68.2 115.3 80.5 23.3 80.5 23.3 76.3"></polyline>
+            <path d="M127,71.2 L25,71.2 C21.9,71.2 19.3,68.6 19.3,65.5 L19.3,45.9 C19.3,42.8 21.9,40.2 25,40.2 L127,40.2 C130.1,40.2 132.7,42.8 132.7,45.9 L132.7,65.5 C132.7,68.6 130.2,71.2 127,71.2 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M127,71.2 L44.2,71.2 C41.1,71.2 38.5,68.6 38.5,65.5 L38.5,49 C38.5,45.9 41.1,43.3 44.2,43.3 L128.2,43.3 C130.7,43.3 132.7,45.3 132.7,47.8 L132.7,65.4 C132.7,68.6 130.2,71.2 127,71.2 Z" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M42.5,40.1 L129.2,40.1 C131,40.1 132.5,41.6 132.5,43.4 L132.5,67.8 C132.5,69.6 131,71.1 129.2,71.1 L84.2,71.1" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M113.4,71.2 L25.8,71.2 C24,71.2 22.5,69.7 22.5,67.9 L22.5,46.7 C22.5,44.9 24,43.4 25.8,43.4 L116.5,43.4 C116.6,44.9 116.7,44.9 116.7,46.7 L116.7,67.9 C116.7,69.7 115.2,71.2 113.4,71.2 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M32.6,40.1 L113.4,40.1 C115.2,40.1 116.7,41.6 116.7,43.4 L116.7,67.8 C116.7,69.6 115.2,71.1 113.4,71.1 L22.6,71.1 C20.8,71.1 19.3,69.6 19.3,67.8 L19.3,43.4 C19.3,41.6 20.8,40.1 22.6,40.1 L24.8,40.1" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M27.5,40.1 L27.8,40.1" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(55.000000, 48.000000)" class="fill-primary" fill-rule="nonzero">
+                <circle id="Oval" transform="translate(2.478610, 2.584410) rotate(-45.000000) translate(-2.478610, -2.584410) " cx="2.47861" cy="2.58441" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.416790, 8.409990) rotate(-45.000000) translate(-2.416790, -8.409990) " cx="2.41679" cy="8.40999" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.425580, 14.306280) rotate(-45.000000) translate(-2.425580, -14.306280) " cx="2.42558" cy="14.30628" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.366920, 5.778740) rotate(-45.000000) translate(-8.366920, -5.778740) " cx="8.36692" cy="5.77874" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.375710, 11.675030) rotate(-45.000000) translate(-8.375710, -11.675030) " cx="8.37571" cy="11.67503" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.271190, 2.566630) rotate(-45.000000) translate(-14.271190, -2.566630) " cx="14.27119" cy="2.56663" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.209270, 8.392110) rotate(-45.000000) translate(-14.209270, -8.392110) " cx="14.20927" cy="8.39211" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.218060, 14.288400) rotate(-45.000000) translate(-14.218060, -14.288400) " cx="14.21806" cy="14.2884" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.159400, 5.760960) rotate(-45.000000) translate(-20.159400, -5.760960) " cx="20.1594" cy="5.76096" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.168190, 11.657150) rotate(-45.000000) translate(-20.168190, -11.657150) " cx="20.16819" cy="11.65715" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.063170, 2.548750) rotate(-45.000000) translate(-26.063170, -2.548750) " cx="26.06317" cy="2.54875" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.001750, 8.374230) rotate(-45.000000) translate(-26.001750, -8.374230) " cx="26.00175" cy="8.37423" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.010540, 14.270520) rotate(-45.000000) translate(-26.010540, -14.270520) " cx="26.01054" cy="14.27052" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.951880, 5.743080) rotate(-45.000000) translate(-31.951880, -5.743080) " cx="31.95188" cy="5.74308" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.960670, 11.639370) rotate(-45.000000) translate(-31.960670, -11.639370) " cx="31.96067" cy="11.63937" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.855650, 2.530870) rotate(-45.000000) translate(-37.855650, -2.530870) " cx="37.85565" cy="2.53087" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.794330, 8.356450) rotate(-45.000000) translate(-37.794330, -8.356450) " cx="37.79433" cy="8.35645" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.803120, 14.252640) rotate(-45.000000) translate(-37.803120, -14.252640) " cx="37.80312" cy="14.25264" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.743960, 5.725200) rotate(-45.000000) translate(-43.743960, -5.725200) " cx="43.74396" cy="5.7252" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.753250, 11.621190) rotate(-45.000000) translate(-43.753250, -11.621190) " cx="43.75325" cy="11.62119" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.577520, 2.583500) rotate(-45.000000) translate(-49.577520, -2.583500) " cx="49.57752" cy="2.5835" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.516100, 8.409080) rotate(-45.000000) translate(-49.516100, -8.409080) " cx="49.5161" cy="8.40908" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.524890, 14.305270) rotate(-45.000000) translate(-49.524890, -14.305270) " cx="49.52489" cy="14.30527" r="1.29998753"></circle>
+            </g>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="36.1" cy="57" r="6.4"></circle>
+            <circle id="Oval" class="stroke-primary" stroke-width="2.7594" cx="36.1" cy="57" r="6.4"></circle>
+            <rect id="Rectangle-path" fill="#63A9FF" fill-rule="nonzero" x="37.2" y="107.8" width="92.1" height="12.3"></rect>
+            <rect id="Rectangle-path" fill="#4A9BFF" fill-rule="nonzero" x="37.2" y="111" width="92.1" height="3.2"></rect>
+            <rect id="Rectangle-path" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" x="37.2" y="107.8" width="92.1" height="12.3"></rect>
+            <polyline id="Shape" fill="#9ECBFF" fill-rule="nonzero" points="23.3 111.9 23.3 107.8 115.3 107.8 115.3 120.1 23.3 120.1 23.3 115.9"></polyline>
+            <rect id="Rectangle-path" fill="#75B5FF" fill-rule="nonzero" x="23.3" y="111" width="92.1" height="3.2"></rect>
+            <polyline id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round" points="23.3 111.9 23.3 107.8 115.3 107.8 115.3 120.1 23.3 120.1 23.3 115.9"></polyline>
+            <path d="M127,110.8 L25,110.8 C21.9,110.8 19.3,108.2 19.3,105.1 L19.3,85.5 C19.3,82.4 21.9,79.8 25,79.8 L127,79.8 C130.1,79.8 132.7,82.4 132.7,85.5 L132.7,105.1 C132.7,108.2 130.2,110.8 127,110.8 Z" id="Shape" class="fill-neutral" fill-rule="nonzero"></path>
+            <path d="M127,110.8 L44.2,110.8 C41.1,110.8 38.5,108.2 38.5,105.1 L38.5,88.7 C38.5,85.6 41.1,83 44.2,83 L128.2,83 C130.7,83 132.7,85 132.7,87.5 L132.7,105.1 C132.7,108.2 130.2,110.8 127,110.8 Z" id="Shape" class="fill-primary-400" fill-rule="nonzero"></path>
+            <path d="M42.5,79.7 L129.2,79.7 C131,79.7 132.5,81.2 132.5,83 L132.5,107.4 C132.5,109.2 131,110.7 129.2,110.7 L84.2,110.7" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M113.4,110.8 L25.8,110.8 C24,110.8 22.5,109.3 22.5,107.5 L22.5,86.3 C22.5,84.5 24,83 25.8,83 L116.5,83 C116.6,84.5 116.7,84.5 116.7,86.3 L116.7,107.5 C116.7,109.3 115.2,110.8 113.4,110.8 Z" id="Shape" class="fill-primary-200" fill-rule="nonzero"></path>
+            <path d="M32.6,79.7 L113.4,79.7 C115.2,79.7 116.7,81.2 116.7,83 L116.7,107.4 C116.7,109.2 115.2,110.7 113.4,110.7 L22.6,110.7 C20.8,110.7 19.3,109.2 19.3,107.4 L19.3,83 C19.3,81.2 20.8,79.7 22.6,79.7 L24.8,79.7" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M27.5,79.7 L27.8,79.7" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(55.000000, 88.000000)" class="fill-primary" fill-rule="nonzero">
+                <circle id="Oval" transform="translate(2.474470, 2.185970) rotate(-45.000000) translate(-2.474470, -2.185970) " cx="2.47447" cy="2.18597" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.412550, 8.011250) rotate(-45.000000) translate(-2.412550, -8.011250) " cx="2.41255" cy="8.01125" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(2.421840, 13.907540) rotate(-45.000000) translate(-2.421840, -13.907540) " cx="2.42184" cy="13.90754" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.362680, 5.380000) rotate(-45.000000) translate(-8.362680, -5.380000) " cx="8.36268" cy="5.38" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(8.371470, 11.276290) rotate(-45.000000) translate(-8.371470, -11.276290) " cx="8.37147" cy="11.27629" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.266950, 2.167890) rotate(-45.000000) translate(-14.266950, -2.167890) " cx="14.26695" cy="2.16789" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.205030, 7.993370) rotate(-45.000000) translate(-14.205030, -7.993370) " cx="14.20503" cy="7.99337" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(14.214320, 13.889660) rotate(-45.000000) translate(-14.214320, -13.889660) " cx="14.21432" cy="13.88966" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.155160, 5.362220) rotate(-45.000000) translate(-20.155160, -5.362220) " cx="20.15516" cy="5.36222" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(20.163950, 11.258410) rotate(-45.000000) translate(-20.163950, -11.258410) " cx="20.16395" cy="11.25841" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.059430, 2.150010) rotate(-45.000000) translate(-26.059430, -2.150010) " cx="26.05943" cy="2.15001" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(25.997510, 7.975490) rotate(-45.000000) translate(-25.997510, -7.975490) " cx="25.99751" cy="7.97549" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(26.006400, 13.871780) rotate(-45.000000) translate(-26.006400, -13.871780) " cx="26.0064" cy="13.87178" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.947640, 5.344340) rotate(-45.000000) translate(-31.947640, -5.344340) " cx="31.94764" cy="5.34434" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(31.956530, 11.240630) rotate(-45.000000) translate(-31.956530, -11.240630) " cx="31.95653" cy="11.24063" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.852010, 2.132130) rotate(-45.000000) translate(-37.852010, -2.132130) " cx="37.85201" cy="2.13213" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.790090, 7.957710) rotate(-45.000000) translate(-37.790090, -7.957710) " cx="37.79009" cy="7.95771" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(37.798880, 13.853900) rotate(-45.000000) translate(-37.798880, -13.853900) " cx="37.79888" cy="13.8539" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.740220, 5.326460) rotate(-45.000000) translate(-43.740220, -5.326460) " cx="43.74022" cy="5.32646" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(43.749010, 11.222750) rotate(-45.000000) translate(-43.749010, -11.222750) " cx="43.74901" cy="11.22275" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.573780, 2.184960) rotate(-45.000000) translate(-49.573780, -2.184960) " cx="49.57378" cy="2.18496" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.511860, 8.010340) rotate(-45.000000) translate(-49.511860, -8.010340) " cx="49.51186" cy="8.01034" r="1.29998753"></circle>
+                <circle id="Oval" transform="translate(49.520650, 13.906530) rotate(-45.000000) translate(-49.520650, -13.906530) " cx="49.52065" cy="13.90653" r="1.29998753"></circle>
+            </g>
+            <circle id="Oval" class="fill-neutral" fill-rule="nonzero" cx="36.1" cy="96.6" r="6.4"></circle>
+            <path d="M39.7,101.9 C38.7,102.6 37.5,103 36.1,103 C32.6,103 29.7,100.1 29.7,96.6 C29.7,93.1 32.6,90.2 36.1,90.2 C39.6,90.2 42.5,93.1 42.5,96.6 C42.5,97 42.5,97.3 42.4,97.7" id="Shape" class="stroke-primary" stroke-width="2.7594" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
