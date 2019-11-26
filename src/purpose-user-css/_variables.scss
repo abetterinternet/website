@@ -1,7 +1,33 @@
-// Copy and paste the variables that you want to modify from _variables.scss and remove the !default flag.
-// The default ones will be overridden. Below we added the most wanted variables that a user needs to change.
-// Uncomment the variables starting with "$" that you want to edit.
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+
+// Skins
+//
+// We recommend that all the variables that are staying at the core of your product's styleguide (colors, typography) to be separated in a custom skin
+// you can start by using one of the pre-built ones or, simply, create a new one
+// learn more about how to create your skin by reading the theme's documentation.
+//
+// Below you can find 3 pre-defined skins. You can uncomment any one of them and compile Sass using the build tools
+
+// @import "../skins/default/dark";
+// @import "../skins/blue/light";
+// @import "../skins/blue/dark";
+
+// Fonts
+//
+// uncomment and replace the $font and $font-family-custom-sans-serif value with any URL and font family name from Google Fonts
+//
+
+$font: "https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" !default;
+$font-family-custom-sans-serif: "Nunito", sans-serif !default;
+$font-family-base: $font-family-custom-sans-serif !default;
+
+// Custom variables
+//
+// Need additional variables? Simply create it here and make sure you follow the naming formula explained at the top of this file.
 
 // Colors
 
@@ -11,8 +37,3 @@ $navbar-dark-color:                 $primary;
 $navbar-dark-hover-color:           $primary;
 $navbar-dark-active-color:          $primary;
 $navbar-dark-disabled-color:        $primary;
-
-// Typography
-
-// $font-family-base: 'Nunito', sans-serif !default;
-// $font-family-alt: 'Nunito', sans-serif !default;
