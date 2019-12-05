@@ -5,16 +5,16 @@ slug: policies
 
 ## Privacy Policy
 
-* [Current Privacy Policy](/privacy-policy/)
+* [Privacy Policy](/privacy-policy/)
 
 ## Code of Conduct
 
-* [Current Code of Conduct](/code-of-conduct/)
+* [Code of Conduct](/code-of-conduct/)
 
-## Non-Discrimination Policy
+## Non-Discrimination Statement and Policy
 
-* [Current Non-Discrimination Statement and Policy](/nondiscrimination/)
+* [Non-Discrimination Statement and Policy](/nondiscrimination/)
 
 ## Trademark Policy
 
-* [Current Trademark Policy](/trademarks/)
+* [Trademark Policy](/trademarks/)
