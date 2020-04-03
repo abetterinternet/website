@@ -8,6 +8,7 @@ defaultContentLanguageInSubdir = false
 [params]
 copyrighthtml = "&copy; 2018 Internet Security Research Group. All rights reserved."
 address = "1 Letterman Drive, Suite D4700, San Francisco, CA 94129"
+images = ["images/isrg-opengraph.png"]
 
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
@@ -21,6 +22,5 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 description = """
-  ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to
-  secure communication over the Internet.
+  ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to secure communication over the Internet.
 """
