@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-copyrighthtml = "&copy; 2018 Internet Security Research Group. All rights reserved."
+copyrighthtml = "&copy; 2020 Internet Security Research Group. All rights reserved."
 address = "1 Letterman Drive, Suite D4700, San Francisco, CA 94129"
 images = ["images/isrg-opengraph.png"]
 
