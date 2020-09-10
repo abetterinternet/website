@@ -21,7 +21,7 @@ In a memory safe language we will get an error at compile time or a crash at run
 
 A closely related vulnerability is an out-of-bounds write. In this case imagine we tried to change the eleventh or negative first item in our to do list. Now we are changing someone else's to do list!
 
-### Use Afer Free
+### Use After Free
 
 Imagine we delete a to do list and then later request the first item of that list. Clearly we should receive an error, as we shouldn't be able to get items from a deleted list. Languages that are not memory safe allow programs to fetch memory that they've said they are done with, and that may now be used for something else. The location in memory may now contain someone else's to do list! This is called a use-after-free vulnerability.
 
@@ -43,7 +43,7 @@ Worse, these bugs can be incredibly difficult for developers to track down. Memo
 
 Finally, there is performance. In decades past, one could rely on CPUs getting significantly faster every year or two. This is no longer the case. Instead, CPUs now come with more cores. To take advantage of additional cores, developers are tasked with writing multi-threaded code.
 
-Unfortunately, multi-threading exacerbates the problems associated with a lack of memory safey, As a result, efforts to take advantage of multi-core CPUs are often intractable in C and C++. For example - Mozilla had multiple failed attempts to introduce multi-threading into Firefox's C++ CSS subsystem before finally (successfully) rewriting the system in multi-threaded Rust.
+Unfortunately, multi-threading exacerbates the problems associated with a lack of memory safety, As a result, efforts to take advantage of multi-core CPUs are often intractable in C and C++. For example - Mozilla had multiple failed attempts to introduce multi-threading into Firefox's C++ CSS subsystem before finally (successfully) rewriting the system in multi-threaded Rust.
 
 ## What's the right path forward?
 
