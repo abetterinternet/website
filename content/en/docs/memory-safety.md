@@ -89,6 +89,10 @@ The data bears out, over and over again, that when projects use unsafe languages
 
 Fortunately, we do not need to be satisfied with the status quo. The last few years have produced a groundswell of fantastic alternatives to C and C++, such as Rust, Swift, and Go, amongst many others. And this means we don't have to wear memory corruption vulnerabilities as an albatross around our necks for years and years to come, as long as we choose not to. We look forward to a time when choosing to use an unsafe language is considered as negligent as not having multi-factor-authentication or not encrypting data in transit.
 
+## Thank you to Alex Gaynor
+
+This explanation is, with permission, based on Alex Gaynor's blog post [Introduction to Memory Unsafety for VPs of Engineering](https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/).
+
 [^1]: This is specifically a measure of software vulnerabilities, it does not include things like credential phishing, which are incredibly common. Incidentally, credential phishing itself is another security issue where we know how to defeat it once and for all — deploy security keys with WebAuthn. This will be the subject of a future article.
 
 [Slammer worm]: https://en.wikipedia.org/wiki/SQL_Slammer
@@ -114,7 +118,3 @@ Fortunately, we do not need to be satisfied with the status quo. The last few ye
 [every successful attack exploited]: https://twitter.com/LazyFishBarrel/status/1110023874396078081
 [WebAuthn]: https://blog.mozilla.org/security/2019/03/19/passwordless-web-authentication-support-via-windows-hello/
 [Linux kernel modules in Rust]: https://github.com/fishinabarrel/linux-kernel-module-rust
-
-## Thank you to Alex Gaynor
-
-This explanation is, with permission, based on Alex Gaynor's blog post [Introduction to Memory Unsafety for VPs of Engineering](https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/).
