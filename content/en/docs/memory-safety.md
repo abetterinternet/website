@@ -93,7 +93,7 @@ Fortunately, we do not need to be satisfied with the status quo. The last few ye
 
 This explanation is, with permission, based on Alex Gaynor's blog post [Introduction to Memory Unsafety for VPs of Engineering](https://alexgaynor.net/2019/aug/12/introduction-to-memory-unsafety-for-vps-of-engineering/).
 
-[^1]: This is specifically a measure of software vulnerabilities, it does not include things like credential phishing, which are incredibly common. Incidentally, credential phishing itself is another security issue where we know how to defeat it once and for all — deploy security keys with WebAuthn. This will be the subject of a future article.
+[^1]: This is specifically a measure of software vulnerabilities, it does not include things like credential phishing, which are incredibly common.
 
 [Slammer worm]: https://en.wikipedia.org/wiki/SQL_Slammer
 [WannaCry]: https://www.fireeye.com/blog/threat-research/2017/05/smb-exploited-wannacry-use-of-eternalblue.html
