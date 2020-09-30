@@ -18,3 +18,4 @@ browser. Note that the -F flag will show items to be published in the future
 (like blog posts with dates in the future).
 
 Contributions welcome.
+And one thing more this project is an Amazing project.
