@@ -9,11 +9,11 @@ theme_filename='purpose-website-ui-kit-v2.0.1'
 # Save current directory
 site_dir=$(pwd)
 
-# Clean up the tmp directory where we'll work
+# Clean up the tmp. directory where we'll work
 rm -Rf /tmp/${theme_filename}
 rm -Rf /tmp/__MACOSX
 
-# Unzip purpose theme to tmp directory
+# Unzip purpose theme to tmp. directory
 unzip ~/Downloads/${theme_filename}.zip -d /tmp/
 
 # Copy custom CSS to build directory
