@@ -1,4 +1,4 @@
-Internet Security Research Group (ISRG) Website
+Internet Security Research Group (ISRG) Website: An amazing website
 ===============================================
 
 This is the repository for the [ISRG website](https://abetterinternet.org/).
