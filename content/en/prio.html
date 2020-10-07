@@ -7,17 +7,21 @@ slug: prio
 <section class="slice slice-sm">
     <div class="container">
         <h2>What is Prio?</h2>
-        <p></p>
-        <p>Prio is a technology that technically enforces the privacy of application metrics.</p>
+
+        <p><a href=https://crypto.stanford.edu/prio/>Prio</a> is a privacy-respecting system for the collection of aggregate statistics such as application metrics.</p>
+
+        <p>In Prio, applications such as a web browser, mobile application or a website generate data, split the data into two anonymized and encrypted shares, and upload each share to a different data share processor, such that only minimal information about the original data is revealed to either processor. Each processor then aggregates its data shares into a partial sum, which can be combined into the final aggregation, permitting useful statistics over the whole body of data to be computed while revealing minimal information about individual participants, so long as either one of the data share processors does not disclose their data shares.</p>
+
+        <p>To learn more about the foundations of Prio, consult <a href=https://crypto.stanford.edu/prio/paper.pdf>the Prio research paper by Henry Corrigan-Gibbs and Dan Boneh of Stanford University</a>.</p>
     </div>
 </section>
 
 <section class="slice slice-sm">
     <div class="container">
         <h2>ISRG Prio Services</h2>
-        <p>ISRG can operate Prio facilitating servers for your organization. The software we use is <a href="https://github.com/abetterinternet/prio-server">open source</a> and we have extensive experience running public benefit infrastructure. Our team also operates the <a href="https://letsencrypt.org/">Let's Encrypt</a> certificate authority.</p>
+        <p>ISRG can operate Prio data share processors for your organization. The software we use is <a href="https://github.com/abetterinternet/prio-server">open source</a> and we have extensive experience running public benefit infrastructure. Our team also operates the <a href="https://letsencrypt.org/">Let's Encrypt</a> certificate authority.</p>
             
-        <p>Because the privacy-respecting architecture of Prio depends on splitting user metrics up into two parts, you will need a second Prio facilitating server operator. The second facilitating server can be operated by your organization or another provider.</p>
+        <p>Because the privacy-respecting architecture of Prio depends on splitting user metrics up into two shares, you will need a second Prio data share processor server. The second data share processor can be operated by your organization or another provider.</p>
     </div>
 </section>
 
