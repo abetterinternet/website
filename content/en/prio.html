@@ -10,7 +10,7 @@ slug: prio
 
         <p><a href=https://crypto.stanford.edu/prio/>Prio</a> is a privacy-respecting system for the collection of aggregate statistics such as application metrics.</p>
 
-        <p>In Prio, applications such as a web browser, mobile application or a website generate data, split the data into two anonymized and encrypted shares, and upload each share to a different data share processor, such that only minimal information about the original data is revealed to either processor. Each processor then aggregates its data shares into a partial sum, which can be combined into the final aggregation, permitting useful statistics over the whole body of data to be computed while revealing minimal information about individual participants, so long as either one of the data share processors does not disclose their data shares.</p>
+        <p>Applications such as web browsers, mobile applications, or websites generate data. Normally they would just send all of the data back to the application developer, but with Prio applications split the data into two anonymized and encrypted shares and upload each share to different data share processors that do not share data with each other. This way only minimal information about the original data is revealed to either processor. Each processor then aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants.</p>
 
         <p>To learn more about the foundations of Prio, consult <a href=https://crypto.stanford.edu/prio/paper.pdf>the Prio research paper by Henry Corrigan-Gibbs and Dan Boneh of Stanford University</a>.</p>
     </div>
@@ -52,7 +52,8 @@ slug: prio
     <div class="container">
         <h2>Documentation</h2>
         <ul>
-            <li><a href="#">Integration Guide</a> (Coming Soon)</li>
+            <li><a href="#">Integration Guide for Android and iOS Applications</a> (Coming Soon)</li>
+            <li><a href="#">How to Operate a Data Share Processing System</a> (Coming Soon)</li>
         </ul>
     </div>
 </section>
