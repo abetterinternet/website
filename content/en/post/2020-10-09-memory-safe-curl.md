@@ -1,9 +1,9 @@
 ---
 author: Josh Aas, ISRG Executive Director
 date: 2020-10-09T00:00:00Z
-slug: isrg-public-benefit-infra
+slug: memory-safe-curl
 title: "Memory Safe ‘curl’ for a More Secure Internet"
-excerpt: ""
+excerpt: "Memory safety vulnerabilities represent one of the biggest threats to Internet security. As such, we at ISRG are interested in finding ways to make the most heavily relied-upon software on the Internet memory safe."
 ---
 
 Memory safety vulnerabilities represent one of the biggest threats to Internet security. As such, we at ISRG are interested in finding ways to make the most heavily relied-upon software on the Internet memory safe. Today we’re excited to announce that we’re working with [Daniel Stenberg](https://daniel.haxx.se/), author of ubiquitous [curl](https://curl.haxx.se/) software, and [WolfSSL](https://www.wolfssl.com/), to make critical parts of the curl codebase memory safe.
