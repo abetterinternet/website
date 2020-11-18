@@ -19,6 +19,8 @@ time_format_default = "Jan 2, 2006"
 defaultMarkdownHandler = "goldmark"
 
 [markup.goldmark]
+[markup.goldmark.extensions]
+typographer = false
 [markup.goldmark.renderer]
 unsafe = true
 [markup.goldmark.parser]
