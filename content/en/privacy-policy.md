@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 slug: privacy-policy
-subtitle: Updated October 29, 2020
+subtitle: Updated March 8, 2021
 ---
 
 The Internet Security Research Group (ISRG) Privacy Policy describes how we collect, use, and disclose your information in two different contexts:
@@ -19,7 +19,7 @@ Any ISRG project without its own privacy policy is subject to this general ISRG 
 
 ## Visitor
 
-When you are a Visitor browsing the ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected. We collect your name and email address when you donate. We will not use your email address to contact you without your consent unless we feel it's necessary to resolve an issue related to a particular donation. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), and [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations. If we collect a physical address, we will only retain your physical address information for as long as is reasonably necessary to make the shipment that you requested.
+When you are a Visitor browsing the ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected. We collect your name and email address when you donate. We will not use your email address to contact you without your consent unless we feel it's necessary to resolve an issue related to a particular donation. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full), [Shopify](https://www.shopify.com/legal/privacy), and [SHIPHERO](https://shiphero.com/privacy-data-policy/) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations. If we collect a physical address, we will only retain your physical address information for as long as is reasonably necessary to make the shipment that you requested via Shopify and our fulfillment partner, SHIPHERO.
 
 You may have the option to provide your email address to receive a newsletter through a signup on this web site and via other marketing materials. Any such newsletter is delivered via MailChimp and your interactions with MailChimp are governed by its privacy policy. We may occasionally use your email address to send personalized communications related to ISRG and its projects. You can request to have your email address removed from our list by opting out via MailChimp or emailing us at [press@abetterinternet.org](mailto:press@abetterinternet.org)
 
