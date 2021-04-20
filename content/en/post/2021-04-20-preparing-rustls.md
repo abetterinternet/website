@@ -16,7 +16,7 @@ With financial support from Google, we’ve contracted with Dirkjan Ochtman, an 
 
 * [Enforce a no-panic policy](https://github.com/ctz/rustls/issues/447) to eliminate the potential for undefined behavior when Rustls is used across the C language boundary.
 * Improve the [C API](https://github.com/abetterinternet/crustls) so that Rustls can even more easily be integrated into existing C-based applications. Merge the C API into the main Rustls repository.
-* Add support for validating certificates that contain IP address in the subject alternate name extension.
+* Add support for validating certificates that contain an IP address in the subject alternate name extension.
 * Make it possible to configure server-side connections based on client input.
 
 These improvements should make Rustls a more attractive option for many projects. We are already integrating it into [Curl](https://www.abetterinternet.org/post/memory-safe-curl/) and [Apache httpd](https://www.abetterinternet.org/post/memory-safe-tls-apache/), and we hope to replace the use of OpenSSL and other unsafe TLS libraries in use at [Let’s Encrypt](https://letsencrypt.org/) with Rustls.
