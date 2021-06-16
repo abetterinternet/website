@@ -7,7 +7,7 @@ slug: donate
 <section class="slice slice-sm">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-12 col-md-6">
         <h2>Donate via Donorbox</h2>
         <script
           src="https://donorbox.org/widget.js"
@@ -28,13 +28,9 @@ slug: donate
           scrolling="no"
           allowpaymentrequest
         ></iframe>
-        <p>
-          Internet Security Research Group is the 501(c)(3) public benefit
-          organization behind Let's Encrypt. Our EIN is: 46-3344200.
-        </p>
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-12 col-md-6">
         <h2>Donate via PayPal</h2>
         <div id="donate-via-paypal">
           <div id="smart-button-container">
@@ -230,11 +226,12 @@ slug: donate
 
                   onApprove: function (data, actions) {
                     return actions.order.capture().then(function (details) {
-                      alert(
-                        "Transaction completed by " +
-                          details.payer.name.given_name +
-                          "!"
-                      );
+                      window.location.href = "/thank-you";
+                      // alert(
+                      //   "Transaction completed by " +
+                      //     details.payer.name.given_name +
+                      //     "!"
+                      // );
                     });
                   },
 
@@ -248,6 +245,12 @@ slug: donate
             initPayPalButton();
           </script>
         </div>
+      </div>
+      <div class="col-12">
+        <p>
+          Internet Security Research Group is the 501(c)(3) public benefit
+          organization behind Let's Encrypt. Our EIN is: 46-3344200.
+        </p>
       </div>
     </div>
   </div>
