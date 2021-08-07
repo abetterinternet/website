@@ -1,56 +1,55 @@
 // Add your custom styles below
 
-body
-{
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: normal;
-    color: black;
-    background-color: #fff;
+body {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  background-color: #fff;
 }
 
 .link {
-	@if $enable-transitions {
-		transition: all .3s ease-in-out;
-	}
+  @if $enable-transitions {
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 [data-link="1"] {
-	padding-bottom: 8px;
-	border-bottom: 3px solid $primary;
-	color: $primary;
+  padding-bottom: 8px;
+  border-bottom: 3px solid $primary;
+  color: $primary;
 
-	&:hover {
-		color: $secondary;
-	}
+  &:hover {
+    color: $secondary;
+  }
 }
 
 .link-secondary {
-	@if $enable-transitions {
-		transition: all .3s ease-in-out;
-	}
+  @if $enable-transitions {
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 [data-link-secondary="1"] {
-	padding-bottom: 8px;
-	border-bottom: 3px solid $primary;
-	color: $primary;
+  padding-bottom: 8px;
+  border-bottom: 3px solid $primary;
+  color: $primary;
 
-	&:hover {
-		color: white;
-	}
+  &:hover {
+    color: white;
+  }
 }
 
 .slice-isrg {
-    padding-top: $spacer * 6;
-    padding-bottom: $spacer * 3;
+  padding-top: $spacer * 6;
+  padding-bottom: $spacer * 3;
 }
 
 @include media-breakpoint-up(md) {
-    .pic-quote-right {
-	    float: right !important;
-        max-width: 33.33333%; 
-        flex: 0 0 33.33333%;
-        margin-left: 25px;
-    }
+  .pic-quote-right {
+    float: right !important;
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+    margin-left: 25px;
+  }
 }

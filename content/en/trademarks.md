@@ -102,15 +102,15 @@ If you’d like to use the ISRG Marks in a way that’s not covered by this poli
 
 Our standard logo and text. Outside of a few exceptions, this is the default, go-to version.
 
-<p><img src="/images/trademarks/isrg-logo-standard.png" alt="isrg standard logo" height=125></p>
-<p><a href="/images/trademarks/isrg-logo-standard.svg">SVG</a> <a href="/images/trademarks/isrg-logo-standard.png">PNG</a></p>
+<p><img src="/images/trademarks/isrg-logo-standard.png" class="logo-img mh-125" alt="isrg standard logo"></p>
+<p><a href="/images/trademarks/isrg-logo-standard.svg" download>SVG</a> <a href="/images/trademarks/isrg-logo-standard.png" download>PNG</a></p>
 
 ### ISRG Initials Only
 
 Our logo alone. Use this only when the "Internet Security Research Group" word mark is clearly visible or has been well established elsewhere on the page or in the design. (When in doubt, use a different format.)
 
-<p><img src="/images/trademarks/isrg-logo-initials.png" alt="isrg initials only logo" height=125></p>
-<p><a href="/images/trademarks/isrg-logo-initials.svg">SVG</a> <a href="/images/trademarks/isrg-logo-initials.png">PNG</a></p>
+<p><img src="/images/trademarks/isrg-logo-initials.png" alt="isrg initials only logo" class=" logo-img mh-125"></p>
+<p><a href="/images/trademarks/isrg-logo-initials.svg" download>SVG</a> <a href="/images/trademarks/isrg-logo-initials.png" download>PNG</a></p>
 
 ---
 
@@ -120,18 +120,18 @@ Our logo alone. Use this only when the "Internet Security Research Group" word m
 
 Our standard logo and text. Outside of a few exceptions, this is the default, go-to version. The full-color logo will not work well on photography and various background colors. In those instances, the one-color version should be used.
 
-<div style="margin:0 -1em; margin-bottom:1.5em;">
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-standard.png" alt="standard logo" height="125" style="display:block">
-        <a href="/images/trademarks/le-logo-standard.eps">EPS</a> <a href="/images/trademarks/le-logo-standard.svg">SVG</a> <a href="/images/trademarks/le-logo-standard.png">PNG</a>
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-standard.png" alt="standard logo" class="logo-img mh-125">
+        <a href="/images/trademarks/le-logo-standard.eps" download>EPS</a> <a href="/images/trademarks/le-logo-standard.svg" download>SVG</a> <a href="/images/trademarks/le-logo-standard.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-standard-white.png" alt="standard white logo" height="125" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-standard-white.eps">EPS</a> <a href="/images/trademarks/le-logo-standard-white.svg">SVG</a> <a href="/images/trademarks/le-logo-standard-white.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-standard-white.png" alt="standard white logo"  class="logo-with-checkerboard-bg logo-img mh-125">
+        <a href="/images/trademarks/le-logo-standard-white.eps" download>EPS</a> <a href="/images/trademarks/le-logo-standard-white.svg" download>SVG</a> <a href="/images/trademarks/le-logo-standard-white.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-standard-black.png" alt="standard black logo" height="125" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-standard-black.eps">EPS</a> <a href="/images/trademarks/le-logo-standard-black.svg">SVG</a> <a href="/images/trademarks/le-logo-standard-black.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-standard-black.png" alt="standard black logo" class="logo-with-checkerboard-bg logo-img mh-125">
+        <a href="/images/trademarks/le-logo-standard-black.eps" download>EPS</a> <a href="/images/trademarks/le-logo-standard-black.svg" download>SVG</a> <a href="/images/trademarks/le-logo-standard-black.png" download>PNG</a>
     </div>
 </div>
 
@@ -139,18 +139,18 @@ Our standard logo and text. Outside of a few exceptions, this is the default, go
 
 The wide version of our logo and text. Use this in contexts where vertical space is limited.
 
-<div style="margin:0 -1em; margin-bottom:1.5em;">
-    <div style="display:inline-block; padding:0 .5em;">
-        <img src="/images/trademarks/le-logo-wide.png" alt="wide logo" height="90" style="display:block">
-        <a href="/images/trademarks/le-logo-wide.eps">EPS</a> <a href="/images/trademarks/le-logo-wide.svg">SVG</a> <a href="/images/trademarks/le-logo-wide.png">PNG</a>
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-wide.png" alt="wide logo" class="logo-img mh-90">
+        <a href="/images/trademarks/le-logo-wide.eps" download>EPS</a> <a href="/images/trademarks/le-logo-wide.svg" download>SVG</a> <a href="/images/trademarks/le-logo-wide.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 .5em;">
-        <img src="/images/trademarks/le-logo-wide-white.png" alt="wide white logo" height="90" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-wide-white.eps">EPS</a> <a href="/images/trademarks/le-logo-wide-white.svg">SVG</a> <a href="/images/trademarks/le-logo-wide-white.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-wide-white.png" alt="wide white logo" class="logo-with-checkerboard-bg logo-img mh-90">
+        <a href="/images/trademarks/le-logo-wide-white.eps" download>EPS</a> <a href="/images/trademarks/le-logo-wide-white.svg" download>SVG</a> <a href="/images/trademarks/le-logo-wide-white.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 .5em;">
-        <img src="/images/trademarks/le-logo-wide-black.png" alt="wide black logo" height="90" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-wide-black.eps">EPS</a> <a href="/images/trademarks/le-logo-wide-black.svg">SVG</a> <a href="/images/trademarks/le-logo-wide-black.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-wide-black.png" alt="wide black logo" class="logo-with-checkerboard-bg logo-img mh-90">
+        <a href="/images/trademarks/le-logo-wide-black.eps" download>EPS</a> <a href="/images/trademarks/le-logo-wide-black.svg" download>SVG</a> <a href="/images/trademarks/le-logo-wide-black.png" download>PNG</a>
     </div>
 </div>
 
@@ -158,17 +158,143 @@ The wide version of our logo and text. Use this in contexts where vertical space
 
 Our logo alone. Use this only when the “Let’s Encrypt” word mark is clearly visible or has been well established elsewhere on the page or in the design. (When in doubt, use a different format.)
 
-<div style="margin:0 -1em; margin-bottom:1.5em;">
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-lockonly.png" alt="lock only logo" height="125" style="display:block">
-        <a href="/images/trademarks/le-logo-lockonly.eps">EPS</a> <a href="/images/trademarks/le-logo-lockonly.svg">SVG</a> <a href="/images/trademarks/le-logo-lockonly.png">PNG</a>
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-lockonly.png" alt="lock only logo" class="logo-img mh-125">
+        <a href="/images/trademarks/le-logo-lockonly.eps" download>EPS</a> <a href="/images/trademarks/le-logo-lockonly.svg" download>SVG</a> <a href="/images/trademarks/le-logo-lockonly.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-lockonly-white.png" alt="lock only white logo" height="125" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-lockonly-white.eps">EPS</a> <a href="/images/trademarks/le-logo-lockonly-white.svg">SVG</a> <a href="/images/trademarks/le-logo-lockonly-white.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-lockonly-white.png" alt="lock only white logo" class="logo-with-checkerboard-bg logo-img mh-125">
+        <a href="/images/trademarks/le-logo-lockonly-white.eps" download>EPS</a> <a href="/images/trademarks/le-logo-lockonly-white.svg" download>SVG</a> <a href="/images/trademarks/le-logo-lockonly-white.png" download>PNG</a>
     </div>
-    <div style="display:inline-block; padding:0 1em;">
-        <img src="/images/trademarks/le-logo-lockonly-black.png" alt="lock only black logo" height="125" style="background-image:url('/images/trademarks/tbg.png'); display: block;">
-        <a href="/images/trademarks/le-logo-lockonly-black.eps">EPS</a> <a href="/images/trademarks/le-logo-lockonly-black.svg">SVG</a> <a href="/images/trademarks/le-logo-lockonly-black.png">PNG</a>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/le-logo-lockonly-black.png" alt="lock only black logo" class="logo-with-checkerboard-bg logo-img mh-125">
+        <a href="/images/trademarks/le-logo-lockonly-black.eps" download>EPS</a> <a href="/images/trademarks/le-logo-lockonly-black.svg" download>SVG</a> <a href="/images/trademarks/le-logo-lockonly-black.png" download>PNG</a>
     </div>
 </div>
+
+---
+
+## Prossimo Files
+
+### Prossimo Standard
+
+Our standard logo and text. Outside of a few exceptions, this is the default, go-to version.
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal Full Color.png" alt="|" class="logo-img mh-125">
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal Full Color.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal Full Color.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal White.png" alt="|" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal White.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal Black.png" alt="|" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal Black.png" download>PNG</a>
+    </div>
+
+</div>
+
+### Prossimo Standard with Tag
+
+Description to come
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.png" alt="|" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.png" alt="|" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.png" alt="|" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.png" download>PNG</a>
+    </div>
+</div>
+
+### Prossimo Stacked
+
+Description to come
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Blue.png" alt="|" class="logo-img mh-125" />
+         <a href="/images/trademarks/prossimo/Prossimo Stacked Blue.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo Stacked Blue.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Green.png" alt="|" class="logo-img mh-125" />
+         <a href="/images/trademarks/prossimo/Prossimo Stacked Green.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo Stacked Green.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Stacked White.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+         <a href="/images/trademarks/prossimo/Prossimo Stacked White.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo Stacked White.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Black.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+         <a href="/images/trademarks/prossimo/Prossimo Stacked Black.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo Stacked Black.png" download>PNG</a>
+    </div>
+</div>
+
+### Prossimo P Only
+
+Prossimo logo alone. Use this only when the “Prossimo” word mark is clearly visible or has been well established elsewhere on the page or in the design. (When in doubt, use a different format.)
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo P Full Color.png" alt="|" class="logo-img mh-125" />
+         <a href="/images/trademarks/prossimo/Prossimo P Full Color.svg" download>SVG</a>
+        <a href="/images/trademarks/prossimo/Prossimo P Full Color.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo P White.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo P White.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/prossimo/Prossimo P Black.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo P Black.png" download>PNG</a>
+    </div>
+</div>
+
+<style>
+.logo-row {
+  margin: 0 0 1.5em;
+  display: flex;
+}
+
+.logo-row__item {
+  flex: 1;
+  padding: 0 1em 0 0;
+}
+
+.logo-row__item img {
+    max-width: 100%;
+    margin-bottom: .25em;
+}
+
+.logo-img {
+  display: block;
+}
+
+.logo-with-checkerboard-bg {
+    background-image:url('/images/trademarks/tbg.png');
+    background-position: center center;
+
+}
+
+.mh-125 {
+    max-height: 125px;
+}
+
+.mh-90 {
+    max-height: 90px;
+}
+</style>
