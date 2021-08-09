@@ -96,6 +96,16 @@ If you’d like to use the ISRG Marks in a way that’s not covered by this poli
 
 ---
 
+# Logo Files
+
+<br />
+<a class="btn btn-primary" href="#isrg-logos">ISRG Logos</a>
+<a class="btn btn-primary" href="#le-logos">Let's Encrypt Logos</a>
+<a class="btn btn-primary" href="#prossimo-logos">Prossimo Logos</a>
+<br /><br />
+
+<a name="isrg-logos"></a>
+
 ## ISRG Files
 
 ### ISRG Standard
@@ -113,6 +123,8 @@ Our logo alone. Use this only when the "Internet Security Research Group" word m
 <p><a href="/images/trademarks/isrg-logo-initials.svg" download>SVG</a> <a href="/images/trademarks/isrg-logo-initials.png" download>PNG</a></p>
 
 ---
+
+<a name="le-logos"></a>
 
 ## Let's Encrypt Files
 
@@ -175,6 +187,8 @@ Our logo alone. Use this only when the “Let’s Encrypt” word mark is clearl
 
 ---
 
+<a name="prossimo-logos"></a>
+
 ## Prossimo Files
 
 ### Prossimo Standard
@@ -183,16 +197,18 @@ Our standard logo and text. Outside of a few exceptions, this is the default, go
 
 <div class="logo-row">
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Horizontal Full Color.png" alt="|" class="logo-img mh-125">
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal Full Color.png" alt="Prossimo Standard Full Color logo" class="logo-img mh-125">
         <a href="/images/trademarks/prossimo/Prossimo Horizontal Full Color.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Horizontal Full Color.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Horizontal White.png" alt="|" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal White.png" alt="Prossimo Standard white logo" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal White.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Horizontal White.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Horizontal Black.png" alt="|" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Horizontal Black.png" alt="Prossimo Standard black logo" class="logo-with-checkerboard-bg logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Horizontal Black.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Horizontal Black.png" download>PNG</a>
     </div>
 
@@ -200,45 +216,48 @@ Our standard logo and text. Outside of a few exceptions, this is the default, go
 
 ### Prossimo Standard with Tag
 
-Description to come
+A version of our logo that includes a descriptive tag. Use this in contexts where it may be helpful to establish Prossimo's mission
 
 <div class="logo-row">
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.png" alt="Prossimo Tagged Full Color logo" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Tagged Horizontal Full Color.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.png" alt="Prossimo Tagged Stacked Full Color logo" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Full Color.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.png" alt="Prossimo Tagged Stacked Blue logo" class="logo-img mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Tagged Stacked Blue.png" download>PNG</a>
     </div>
 </div>
 
 ### Prossimo Stacked
 
-Description to come
+A vertical version of our logo. Use this when horizontal space is limited. The full-color logo will not work well on photography and various background colors. In those instances, the one-color version should be used.
 
 <div class="logo-row">
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Stacked Blue.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Blue.png" alt="Prossimo Stacked Blue logo" class="logo-img mh-125" />
          <a href="/images/trademarks/prossimo/Prossimo Stacked Blue.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Stacked Blue.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Stacked Green.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Green.png" alt="Prossimo Stacked Green logo" class="logo-img mh-125" />
          <a href="/images/trademarks/prossimo/Prossimo Stacked Green.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Stacked Green.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Stacked White.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Stacked White.png" alt="Prossimo Stacked White logo" class="logo-img logo-with-checkerboard-bg mh-125" />
          <a href="/images/trademarks/prossimo/Prossimo Stacked White.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Stacked White.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo Stacked Black.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo Stacked Black.png" alt="Prossimo Stacked Black logo" class="logo-img logo-with-checkerboard-bg mh-125" />
          <a href="/images/trademarks/prossimo/Prossimo Stacked Black.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo Stacked Black.png" download>PNG</a>
     </div>
@@ -250,16 +269,18 @@ Prossimo logo alone. Use this only when the “Prossimo” word mark is clearly 
 
 <div class="logo-row">
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo P Full Color.png" alt="|" class="logo-img mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo P Full Color.png" alt="Prossimo P Full Color logo" class="logo-img mh-125" />
          <a href="/images/trademarks/prossimo/Prossimo P Full Color.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo P Full Color.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo P White.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo P White.png" alt="Prossimo P white logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo P White.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo P White.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/prossimo/Prossimo P Black.png" alt="|" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/prossimo/Prossimo P Black.png" alt="Prossimo P black logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/prossimo/Prossimo P Black.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo P Black.png" download>PNG</a>
     </div>
 </div>
