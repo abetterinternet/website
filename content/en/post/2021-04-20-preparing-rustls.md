@@ -15,7 +15,7 @@ Rustls is an excellent alternative to OpenSSL and similar libraries. Much of its
 With financial support from Google, we’ve contracted with Dirkjan Ochtman, an experienced Rust developer and Rustls contributor, to make a number of additional improvements to Rustls, including:
 
 * [Enforce a no-panic policy](https://github.com/ctz/rustls/issues/447) to eliminate the potential for undefined behavior when Rustls is used across the C language boundary.
-* Improve the [C API](https://github.com/abetterinternet/crustls) so that Rustls can even more easily be integrated into existing C-based applications. Merge the C API into the main Rustls repository.
+* Improve the [C API](https://github.com/rustls/rustls-ffi) so that Rustls can even more easily be integrated into existing C-based applications. Merge the C API into the main Rustls repository.
 * Add support for validating certificates that contain an IP address in the subject alternate name extension.
 * Make it possible to configure server-side connections based on client input.
 
