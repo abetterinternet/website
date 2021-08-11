@@ -2,6 +2,7 @@
 title: Trademark Policy
 slug: trademarks
 subtitle: Updated August 2, 2021
+do_not_translate: 1
 ---
 
 Welcome to the Trademark Policy for Internet Security Research Group (“ISRG”) and its projects, Let’s Encrypt and Prossimo! This policy describes the conditions under which you may use our trademarks (collectively, the “ISRG Marks”). This policy applies to all uses permitted herein. In addition, this policy supplements and is in addition to the terms of any other permission we may have granted you regarding use of our trademarks.
