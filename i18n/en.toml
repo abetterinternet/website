@@ -24,6 +24,9 @@ other = "Subscribe <a href=\"{{ .Permalink }}\">via RSS</a>"
 [footer_support_us]
 other = "Support a more secure and privacy-respecting Web."
 
+[footer_mailing]
+other = "Send all mail or inquiries to:"
+
 [last_updated]
 other = "Last updated:"
 
