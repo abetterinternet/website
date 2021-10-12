@@ -7,6 +7,15 @@
                     <a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br>
                     {{ .Site.Params.copyrighthtml | safeHTML}}<br>
                     {{ .Site.Params.address}}<br>
+                    <p> {{ i18n "footer_mailing" }}
+                        <span itemscope itemtype="http://schema.org/PostalAddress">
+                          <span itemprop="streetAddress">PO Box 18666</span>,
+                          <span itemprop="addressLocality">Minneapolis</span>,
+                          <span itemprop="addressRegion">MN</span>
+                          <span itemprop="postalCode">55418-0666</span>,
+                          <span itemprop="addressCountry">USA</span>
+                        </span>
+                      </p>
                     </span>
                 </div>
             </div>
