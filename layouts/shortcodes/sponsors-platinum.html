@@ -1,0 +1,5 @@
+<div class="sponsor-group sponsor-group-3">
+{{ range $index, $element := $.Site.Data.sponsors.platinum }}
+      <a class="sponsor-item" href="{{ .url }}" {{ if .id }}id="{{ .id }}"{{ end }} {{ if .nofollow }}rel="nofollow"{{ end }}{{ if .sponsored }}rel="sponsored"{{ end }}><img class="logo-img" src="/images/sponsors/{{ .image }}" alt="{{ .name }}"></a>
+{{ end }}
+</div>
