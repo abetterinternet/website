@@ -1,117 +1,108 @@
 <!DOCTYPE html>
 <html>
-{{ partial "head.html" . }}
-    {{ partial "header.html" . }}
-        <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom" style="background-image: url(/images/Looking-At-Cellphone.jpg);">
-            <span class="mask bg-gradient-secondary opacity-8"></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="pt-lg-md pb-lg-md">
-                            <h2 class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h2>
-                            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. Read our <a href="/documents/2020-ISRG-Annual-Report.pdf">Annual Report</a>.</p>
-                            <div class="mt-5">
-                                <a href="/about/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Learn about ISRG</a>
-                                <a href="/sponsor/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Become a sponsor</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  {{ partial "head.html" . }} {{ partial "header.html" . }}
+  <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom" style="background-image: url(/images/Looking-At-Cellphone.jpg)">
+    <span class="mask bg-gradient-secondary opacity-8"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="pt-lg-md pb-lg-md">
+            <h2 class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h2>
+            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. Read our <a href="/annual-reports">Annual Report</a>.</p>
+            <div class="mt-5">
+              <a href="/about/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Learn about ISRG</a>
+              <a href="/sponsor/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Become a sponsor</a>
             </div>
-        </section>
-        <section class="slice">
-            <div class="container">
-                {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }}
-                {{ range $posts }}
-                <div class="row row-grid">
-                    <div class="col-md-12 col-lg-12">
-                        <h2 class="heading h2">{{ .Title }}</h2>
-                        <p>
-                        {{ with .Params.excerpt }}
-                        {{ . | markdownify }}
-                        {{ else }}
-                        {{ .Summary }}
-                        {{ end }}
-                        </p>
-                        <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
-                    </div>
-                </div>
-                {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slice">
+    <div class="container">
+      {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
+      <div class="row row-grid">
+        <div class="col-md-12 col-lg-12">
+          <h2 class="heading h2">{{ .Title }}</h2>
+          <p>{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
+          <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  <section class="slice delimiter-top">
+    <div class="container">
+      <div class="row row-grid align-items-center">
+        <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
+          <img src="/images/LE-Logo-Standard.svg" style="width: 60%" class="img-center img-fluid" />
+        </div>
+        <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
+          <div class="pr-md-4">
+            <h2 class="heading h2">Our First Project</h2>
+            <p class="lead text-gray my-4">Let's Encrypt is a free, automated, and open Certificate Authority. More than 200 million websites around the world use Let's Encrypt to protect their users.</p>
+            <a href="https://letsencrypt.org/" target="_blank" class="link font-weight-bold" data-link="1">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slice delimiter-top">
+    <div class="container">
+      <div class="row row-grid align-items-center">
+        <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
+          <img src="/images/ISRG-RadiantAward.png" style="width: 60%" class="img-center img-fluid" />
+        </div>
+        <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
+          <div class="pr-md-4">
+            <h2 class="heading h2">The Radiant Award</h2>
+            <p class="lead text-gray my-4">ISRG's Radiant Award is intended to recognize and support individuals making great contributions to security and privacy on the Internet.</p>
+            <a href="/radiantaward/" class="link font-weight-bold" data-link="1">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slice delimiter-top">
+    <div class="container">
+      <div class="blurable--hover">
+        <a href="/sponsors/">
+          <div class="row blurable-item">
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
+              </div>
             </div>
-        </section>
-        <section class="slice delimiter-top">
-            <div class="container">
-                <div class="row row-grid align-items-center">
-                    <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
-                        <img src="/images/LE-Logo-Standard.svg" style="width: 60%;" class="img-center img-fluid">
-                    </div>
-                    <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
-                        <div class="pr-md-4">
-                            <h2 class="heading h2">Our First Project</h2>
-                            <p class="lead text-gray my-4">Let's Encrypt is a free, automated, and open Certificate
-                            Authority. More than 200 million websites around the world use Let's Encrypt to protect their users.</p>
-                            <a href="https://letsencrypt.org/" target="_blank" class="link font-weight-bold" data-link="1">Find out more</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/cisco-logo.png" class="img-fluid img-grayscale" />
+              </div>
             </div>
-        </section>
-        <section class="slice delimiter-top">
-            <div class="container">
-                <div class="row row-grid align-items-center">
-                    <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
-                        <img src="/images/ISRG-RadiantAward.png" style="width: 60%;" class="img-center img-fluid">
-                    </div>
-                    <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
-                        <div class="pr-md-4">
-                            <h2 class="heading h2">The Radiant Award</h2>
-                            <p class="lead text-gray my-4">ISRG's Radiant Award is intended to recognize and support individuals making great contributions to security and privacy on the Internet.</p>
-                            <a href="/radiantaward/" class="link font-weight-bold" data-link="1">Find out more</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
+              </div>
             </div>
-        </section>
-        <section class="slice delimiter-top">
-            <div class="container"> 
-                <div class="blurable--hover">
-                    <a href="/sponsors/">
-                        <div class="row blurable-item">
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/cisco-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/facebook-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
-                                <div class="px-4 py-4">
-                                    <img src="/images/sponsors/chrome-logo.png" class="img-fluid img-grayscale">
-                                </div>
-                            </div>
-                        </div>
-                        <span class="blurable-hidden btn btn-sm btn-primary btn-circle">See all sponsors</span>
-                    </a>
-                </div>
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/facebook-logo.png" class="img-fluid img-grayscale" />
+              </div>
             </div>
-        </section>
-    {{ partial "footer.html" . }}
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/chrome-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+          </div>
+          <span class="blurable-hidden btn btn-sm btn-primary btn-circle">See all sponsors</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
 </html>
