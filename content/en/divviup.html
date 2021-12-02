@@ -1,0 +1,75 @@
+---
+title: Divvi Up
+subtitle: Privacy-respecting application metrics.
+slug: divviup
+aliases:
+  - /prio
+---
+
+<section class="slice slice-sm">
+  <div class="container">
+    <p>Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics.</p>
+    <div style="text-align: center">
+      <img class="img-fluid" style="max-height: 200px; padding: 40px 0px" src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" alt="Divvi Up Logo" />
+    </div>
+    <p>
+      Applications such as web browsers, mobile applications, or websites generate data. Normally they would just send all of the data back to the application developer, but applications using Divvi Up will split the data into two anonymized and encrypted shares and upload each share to different data share processors that do not share data with each other. This way only minimal information about the original data is revealed to either processor. Each processor then aggregates its data shares
+      into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. This system is based on the <a href="https://crypto.stanford.edu/prio/" target="_blank">Prio</a> and <a href="https://eprint.iacr.org/2021/017.pdf" target="_blank">Heavy Hitters</a> protocols developed at Stanford by Henry Corrigan-Gibbs and Dan Boneh.
+    </p>
+  </div>
+</section>
+
+<section class="slice slice-sm">
+  <div class="container">
+    <h2>How it works</h2>
+    <h3>A simple scheme. Complex math.</h3>
+    <p>Divvi Up takes a user-generated metric, from a mobile device, web browser, or other application, and divides the metric into two encrypted shares as it leaves the origin. One half of that metric is sent to a Divvi Up server, the other to a third-party server. When an application owner queries an aggregate statistic of its users, Divvi Up combines the divided metrics from all users and recombines them into a privacy-preserving aggregate.</p>
+
+    <picture>
+      <source media="(min-width: 768px)" srcset="/images/divviup/Divvi-Up-How-It-Works-Teal.jpg" />
+      <img style="margin: 20px 0 40px" class="img-fluid" src="/images/divviup/Divvi-Up-How-It-Works-Teal-Mobile.jpg" alt="How It Works - Divvi Up" />
+    </picture>
+
+    <p>ISRG can operate data share processors for your organization through our Divvi Up project. The software we use is <a href="https://github.com/abetterinternet/prio-server" target="_blank">open source</a> and we have extensive experience running public benefit infrastructure. Our organization also operates the <a href="https://letsencrypt.org/">Let's Encrypt</a> certificate authority.</p>
+    <p>Because the privacy-respecting architecture of this system depends on splitting user metrics up into two shares, you will need a second data share processor server. The second data share processor can be operated by your organization or another provider.</p>
+  </div>
+</section>
+
+<section class="slice slice-sm">
+  <div class="container">
+    <h2>Enrollment</h2>
+    <p>If you would like to use Divvi Up, please email <a href="mailto:divviup@abetterinternet.org">divviup@abetterinternet.org</a>.</p>
+    <p>You will need to agree to the Subscriber Agreement for this service, which you can find below.</p>
+  </div>
+</section>
+
+<section class="slice slice-sm">
+  <div class="container">
+    <h2>Policy</h2>
+    <ul>
+      <li>
+        <a href="/documents/2020.11.13-ISRG-Prio-Services-Subscriber-Agreement.pdf">Subscriber Agreement</a> (November 13, 2020)
+        <ul>
+          <li><a href="/documents/2020.11.01-ISRG-Prio-Services-US-Federal-Govt-Terms.pdf">Amendment for U.S. Government Agencies</a> (November 1, 2020)</li>
+          <li><a href="/documents/2020.11.01-ISRG-Prio-Services-US-State-and-Local-Govt-Terms.pdf">Amendment for U.S. State and Local Governments</a> (November 1, 2020)</li>
+        </ul>
+      </li>
+      <li>
+        <a href="/privacy-policy/">ISRG Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="slice slice-sm">
+  <div class="container">
+    <h2>Open Source</h2>
+    <p>Most of the code we use to operate Divvi Up is open source.</p>
+    <ul>
+      <li>
+        <a href="https://github.com/abetterinternet/libprio-rs">Prio Computational Library</a>
+        <a href="https://github.com/abetterinternet/prio-server">Prio Facilitator Server</a>
+      </li>
+    </ul>
+  </div>
+</section>
