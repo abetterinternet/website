@@ -18,7 +18,9 @@ We’ve received funding from Google and Facebook to develop our work. Thank you
 
 Last, the name of our service is changing!
 
-![Divvi Up Logo](/images/divviup/Divvi-Up-Large-Full-Color-Logo.png)
+<div style="text-align: center">
+    <img class="img-fluid" alt="Divvi Up Logo" style="max-height: 200px; padding: 40px 0px" src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" />
+</div>
 
 We’ve re-named our project to [Divvi Up](/divviup/) in order to differentiate our service from the protocol itself. The name Divvi Up derives from a core concept of this work where data must be divided into shares.
 
