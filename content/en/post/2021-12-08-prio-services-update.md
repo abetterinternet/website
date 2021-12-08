@@ -2,8 +2,8 @@
 author: Josh Aas
 date: 2021-12-08T00:00:00Z
 slug: prio-services-update
-title: "Project Update and New Name for ISRG Prio Services: Introducing Divvi Up!"
-excerpt: "ISRG is developing a privacy-preserving metrics protocol and service."
+title: "Project Update and New Name for ISRG Prio Services: Introducing Divvi Up"
+excerpt: "ISRG is developing a privacy-preserving metrics protocol and service based on Prio and Heavy-Hitters. The project is called Divvi Up."
 ---
 
 In the summer of 2020, we began building a service based on [Prio](https://crypto.stanford.edu/prio/paper.pdf) - a cryptographic technique that enables privacy-preserving aggregation of metrics. We built it with focused engineering in the typical ISRG way and had it running in production by the end of the year. The urgency was derived from our intended use: to [provide metrics](/post/prio-services-for-covid-en/) to the Public Health Authorities on the effectiveness of exposure notification apps used to slow the spread of Covid-19. We’ve processed over 12 billion metrics since launch.
