@@ -234,7 +234,7 @@
   display: flex;
 
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -244,6 +244,7 @@
   flex-basis: 33%;
   width: 33%;
   padding: 20px 0px;
+  flex-grow: 0;
 }
 
 .sponsor-group-3 .sponsor-item:nth-child(3n + 1) {
