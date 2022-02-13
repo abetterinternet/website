@@ -438,3 +438,15 @@
 .key-value-table td {
   vertical-align: top;
 }
+
+@media screen and (max-width: 991.9px) {
+  .homepage-logos-column {
+    display: none;
+  }
+}
+
+.homepage-logos-column img {
+  display: block;
+  max-width: 180px;
+  margin: 0 auto 40px;
+}
