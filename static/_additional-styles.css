@@ -460,3 +460,21 @@
   letter-spacing: 0.15px;
   margin-bottom: 30px;
 }
+
+#isrg-projects-column .slice:first-child {
+  /* padding-top: 0; */
+}
+
+.isrg-project-column-single {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767.9px) {
+  .isrg-project-column-single {
+    margin-bottom: 80px;
+  }
+}
+
+.isrg-project-column-single img {
+  max-width: 80%;
+}
