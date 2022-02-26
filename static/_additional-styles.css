@@ -479,7 +479,7 @@
   max-width: 80%;
 }
 
-@media screen and (max-width: 991.9px) {
+@media screen and (min-width: 575.7px) and (max-width: 991.9px) {
   a.navbar-brand {
     padding-left: 15px; /* Fix logo alignment */
   }
