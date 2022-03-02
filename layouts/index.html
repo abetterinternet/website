@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
   {{ partial "head.html" . }} {{ partial "header.html" . }}
-  <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom" style="background-image: url(/images/Looking-At-Cellphone.jpg)">
+  <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom">
     <span class="mask bg-gradient-secondary opacity-8"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="pt-lg-md pb-lg-md">
-            <h2 class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h2>
+            <h1 id="page-title" class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h1>
             <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. Read our <a href="/annual-reports">Annual Report</a>.</p>
             <div class="mt-5">
               <a href="/about/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Learn about ISRG</a>
               <a href="/sponsor/" class="btn btn-primary btn-circle btn-translate--hover mr-4 mt-2">Become a sponsor</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 homepage-logos-column">
+          <div class="pt-lg-md pb-lg-md">
+            <div>
+              <a href="https://letsencrypt.org"><img src="/images/LE-Logo-Standard.svg" /></a>
+            </div>
+            <div>
+              <a href="https://memorysafety.org"><img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" /></a>
+            </div>
+            <div>
+              <a href="/divviup"><img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" /></a>
             </div>
           </div>
         </div>
@@ -20,6 +33,7 @@
   </section>
   <section class="slice">
     <div class="container">
+      <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
       <div class="row row-grid">
         <div class="col-md-12 col-lg-12">
@@ -31,39 +45,14 @@
       {{ end }}
     </div>
   </section>
+
+  {{ partial "isrg/isrg-projects-column.html" }}
+
   <section class="slice delimiter-top">
     <div class="container">
-      <div class="row row-grid align-items-center">
-        <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
-          <img src="/images/LE-Logo-Standard.svg" style="width: 60%" class="img-center img-fluid" />
-        </div>
-        <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
-          <div class="pr-md-4">
-            <h2 class="heading h2">Our First Project</h2>
-            <p class="lead text-gray my-4">Let's Encrypt is a free, automated, and open Certificate Authority. More than 200 million websites around the world use Let's Encrypt to protect their users.</p>
-            <a href="https://letsencrypt.org/" target="_blank" class="link font-weight-bold" data-link="1">Find out more</a>
-          </div>
-        </div>
-      </div>
+      <h2 class="eyebrow-text"><a href="/sponsors">Our Sponsors</a></h2>
     </div>
-  </section>
-  <section class="slice delimiter-top">
-    <div class="container">
-      <div class="row row-grid align-items-center">
-        <div class="col-md-6 col-lg-6 order-lg-2 order-md-2 ml-lg-auto">
-          <img src="/images/ISRG-RadiantAward.png" style="width: 60%" class="img-center img-fluid" />
-        </div>
-        <div class="col-md-6 col-lg-6 order-lg-1 order-md-1">
-          <div class="pr-md-4">
-            <h2 class="heading h2">The Radiant Award</h2>
-            <p class="lead text-gray my-4">ISRG's Radiant Award is intended to recognize and support individuals making great contributions to security and privacy on the Internet.</p>
-            <a href="/radiantaward/" class="link font-weight-bold" data-link="1">Find out more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="slice delimiter-top">
+
     <div class="container">
       <div class="blurable--hover">
         <a href="/sponsors/">
