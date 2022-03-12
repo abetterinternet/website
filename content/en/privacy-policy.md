@@ -41,25 +41,25 @@ In addition, we reserve the right, solely at our discretion, to independently ob
 
 We process personal data as described in this policy. The purpose and lawful basis for information processing is as follows:
 
-Purpose: Providing ISRG Services
+**Purpose:** Providing ISRG Services
 
 Lawful Basis: Contract, Legitimate Interests
 
 Additional Information: We collect and process information from service subscribers in order to provide reliable and secure services, and to demonstrate to the public that our services perform as expected.
 
-Purpose: Providing Information to Visitors
+**Purpose:** Providing Information to Visitors
 
 Lawful Basis: Consent, Legitimate Interests
 
 Additional Information: We collect and process information from Visitors in order to provide information via the Web and email in a reliable and efficient manner.
 
-Purpose: Processing Donations and Sponsorship Inquiries
+**Purpose:** Processing Donations and Sponsorship Inquiries
 
 Lawful Basis: Legitimate Interests
 
 Additional Information: We collect and process information in order to process and support donations.
 
-Purpose: Legal Obligations and Extenuating Circumstances
+**Purpose:** Legal Obligations and Extenuating Circumstances
 
 Lawful Basis: Legal Obligation, Legitimate Interests
 
