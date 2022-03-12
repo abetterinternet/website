@@ -43,27 +43,27 @@ We process personal data as described in this policy. The purpose and lawful bas
 
 **Purpose:** Providing ISRG Services
 
-Lawful Basis: Contract, Legitimate Interests
+**Lawful Basis:** Contract, Legitimate Interests
 
-Additional Information: We collect and process information from service subscribers in order to provide reliable and secure services, and to demonstrate to the public that our services perform as expected.
+**Additional Information:** We collect and process information from service subscribers in order to provide reliable and secure services, and to demonstrate to the public that our services perform as expected.
 
 **Purpose:** Providing Information to Visitors
 
-Lawful Basis: Consent, Legitimate Interests
+**Lawful Basis:** Consent, Legitimate Interests
 
-Additional Information: We collect and process information from Visitors in order to provide information via the Web and email in a reliable and efficient manner.
+**Additional Information:** We collect and process information from Visitors in order to provide information via the Web and email in a reliable and efficient manner.
 
 **Purpose:** Processing Donations and Sponsorship Inquiries
 
-Lawful Basis: Legitimate Interests
+**Lawful Basis:** Legitimate Interests
 
-Additional Information: We collect and process information in order to process and support donations.
+**Additional Information:** We collect and process information in order to process and support donations.
 
 **Purpose:** Legal Obligations and Extenuating Circumstances
 
-Lawful Basis: Legal Obligation, Legitimate Interests
+**Lawful Basis:** Legal Obligation, Legitimate Interests
 
-Additional Information: We may collect and process information in order to comply with legal obligations and when we have a good faith belief it is necessary to prevent loss of life, personal injury, damage to property, or significant financial harm.
+**Additional Information:** We may collect and process information in order to comply with legal obligations and when we have a good faith belief it is necessary to prevent loss of life, personal injury, damage to property, or significant financial harm.
 
 Please note that we may be unable to delete information, including IP addresses, as this information is necessary for others to rely on in determining the trustworthiness of our certificates. In some cases, we may process personal data pursuant to legal obligation or to protect your vital interests or those of another person.
 
