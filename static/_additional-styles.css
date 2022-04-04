@@ -488,3 +488,20 @@
 #page-title {
   transform: translateX(-3px); /* Fix slightly offset left edge of font using in the "I" glyph */
 }
+
+.display-6 {
+  font-size: 36px;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.bg-primary a {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+.bg-primary a:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
