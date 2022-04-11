@@ -1,0 +1,7 @@
+<section class="row">
+    {{ range $index, $element :=  $.Site.Data.levchin.people }}
+        <div class="col-lg-3 col-6">
+            {{ . }}
+        </div>
+    {{ end }}
+</section>

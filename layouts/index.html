@@ -8,11 +8,10 @@
         <div class="col-lg-7">
           <div class="pt-lg-md pb-lg-md">
             <h1 id="page-title" class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h1>
-            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. <a href="/levchin-prize">ISRG has been awarded the Levchin Prize - learn more about those who support us</a>.</p>
+            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. Let’s Encrypt has been awarded the Levchin Prize for Real-World Cryptography. We’re honored! <a href="/levchin-prize">Learn more about how we got here</a>.</p>
             <div class="mt-5">
               <a href="/about/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Learn about ISRG</a>
               <a href="/sponsor/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Become a sponsor</a>
-              <a href="/annual-reports/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-4 mt-2">Annual Report</a>
             </div>
           </div>
         </div>
@@ -33,6 +32,9 @@
     </div>
   </section>
   <section class="slice">
+    {{ range $.Site.Data.levchin.people }}
+    <li>{{ . }}</li>
+    {{ end }}
     <div class="container">
       <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
