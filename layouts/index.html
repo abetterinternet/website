@@ -32,9 +32,6 @@
     </div>
   </section>
   <section class="slice">
-    {{ range $.Site.Data.levchin.people }}
-    <li>{{ . }}</li>
-    {{ end }}
     <div class="container">
       <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
