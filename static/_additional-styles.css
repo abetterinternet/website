@@ -492,6 +492,9 @@
 .display-6 {
   font-size: 36px;
 }
+.display-7 {
+  font-size: 24px;
+}
 
 .fw-light {
   font-weight: 300;
@@ -549,4 +552,16 @@
   .swiper-rtl .swiper-button-prev {
     right: 0 !important;
   }
+
+  #page-title {
+    font-size: 2.5rem !important;
+  }
+
+  #page-title + h5 {
+    margin-bottom: 0 !important;
+  }
+}
+
+.swiper {
+  --swiper-navigation-size: 30px;
 }
