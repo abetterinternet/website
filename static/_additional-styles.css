@@ -505,3 +505,48 @@
 .bg-primary a:hover {
   text-decoration-color: rgba(255, 255, 255, 1);
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+  opacity: 0.9;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  padding-left: calc(calc(var(--swiper-navigation-size) / 44 * 27) + 10px);
+  padding-right: calc(calc(var(--swiper-navigation-size) / 44 * 27) + 10px);
+  display: flex;
+  height: 100% !important;
+}
+
+.swiper {
+  padding-bottom: 20px !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 0 !important;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 0 !important;
+  }
+}

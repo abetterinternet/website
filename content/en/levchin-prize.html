@@ -34,8 +34,25 @@ slug: levchin-prize
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto">
-        <p class="lead-high">&ldquo;Pull quote lorem ipsum dolor sit amet quote lorem ipsum dolor sit amet quote lorem ipsum dolor sit amet quote lorem ipsum dolor sit amet quote lorem ipsum dolor sit amet.&rdquo;</p>
-        <p class="text-white lead-high mt-4"><strong>Fname Lname, Company</strong></p>
+        <div id="levchinQuoteSwiper" class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <p class="lead-high">&ldquo;Let’s Encrypt has played a huge role in creating a more secure and privacy-respecting Web. The small-but-mighty team has shown that big, meaningful change is possible with focus, efficiency, and a global community of people working together. Winning the Levchin Prize is a well-earned testament to Let's Encrypt's hard work, commitment, and values.&rdquo;</p>
+                <p class="text-white lead-high mt-4"><strong>Jennifer Granick, ACLU</strong></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="lead-high">&ldquo;We are thrilled to award the Levchin prize to Let's Encrypt. Thanks to Let's Encrypt, nearly every person browsing the Web experiences the benefits of cryptography.&rdquo;</p>
+                <p class="text-white lead-high mt-4"><strong>Dan Boneh, Stanford University</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -67,3 +84,17 @@ slug: levchin-prize
     </div>
   </div>
 </section>
+
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper("#levchinQuoteSwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
