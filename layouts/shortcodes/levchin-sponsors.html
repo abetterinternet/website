@@ -1,0 +1,39 @@
+{{ $numberOfSponsors := $.Site.Data.levchin.sponsors | len }}
+{{ $sponsorsPerColumn := div $numberOfSponsors 4 }}
+{{ $endOfColumn2 := mul $sponsorsPerColumn 2 }}
+{{ $endOfColumn3 := mul $sponsorsPerColumn 3 }}
+
+<section class="row">
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.sponsors }}
+            {{ if le $index $sponsorsPerColumn}}
+                <div>{{ . }}</div>
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.sponsors }}
+            {{ if gt $index $sponsorsPerColumn}}
+                {{ if le $index $endOfColumn2}}
+                    <div>{{ . }}</div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.sponsors }}
+            {{ if gt $index $endOfColumn2}}
+                {{ if le $index $endOfColumn3}}
+                    <div>{{ . }}</div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.sponsors }}
+            {{ if gt $index $endOfColumn3}}
+                <div>{{ . }}</div>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>

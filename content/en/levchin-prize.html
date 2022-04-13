@@ -1,0 +1,102 @@
+---
+title: Let’s Encrypt awarded the Levchin Prize
+subtitle: Together we’ve built a better Internet
+slug: levchin-prize
+---
+
+<div class="container">
+  <section class="slice row">
+    <div class="col-lg-12">
+      <img alt="Let's Encrypt has won the Levchin Prize" src="/images/blog/Levchin-Prize-x-Lets-Encrypt-cropped.jpg" class="img-fluid mt-2 mb-2" />
+    </div>
+  </section>
+  <section class="slice row">
+    <div class="col-lg-12">
+      <div class="card border-0 pic-quote-right">
+        <img alt="Levchin Prize Trophy" class="rounded z-depth-3 img-fluid mb-4" src="/images/blog/Levchin-Prize.jpg" />
+      </div>
+      <div>
+        <p>
+          On April 13th, <a href="/post/receiving-the-levchin-prize/">Let’s Encrypt was awarded the prestigious Levchin Prize</a> for contributions to real-world cryptography. The <a href="https://rwc.iacr.org/LevchinPrize/" target="_levchin" rel="noopener noreferrer">Levchin Prize</a> is recognition that ISRG’s focused and efficient approach means that practically every person browsing the Web experiences the benefits of cryptography. But technical innovation is just one key to our success.
+        </p>
+
+        <p>Our impact over the last ten years has been propelled by people continually contributing their time, energy, and financial resources. We’d like to particularly highlight the following longtime supporters for helping make our work possible.</p>
+
+        <p>There’s a lot more work to do to make the Internet more secure and privacy-respecting. If you or your company have an interest in continuing to build a better Internet for everyone, everywhere, please consider making a donation or becoming a sponsor.</p>
+      </div>
+      <div class="mt-4">
+        <a class="btn btn-circle btn-primary mb-2 mr-2" href="/donate">Donate Now</a>
+        <a class="btn btn-circle btn-primary mb-2" href="/sponsor">Become a Sponsor</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="py-5 bg-primary text-center text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div id="levchinQuoteSwiper" class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <p class="lead-high">&ldquo;Let’s Encrypt has played a huge role in creating a more secure and privacy-respecting Web. The small-but-mighty team has shown that big, meaningful change is possible with focus, efficiency, and a global community of people working together. Winning the Levchin Prize is a well-earned testament to Let's Encrypt's hard work, commitment, and values.&rdquo;</p>
+                <p class="text-white lead-high mt-4"><strong>Jennifer Granick, ACLU</strong></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <p class="lead-high">&ldquo;We are thrilled to award the Levchin prize to Let's Encrypt. Thanks to Let's Encrypt, nearly every person browsing the Web experiences the benefits of cryptography.&rdquo;</p>
+                <p class="text-white lead-high mt-4"><strong>Dan Boneh, Stanford University</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slice container">
+  <section class="row">
+    <div class="col-lg-12 mb-4">
+      <p>Thanks to these individuals for their longtime support of our efforts.</p>
+    </div>
+  </section>
+  {{< levchin-people >}}
+</section>
+<section class="slice container">
+  <section class="row">
+    <div class="col-lg-12 mb-4">
+      <p>And our thanks to these sponsors for their continued support.</p>
+    </div>
+  </section>
+  {{< levchin-sponsors >}}
+</section>
+
+<section class="py-5 bg-primary text-left text-white mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <p class="display-7 fw-light">Internet Security Research Group (ISRG) is a nonprofit organization founded in 2013 to serve as a home for public-benefit digital infrastructure projects. ISRG projects include <a href="https://divviup.org">Divvi Up: privacy-preserving metrics</a>, <a href="https://letsencrypt.org">Let’s Encrypt</a>, and <a href="https://memorysafety.org">Prossimo for Memory Safety</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper("#levchinQuoteSwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
