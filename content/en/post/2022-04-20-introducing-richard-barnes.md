@@ -6,6 +6,17 @@ title: "A Profile of Richard Barnes, ISRG Director"
 excerpt: "As a longstanding member of ISRG’s Board of Directors, Richard Barnes shares his thoughts on our organization’s growth and change."
 ---
 
+<div class="card border-0 pic-quote-right headshot-card">
+  <img alt="Sarah Heil" class="rounded z-depth-3 img-fluid mb-2" src="/images/blog/Richard-Barnes.jpg" />
+  <blockquote class="blockquote">
+    <span class="quote"></span>
+    <div class="quote-text">
+      <p class="font-italic lh-170">The idea that you can put sensitive data into a system and be able to get an accurate summary of that data without people having access to the specifics is very useful.</p>
+      <footer class="blockquote-footer"><cite title="Source Title">Richard Barnes</cite></footer>
+    </div>
+  </blockquote>
+</div>
+
 Richard Barnes has been a Director on ISRG's board since 2017 and has been involved with our work for much longer. In fact, Richard wrote the original version of the [boulder](https://github.com/letsencrypt/boulder) codebase that runs Let's Encrypt. Josh Aas and Eric Rescorla, two of the the founders of Let's Encrypt, approached him at an IETF meeting to discuss how to develop the Certificate Authority (CA) codebase. They'd all heard good things about Go, a relatively new language, so Richard did some tutorials and wrote the first version of boulder on the long flight home from the IETF meeting. A few lines of that original code are still in production today!
 
 Richard also played an important role in driving the [standardization](https://datatracker.ietf.org/doc/html/rfc8555) process for the Automated Certificate Management Environment (ACME) protocol that underpins our certificate issuance. "I saw the opportunity for this to be a standard that could be useful across the ecosystem. We wanted Let's Encrypt to be a beacon for operational best practices for all of the Web PKI," said Richard. He helped the ACME protocol to become [an IETF RFC](https://www.rfc-editor.org/rfc/rfc8555.txt), ensuring a process of open discussion and collaboration. Since the standardization process, ACME has been adopted by several CAs in addition to Let's Encrypt.
