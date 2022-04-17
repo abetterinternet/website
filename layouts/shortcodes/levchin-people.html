@@ -1,0 +1,39 @@
+{{ $numberOfPeople := $.Site.Data.levchin.people | len }}
+{{ $peoplePerColumn := div $numberOfPeople 4 }}
+{{ $endOfColumn2 := mul $peoplePerColumn 2 }}
+{{ $endOfColumn3 := mul $peoplePerColumn 3 }}
+
+<section class="row">
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.people }}
+            {{ if le $index $peoplePerColumn}}
+                <div>{{ . }}</div>
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.people }}
+            {{ if gt $index $peoplePerColumn}}
+                {{ if le $index $endOfColumn2}}
+                    <div>{{ . }}</div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.people }}
+            {{ if gt $index $endOfColumn2}}
+                {{ if le $index $endOfColumn3}}
+                    <div>{{ . }}</div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 col-12">
+        {{ range $index, $element :=  $.Site.Data.levchin.people }}
+            {{ if gt $index $endOfColumn3}}
+                <div>{{ . }}</div>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>
