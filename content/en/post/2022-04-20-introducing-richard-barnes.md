@@ -7,7 +7,7 @@ excerpt: "As a longstanding member of ISRG’s Board of Directors, Richard Barne
 ---
 
 <div class="card border-0 pic-quote-right headshot-card">
-  <img alt="Sarah Heil" class="rounded z-depth-3 img-fluid mb-2" src="/images/blog/Richard-Barnes.jpg" />
+  <img alt="Richard Barnes" class="rounded z-depth-3 img-fluid mb-2" src="/images/blog/Richard-Barnes.jpg" />
   <blockquote class="blockquote">
     <span class="quote"></span>
     <div class="quote-text">
