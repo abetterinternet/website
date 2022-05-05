@@ -1,28 +1,19 @@
 <head>
   <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
-  <title>
-    {{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}
-  </title>
+  <title>{{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}</title>
   <link href="/favicon.png" rel="icon" type="image/png" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800"
-    rel="stylesheet"
-  />
-  <link
-    type="text/css"
-    href="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
-    rel="stylesheet"
-  />
-  <link
-    type="text/css"
-    href="/purpose-theme/css/theme.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet" />
+  <link type="text/css" href="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
+  <link type="text/css" href="/purpose-theme/css/theme.min.css" rel="stylesheet" />
   <link type="text/css" href="/_additional-styles.css" rel="stylesheet" />
   {{ template "_internal/opengraph.html" . }}
+  <!-- -->
+  <meta name="twitter:card" content="{{ .Param "twitter_card_format" }}" />
+  <!-- -->
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ if eq (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_square" }}{{ end }}{{ if ne (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_wide" }}{{ end }}" />
+  <!-- -->
+  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}{{ if eq (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_square" }}{{ end }}{{ if ne (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_wide" }}{{ end }}" />
+  <!-- -->
 </head>
