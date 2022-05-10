@@ -243,6 +243,10 @@
   align-items: center;
 }
 
+.sponsor-item {
+  text-align: center;
+}
+
 .sponsor-group-3 .sponsor-item {
   display: block;
   flex: 1;
