@@ -38,7 +38,7 @@
     { "name": "HostPapa", "url": "https://www.hostpapa.com/lets-encrypt-hosting?utm_source=letsencrypt.org&utm_medium=referral&utm_campaign=us-seo&utm_term=web-hosting&utm_content=180x108-logo", "image": "hostpapa-logo.png" },
     { "name": "Pantheon Website Management Platform", "url": "https://pantheon.io/", "image": "pantheon-logo.png" },
     { "name": "dnsimple", "url": "https://dnsimple.com/letsencrypt", "image": "dnsimple-logo.png" },
-    { "name": "Shiguredo", "url": "https://shiguredo.jp/", "image": "shiguredo-logo.png" },
+    { "name": "Shiguredo", "url": "https://shiguredo.jp/", "image": "shiguredo-v2-logo.svg" },
     { "name": "Discourse", "url": "https://www.discourse.org/", "image": "discourse-logo.png" },
     { "name": "driving-tests.org", "url": "https://driving-tests.org/", "image": "driving-tests-logo.png" },
     { "name": "Sakura Internet", "url": "https://www.sakura.ad.jp/", "image": "sakura-logo.png" },
