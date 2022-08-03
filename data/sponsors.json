@@ -97,6 +97,7 @@
     { "name": "Vilros", "url": "https://vilros.com/", "image": "vilros-logo.png" },
     { "name": "Media Network", "url": "https://media.network/", "image": "media-network-logo.png" },
     { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
-    { "name": "Plat", "url": "https://plat.com/", "image": "plat-logo.svg" }
+    { "name": "Plat", "url": "https://plat.com/", "image": "plat-logo.svg" },
+    { "name": "Cryptotracker.com", "url": "https://cryptotracker.com/", "image": "cryptotracker-logo.jpg" }
   ]
 }
