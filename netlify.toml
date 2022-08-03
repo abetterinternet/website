@@ -1,7 +1,13 @@
 [[redirects]]
+  from = "/docs/memory-safety"
+  to = "https://www.memorysafety.org/docs/memory-safety"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/divviup"
   to = "https://divviup.org"
-  status = 302
+  status = 301
   force = false
 
 [[redirects]]
