@@ -1,7 +1,7 @@
 ---
 title: Trademark Policy
 slug: trademarks
-subtitle: Updated August 2, 2021
+subtitle: Updated August 15, 2022
 do_not_translate: 1
 ---
 
@@ -97,6 +97,7 @@ If you’d like to use the ISRG Marks in a way that’s not covered by this poli
 <a class="btn btn-primary" href="#isrg-logos">ISRG Logos</a>
 <a class="btn btn-primary" href="#le-logos">Let's Encrypt Logos</a>
 <a class="btn btn-primary" href="#prossimo-logos">Prossimo Logos</a>
+<a class="btn btn-primary" href="#divvi-up-logos">Divvi Up Logos</a>
 <br /><br />
 
 <a name="isrg-logos"></a>
@@ -211,7 +212,7 @@ Our standard logo and text. Outside of a few exceptions, this is the default, go
 
 ### Prossimo Standard with Tag
 
-A version of our logo that includes a descriptive tag. Use this in contexts where it may be helpful to establish Prossimo's mission
+A version of our logo that includes a descriptive tag. Use this in contexts where it may be helpful to establish Prossimo's mission.
 
 <div class="logo-row">
     <div class="logo-row__item">
@@ -277,6 +278,48 @@ Prossimo logo alone. Use this only when the “Prossimo” word mark is clearly 
         <img src="/images/trademarks/prossimo/Prossimo P Black.png" alt="Prossimo P black logo" class="logo-img logo-with-checkerboard-bg mh-125" />
         <a href="/images/trademarks/prossimo/Prossimo P Black.svg" download>SVG</a>
         <a href="/images/trademarks/prossimo/Prossimo P Black.png" download>PNG</a>
+    </div>
+</div>
+
+---
+
+<a name="divvi-up-logos"></a>
+
+## Divvi Up Files
+
+### Divvi Up Standard
+
+Our standard logo. Outside of a few exceptions, this is the default, go-to version.
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" alt="Prossimo Standard Full Color logo" class="logo-img mh-125">
+        <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" download>PNG</a>
+    </div>
+</div>
+
+### Divvi Up Standard with Tag
+
+A version of our logo that includes a descriptive tag. Use this in contexts where it may be helpful to establish Divvi Up's mission.
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.png" alt="Divvi Up standard logo with tag" class="logo-img mh-125" />
+        <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.png" download>PNG</a>
+    </div>
+</div>
+
+### Divvi Up D Only
+
+Divvi Up logo alone. Use this only when the “Divvi Up” word mark is clearly visible or has been well established elsewhere on the page or in the design. (When in doubt, use a different format.)
+
+<div class="logo-row">
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.png" alt="Divvi Up D logo" class="logo-img mh-125" />
+         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.png" download>PNG</a>
     </div>
 </div>
 
