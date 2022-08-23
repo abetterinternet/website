@@ -293,9 +293,19 @@ Our standard logo. Outside of a few exceptions, this is the default, go-to versi
 
 <div class="logo-row">
     <div class="logo-row__item">
-        <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" alt="Prossimo Standard Full Color logo" class="logo-img mh-125">
+        <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" alt="Divvi Up Standard Full Color logo" class="logo-img mh-125" />
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.png" download>PNG</a>
     </div>
 </div>
 
@@ -309,6 +319,16 @@ A version of our logo that includes a descriptive tag. Use this in contexts wher
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.png" download>PNG</a>
     </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Large.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Large.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Large.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.png" download>PNG</a>
+    </div>
 </div>
 
 ### Divvi Up D Only
@@ -320,6 +340,16 @@ Divvi Up logo alone. Use this only when the “Divvi Up” word mark is clearly 
         <img src="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.png" alt="Divvi Up D logo" class="logo-img mh-125" />
          <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Small.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Small.svg" alt="Divvi Up Small White logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Small.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Small.png" download>PNG</a>
+    </div>
+    <div class="logo-row__item">
+        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Small.svg" alt="Divvi Up Small Black logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Small.svg" download>SVG</a>
+        <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Small.png" download>PNG</a>
     </div>
 </div>
 
