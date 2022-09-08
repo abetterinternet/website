@@ -18,7 +18,6 @@
   "silver": [
     { "name": "Automattic", "url": "https://automattic.com/", "image": "automattic-logo.png" },
     { "name": "Akamai", "url": "https://www.akamai.com/", "image": "akamai-logo.png" },
-    { "name": "American Library Association", "url": "http://www.ala.org/offices/oif", "image": "ala-logo.png" },
     { "name": "Cyon", "url": "https://www.cyon.ch/", "image": "cyon-logo.png" },
     { "name": "Infomaniak", "url": "https://www.infomaniak.ch/", "image": "infomaniak-logo.png" },
     { "name": "HostPoint", "url": "https://www.hostpoint.ch/", "image": "hostpoint-logo.png" },
@@ -43,7 +42,6 @@
     { "name": "driving-tests.org", "url": "https://driving-tests.org/", "image": "driving-tests-logo.png" },
     { "name": "Sakura Internet", "url": "https://www.sakura.ad.jp/", "image": "sakura-logo.png" },
     { "name": "Phish Protection", "url": "https://www.phishprotection.com/", "image": "phishprotection-logo.png" },
-    { "name": "ISE", "url": "https://www.ise.de/", "image": "ise-logo.png" },
     { "name": "Private Internet Access", "url": "https://www.privateinternetaccess.com/", "image": "privateinternetaccess-logo.png" },
     { "name": "Brave", "url": "https://brave.com/", "image": "brave-logo.png" },
     { "name": "ServerPilot", "url": "https://serverpilot.io/", "image": "serverpilot-logo.png" },
