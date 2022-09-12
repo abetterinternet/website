@@ -577,3 +577,10 @@
     margin-right: auto;
   }
 }
+
+.pic-quote-right__caption {
+  margin: 10px auto;
+  text-align: center;
+  color: #6c7686;
+  font-size: 14px;
+}
