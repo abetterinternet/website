@@ -94,6 +94,7 @@
     { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
     { "name": "Plat", "url": "https://plat.com/", "image": "plat-logo.svg" },
     { "name": "Crypto Tracker", "url": "https://cryptotracker.com/", "image": "cryptotracker-logo.svg" },
-    { "name": "Tailscale", "url": "https://tailscale.com/", "image": "tailscale-logo.svg" }
+    { "name": "Tailscale", "url": "https://tailscale.com/", "image": "tailscale-logo.svg" },
+    { "name": "BitLaunch", "url": "https://bitlaunch.io/", "image": "bitlaunch-logo.svg" }
   ]
 }
