@@ -584,3 +584,7 @@
   color: #6c7686;
   font-size: 14px;
 }
+
+.mw-240px {
+  max-width: 240px;
+}
