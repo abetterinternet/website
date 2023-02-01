@@ -1,6 +1,6 @@
 ---
 author: Sarah Gran
-date: 2023-01-23T12:00:00Z
+date: 2023-02-01T12:00:00Z
 slug: joining-linux-foundation
 title: "ISRG Joins the Linux Foundation as an Associate Member"
 excerpt: "Showing our support for Open Source and open collaboration."
