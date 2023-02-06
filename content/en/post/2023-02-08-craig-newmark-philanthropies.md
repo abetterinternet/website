@@ -1,6 +1,6 @@
 ---
 author: Sarah Gran
-date: 2023-02-06T12:00:00Z
+date: 2023-02-08T12:00:00Z
 slug: craig-newmark-philanthropies
 title: "ISRG Receives $100k Grant from Craig Newmark Philanthropies"
 excerpt: "This grant will support ISRG and its three projects."
@@ -16,11 +16,11 @@ When we initially connected with Craig Newmark, the founder of craigslist and [C
 
 In 2022, Craig Newmark Philanthropies [pledged $50 million](https://www.businesswire.com/news/home/20220412005748/en/Craig-Newmark-Philanthropies-Pledges-50-Million-to-Cyber-Civil-Defense) to help support a response to the Internet's growing complexity and the subsequent growth of opportunistic cybersecurity threats. We look forward to contributing to this effort. Our [Prossimo](https://www.memorysafety.org/) project, which focuses on improving memory safety in critical infrastructure, particularly struck a chord with Newmark. "I learned about memory safety bugs the hard way, back in 1985 when I was a programmer. We now have the tools to address this problem, so it's time to take action and eliminate these bugs and vulnerabilities by using memory safe code." We couldn't agree more and are glad to have the support of organizations like Craig Newmark Philanthropies to help us get there!
 
-<div class="card border-0">
-  <img alt="Craig Newmark, founder of Craigslist and Craig Newmark Philanthropies, and Josh Aas, co-founder of Internet Security Research Group" class="rounded z-depth-3 img-fluid mb-2" src="/images/blog/2023-02-08-craig-newmark-philanthropies-photo.jpeg" />
+<div class="card border-0 mw-555 mx-auto">
+  <img alt="Craig Newmark, founder of craigslist and Craig Newmark Philanthropies, and Josh Aas, co-founder of Internet Security Research Group" class="rounded z-depth-3 img-fluid mb-2" src="/images/blog/2023-02-08-craig-newmark-philanthropies-photo.jpeg" />
   <blockquote class="blockquote">
     <div class="quote-text">
-      <p class="font-italic lh-170">Craig Newmark, founder of Craigslist and Craig Newmark Philanthropies, and Josh Aas, co-founder of Internet Security Research Group</p>
+      <p class="font-italic lh-170">Craig Newmark, founder of craigslist and Craig Newmark Philanthropies, and Josh Aas, co-founder of Internet Security Research Group</p>
     </div>
   </blockquote>
 </div>
