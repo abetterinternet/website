@@ -1,22 +1,28 @@
     </main>
     <footer class="footer py-5 bg-secondary" data-separator="rounded-right" data-separator-orientation="top">
-        <div class="container">
-            <div class="align-items-center">
-                <div class="text-center">
-                    <span class="d-block mt-4">
-                    <a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br>
-                    {{ .Site.Params.copyrighthtml | safeHTML}}<br>
-                    {{ .Site.Params.address}}<br>
-                    <p> {{ i18n "footer_mailing" }}
-                        <span itemscope itemtype="http://schema.org/PostalAddress">
-                          <span itemprop="streetAddress">PO Box 18666</span>,
-                          <span itemprop="addressLocality">Minneapolis</span>,
-                          <span itemprop="addressRegion">MN</span>
-                          <span itemprop="postalCode">55418-0666</span>,
-                          <span itemprop="addressCountry">USA</span>
+        <div class="container mt-4">
+            <div class="row row-grid">
+                <div id="footer-copyright-column" class="col-12 col-md-6 col-lg-6 align-items-start">
+                    <div class="">
+                        <span class="d-block">
+                        <div class="mb-2"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br></div>
+                        <div class="mb-2">{{ .Site.Params.copyrighthtml | safeHTML}}</div>
+                        <div class="mb-2">{{ .Site.Params.address}}</div>
+                        <p> {{ i18n "footer_mailing" }}
+                            <span itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="streetAddress">PO Box 18666</span>,
+                            <span itemprop="addressLocality">Minneapolis</span>,
+                            <span itemprop="addressRegion">MN</span>
+                            <span itemprop="postalCode">55418-0666</span>,
+                            <span itemprop="addressCountry">USA</span>
+                            </span>
+                        </p>
                         </span>
-                      </p>
-                    </span>
+                    </div>
+                </div>
+                <div id="footer-newsletter-column" class="col-12 col-md-6 col-lg-6">
+                    <h6 class="font-weight-bold">Subscribe to our Newsletter</h6>
+                    <iframe src="https://outreach.abetterinternet.org/l/1011011/2023-02-15/6gct" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
                 </div>
             </div>
         </div>

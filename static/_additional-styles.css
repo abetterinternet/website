@@ -588,3 +588,25 @@
 .mw-555 {
   max-width: 555px;
 }
+
+.font-weight-bold {
+  font-weight: 700 !important; /* Fix bootstrap assigning bold to 600 */
+}
+
+#footer-newsletter-column {
+  order: 1;
+}
+#footer-copyright-column {
+  order: 2;
+  text-align: left;
+}
+
+@media screen and (max-width: 767.98px) {
+  #footer-newsletter-column {
+    order: 2;
+  }
+  #footer-copyright-column {
+    order: 1;
+    text-align: center;
+  }
+}
