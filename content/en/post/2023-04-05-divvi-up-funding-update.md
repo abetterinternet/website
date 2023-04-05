@@ -1,6 +1,6 @@
 ---
 author: Sarah Gran
-date: 2023-04-03T12:00:00Z
+date: 2023-04-05T12:00:00Z
 slug: divvi-up-funding-update
 title: "Divvi Up Receives Funding from Internet Society Foundation and Meta"
 excerpt: "Support for ISRG’s newest project, Divvi Up, a service for privacy-preserving metrics"
