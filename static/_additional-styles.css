@@ -610,3 +610,20 @@
     text-align: center;
   }
 }
+
+.two-image-row {
+  margin: 0 auto 1.5em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.two-image-row .img-fluid-wrapper {
+  max-width: 370px;
+  display: block;
+  margin: 0 auto;
+}
+.two-image-row img {
+  max-width: 100%;
+}
