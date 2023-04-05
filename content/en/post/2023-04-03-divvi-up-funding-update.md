@@ -8,19 +8,6 @@ excerpt: "Support for ISRG’s newest project, Divvi Up, a service for privacy-p
 
 For the last two years, ISRG has been developing Divvi Up and the Internet Engineering Task Force (IETF)'s Distributed Aggregation Protocol [(DAP)](https://www.ietf.org/archive/id/draft-ietf-ppm-dap-02.html) standard. Funding from Internet Society Foundation and Meta will support our continued progress toward the productionization of this service.
 
-<div class="row two-image-row">
-    <div class="col-6">
-      <span class="img-fluid-wrapper">
-          <img class="img-fluid" alt="Meta" src="/images/blog/logo-meta.png" />
-      </span>
-    </div>
-    <div class="col-6">
-      <span class="img-fluid-wrapper">
-          <img class="img-fluid" alt="Internet Society Foundation" src="/images/blog/logo-internet-society-foundation.svg" />
-      </span>
-    </div>
-</div>
-
 Divvi Up balances wanting to understand metrics about a population of users without infringing upon the privacy of any individual user through the use of cryptography and multi-party computation. Our goal is to be the impetus for a healthy, secure, robust ecosystem for privacy-respecting metrics collection, of which Divvi Up is one player.
 
 <div class="card border-0 pic-quote-right">
