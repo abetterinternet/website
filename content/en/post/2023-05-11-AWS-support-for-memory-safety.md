@@ -20,7 +20,7 @@ Work started on sudo and su in December of 2022. The contractors are a combined 
 
 Our goal with [Rustls](https://www.memorysafety.org/initiative/rustls/) is to build a safer TLS library that can largely replace OpenSSL over time. Rustls will be performant and memory safe. This work began in 2022 and is picking up great speed both in terms of new contributions and new consumers of Rustls.
 
-[NTP](https://www.memorysafety.org/initiative/ntp/) is how the Internet keeps track of time, but most of today's popular implementations are written in C. Our work has produced a new [client](https://github.com/memorysafety/ntpd-rs) and [server](https://github.com/pendulum-project/ntpd-rs) that are both ready for use. We've also added Network Time Security (NTS) to both the NTP server and client.
+[NTP](https://www.memorysafety.org/initiative/ntp/) is how the Internet keeps track of time, but most of today's popular implementations are written in C. Our work has [produced](https://github.com/pendulum-project/ntpd-rs) a new client and server that are both ready for use. We've also added Network Time Security (NTS) to both the NTP server and client.
 
 We're grateful for the longtime commitment from AWS to helping ISRG and its projects build a more secure and privacy-respecting Web for everyone, everywhere. If you or your organization would like to come on board as a funder of Prossimo, we would be excited to begin a conversation with you at donate@abetterinternet.org.
 
