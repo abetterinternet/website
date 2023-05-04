@@ -2,7 +2,7 @@
 author: Josh Aas
 date: 2023-05-11T12:00:00Z
 slug: AWS-support-for-memory-safety
-title: "AWS commits $1M to Prossimo, ISRG’s project to bring memory safety to critical parts of the Web"
+title: "AWS commits $1M to Prossimo, bringing memory safety to critical parts of the Web"
 excerpt: "AWS commits $1M to advance four Prossimo initiatives, improving memory safety for TLS, NTP, media codec, and permissions boundaries."
 ---
 
