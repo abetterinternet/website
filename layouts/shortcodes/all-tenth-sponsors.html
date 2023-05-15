@@ -1,0 +1,22 @@
+{{ $data := .Get 0 }}
+{{ $dir := .Get 1 }}
+{{ $sponsors := slice }}
+{{ if eq $data "tenthsponsors" }}
+  {{ $sponsors = .Site.Data.tenthsponsors }}
+{{ else }}
+  {{ $platinum := .Site.Data.sponsors.platinum }}
+  {{ $gold := .Site.Data.sponsors.gold }}
+  {{ $silver := .Site.Data.sponsors.silver }}
+  {{ $sponsors = $sponsors | append $platinum | append $gold | append $silver }}
+{{ end }}
+<div class="d-flex flex-wrap align-items-center">
+  {{ range $sponsors }}
+      <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+          <div class="px-2 py-2">
+            <a href="{{.url}}" target="_blank" rel="nofollow nooopener">
+              <img src="{{ $dir }}{{ .image }}" alt="{{ .name}}" class="img-fluid img-grayscale" />
+            </a>
+          </div>
+      </div>
+  {{ end }}
+</div>

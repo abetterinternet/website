@@ -1,0 +1,12 @@
+<div class="d-flex flex-wrap align-items-center">
+  {{ $sponsors := .Get 0 }}
+  {{ range $sponsors }}
+      <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+          <div class="px-2 py-2">
+            <a href="{{.url}}" target="_blank" rel="nofollow nooopener">
+              <img src="/images/tenth-anniversary/sponsors/{{ .image }}" alt="Sponsor Logo" class="img-fluid img-grayscale" />
+            </a>
+          </div>
+      </div>
+  {{ end }}
+</div>

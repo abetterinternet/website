@@ -627,3 +627,28 @@
 .two-image-row img {
   max-width: 100%;
 }
+
+/* Tenth Anniversary */
+.card--light-blue {
+  background-color: #c2e9e9;
+  border-color: #c2e9e9;
+}
+
+.rounded-lg {
+  border-radius: 30px;
+}
+
+.text-xl-36 {
+  font-size: 36px;
+  line-height: 43px;
+  /* color: rgb(70, 112, 183); */
+}
+
+.text-xl-45 {
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.text-blue {
+  color: rgb(70, 112, 183);
+}
