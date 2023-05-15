@@ -208,3 +208,20 @@
 .dual-quote-container:last-child .row {
   flex-direction: row-reverse;
 }
+
+.tenth-anniversary-sponsor-logo-container {
+  height: 120px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tenth-anniversary-sponsor-logo-container a {
+  display: block;
+  width: 100%;
+}
+
+.tenth-anniversary-sponsor-logo {
+  max-height: 100px;
+  max-width: 100%;
+}

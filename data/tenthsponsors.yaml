@@ -1,33 +1,81 @@
-- name: #
-  image: Agilicus-Horizontal-bw.svg
-  url: https://www.agilicus.com/
-- name: #
-  image: C2C_2022_RGB_moto_square_logo_black.svg
-  url: https://www.camptocamp.com/
-- name: #
-  image: cdn77-logo.png
-  url: https://www.cdn77.com/
-- name: #
-  image: e2logo_blue.png
-  url: https://www.idrive.com/object-storage-e2/
-- name: #
-  image: logo-SERVERPLAN__black.png
-  url: https://www.serverplan.com/
-- name: #
+- name: Confluent
+  image: logo-confluent.svg
+  url: https://www.confluent.io/confluent-cloud/
+- name: JetBrains
+  image: logo-jetbrains.png
+  url: https://www.jetbrains.com/?utm_source=abetterinternet.org&utm_medium=referral&utm_campaign=tenth-anniversary
+- name: Coreweave
+  image: #
+  url: #
+- name: ngrok
   image: ngrok-black-lrg.png
   url: https://ngrok.com
-- name: #
-  image: optimising-blue.png
-  url: https://www.optimising.com.au/?utm_source=abetterinternet&utm_medium=referral&utm_campaign=10thanniversary
-- name: #
-  image: Showit-Logo-Dark-1600.png
-  url: showit.com
-- name: #
+- name: Ookla
+  image:
+  url:
+- name: Zoho
+  image: logo-zoho.svg
+  url: https://www.zoho.com/
+- name: Springer Nature Ltd
   image: SN_Technology_simple_black.png
   url: https://www.springernature.com/
-- name: #
-  image: TM - Flatiron Horizontal Lockup.svg
-  url: https://flatiron.com
-- name: #
+- name: cdn77
+  image: cdn77-logo.png
+  url: https://www.cdn77.com/
+- name: Autotrader
+  image: logo-autotrader.jpg
+  url: https://www.autotrader.co.uk/
+- name: Instaclustr
+  image: logo-instaclustr.png
+  url: https://www.instaclustr.com/
+- name: Temporal
+  image: logo-temporal.svg
+  url: https://temporal.io/
+- name: DirectAdmin
+  image: logo-directadmin.svg
+  url: https://directadmin.com/
+- name: Equinix Metal
+  image: logo-equinix.svg
+  url: https://www.equinix.com/products/digital-infrastructure-services/equinix-metal
+- name: ShowIt
+  image: Showit-Logo-Dark-1600.png
+  url: https://showit.com
+- name: Agilicus
+  image: Agilicus-Horizontal-bw.svg
+  url: https://www.agilicus.com/
+- name: Serverplan
+  image: logo-SERVERPLAN__black.png
+  url: https://www.serverplan.com/
+- name: Ukraine Hosting
+  image: logo-hosting-ukraine.svg
+  url: https://www.ukraine.com.ua
+- name: Webador
   image: webador-logo.svg
   url: https://www.webador.com/
+- name: Flatiron
+  image: TM - Flatiron Horizontal Lockup.svg
+  url: https://flatiron.com
+- name: idrive
+  image: e2logo_blue.png
+  url: https://www.idrive.com/object-storage-e2/
+- name: CamptoCamp
+  image: C2C_2022_RGB_moto_square_logo_black.svg
+  url: https://www.camptocamp.com/
+- name: Globus
+  image: logo-globus.png
+  url: https://www.globus.org/
+- name: Datawalk
+  image:
+  url:
+- name: Prophaze
+  image:
+  url:
+- name: Optimising
+  image: optimising-blue.png
+  url: https://www.optimising.com.au/?utm_source=abetterinternet&utm_medium=referral&utm_campaign=10thanniversary
+- name: Open-Source-DE
+  image: logo-osc.svg
+  url: https://www.open-source-company.de/
+- name: Famedly
+  image: logo-famedly.png
+  url: https://famedly.com/
