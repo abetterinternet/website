@@ -64,9 +64,6 @@
 - name: Globus
   image: logo-globus.png
   url: https://www.globus.org/
-- name: Datawalk
-  image:
-  url:
 - name: Prophaze
   image:
   url:
