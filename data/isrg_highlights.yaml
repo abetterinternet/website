@@ -1,28 +1,28 @@
-- title: Founding of ISRG
+- title: 2013 ISRG Founded
   copy: ISRG was founded in May of 2013 by Josh Aas and Eric Rescorla as a home for public benefit digital infrastructure. Josh and Eric were later joined by Alex Halderman and Peter Eckersley, who were at the time developing a protocol for automatically issuing and renewing certificates. These combined efforts were the genesis of Let’s Encrypt. The four started ISRG as a nonprofit, hoping that nonprofit governance requirements would keep the organization transparent and reliable in the long term.ISRG was founded thanks in part to early sponsors and partners Mozilla, the Electronic Frontier Foundation, Akamai, Cisco, and the University of Michigan.
   image: "articles-of-incorporation-doc_timeline-highlights.png"
   image_class: "py-4 px-4"
 
-- title: Launch of Let’s Encrypt
+- title: 2015 Let’s Encrypt Project Launched
   copy: After two years of hard work, ISRG launched its flagship project Let’s Encrypt in 2015. Let’s Encrypt was designed to be a free, open, and transparent Certificate Authority. Announced in 2014, the CA issued its first certificate on September 14th, 2015, and started providing public service on December 3rd of the same year.
   image: "lets_encrypt_ietf_timeline_highlights.jpg"
 
-- title: Let’s Encrypt Issues 1 Billionth Certificate
+- title: 2020 1 Billionth Let’s Encrypt Certificate Issued
   copy: In late February 2020, Let’s Encrypt issued its billionth TLS certificate. This monumental number represented the new age of Internet security that ISRG and Let’s Encrypt helped usher in. By November 2020, 84% of page loads used HTTPS globally.
   image: "1B certs new_timeline highlights.png"
 
-- title: Launch of Prossimo
-  copy: "Around the same time as our billionth certificate, the ISRG team decided it was time to tackle another significant Internet security threat: memory safety. This project, later named Prossimo, took its first steps when collaborating with maintainer Daniel Stenberg to add options to build curl with memory safe HTTP and TLS libraries."
-  image: "Prossimo_timeline_highlights.jpg"
+- title: 2020 Prossimo Launched
+  copy: "Around the same time as the issuance of our billionth certificate in 2020, the ISRG team decided it was time to tackle another significant Internet security threat: memory safety. This project, later named Prossimo, took its first steps when collaborating with maintainer Daniel Stenberg to add options to build curl with memory safe HTTP and TLS libraries."
+  image: "prossimo-logo.png"
 
-- title: Launch of Divvi Up
+- title: 2021 Divvi Up Launched
   copy: In 2020, ISRG partnered with Apple, Google, National Institutes of Health, and The MITRE Corporation on the Exposure Notification Private Analytics (ENPA), a service that enables privacy-preserving metrics collection from Covid-19 exposure notification apps. This work helped to kick off the ISRG Prio services project, which was renamed Divvi Up in 2021. Divvi Up joined Prossimo and Let’s Encrypt as ISRG’s third project, focusing on the development of a privacy-respecting metrics collection service.
-  image: "Divvi_Up_timeline_highlights.jpg"
+  image: "divvi-up-logo.png"
 
-- title: Awarded the Levchin Prize
+- title: 2022 Let’s Encrypt Receives Levchin Prize
   copy: On April 13, 2022, the Real World Crypto steering committee presented the Max Levchin Prize for Real-World Cryptography to Let’s Encrypt in recognition of the project’s role in developing a more secure Web through the distribution of free and easy to use TLS certificates. ISRG is honored to share this award with past winners like the Tor Project, Ralph Merkle, and Eric Rescorla.
-  image: "levchin_timeline_highlights.jpg"
+  image: "levchin_timeline_group.jpg"
 
-- title: Rust merged into Linux kernel
+- title: 2022 Prossimo Supports Rust Merge into Linux kernel
   copy: Support for Rust was merged into the Linux kernel in late 2022. This was the product of years of hard work led by developer Miguel Ojeda, who completed this milestone with support from Prossimo’s Rust for Linux initiative. Though this marked just the beginning for a more memory safe kernel, it was an important first step in building a more secure Web.
   image: "tux_timeline_highlights.png"
