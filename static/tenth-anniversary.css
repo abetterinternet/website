@@ -112,6 +112,12 @@
   line-height: 1.5;
   color: #3771c8;
 }
+#carouselISRGHistory .milestone-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #3771c8;
+  letter-spacing: 1px;
+}
 
 #carouselISRGHistory .milestone-text {
   font-size: 18px;
@@ -154,6 +160,9 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+}
+#carousel-endorsement-quotes1 .carousel-item {
+  width: 100%;
 }
 
 .carousel-for-quotes .quote-card {
@@ -224,4 +233,16 @@
 .tenth-anniversary-sponsor-logo {
   max-height: 100px;
   max-width: 100%;
+}
+
+#carousel-endorsement-quotes-wrapper {
+  width: 100%;
+}
+
+@media screen and (max-width: 767.98px) {
+  .max-200-img {
+    max-height: 200px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }

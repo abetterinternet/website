@@ -8,7 +8,8 @@
   <link type="text/css" href="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
   <link type="text/css" href="/purpose-theme/css/theme.min.css" rel="stylesheet" />
   <link type="text/css" href="/_additional-styles.css" rel="stylesheet" />
-  {{ if .Params.include_tenthanniversary_css }}
+  {{ if .Params.include_tenthanniversary_assets }}
+  <script src="/tenth-anniversary.js"></script>
   <link type="text/css" rel="stylesheet" href="/tenth-anniversary.css" />
   {{ end }} {{ template "_internal/opengraph.html" . }}
   <!-- -->

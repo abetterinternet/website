@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12">
 
-        <div id="carouselISRGHistory" class="carousel slide" data-interval="6000" data-ride="carousel">
+        <div id="carouselISRGHistory" class="carousel slide" data-interval="false" data-ride="carousel">
 
           {{ $milestones := $.Site.Data.isrg_highlights }}
           {{ $milestonesCount := len $milestones }}
@@ -17,17 +17,20 @@
 
           <div class="carousel-inner">
             {{ range $carouselIndex, $milestone := $milestones }}
-              <div class="carousel-item {{ if eq $carouselIndex 0 }}active{{ end }}">
-                <div class="row">
-                  <div class="col-md-7 order-2 order-md-1">
-                    <div class="milestone">
-                      <h3 class="milestone-title">{{ $milestone.title }}</h3>
-                      <p class="milestone-text">{{ $milestone.copy }}</p>
+            <div class="carousel-item {{ if eq $carouselIndex 0 }}active{{ end }}">
+                <div class="d-flex h-100 align-items-center">
+                  <div class="row">
+                    <div class="col-md-7 order-2 order-md-1">
+                      <div class="milestone">
+                        <div class="milestone-eyebrow">{{ $milestone.year }}</div>
+                        <h3 class="milestone-title">{{ $milestone.title }}</h3>
+                        <p class="milestone-text">{{ $milestone.copy }}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-md-5 order-1 order-md-2">
-                    <div class="milestone">
-                      <img class="milestone-img {{$milestone.image_class}}" src="/images/tenth-anniversary/{{ $milestone.image }}" alt="{{ $milestone.title }}">
+                    <div class="col-md-5 order-1 order-md-2">
+                      <div class="milestone">
+                        <img class="milestone-img {{$milestone.image_class}}" src="/images/tenth-anniversary/{{ $milestone.image }}" alt="{{ $milestone.title }}">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -47,27 +50,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  window.addEventListener('load', function() {
-      setCarouselHeight('carousel-endorsement-quotes-wrapper');
-      window.addEventListener('resize', setCarouselHeight);
-  });
-
-  function setCarouselHeight(id) {
-      var carousel = document.getElementById(id);
-      var items = carousel.getElementsByClassName('carousel-item');
-      var maxHeight = 0;
-
-      // Find the tallest item
-      for (var i = 0; i < items.length; i++) {
-          var item = items[i];
-          if (item.offsetHeight > maxHeight) {
-              maxHeight = item.offsetHeight;
-          }
-      }
-
-      carousel.style.height = maxHeight + 'px';
-      console.log(id, maxHeight);
-  }
-  </script>
