@@ -47,3 +47,27 @@
     </div>
   </div>
 </div>
+
+<script>
+  window.addEventListener('load', function() {
+      setCarouselHeight('carousel-endorsement-quotes-wrapper');
+      window.addEventListener('resize', setCarouselHeight);
+  });
+
+  function setCarouselHeight(id) {
+      var carousel = document.getElementById(id);
+      var items = carousel.getElementsByClassName('carousel-item');
+      var maxHeight = 0;
+
+      // Find the tallest item
+      for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.offsetHeight > maxHeight) {
+              maxHeight = item.offsetHeight;
+          }
+      }
+
+      carousel.style.height = maxHeight + 'px';
+      console.log(id, maxHeight);
+  }
+  </script>
