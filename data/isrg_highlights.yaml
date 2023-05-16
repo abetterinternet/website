@@ -14,6 +14,7 @@
 - title: 2020 Prossimo Launched
   copy: "Around the same time as the issuance of our billionth certificate in 2020, the ISRG team decided it was time to tackle another significant Internet security threat: memory safety. This project, later named Prossimo, took its first steps when collaborating with maintainer Daniel Stenberg to add options to build curl with memory safe HTTP and TLS libraries."
   image: "prossimo-logo.png"
+  image_class: "p-5"
 
 - title: 2021 Divvi Up Launched
   copy: In 2020, ISRG partnered with Apple, Google, National Institutes of Health, and The MITRE Corporation on the Exposure Notification Private Analytics (ENPA), a service that enables privacy-preserving metrics collection from Covid-19 exposure notification apps. This work helped to kick off the ISRG Prio services project, which was renamed Divvi Up in 2021. Divvi Up joined Prossimo and Let’s Encrypt as ISRG’s third project, focusing on the development of a privacy-respecting metrics collection service.
