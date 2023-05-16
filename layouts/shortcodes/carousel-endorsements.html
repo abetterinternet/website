@@ -1,6 +1,5 @@
 {{ $endorsements := index .Site.Data "endorsements" }}
 
-
 {{ $quotesPerSlide := .Get "quotesPerSlide" | default 1 }}
 <div id="carousel-endorsement-quotes-wrapper" class="py-3">
   <div class="container">
@@ -20,7 +19,7 @@
           </ol>
 
           <div class="carousel-inner">
-            {{ range $carouselIndex := seq 0 $groupsCount }}
+            {{ range $carouselIndex := seq 0 (sub $groupsCount 1) }}
               <div class="carousel-item {{ if eq $carouselIndex 0 }}active{{ end }}">
                 {{ range $i := seq 0 (sub (int $quotesPerSlide) 1) }}
                   {{ $quoteIndex := add (mul $carouselIndex (int $quotesPerSlide)) $i }}
@@ -29,8 +28,6 @@
                     {{ partial "carousel-endorsement-item.html" $quote }}
                   {{ end }}
                 {{ end }}
-
-
               </div>
             {{ end }}
           </div>
