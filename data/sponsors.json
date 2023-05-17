@@ -5,7 +5,7 @@
     { "name": "Electronic Frontier Foundation", "url": "https://www.eff.org/", "image": "eff-logo.png" },
     { "name": "OVH", "url": "https://www.ovh.com/", "image": "ovh-logo.png" },
     { "name": "Google", "url": "https://www.google.com/", "image": "google-logo.png", "nofollow": true },
-    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-logo.png" },
+    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" },
     { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" },
     { "name": "Amazon Web Services", "url": "https://aws.amazon.com/", "image": "aws-logo.png" }
   ],
