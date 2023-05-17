@@ -4,9 +4,6 @@
 - name: JetBrains
   image: logo-jetbrains.png
   url: https://www.jetbrains.com/?utm_source=abetterinternet.org&utm_medium=referral&utm_campaign=tenth-anniversary
-- name: Coreweave
-  image: #
-  url: #
 - name: ngrok
   image: ngrok-black-lrg.png
   url: https://ngrok.com
