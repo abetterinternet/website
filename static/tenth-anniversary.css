@@ -246,3 +246,12 @@
     padding-bottom: 0 !important;
   }
 }
+
+.headshot-container {
+  position: relative;
+}
+.headshot-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
