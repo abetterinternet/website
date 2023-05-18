@@ -1,0 +1,46 @@
+{{ $endorsements := index .Site.Data "endorsements" }}
+
+{{ $quotesPerSlide := .Get "quotesPerSlide" | default 1 }}
+<div id="carousel-endorsement-quotes-wrapper" class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="carousel-endorsement-quotes{{$quotesPerSlide}}" class="carousel-for-quotes carousel slide" data-interval="6000" data-ride="carousel">
+
+          {{ $quotes := $.Site.Data.endorsements }}
+          {{ $quotesCount := len $endorsements }}
+          {{ $groupsCount := math.Ceil (div (float $quotesCount) (float $quotesPerSlide)) }}
+
+          <!-- Add carousel indicators -->
+          <ol class="carousel-indicators">
+            {{ range $carouselIndex := seq 0 (sub $groupsCount 1) }}
+              <li data-target="#carousel-endorsement-quotes{{$quotesPerSlide}}" data-slide-to="{{$carouselIndex}}" class="{{ if eq $carouselIndex 0 }}active{{ end }}"></li>
+            {{ end }}
+          </ol>
+
+          <div class="carousel-inner">
+            {{ range $carouselIndex := seq 0 (sub $groupsCount 1) }}
+              <div class="carousel-item {{ if eq $carouselIndex 0 }}active{{ end }}">
+                {{ range $i := seq 0 (sub (int $quotesPerSlide) 1) }}
+                  {{ $quoteIndex := add (mul $carouselIndex (int $quotesPerSlide)) $i }}
+                  {{ if lt $quoteIndex $quotesCount }}
+                    {{ $quote := index $quotes $quoteIndex }}
+                    {{ partial "carousel-endorsement-item.html" $quote }}
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+          <a class="carousel-control-prev" href="#carousel-endorsement-quotes{{$quotesPerSlide}}" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-endorsement-quotes{{$quotesPerSlide}}" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

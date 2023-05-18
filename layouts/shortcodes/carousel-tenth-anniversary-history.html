@@ -1,0 +1,52 @@
+<div id="carouselISRGHistory-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div id="carouselISRGHistory" class="carousel slide" data-interval="false" data-ride="carousel">
+
+          {{ $milestones := $.Site.Data.isrg_highlights }}
+          {{ $milestonesCount := len $milestones }}
+
+          <!-- Add carousel indicators -->
+          <ol class="carousel-indicators">
+            {{ range $carouselIndex := seq 0 (sub $milestonesCount 1) }}
+              <li data-target="#carouselISRGHistory" data-slide-to="{{$carouselIndex}}" class="{{ if eq $carouselIndex 0 }}active{{ end }}"></li>
+            {{ end }}
+          </ol>
+
+          <div class="carousel-inner">
+            {{ range $carouselIndex, $milestone := $milestones }}
+            <div class="carousel-item {{ if eq $carouselIndex 0 }}active{{ end }}">
+                <div class="d-flex h-100 align-items-center">
+                  <div class="row">
+                    <div class="col-md-7 order-2 order-md-1">
+                      <div class="milestone">
+                        <div class="milestone-eyebrow">{{ $milestone.year }}</div>
+                        <h3 class="milestone-title">{{ $milestone.title }}</h3>
+                        <p class="milestone-text">{{ $milestone.copy }}</p>
+                      </div>
+                    </div>
+                    <div class="col-md-5 order-1 order-md-2">
+                      <div class="milestone">
+                        <img class="milestone-img {{$milestone.image_class}}" src="/images/tenth-anniversary/{{ $milestone.image }}" alt="{{ $milestone.title }}">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+          <a class="carousel-control-prev" href="#carouselISRGHistory" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselISRGHistory" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
