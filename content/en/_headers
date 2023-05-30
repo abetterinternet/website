@@ -1,5 +1,5 @@
 /*
-    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline' https://www.paypal.com https://fonts.googleapis.com; script-src 'unsafe-inline' 'self' https://www.paypal.com https://static.elevate.salesforce.org https://donorbox.org; img-src 'self' data:; frame-src 'self' https://outreach.abetterinternet.org https://pages.elevate.salesforce.org/ https://donorbox.org https://youtube.com https://www.youtube.com https://youtube-nocookie.com https://www.youtube-nocookie.com https://www.paypal.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://www.paypal.com; object-src 'self';
+    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline' https://www.paypal.com https://fonts.googleapis.com; script-src 'unsafe-inline' 'self' https://www.paypal.com https://donorbox.org; img-src 'self' data:; frame-src 'self' https://outreach.abetterinternet.org https://donorbox.org https://youtube.com https://www.youtube.com https://youtube-nocookie.com https://www.youtube-nocookie.com https://www.paypal.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://www.paypal.com; object-src 'self';
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
