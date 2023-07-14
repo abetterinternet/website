@@ -1,13 +1,16 @@
 {
+  "diamond": [
+    { "name": "Google", "url": "https://www.google.com/", "image": "google-logo.png", "nofollow": true },
+    { "name": "Amazon Web Services", "url": "https://aws.amazon.com/", "image": "aws-logo-2.png" },
+    { "name": "Sovereign Tech Fund", "url": "https://sovereigntechfund.de/en/", "image": "sovereign-tech-fund-logo.webp" },
+    { "name": "Open Technology Fund", "url": "https://www.opentech.fund/", "image": "open-technology-fund-logo.png" }
+  ],
   "platinum": [
     { "name": "Mozilla", "url": "https://www.mozilla.org/", "image": "mozilla-logo.png" },
     { "name": "Cisco", "url": "https://www.cisco.com/", "image": "cisco-logo.png" },
     { "name": "Electronic Frontier Foundation", "url": "https://www.eff.org/", "image": "eff-logo.png" },
     { "name": "OVH", "url": "https://www.ovh.com/", "image": "ovh-logo.png" },
-    { "name": "Google", "url": "https://www.google.com/", "image": "google-logo.png", "nofollow": true },
-    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" },
-    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" },
-    { "name": "Amazon Web Services", "url": "https://aws.amazon.com/", "image": "aws-logo.png" }
+    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" }
   ],
   "gold": [
     { "name": "IdenTrust", "url": "https://www.identrust.com/", "image": "identrust-logo.png" },
@@ -15,7 +18,9 @@
     { "name": "Shopify", "url": "https://www.shopify.com/", "image": "shopify-logo.png" },
     { "name": "IBM", "url": "https://www.ibm.com/", "image": "ibm-logo.png" },
     { "name": "SAP", "url": "https://www.sap.com/", "image": "sap-logo.png" },
-    { "name": "Squarespace", "url": "https://www.squarespace.com/", "image": "squarespace-logo.png" }
+    { "name": "Squarespace", "url": "https://www.squarespace.com/", "image": "squarespace-logo.png" },
+    { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
+    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" }
   ],
   "silver": [
     { "name": "Automattic", "url": "https://automattic.com/", "image": "automattic-logo.png" },
@@ -78,7 +83,6 @@
     { "name": "Teleport", "url": "https://goteleport.com/", "image": "teleport-logo.png" },
     { "name": "NGINX", "url": "https://www.nginx.com/", "image": "nginx-logo.png" },
     { "name": "Vilros", "url": "https://vilros.com/", "image": "vilros-logo.png" },
-    { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
     { "name": "Plat", "url": "https://plat.com/", "image": "plat-logo.svg" },
     { "name": "Crypto Tracker", "url": "https://cryptotracker.com/", "image": "cryptotracker-logo.svg" },
     { "name": "Tailscale", "url": "https://tailscale.com/", "image": "tailscale-logo.svg" },
