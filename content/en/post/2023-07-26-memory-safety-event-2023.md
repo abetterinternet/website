@@ -7,7 +7,7 @@ excerpt: "The event will be November 2, in San Francisco."
 ---
 
 <div class="card border-0 mb-3 pic-quote-right">
-    <img alt="Tectonics Event - November 2, San Francisco" class="mx-auto img-fluid" src="/images/blog/Tectonics-Social-Share.jpg" />
+    <img alt="Tectonics Event - November 2, San Francisco" class="mx-auto img-fluid" src="/images/blog/Tectonics-Social-Share-Square.jpg" />
 </div>
 
 Not all that long ago, the idea of rewriting much of the Internet's critical software to make it memory safe was, if thought about at all, quickly dismissed as an unrealistic endeavor. And while this idea may still be ambitious today, there's momentum towards shifting the focus from dialogue to planning and execution.
