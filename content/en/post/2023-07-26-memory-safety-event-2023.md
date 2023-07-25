@@ -6,6 +6,10 @@ title: "Prossimo announces Tectonics: an event to shift the work of memory safet
 excerpt: "The event will be November 2, in San Francisco."
 ---
 
+<div class="card border-0 mb-3 pic-quote-right">
+    <img alt="Tectonics Event - November 2, San Francisco" class="mx-auto img-fluid" src="/images/blog/Tectonics-Social-Share.jpg" />
+</div>
+
 Not all that long ago, the idea of rewriting much of the Internet's critical software to make it memory safe was, if thought about at all, quickly dismissed as an unrealistic endeavor. And while this idea may still be ambitious today, there's momentum towards shifting the focus from dialogue to planning and execution.
 
 That momentum inspired us to come up with [Tectonics](https://tectonics.memorysafety.org). The vision for Tectonics, happening November 2 in San Francisco, is to move the conversation around memory safety from "why" and "what if" to "how to." As one of our funders, Craig Newmark, noted, "I learned about memory safety bugs the hard way, back in 1985 when I was a programmer. We now have the tools to address this problem, so it's time to take action and eliminate these bugs and vulnerabilities by using memory safe code."
