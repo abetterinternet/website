@@ -1,6 +1,6 @@
 ---
 author: Josh Aas
-date: 2023-07-25T00:00:00Z
+date: 2023-07-26T00:00:00Z
 slug: memory-safety-event-2023
 title: "Prossimo announces Tectonics: an event to shift the work of memory safety forward "
 excerpt: "The event will be November 2, in San Francisco."
