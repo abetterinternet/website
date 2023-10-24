@@ -1,6 +1,6 @@
 ---
 author: Christine Runnegar, ISRG Board Chair
-date: 2023-10-30T00:00:00Z
+date: 2023-10-24T00:00:00Z
 slug: board-chair-10th-anniversary
 title: "10 Years of Building a Better Internet"
 excerpt: "ISRG Board Chair Christine Runnegar reflects on the significance of our work and impact as we celebrate our 10th anniversary."
