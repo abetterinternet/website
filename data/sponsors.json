@@ -19,7 +19,8 @@
     { "name": "IBM", "url": "https://www.ibm.com/", "image": "ibm-logo.png" },
     { "name": "Squarespace", "url": "https://www.squarespace.com/", "image": "squarespace-logo.png" },
     { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
-    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" }
+    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" },
+    { "name": "Craig Newmark Philanthropies", "url": "https://craignewmarkphilanthropies.org/", "image": "CNP-Logo.svg" }
   ],
   "silver": [
     { "name": "Automattic", "url": "https://automattic.com/", "image": "automattic-logo.png" },
