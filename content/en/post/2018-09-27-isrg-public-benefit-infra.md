@@ -4,6 +4,7 @@ date: 2018-09-22T00:00:00Z
 slug: isrg-public-benefit-infra
 title: "ISRG: A Home for Public Benefit Digital Infrastructure"
 excerpt: "Welcome to the new website for Internet Security Research Group (ISRG)."
+has_more: true
 ---
 
 Welcome to the new website for Internet Security Research Group (ISRG).

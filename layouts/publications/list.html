@@ -1,22 +1,26 @@
 {{ define "main" }}
 <div>
-    {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
+    {{ $posts := where .Site.RegularPages "Type" "in" (slice "publications") }}
     {{ range $posts }}
       {{ .Date.Format $.Site.Params.time_format_default }}
       <h2>{{ .Title }}</h2>
+      {{ with .Params.authors }}
+        {{ . | safeHTML }}
+        <br>
+      {{ end }}
       {{ with .Params.excerpt }}
-      {{ . | markdownify }}
+        {{ . | markdownify }}
       {{ else }}
-      {{ .Summary }}
+        {{ .Summary }}
       {{ end }}
       <br>
       {{ if .Params.has_more }}
         <a href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br>
       {{ end }}
+      {{ with .Params.pdf }}
+        <a href="{{ . }}">[pdf]</a>
+      {{ end }}
       <br>
     {{ end }}
-  {{ with .Site.Home.OutputFormats.Get "RSS" -}}
-  <p>{{ i18n "subscribe_rss" . | safeHTML }}</p>
-  {{ end  }}
 </div>
 {{ end }}

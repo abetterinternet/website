@@ -7,25 +7,20 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="pt-lg-md pb-lg-md">
-            <h1 id="page-title" class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h1>
-            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. We're celebrating our <a href="/tenth-anniversary/">tenth anniversary</a>.</p>
+            <h1 id="page-title" class="heading display-4 font-weight-300 lh-110 mb-4">InspiringGroup</h1>
+            <p class="lead lh-180">
+              The InspiringGroup is a dynamic research group here @ <a href="https://www.insc.tsinghua.edu.cn/">Tsinghua University INSC</a>. We have worked on a wide range of topics centering around data. We build secure and efficient underlying systems infrastructure to support data transmissions and computations. Meanwhile, we create various data-centric applications with special interests on data security and privacy.
+            </p>
             <div class="mt-5">
-              <a href="/about/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Learn about ISRG</a>
-              <a href="/sponsor/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Become a sponsor</a>
-              <a href="/annual-reports/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">2022 Annual Report</a>
+              <a href="/research/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Research</a>
+              <a href="/join/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Join us</a>
             </div>
           </div>
         </div>
         <div class="col-lg-5 homepage-logos-column">
           <div class="pt-lg-md pb-lg-md">
             <div>
-              <a href="https://letsencrypt.org"><img src="/images/LE-Logo-Standard.svg" /></a>
-            </div>
-            <div>
-              <a href="https://memorysafety.org"><img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" /></a>
-            </div>
-            <div>
-              <a href="https://divviup.org"><img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" /></a>
+              <a href="https://www.tsinghua.edu.cn/en/"><img src="/images/tsinghua.png" /></a>
             </div>
           </div>
         </div>
@@ -34,68 +29,65 @@
   </section>
   <section class="slice">
     <div class="container">
-      <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
+      <h2 class="eyebrow-text"><a href="/blog">Latest Blogs</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
       <div class="row row-grid">
         <div class="col-md-12 col-lg-12">
           <h2 class="heading h2">{{ .Title }}</h2>
           <p>{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
-          <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+          {{ if .Params.has_more }}
+            <a href="{{ .Permalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
+          {{ end }}
         </div>
       </div>
       {{ end }}
     </div>
   </section>
 
-  {{ partial "isrg/isrg-projects-column.html" }}
+  {{ partial "projects/projects-column.html" }}
 
   <section class="slice delimiter-top">
     <div class="container">
-      <h2 class="eyebrow-text"><a href="/sponsors">Our Sponsors & Funders</a></h2>
+      <h2 class="eyebrow-text"><a href="/sponsors">Current and Past Affiliations</a></h2>
     </div>
 
     <div class="container">
-      <div class="blurable--hover">
-        <a href="/sponsors/">
-          <div class="row blurable-item align-items-center grid-cols-7">
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/cisco-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/sovereign-tech-fund-logo.webp" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col d-flex align-items-center">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
+      <div class="row blurable-item align-items-center grid-cols-7">
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
           </div>
-          <span class="blurable-hidden btn btn-sm btn-primary btn-circle">See all sponsors</span>
-        </a>
+        </div>
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/cisco-logo.png" class="img-fluid img-grayscale" />
+          </div>
+        </div>
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
+          </div>
+        </div>
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/sovereign-tech-fund-logo.webp" class="img-fluid img-grayscale" />
+          </div>
+        </div>
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
+          </div>
+        </div>
+        <div class="grid-col d-flex align-items-center">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
+          </div>
+        </div>
+        <div class="grid-col">
+          <div class="px-4 py-4">
+            <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
+          </div>
+        </div>
       </div>
     </div>
   </section>

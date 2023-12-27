@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "hero.html" . }}
+<main>
+        <section class="slice slice-sm">
+            <div class="container">
+                {{ block "main" . }}{{ end }}
+            </div>
+        </section>
+</main>
+{{ partial "footer.html" . }}
+</html>

@@ -6,6 +6,7 @@ title: "Prossimo announces Tectonics: an event to shift the work of memory safet
 excerpt: "The event will be November 2, in San Francisco."
 images:
   - /images/blog/Tectonics-Social-Share.jpg
+has_more: true
 ---
 
 <div class="card border-0 mb-3 pic-quote-right">

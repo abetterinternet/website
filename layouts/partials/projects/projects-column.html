@@ -1,0 +1,24 @@
+<div id="isrg-projects-column">
+    <section class="slice delimiter-top">
+      <div class="container">
+        <h2 class="eyebrow-text">Projects</h2>
+        <div class="row row-grid align-items-center">
+          {{ partial "projects/project-template-block.html" (dict 
+            "title" "Test project 1" 
+            "url" "https://example.com/" 
+            "target" "_blank" 
+            "image" "/images/LE-Logo-Standard.svg" 
+            "description" "Description text of test project 1. This line should be long enough to let the image be pushed to the right." 
+            "buttonText" "Visit Let's Encrypt"
+          ) }}
+          {{ partial "projects/project-template-block.html" (dict 
+            "title" "Memory Safety for Critical Infrastructure" 
+            "url" "https://memorysafety.org/" 
+            "target" "_blank" 
+            "image" "/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" 
+            "description" "Prossimo is an effort to move the Internet's security-sensitive software infrastructure to memory safe code. We provide strategic planning, facilitation, and communication to bring memory safety to high impact projects." "buttonText" "Visit Prossimo"
+          ) }}
+        </div>
+      </div>
+    </section>
+  </div>
