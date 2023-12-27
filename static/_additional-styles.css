@@ -699,3 +699,31 @@
     flex-basis: calc(1 / 2 * 100%);
   }
 }
+
+.post-footer {
+  background-color: #c2e9e9;
+  color: #000;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.post-footer a {
+  color: #3771c8;
+}
+.post-footer a:hover {
+  color: #274f8c;
+}
+
+.post-footer h6 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1;
+  /* font-weight: bold; */
+  margin-top: 0;
+}
+
+.post-footer p:last-child {
+  margin-bottom: 0;
+}
