@@ -1,7 +1,6 @@
 ---
 author: Christine Runnegar, Chair of ISRG Board of Directors
-note: Change date to Jan 3
-date: 2024-01-02T00:00:00Z
+date: 2024-01-03T00:00:00Z
 slug: ISRG-Financial-Support
 title: "Public benefit Internet infrastructure is not a “one-and-done” project"
 excerpt: "ISRG’s Board Chair reflects on our financial support."
