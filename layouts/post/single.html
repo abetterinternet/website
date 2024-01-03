@@ -1,10 +1,16 @@
 {{ define "main" }}
 <div>
-	<header>
-		<p>{{ .Params.author }}<br>{{ .Date.Format $.Site.Params.time_format_default }}</p>
-	</header>
-	<article>
-		{{ .Content }}
-	</article>
+  <header>
+    <p>{{ .Params.author }}<br />{{ .Date.Format $.Site.Params.time_format_default }}</p>
+  </header>
+  <article>{{ .Content }}</article>
+  {{ if eq .Params.display_default_footer true }}
+  <div class="post-footer">
+    <h6><span>Support Our Work</span></h6>
+    <p>
+      ISRG is a 501(c)(3) nonprofit organization that is 100% supported through the generosity of those who share our vision for ubiquitous, open Internet security. If you'd like to support our work, please consider
+      <a href="https://www.abetterinternet.org/getinvolved/">getting involved</a>, <a href="https://www.abetterinternet.org/donate/">donating</a>, or encouraging your company to <a href="https://www.abetterinternet.org/sponsor/">become a sponsor</a>.
+    </p>
+  </div>
 </div>
-{{ end }}
+{{ end }} {{ end }}
