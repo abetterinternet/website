@@ -46,8 +46,8 @@ def transform_pub():
         write_back(md, file_name, "./content/en/publications")
 
 news_template = """---
+title: \"%s\"
 date: %s
-title: %s
 has_more: false
 ---
 """
@@ -67,8 +67,8 @@ def transform_news(base_dir = "./content/en/post"):
                 date_t = datetime.strptime(news["date"], "%b %Y").strftime("%Y-%m-01")
             except:
                 date_t = datetime.strptime(news["date"], "%B %Y").strftime("%Y-%m-01")
-            headline = news["headline"].replace("<b>", "").replace("</b>", "")
-            content = news_template%(date_t, headline)
+            headline = news["headline"].replace("<b>", "").replace("</b>", "").replace("\"", "\\\"")
+            content = news_template%(headline, date_t)
             with open(new_filename, "w") as nf:
                 nf.write(content)
 
