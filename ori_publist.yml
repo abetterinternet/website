@@ -1,0 +1,470 @@
+# - title:
+#   conference: 
+#   authors: 
+#   image:
+#   description:
+#   highlight: 1
+#   news1:
+#   news2:
+#   pdf: 
+#   doi: 
+#   slides: 
+#   code: 
+
+- title: "Brain-on-Switch: Towards Advanced Intelligent Network Dataplane via NN-Driven Traffic Analysis at Line-Speed"
+  conference: USENIX Symposium on Networked Systems Design and Implementation (NDSI) 2024
+  authors: Jinzhu Yan, Haotian Xu, <span class="matr">Zhuotao Liu</span>, Qi Li, Ke Xu, Mingwei Xu, Jianping Wu
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Pencil: Private and Extensible Collaborative Learning without Non-Colluding Assumption"
+  conference: Network and Distributed System Security (NDSS) Symposium 2024
+  authors: Xuanqi Liu, <span class="matr">Zhuotao Liu</span>, Qi Li, Ke Xu, Mingwei Xu
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "martFL: Enabling Utility-Driven Data Marketplace with a Robust and Verifiable Federated Learning Architecture"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2023
+  authors: Qi Li, <span class="matr">Zhuotao Liu</span>, Qi Li, Ke Xu
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+  
+- title: "Learning from Limited Heterogeneous Training Data: Meta-Learning for Unsupervised Zero-day Web Attack Detection across  Web Domains"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2023
+  authors: Peiyang Li, Ye Wang, Qi Li, <span class="matr">Zhuotao Liu</span>, Ke Xu, Ju Ren, Zhiying Liu, Ruilin Lin
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic"
+  conference: Network and Distributed System Security (NDSS) Symposium 2024
+  authors: Yuqi Qing, Qilei Yin, Xinhao Deng, Yihao Chen, <span class="matr">Zhuotao Liu</span>, Kun Sun, Ke Xu, Jia Zhang, Qi Li
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Cross Container Attacks: The Bewildered eBPF on Clouds"
+  conference: USENIX Security Symposium (Security) 2023
+  authors: Yi He, Roland Guo, Yunlong Xing, Xijia Che, Kun Sun, <span class="matr">Zhuotao Liu</span>, Ke Xu, Qi Li
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+
+- title: "LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers"
+  conference: Under review
+  authors: Xuanqi Liu, <span class="matr">Zhuotao Liu</span> 
+  image: 
+  description: 
+  highlight: 
+  news1:
+  news2:
+  pdf: https://arxiv.org/pdf/2305.18396
+  doi:
+  slides: 
+  code: 
+
+- title: "iSyn: Semi-Automated Smart Contract Synthesis from Legal Financial Agreements"
+  conference: ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2023
+  authors: Pengcheng Fang, Zhenhua Zou, Xusheng Xiao, <span class="matr">Zhuotao Liu</span> 
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Change Management in Physical Network Lifecycle Automation"
+  conference: USENIX Annual Technical Conference (ATC) 2023
+  authors: Mohammad Al-Fares, Virginia Beauregard, Kevin Grant, Angus Griffith, Quan Leng, Alexander Lin, <span class="matr">Zhuotao Liu</span>, Bill Martinusen, Nikil Mehta, Jeffrey Mogul, Andrew Narver, Anshul Nigham, Sean Smith, Amin Vahdat
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Robust Multi-tab Website Fingerprinting Attacks in the Wild"
+  conference: IEEE Symposium on Security and Privacy (Oakland) 2023
+  authors: Xinhao Deng, Qilei Yin, <span class="matr">Zhuotao Liu</span>, Xiyuan Zhao, Qi Li, Mingwei Xu, Ke Xu, Jianping Wu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Provenance of Training without Training Data: Towards Privacy-Preserving DNN Model Ownership Verification"
+  conference: International World Wide Web Conference (WWW) 2023
+  authors: Yunpeng Liu, Kexin Li, <span class="matr">Zhuotao Liu</span>, Bihan Wen, Ke Xu, Weiqiang Wang, Wenbiao Zhao, Qi Li
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "An Efficient Design of Intelligent Network Data Plane"
+  conference: USENIX Security Symposium (Security) 2023
+  authors: Guangmeng Zhou, <span class="matr">Zhuotao Liu</span>, Chuanpu Fu, Qi Li, Ke Xu
+  image: 
+  description: Distinguished Paper Award Winner
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "FlowTele: Remotely Shaping Traffic on Internet-Scale Networks"
+  conference: ACM CoNext 2022
+  authors: Bo-Rong Chen; <span class="matr">Zhuotao Liu</span>; Jinhui Song, Fanhui Zeng, Zhoushi Zhu, Siva Phani Keshav Bachu, Yih-Chun Hu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+ 
+- title: "RapidPatch: Firmware Hotpatching for Real-Time Embedded Devices"
+  conference: USENIX Security Symposium (Security) 2022
+  authors: Yi He, Zhenhua Zou, Kun Sun, <span class="matr">Zhuotao Liu</span>, Ke Xu, Qian Wang, Chao Shen, Zhi Wang, Qi Li
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+  
+- title: "Unsupervised Contextual Anomaly Detection for Database Systems"
+  conference: ACM SIGMOD 2022
+  authors: Sainan Li, Qilei Yin, Guoliang Li, Qi Li, <span class="matr">Zhuotao Liu</span>, Jinwei Zhu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Dynamic Network Security Function Enforcement via Joint Flow and Function Scheduling"
+  conference: IEEE Transactions on Information Forensics and Security (TIFS) 2022
+  authors: Qi Li, Xinhao Deng, <span class="matr">Zhuotao Liu</span>, Yuan Yang, Xiaoyue Zou, Qian Wang, Mingwei Xu, Jianping Wu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "Back-Propagating System Dependency Impact for Attack Investigation"
+  conference: USENIX Security Symposium (Security) 2022
+  authors: Pengcheng Fang, Peng Gao, Changlin Liu, Erman Ayday, Kangkook Jee, Ting Wang, Tanfang (Fanny) Ye, <span class="matr">Zhuotao Liu</span>, Xusheng Xiao
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: https://github.com/usenixsub/DepImpact
+  
+- title: "Automated Multi-Tab Website Fingerprinting Attack"
+  conference: IEEE Transactions on Dependable and Secure Computing (TDSC) 2022
+  authors: Qilei Yin, <span class="matr">Zhuotao Liu</span>, Qi Li, Tao Wang, Qian Wang, Chao Shen, Yixiao Xu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/9514394
+  slides: 
+  code: 
+
+- title: "Make Web3.0 Connected"
+  conference: IEEE Transactions on Dependable and Secure Computing (TDSC) 2022
+  authors: <span class="matr">Zhuotao Liu</span>, Yangxi Xiang, Jian Shi, Peng Gao, Haoyu Wang, Xusheng Xiao, Bihan Wen, Qi Li, Yih-Chun Hu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/9428608
+  slides: 
+  code: https://github.com/HyperService-Consortium
+  
+- title: "On Detecting Growing-Up Behaviors of Malicious Accounts in Privacy-Centric Mobile Social Networks"
+  conference: ACM Annual Computer Security Applications Conference (ACSAC) 2021
+  authors: Zijie Yang, Binghui Wang, Haoran Li, Dong Yuan, <span class="matr">Zhuotao Liu</span>, Neil Zhenqiang Gong, Chang Liu, Qi Li, Xiao Liang, Shaofeng Hu
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: 
+
+- title: "A Hard Label Black-box Adversarial Attack Against Graph Neural Networks"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2021
+  authors: Jiaming Mu, Binghui Wang, Qi Li, Kun Sun, Mingwei Xu, <span class="matr">Zhuotao Liu</span>
+  image: 
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi:
+  slides: 
+  code: https://github.com/mujm/CCS21_GNNattack/tree/master
+
+
+- title: "Efficient Forwarding Anomaly Detection in Software-Defined Networks"
+  conference: IEEE Transactions on Parallel and Distributed Systems (TPDS) 2021
+  authors: Qi Li, Yunpeng Liu, <span class="matr">Zhuotao Liu</span>, Peng Zhang, Chunhui Pang
+  image: datacenter_networking.png
+  description:
+  highlight: 1
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/9387572
+  slides: 
+  code: https://github.com/chunhui-pang/fade
+
+- title: "Privilege-Escalation Vulnerability Discovery for Large-scale RPC Services: Principle, Design, and Deployment"
+  conference: ACM Asia Conference on Computer and Communications Security (Asia CCS) 2021
+  authors: <span class="matr">Zhuotao Liu</span>, Hao Zhao, Sainan Li, Qi Li, Tao Wei, Yu Wang
+  image: system_security.png
+  description:
+  highlight: 1
+  news1:
+  news2:
+  pdf: 
+  doi: 
+  slides: https://zliuinspire.github.io/files/PAIR_Slides.pdf
+  code: 
+
+- title: "SAP-SSE: Protecting Search Patterns and Access Patterns in Searchable Symmetric Encryption"
+  conference: IEEE Transactions on Information Forensics and Security (TIFS) 2020
+  authors: Qiyang Song, <span class="matr">Zhuotao Liu</span>, Jiahao Cao, Kun Sun, Qi Li, Cong Wang
+  image: blockchains.png
+  description:
+  highlight: 1
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/abstract/document/9276436
+  slides: 
+  code: 
+
+- title: "Toward Blockchain-Powered Trusted Collaborative Services for Edge-Centric Networks"
+  conference: IEEE Network 2020
+  authors: Bo Wu, Ke Xu, Qi Li, Shoushou Ren, <span class="matr">Zhuotao Liu</span>, Zhichao Zhang
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/9055734
+  slides: 
+  code: 
+
+- title: "HyperService: Interoperability and Programmability Across Heterogeneous Blockchains"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2019
+  authors: <span class="matr">Zhuotao Liu</span>, Yangxi Xiang, Jian Shi, Peng Gao, Haoyu Wang, Xusheng Xiao, Bihan Wen, Yih-Chun Hu
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://eprint.iacr.org/2020/578.pdf
+  doi: https://dl.acm.org/doi/10.1145/3319535.3355503
+  slides: https://zliuinspire.github.io/files/HyperServiceSlides.pdf
+  code: https://github.com/HyperService-Consortium
+
+- title: "DeepIntent: Deep Icon-Behavior Learning for Detecting Intention-Behavior Discrepancy in Mobile Apps"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2019
+  authors: Shengqu Xi, Shao Yang, Xusheng Xiao, Yuan Yao, Yayuan Xiong, Fengyuan Xu, Haoyu Wang, Peng Gao, <span class="matr">Zhuotao Liu</span>, Feng Xu, Jian Lu
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://dl.acm.org/doi/10.1145/3319535.3363193
+  slides: 
+  code: https://github.com/deepintent-ccs/DeepIntent/
+  
+- title: "Managing Recurrent Virtual Network Updates in Multi-Tenant Datacenters: A System Perspective"
+  conference: IEEE Transactions on Parallel and Distributed Systems (TPDS) 2019
+  authors: <span class="matr">Zhuotao Liu</span>, Yuan Cao, Xuewu Zhang, Changping Zhu, Fan Zhang
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://zliuinspire.github.io/files/OpReduce.pdf
+  doi: https://ieeexplore.ieee.org/document/8613794
+  slides: 
+  code: 
+  patent: https://patents.google.com/patent/US9813301B2/en
+
+- title: "SmartCrowd: Decentralized and Automated Incentives for Distributed IoT System Detection"
+  conference: IEEE International Conference on Distributed Computing Systems (ICDCS) 2019
+  authors: Bo Wu, Ke Xu, Qi Li, <span class="matr">Zhuotao Liu</span>, Yih-Chun Hu, Zhichao Zhang, Xinle Du, Bingyang Liu, Shoushou Ren
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/8884853
+  slides: 
+  code: 
+
+- title: "Umbrella: Enabling ISPs to Offer Readily Deployable and Privacy-Preserving DDoS Prevention Services"
+  conference: IEEE Transactions on Information Forensics and Security (TIFS) 2018
+  authors: <span class="matr">Zhuotao Liu</span>, Yuan Cao, Min Zhu, Wei Ge
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://arxiv.org/abs/1903.07796
+  doi: https://ieeexplore.ieee.org/document/8466917
+  slides: 
+  code: https://github.com/zliuInspire/MiddlePolice
+
+- title: "Practical Proactive DDoS-Attack Mitigation via Endpoint-Driven In-Network Traffic Control"
+  conference: IEEE/ACM Transactions on Networking (TON) 2018
+  authors: <span class="matr">Zhuotao Liu</span>, Hao Jin, Yih-Chun Hu, Michael Bailey
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://zliuinspire.github.io/files/MiddlePoliceTon.pdf
+  doi: https://ieeexplore.ieee.org/document/8418343
+  slides: 
+  code: https://github.com/zliuInspire/MiddlePolice
+
+- title: "Enabling Work-Conserving Bandwidth Guarantees for Multi-Tenant Datacenters via Dynamic Tenant-Queue Binding"
+  conference: IEEE Conference on Computer Communications (INFOCOM) 2018
+  authors: <span class="matr">Zhuotao Liu</span>, Kai Chen, Haitao Wu, Shuihai Hu, Yih-Chun Hu, Yi Wang, Gong Zhang
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://arxiv.org/abs/1712.06766
+  doi: https://ieeexplore.ieee.org/document/8486219
+  slides: 
+  code: 
+
+- title: "Enabling Efficient Source and Path Verification via Probabilistic Packet Marking"
+  conference: IEEE/ACM International Symposium on Quality of Service (IWQoS) 2018
+  authors: Bo Wu, Ke Xu, Qi Li, <span class="matr">Zhuotao Liu</span>, Yih-Chun Hu, Martin J. Reed, Meng Shen, Fan Yang
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: 
+  doi: https://ieeexplore.ieee.org/document/8624169
+  slides: 
+  code: 
+
+- title: "TorPolice: Towards Enforcing Service-defined Access Policies for Anonymous Communication in the Tor Network"
+  conference: IEEE International Conference on Network Protocols (ICNP) 2017
+  authors: <span class="matr">Zhuotao Liu</span>, Yushan Liu, Philipp Winter, Prateek Mittal, Yih-Chun Hu
+  image:
+  description:
+  highlight: 1
+  news1:
+  news2:
+  pdf: https://arxiv.org/abs/1708.08162
+  doi: https://ieeexplore.ieee.org/document/8117564
+  slides: 
+  code: 
+
+- title: "MiddlePolice: Toward Enforcing Destination-Defined Policies in the Middle of the Internet"
+  conference: ACM Conference on Computer and Communications Security (CCS) 2016
+  authors: <span class="matr">Zhuotao Liu</span>, Hao Jin, Yih-Chun Hu, Michael Bailey
+  image:
+  description:
+  highlight: 
+  news1:
+  news2:
+  pdf: https://arxiv.org/abs/1709.05710
+  doi: https://dl.acm.org/doi/10.1145/2976749.2978306
+  slides: 
+  code: https://github.com/zliuInspire/MiddlePolice

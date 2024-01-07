@@ -3,12 +3,14 @@
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts }}
       {{ .Date.Format $.Site.Params.time_format_default }}
-      <h2>{{ .Title }}</h2>
-      {{ with .Params.excerpt }}
+      <h2>
+        {{ .Title }}
+      </h2>
+      <!-- {{ with .Params.excerpt }}
       {{ . | markdownify }}
       {{ else }}
       {{ .Summary }}
-      {{ end }}
+      {{ end }} -->
       <br>
       {{ if .Params.has_more }}
         <a href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br>

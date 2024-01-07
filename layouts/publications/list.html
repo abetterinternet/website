@@ -1,8 +1,7 @@
 {{ define "main" }}
 <div>
-    {{ $posts := where .Site.RegularPages "Type" "in" (slice "publications") }}
+    {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "publications")).ByParam "seq").Reverse}}
     {{ range $posts }}
-      {{ .Date.Format $.Site.Params.time_format_default }}
       <h2>{{ .Title }}</h2>
       {{ with .Params.authors }}
         {{ . | safeHTML }}
@@ -19,6 +18,15 @@
       {{ end }}
       {{ with .Params.pdf }}
         <a href="{{ . }}">[pdf]</a>
+      {{ end }}
+      {{ with .Params.doi }}
+        <a href="{{ . }}">[doi]</a>
+      {{ end }}
+      {{ with .Params.patent }}
+        <a href="{{ . }}">[patent]</a>
+      {{ end }}
+      {{ with .Params.slides }}
+        <a href="{{ . }}">[slides]</a>
       {{ end }}
       <br>
     {{ end }}
