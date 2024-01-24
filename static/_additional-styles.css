@@ -751,3 +751,7 @@
   font-weight: bold;
   color: #00386e;
 }
+
+.fosdem-page .fosdem-inline-link:hover {
+  text-decoration: underline;
+}
