@@ -727,3 +727,27 @@
 .post-footer p:last-child {
   margin-bottom: 0;
 }
+
+.fosdem-page p {
+  font-size: 25px;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.fosdem-page iframe {
+  margin-bottom: 32px;
+}
+
+.fosdem-page .link-header {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #00386e;
+}
+.fosdem-page .fosdem-inline-link {
+  font-weight: bold;
+  color: #00386e;
+}
