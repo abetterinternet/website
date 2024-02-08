@@ -755,3 +755,29 @@
 .fosdem-page .fosdem-inline-link:hover {
   text-decoration: underline;
 }
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  height: 100%;
+}
+.image-gallery img.half {
+  width: calc(50% - 10px);
+}
+
+article figure {
+  margin: 20px 0;
+}
+figure figcaption {
+  font-size: 80%;
+  display: block;
+  color: #6c7686;
+  margin-top: 10px;
+}
