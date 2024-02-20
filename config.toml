@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-copyrighthtml = "&copy; 2023 Internet Security Research Group. All rights reserved."
+copyright = "&copy 2024 InspiringGroup. All rights reserved."
 address = "548 Market St, PMB 77519, San Francisco, California 94104-5401"
 images = ["images/opengraph/ISRG-opengraph-wide.png"]
 twitter_card_format = "summary"

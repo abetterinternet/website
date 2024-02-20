@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div>
+    <h3> Principal Investigator (PI) </h3>
+    {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "pi")).ByParam "seq")}}
+    {{ range $posts }}
+    <div class="avatar-container">
+      <img src="{{ .Params.image }}"/>
+      <div  class="info-container">
+      <p>{{ .Content | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+
+    <h3> Ph.D. Students </h3>
+    {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "phd_members")).ByParam "seq")}}
+    <div>
+    {{ range $posts }}
+      <div class="student-avatar-container">
+        <img src="{{ .Params.image }}"/>
+        <div class="info-container">
+        <p>{{ .Content | markdownify }}</p>
+        </div>
+      </div>
+    {{ end }}
+    </div>
+
+    <h3> Master Students </h3>
+    {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "master_members")).ByParam "seq")}}
+    <div>
+    {{ range $posts }}
+      <div class="student-avatar-container">
+        <img src="{{ .Params.image }}"/>
+        <div class="info-container">
+        <p>{{ .Content | markdownify }}</p>
+        </div>
+      </div>
+    {{ end }}
+    </div>
+    <br>
+    {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "team")).ByParam "seq")}}
+    {{ range $posts }}
+      <div class="team-container">
+        <article>{{ .Content | markdownify }}</article>
+      </div>
+    {{ end }}
+</div>
+{{ end }}

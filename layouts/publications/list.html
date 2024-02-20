@@ -28,6 +28,9 @@
       {{ with .Params.slides }}
         <a href="{{ . }}">[slides]</a>
       {{ end }}
+      {{ with .Params.code}}
+        <a href="{{ . }}">[code]</a>
+      {{ end }}
       <br>
     {{ end }}
 </div>

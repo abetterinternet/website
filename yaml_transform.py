@@ -72,6 +72,29 @@ def transform_news(base_dir = "./content/en/post"):
             with open(new_filename, "w") as nf:
                 nf.write(content)
 
+def avatar_transform(base_dir = "./content/en/phd_members", img_dir="./static/images/team"):
+    avatar_template = """---
+seq: %d
+image: %s
+---
+
+### 
+
+- 
+- 
+
+"""
+    pics = os.listdir(img_dir)
+    names = [os.path.splitext(p)[0] for p in pics]
+    full_path_pics = [img_dir[8:]+"/"+p for p in pics]
+    for idx, (name, path) in enumerate(zip(names, full_path_pics)):
+        content = avatar_template%(idx, path)
+        with open(os.path.join(base_dir, name+".md"), "w") as f:
+            f.write(content)
+
+
+
 if __name__ == "__main__":
     # transform_pub()
-    transform_news()
+    # transform_news()
+    avatar_transform()

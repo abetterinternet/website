@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "hero.html" . }}
+<main>
+        <section class="slice slice-sm">
+            <div class="container">
+                {{ block "main" . }}{{ end }}
+            </div>
+        </section>
+</main>
+{{ partial "footer.html" . }}
+<style>
+    .avatar-container {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        display: flex;
+    }
+
+    .student-avatar-container {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        display: flex;
+        max-width: 48%;
+        float: left;
+        margin-left: 2%;
+    }
+
+    .student-avatar-container img {
+        max-width: 30%;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .avatar-container img {
+        max-width: 30%;
+        height: auto;
+        margin-right: 20px;
+    }
+    
+    .info-container {
+        margin-left: 20px;
+    }
+
+    .team-container {
+        margin-top: 20px;
+    }
+
+</style>
+</html>
