@@ -29,7 +29,7 @@
   </section>
   <section class="slice">
     <div class="container">
-      <h2 class="eyebrow-text"><a href="/blog">Latest Blogs</a></h2>
+      <h2 class="eyebrow-text"><a href="/blog">Latest News</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
       <div class="row row-grid">
         <div class="col-md-12 col-lg-12">
@@ -44,52 +44,8 @@
     </div>
   </section>
 
-  {{ partial "projects/projects-column.html" }}
+  <!-- {{ partial "projects/projects-column.html" }} -->
 
-  <section class="slice delimiter-top">
-    <div class="container">
-      <h2 class="eyebrow-text"><a href="/sponsors">Current and Past Affiliations</a></h2>
-    </div>
 
-    <div class="container">
-      <div class="row blurable-item align-items-center grid-cols-7">
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/cisco-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/sovereign-tech-fund-logo.webp" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col d-flex align-items-center">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-        <div class="grid-col">
-          <div class="px-4 py-4">
-            <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   {{ partial "footer.html" . }}
 </html>

@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
 copyright = "&copy 2024 InspiringGroup. All rights reserved."
-address = "548 Market St, PMB 77519, San Francisco, California 94104-5401"
+address = "FIT building, Tsinghua University, Beijing"
 images = ["images/opengraph/ISRG-opengraph-wide.png"]
 twitter_card_format = "summary"
 social_share_twitter_square = "images/opengraph/ISRG-opengraph-square.png"
