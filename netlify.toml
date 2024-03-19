@@ -1,6 +1,8 @@
 [build.environment]
   HUGO_VERSION = "0.105.0"
 
+# https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
+
 [[redirects]]
   from = "/docs/memory-safety"
   to = "https://www.memorysafety.org/docs/memory-safety"
@@ -19,3 +21,14 @@
   status = 404
   force = false
 
+[[redirects]]
+  from = "https://isrg.org/*"
+  to = "https://abetterinternet.org/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://www.isrg.org/*"
+  to = "https://abetterinternet.org/:splat"
+  status = 302
+  force = true
