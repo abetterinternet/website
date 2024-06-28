@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 slug: privacy-policy
-subtitle: Updated February 28, 2023
+subtitle: Updated June 28, 2024
 aliases:
   - privacy
 ---
@@ -21,15 +21,22 @@ Any ISRG project without its own privacy policy is subject to this general ISRG 
 
 ## Visitor
 
-When you are a Visitor browsing an ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected, and stored in ISRG's Salesforce database and Sage Intacct as necessary. We collect your name and email address, and, if you provide it, your mailing address when you donate. Once you donate, we will use your information for our legitimate interest in processing and managing your contribution, including fundraising reminders and renewals. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full), [Shopify](https://www.shopify.com/legal/privacy), [The Giving Block](https://thegivingblock.com/about/privacy-policy/), Gemini, [SHIPHERO](https://shiphero.com/privacy-data-policy/), [Salesforce](https://www.salesforce.com/company/privacy/), and [Sage Intacct](https://www.sageintacct.com/privacy_policy_website) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations.
+When you are a Visitor browsing an ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected, and stored in ISRG's Salesforce database and Sage Intacct as necessary. We collect your name and email address, and, if you provide it, your mailing address when you donate. Once you donate, we will use your information for our legitimate interest in processing and managing your contribution, including fundraising reminders and renewals. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full), [Shopify](https://www.shopify.com/legal/privacy), [Salesforce](https://www.salesforce.com/company/privacy/), [Printful](https://www.printful.com/policies/privacy), [Formstack](https://www.formstack.com/legal), and [Sage Intacct](https://www.sageintacct.com/privacy_policy_website) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations.
 
-You may provide your email address to receive communications related to ISRG projects through a signup on an ISRG web site and via other marketing materials. Any communication delivered via Salesforce and your interactions with [Salesforce](https://www.salesforce.com/company/privacy/) are governed by their privacy policies. We may occasionally use your email address to send personalized communications related to ISRG and its projects. You can request to have your email address removed by opting out via the footer of our emails or emailing us at press@abetterinternet.org
+You may provide your email address to receive communications related to ISRG projects through a signup on an ISRG web site and via other marketing materials. Any communication delivered via Salesforce and your interactions with [Salesforce](https://www.salesforce.com/company/privacy/) are governed by their privacy policies. We may occasionally use your email address to send personalized communications related to ISRG and its projects. You can request to have your email address removed by opting out via the footer of our emails or emailing us at press@abetterinternet.org.
 
 If you register to use an ISRG community support forum, the personal information you provide and your actions there are governed by the privacy policy of our hosting and software provider for the forum, [Civilized Discourse Construction Kit](https://www.discourse.org/privacy). We do not collect or maintain personal information through our offering of this support forum.
 
 ## We Do Not Sell Your Data or Information
 
 We do not sell your data or information. This includes Relying Party, Subscriber, and Visitor data and information.
+
+## Use of Third-Party Analytics and Email Marketing Tools
+
+To enhance our understanding of how our visitors engage with our websites and emails, and to improve our fundraising and marketing strategies, ISRG may from time to time deploy third-party web and email analytics tools, specifically Google Analytics for our websites and Salesforce Account Engagement for our marketing emails.
+
+- Google Analytics: This tool collects data on how visitors interact with our websites, including page visits, duration of page and site visits, and navigation paths. We use this information to analyze website performance and user engagement. We retain the data collected by Google Analytics as long as necessary for traffic analysis purposes. You can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Google Ads Settings page. Additionally, you can prevent your data from being collected by Google Analytics by downloading and installing the [Google Analytics Opt-out Browser Add-on](https://support.google.com/analytics/answer/181881?hl=en). You can learn more about how Google uses data when you use our site by visiting [How Google uses information from sites or apps that use their services](https://www.google.com/policies/privacy/partners/).
+- Salesforce Account Engagement: For our marketing emails, Salesforce Account Engagement helps us understand recipient activities, such as email opens and clicks. We use this engagement data to evaluate the performance of our email campaigns and understand our audience's behavior. We retain engagement data for as long as we utilize Salesforce Account Engagement. You can opt-out of marketing communications from us at any time by using the unsubscribe link provided in our emails or by contacting us directly at press@abetterinternet.org.
 
 ## Law Enforcement Requests and Extenuating Circumstances
 
@@ -74,11 +81,8 @@ Your personal data may be collected from or transferred to jurisdictions where w
 Individuals located in the European Economic Area (EEA) have certain rights in respect to their personal information, including the right to access, correct, or delete personal data we process through your use of our sites and services. If you're an individual who is a relying party, subscriber, or visitor based in the EEA, you can:
 
 - Request a personal data report by emailing us at security@abetterinternet.org. This report will include the personal data we have about you, provided to you in a structured, commonly used, and portable format. Please note that we may request additional information from you to verify your identity before we disclose any information.
-
 - Request that your information be corrected or deleted by contacting us at security@abetterinternet.org.
-
 - Object to us processing your information. You can ask us to stop using your information, including when we use your information to send you service emails. You may withdraw your consent to receive service emails at any time by clicking the "unsubscribe" link found within emails.
-
 - Complain to a regulator. If you're based in the EEA and think that we haven't complied with data protection laws, you have a right to lodge a complaint with your local supervisory authority.
 
 For more information, or to report a privacy issue, please contact: security@abetterinternet.org
