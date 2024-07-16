@@ -36,6 +36,7 @@ title = "Internet Security Research Group"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
 description = """
   ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to secure communication over the Internet.
 """

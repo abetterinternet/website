@@ -94,6 +94,7 @@
     { "name": "SecureW2", "url": "https://www.securew2.com/", "image": "securew2-logo.svg" },
     { "name": "20i", "url": "https://www.20i.com/", "image": "20i-logo.svg" },
     { "name": "Chainguard", "url": "https://www.chainguard.dev/", "image": "chainguard-logo.svg" },
-    { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" }
+    { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" },
+    { "name": "IPv6rs", "url": "https://ipv6.rs/", "image": "ipv6rs-logo.png" }
   ]
 }
