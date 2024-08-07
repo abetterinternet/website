@@ -6,7 +6,7 @@
                     <div class="">
                         <span class="d-block">
                         <div class="mb-2"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br></div>
-                        <div class="mb-2">{{ .Site.Params.copyrighthtml | safeHTML}}</div>
+                        <div class="mb-2">&copy; {{ now.Format "2006" }} {{ .Site.Params.copyrighthtml | safeHTML}}</div>
                         <div class="mb-2">{{ .Site.Params.address}}</div>
                         <p> {{ i18n "footer_mailing" }}
                             <span itemscope itemtype="http://schema.org/PostalAddress">
