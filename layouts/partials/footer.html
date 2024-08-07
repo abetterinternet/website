@@ -6,7 +6,7 @@
                     <div class="">
                         <span class="d-block">
                         <div class="mb-2"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br></div>
-                        <div class="mb-2">{{ .Site.Params.copyrighthtml | safeHTML}}</div>
+                        <div class="mb-2">&copy; {{ now.Format "2006" }} {{ .Site.Params.copyrighthtml | safeHTML}}</div>
                         <div class="mb-2">{{ .Site.Params.address}}</div>
                         <p> {{ i18n "footer_mailing" }}
                             <span itemscope itemtype="http://schema.org/PostalAddress">
@@ -24,7 +24,7 @@
                     <div class="mb-4">
                         Read all about our nonprofit work this year in our <a href="/documents/2023-ISRG-Annual-Report.pdf">2023 Annual Report</a>.
                     </div>
-                    <h6 class="font-weight-bold">Subscribe to our Newsletter</h6>
+                    <h6 class="font-weight-bold">Subscribe for email updates about ISRG and our projects</h6>
                     <iframe src="https://outreach.abetterinternet.org/l/1011011/2023-02-15/6gct" width="100%" height="200" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
                 </div>
             </div>
