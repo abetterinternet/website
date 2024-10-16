@@ -21,7 +21,6 @@
     { "name": "SAP", "url": "https://www.sap.com/", "image": "sap-logo.svg" },
     { "name": "Squarespace", "url": "https://www.squarespace.com/", "image": "squarespace-logo.png" },
     { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
-    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.png" },
     { "name": "Craig Newmark Philanthropies", "url": "https://craignewmarkphilanthropies.org/", "image": "CNP-Logo.svg" }
   ],
   "silver": [
@@ -84,6 +83,7 @@
     { "name": "20i", "url": "https://www.20i.com/", "image": "20i-logo.svg" },
     { "name": "Chainguard", "url": "https://www.chainguard.dev/", "image": "chainguard-logo.svg" },
     { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" },
-    { "name": "IPv6rs", "url": "https://ipv6.rs/", "image": "ipv6rs-logo.png" }
+    { "name": "IPv6rs", "url": "https://ipv6.rs/", "image": "ipv6rs-logo.png" },
+    { "name": "ICUK", "url": "https://www.icuk.net/", "image": "icuk-logo-red.svg" }
   ]
 }
