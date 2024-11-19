@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
-{{ partial "hero.html" . }}
-<main>
-        <section class="slice slice-sm">
-            <div class="container">
-                {{ block "main" . }}{{ end }}
-            </div>
-        </section>
-</main>
-{{ partial "footer.html" . }}
+  {{ partial "head.html" . }} {{ partial "header.html" . }} {{ partial "hero.html" . }}
+  <main>
+    <section class="slice slice-sm">
+      <div class="container">{{ block "main" . }}{{ end }} {{ if .Page.Params.should_display_prominent_newsletter_form }} {{ partial "newsletter-form" . }} {{ end }}</div>
+    </section>
+  </main>
+  {{ partial "footer.html" . }}
 </html>

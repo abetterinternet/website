@@ -781,3 +781,11 @@ figure figcaption {
   color: #6c7686;
   margin-top: 10px;
 }
+
+.opt-in-container {
+  background: #c2e9e9;
+  padding-left: 10px !important;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
