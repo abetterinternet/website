@@ -1,5 +1,5 @@
 [build.environment]
-  HUGO_VERSION = "0.105.0"
+  HUGO_VERSION = "0.130.0"
 
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 
