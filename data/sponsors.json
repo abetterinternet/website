@@ -85,6 +85,21 @@
     { "name": "Interserver", "url": "https://www.interserver.net/", "image": "interserver-logo.png" },
     { "name": "Digital Ocean", "url": "https://www.digitalocean.com/", "image": "DigitalOcean_logo.svg" },
     { "name": "CDN77", "url": "https://www.cdn77.com/", "image": "cdn77-logo.png" },
-    { "name": "Snipe-IT", "url": "https://snipeitapp.com/", "image": "snipeit-logo.png" }
+    { "name": "Snipe-IT", "url": "https://snipeitapp.com/", "image": "snipeit-logo.png" },
+    {
+      "name": "Showit",
+      "url": "https://showit.com/",
+      "image": "showit-logo.png"
+    },
+    {
+      "name": "ClouDNS",
+      "url": "https://www.cloudns.net/",
+      "image": "cloudns-logo.png"
+    },
+    {
+      "name": "SMTP2GO",
+      "url": "https://www.smtp2go.com/",
+      "image": "smtp2go-logo.png"
+    }
   ]
 }
