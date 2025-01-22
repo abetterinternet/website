@@ -26,38 +26,6 @@
                     </div>
                     <h6 class="font-weight-bold">Subscribe for email updates about ISRG and our projects</h6>
                     <iframe id="newsletter-iframe" src="https://outreach.abetterinternet.org/l/1011011/2025-01-14/31v6r" width="100%"  type="text/html" frameborder="0" allowTransparency="true" style="border: 0; min-height: 375px;"></iframe>
-                    <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const iframe = document.getElementById('newsletter-iframe');
-                        const siteKey = 'abetterinternet';
-
-                        let hasResized = false;
-
-                        window.addEventListener('message', function(e) {
-                            console.log('Message received from iframe:', e);
-
-                            if (e.origin !== 'https://outreach.abetterinternet.org') {
-                                console.warn('Message received from untrusted origin:', e.origin);
-                                return;
-                            }
-
-                            if (e.data && typeof e.data === 'object') {
-                                if (e.data.type === 'resize' && e.data.height) {
-                                    if (!hasResized) {
-                                        hasResized = true;
-                                        console.log(`Resizing iframe to height: ${e.data.height + 20}px`);
-                                        iframe.style.height = (e.data.height + 20) + 'px';
-                                    }
-                                } else if (e.data.type === 'requestKey') {
-                                    console.log(`Iframe requested a key. Sending key: ${siteKey}`);
-                                    iframe.contentWindow.postMessage({ type: 'parentKey', key: siteKey }, '*');
-                                }
-                            } else {
-                                console.warn('Invalid message format:', e.data);
-                            }
-                        });
-                    });
-                    </script>
                 </div>
             </div>
         </div>
@@ -66,4 +34,5 @@
     <script src="/purpose-theme/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
     <script src="/purpose-theme/js/purpose.js"></script>
+    <script src="/js/newsletter-iframe.js"></script>
 </body>
