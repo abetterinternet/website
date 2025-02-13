@@ -781,3 +781,7 @@ figure figcaption {
   color: #6c7686;
   margin-top: 10px;
 }
+
+div[data-netlify-deploy-id] {
+  display: none;
+}
