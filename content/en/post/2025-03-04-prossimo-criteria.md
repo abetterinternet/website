@@ -1,6 +1,6 @@
 ---
 author: "Josh Aas"
-date: 2025-02-28T00:00:00Z
+date: 2025-03-04T00:00:00Z
 slug: "prossimo-criteria"
 title: "How Prossimo's Risk and Opportunity Criteria Help Us Plan"
 excerpt: "Identifying memory safety work that is both high impact and efficiently achievable."
