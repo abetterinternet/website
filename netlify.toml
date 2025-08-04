@@ -4,7 +4,8 @@ publish = "./public/"
 command = "hugo -D -F -d public"
 
 [build.environment]
-  HUGO_VERSION = "0.130.0"
+  HUGO_VERSION = "0.148.2"
+  NODE_VERSION = "24.5.0"
 
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 
