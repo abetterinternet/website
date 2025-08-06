@@ -2,18 +2,18 @@
   "diamond": [
     { "name": "Google", "url": "https://www.google.com/", "image": "google-logo.png", "nofollow": true },
     { "name": "Amazon Web Services", "url": "https://aws.amazon.com/", "image": "aws-logo-2.png" },
-    { "name": "Sovereign Tech Fund", "url": "https://sovereigntechfund.de/en/", "image": "sovereign-tech-fund-logo-2024.png" },
+    { "name": "Sovereign Tech Agency", "url": "https://sovereign.tech", "image": "sovereign-tech-agency-logo.svg" },
     { "name": "Open Technology Fund", "url": "https://www.opentech.fund/", "image": "open-technology-fund-logo.png" },
     { "name": "Alpha-Omega", "url": "https://alpha-omega.dev/", "image": "alpha-omega-logo.png" }
   ],
   "platinum": [
     { "name": "Mozilla", "url": "https://www.mozilla.org/", "image": "mozilla-logo.png" },
-    { "name": "Cisco", "url": "https://www.cisco.com/", "image": "cisco-logo.png" },
     { "name": "Electronic Frontier Foundation", "url": "https://www.eff.org/", "image": "eff-logo.png" },
     { "name": "OVH", "url": "https://www.ovh.com/", "image": "ovh-logo.png" },
     { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" }
   ],
   "gold": [
+    { "name": "Cisco", "url": "https://www.cisco.com/", "image": "cisco-logo.png" },
     { "name": "IdenTrust", "url": "https://www.identrust.com/", "image": "identrust-logo.png" },
     { "name": "Ford Foundation", "url": "https://www.fordfoundation.org/", "image": "ford-foundation-logo.png" },
     { "name": "Shopify", "url": "https://www.shopify.com/", "image": "shopify-logo.png" },
@@ -105,6 +105,16 @@
       "name": "Gamma",
       "url": "https://gamma.app/",
       "image": "gamma-logo.png"
+    },
+    {
+      "name": "Slide",
+      "url": "https://slide.tech/",
+      "image": "slide-logo.svg"
+    },
+    {
+      "name": "Staffbase",
+      "url": "https://staffbase.com/",
+      "image": "staffbase-logo.png"
     }
   ]
 }
