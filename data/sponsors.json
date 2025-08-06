@@ -2,7 +2,7 @@
   "diamond": [
     { "name": "Google", "url": "https://www.google.com/", "image": "google-logo.png", "nofollow": true },
     { "name": "Amazon Web Services", "url": "https://aws.amazon.com/", "image": "aws-logo-2.png" },
-    { "name": "Sovereign Tech Fund", "url": "https://sovereigntechfund.de/en/", "image": "sovereign-tech-fund-logo-2024.png" },
+    { "name": "Sovereign Tech Agency", "url": "https://sovereign.tech", "image": "sovereign-tech-agency-logo.svg" },
     { "name": "Open Technology Fund", "url": "https://www.opentech.fund/", "image": "open-technology-fund-logo.png" },
     { "name": "Alpha-Omega", "url": "https://alpha-omega.dev/", "image": "alpha-omega-logo.png" }
   ],
@@ -105,6 +105,11 @@
       "name": "Gamma",
       "url": "https://gamma.app/",
       "image": "gamma-logo.png"
+    },
+    {
+      "name": "Slide",
+      "url": "https://slide.tech/",
+      "image": "slide-logo.svg"
     }
   ]
 }
