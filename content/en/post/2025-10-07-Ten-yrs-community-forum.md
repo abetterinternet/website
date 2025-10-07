@@ -13,7 +13,7 @@ display_inline_newsletter_embed: false
     <span class="quote"></span>
     <div class="quote-text">
       <p class="quote-text-value">Seth Schoen was an early contributor to Let's Encrypt through his work at the Electronic Frontier Foundation. He's also one of the longest standing participants in the Let's Encrypt community support forum, so we asked him to offer his thoughts on the role and impact of the forum as a resource for our users. Thank you for your many years of expertise and participation, Seth!</p>
-      <footer class="blockquote-footer"><span class="blockquote-mdash">&mdash;</span> <cite title="Source Title">Josh Aas</cite>, Head of Let's Encrypt</footer>
+      <footer class="blockquote-footer font-italic"><cite title="Source Title">Josh Aas</cite>, Head of Let's Encrypt</footer>
     </div>
   </blockquote>
 </div>
