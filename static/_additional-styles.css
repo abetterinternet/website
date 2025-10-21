@@ -821,3 +821,14 @@ article figcaption {
   line-height: 1.25rem;
   color: #4b5563;
 }
+
+.blog-excerpt-item + .blog-excerpt-item {
+  margin-top: 2.5rem;
+}
+
+.blog-excerpt-item time {
+  display: block;
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,5 @@
+<div class="blog-excerpt-item">
+  <time datetime="{{ .Date.Format `2006-01-02` }}">{{ .Date.Format $.Site.Params.time_format_default }}</time>
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <div class="excerpt">{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</div>
+</div>
