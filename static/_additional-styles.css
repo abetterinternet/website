@@ -465,6 +465,10 @@
   margin-bottom: 30px;
 }
 
+.eyebrow-text a:hover {
+  text-decoration: underline;
+}
+
 #isrg-projects-column .slice:first-child {
   /* padding-top: 0; */
 }
@@ -824,6 +828,14 @@ article figcaption {
 
 .blog-excerpt-item + .blog-excerpt-item {
   margin-top: 2.5rem;
+}
+
+.blog-excerpt-item a {
+  text-decoration: none;
+}
+
+.blog-excerpt-item a:hover {
+  text-decoration: underline;
 }
 
 .blog-excerpt-item time {
