@@ -1,0 +1,41 @@
+{{/*
+  Usage:
+  {{ partial "optimized_image.html" (dict "src" "images/..." "alt" "..." "maxHeight" 88) }}
+  or
+  {{ partial "optimized_image.html" (dict "src" "images/..." "alt" "..." "maxWidth" 200) }}
+
+  Notes:
+  - Treats true SVGs as non-optimizable and marks as is-svg is-not-optimized
+  - For raster images, attempts Hugo Pipes; falls back to static path if unavailable
+*/}}
+{{ $src := .src }}
+{{ $alt := .alt }}
+{{ $maxHeight := .maxHeight }}
+{{ $maxWidth := .maxWidth }}
+{{ $extraClass := "" }}
+{{ with .class }}{{ $extraClass = printf " %s" . }}{{ end }}
+{{ $idAttr := "" }}
+{{ with .id }}{{ $idAttr = printf ` id="%s"` . }}{{ end }}
+
+{{ $ext := lower (path.Ext $src) }}
+{{ $isSVG := eq $ext ".svg" }}
+
+{{ if $isSVG }}
+  <img class="is-svg is-not-optimized{{ $extraClass }}"{{ $idAttr }} src="/{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+{{ else }}
+  {{ $res := resources.Get $src }}
+  {{ if $res }}
+    {{ $spec := "" }}
+    {{ if $maxHeight }}
+      {{ $spec = printf "x%d" $maxHeight }}
+    {{ else if $maxWidth }}
+      {{ $spec = printf "%dx" $maxWidth }}
+    {{ else }}
+      {{ $spec = printf "%dx%d" $res.Width $res.Height }}
+    {{ end }}
+    {{ $img := $res.Resize (printf "%s webp" $spec) }}
+    <img class="is-not-svg is-optimized{{ $extraClass }}"{{ $idAttr }} src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+  {{ else }}
+    <img class="is-not-svg is-not-optimized{{ $extraClass }}"{{ $idAttr }} src="/{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+  {{ end }}
+{{ end }}
