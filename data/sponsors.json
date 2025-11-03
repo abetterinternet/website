@@ -21,7 +21,8 @@
     { "name": "SAP", "url": "https://www.sap.com/", "image": "sap-logo.svg" },
     { "name": "Squarespace", "url": "https://www.squarespace.com/", "image": "squarespace-logo.png" },
     { "name": "Acton Family Giving", "url": "https://actonfamilygiving.org/", "image": "acton-family-giving-logo.png" },
-    { "name": "Craig Newmark Philanthropies", "url": "https://craignewmarkphilanthropies.org/", "image": "CNP-Logo.svg" }
+    { "name": "Craig Newmark Philanthropies", "url": "https://craignewmarkphilanthropies.org/", "image": "CNP-Logo.svg" },
+    { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" }
   ],
   "silver": [
     { "name": "Automattic", "url": "https://automattic.com/", "image": "automattic-logo.png" },
@@ -77,7 +78,6 @@
     { "name": "SecureW2", "url": "https://www.securew2.com/", "image": "securew2-logo.png" },
     { "name": "20i", "url": "https://www.20i.com/", "image": "20i-logo.svg" },
     { "name": "Chainguard", "url": "https://www.chainguard.dev/", "image": "chainguard-logo.svg" },
-    { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" },
     { "name": "ICUK", "url": "https://www.icuk.net/", "image": "icuk-logo-red.svg" },
     { "name": "Interserver", "url": "https://www.interserver.net/", "image": "interserver-logo.png" },
     { "name": "Digital Ocean", "url": "https://www.digitalocean.com/", "image": "DigitalOcean_logo.svg" },
