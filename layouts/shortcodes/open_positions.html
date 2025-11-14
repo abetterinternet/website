@@ -3,7 +3,7 @@
   {{ range $jobs }}
     <a href="{{ .apply_url }}" target="_blank" rel="noopener" class="list-group-item list-group-item-action d-flex flex-column flex-md-row align-items-center px-sm text-center text-md-left box-shadow-2">
       <div class="mr-md-sm mb-4 mb-md-0">
-        <img alt="{{ or .logo_alt "ISRG Logo" }}" src="{{ or .logo "/images/ISRG-Logo-Blue.svg" }}" width="100" height="100" class="img-fluid" />
+        <img alt="{{ or .logo_alt "ISRG Logo" }}" src="{{ or .logo "/images/ISRG-Logo-Blue.svg" }}" class="img-fluid job-opening-logo" />
       </div>
       <div class="list-group-content">
         <div class="h5">{{ .title }}</div>
