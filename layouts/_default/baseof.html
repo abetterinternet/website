@@ -1,4 +1,4 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{ partial "head.html" . }} {{ partial "header.html" . }} {{ if not .Params.nohero }}{{ partial "hero.html" . }}{{ end }} {{ with .File }} {{ if eq .Ext "md" }}{{ partial "md-top-context.html" . }}{{ end }} {{ end }} {{ block "main" . }}{{ end }} {{ with .File }} {{ if eq .Ext "md" }}{{ partial "md-bot-context.html" . }}{{ end }} {{ end }} {{ partial "footer.html" . }}
 </html>

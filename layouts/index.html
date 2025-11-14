@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{ partial "head.html" . }} {{ partial "header.html" . }}
   <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom">
     <span class="mask bg-gradient-secondary opacity-8"></span>
@@ -19,13 +19,13 @@
         <div class="col-lg-5 homepage-logos-column">
           <div class="pt-lg-md pb-lg-md">
             <div>
-              <a href="https://letsencrypt.org"><img src="/images/LE-Logo-Standard.svg" /></a>
+              <a href="https://letsencrypt.org"><img src="/images/LE-Logo-Standard.svg" alt="Let's Encrypt" /></a>
             </div>
             <div>
-              <a href="https://memorysafety.org"><img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" /></a>
+              <a href="https://memorysafety.org"><img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" alt="Prossimo" /></a>
             </div>
             <div>
-              <a href="https://divviup.org"><img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" /></a>
+              <a href="https://divviup.org"><img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" alt="Divvi Up" /></a>
             </div>
           </div>
         </div>
@@ -36,13 +36,7 @@
     <div class="container">
       <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
       {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
-      <div class="row row-grid">
-        <div class="col-md-12 col-lg-12">
-          <h2 class="heading h2">{{ .Title }}</h2>
-          <p>{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
-          <a href="{{ .RelPermalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
-        </div>
-      </div>
+      {{ partial "blog-excerpt.html" . }}
       {{ end }}
     </div>
   </section>
@@ -60,32 +54,32 @@
           <div class="row blurable-item align-items-center grid-cols-7">
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/mozilla-logo.png" alt="Mozilla logo" class="img-fluid img-grayscale" />
               </div>
             </div>
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/eff-logo.png" alt="EFF logo" class="img-fluid img-grayscale" />
               </div>
             </div>
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/sovereign-tech-agency-logo.svg" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/sovereign-tech-agency-logo.svg" alt="Sovereign Tech Agency logo" class="img-fluid img-grayscale" />
               </div>
             </div>
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/ovh-logo.png" alt="OVH logo" class="img-fluid img-grayscale" />
               </div>
             </div>
             <div class="grid-col d-flex align-items-center">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/google-logo.png" alt="Google logo" class="img-fluid img-grayscale" />
               </div>
             </div>
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/open-technology-fund-logo.png" alt="Open Technology Fund logo" class="img-fluid img-grayscale" />
               </div>
             </div>
           </div>

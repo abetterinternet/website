@@ -1,0 +1,26 @@
+{{ $src := .Get "src" }}
+{{ if not $src }}
+  {{ errorf "optimized-image shortcode requires a 'src' parameter" }}
+{{ end }}
+{{ $src = strings.TrimPrefix "/" $src }}
+{{ $alt := .Get "alt" | default "" }}
+
+{{ $imgDict := dict "src" $src "alt" $alt }}
+
+{{ with .Get "maxHeight" }}
+  {{ $imgDict = merge $imgDict (dict "maxHeight" (int .)) }}
+{{ end }}
+
+{{ with .Get "maxWidth" }}
+  {{ $imgDict = merge $imgDict (dict "maxWidth" (int .)) }}
+{{ end }}
+
+{{ with .Get "class" }}
+  {{ $imgDict = merge $imgDict (dict "class" .) }}
+{{ end }}
+
+{{ with .Get "id" }}
+  {{ $imgDict = merge $imgDict (dict "id" .) }}
+{{ end }}
+
+{{ partial "optimized_image.html" $imgDict }}

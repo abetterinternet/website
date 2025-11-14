@@ -5,6 +5,14 @@ contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+
 [params]
 copyrighthtml = "Internet Security Research Group"
 address = "548 Market St, PMB 77519, San Francisco, California 94104-5401"
