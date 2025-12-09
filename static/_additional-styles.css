@@ -826,3 +826,9 @@ article figcaption {
   line-height: 1.25rem;
   color: #4b5563;
 }
+
+article img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
