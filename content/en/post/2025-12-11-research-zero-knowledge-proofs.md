@@ -1,0 +1,27 @@
+---
+author: Tim Geoghegan
+date: 2025-12-11T00:00:00Z
+slug: research-zero-knowledge-proofs
+title: "Zero Knowledge Proofs from Credentials"
+excerpt: "Developing solutions for security and privacy in digital identities"
+display_default_footer: true
+display_inline_newsletter_embed: false
+---
+
+As more of people's everyday lives move online, there is a stronger push to use technology to verify aspects of online users' identities. Unfortunately, naive technical solutions in which users upload images of themselves or government issued identity documents to verifiers impose significant privacy risks on users, as this personally identifying information may get [leaked](https://www.computerworld.com/article/4070276/major-discord-hack-exposes-the-real-risks-of-digital-id.html).
+
+Fortunately, modern cryptography provides tools we can use to do better. A family of techniques called zero knowledge proofs enables proving statements about things like digital credentials without revealing anything beyond the strict minimum required information. For most of 2025, ISRG engineers have been developing and experimenting with these techniques.
+
+Think about your driver's license as a message which contains multiple claims. One is your name, another is your address, still another is your birthdate, and so on for all the information printed on the card. Besides being printed on the card, all that information is also electronically encoded into a chip or barcode, and digitally signed by the issuing authority. This information can be used in online authentication protocols, but we wouldn't want to present the entire digital ID to a relying party because that reveals more information about the bearer than is strictly necessary.
+
+A step in the right direction is selective disclosure. Suppose that a website wants to restrict its services to residents of a particular country. The relying party doesn't need to check the user's eye colour or birthdate. So let's only reveal the address from the identity document (ID). Less information is now leaked, but an address is still a high resolution tracking identifier. The relying party doesn't actually need to know your address, they just need to know that you are from the correct country
+
+That's where zero knowledge comes in: instead of revealing the entire ID, or selectively disclosing the address, the user's client would construct a proof that the user holds an ID issued by a trusted authority and that this ID attests to a satisfactory location -- and nothing else. That's what is meant by zero knowledge: I prove to you an assertion about a piece of private data, but reveal nothing else whatsoever about it.
+
+Well, this sounds great, so why aren't we already doing it? The big stumbling block to deploying zero knowledge proofs is that the cryptographic algorithms widely used for government issued credentials, while secure, aren't designed for compatibility with zero knowledge proof systems. And the algorithms that are ideal for zero knowledge proof systems aren't approved by government bodies like NIST, the UK NCSC or German BSI. Even if they were, it would take years to replace all the existing driver's licenses and passports and so on with ones that use the fancy new cryptography. We can't wait that long, because more and more governments and regulatory bodies are imposing requirements on online service providers that require digital IDs.
+
+What changes the calculus is [Longfellow](https://eprint.iacr.org/2024/2010.pdf). Longfellow is a zero knowledge proof system optimized for proving statements from legacy cryptography like ECDSA with P256 curves and SHA-256 digests. By carefully applying a series of sophisticated optimizations, Longfellow threads the needle of being compatible with existing credentials, being fast enough to work on the internet, and providing vastly better privacy than solutions currently available.
+
+As part of our broader project on human digital identity on the internet, ISRG has been researching Longfellow. We've been collaborating with the scheme's inventors on [a specification of the proof system](https://datatracker.ietf.org/doc/draft-google-cfrg-libzk/), and [our own implementation](https://github.com/abetterinternet/zk-cred-longfellow) (in memory-safe Rust, naturally). Besides deepening ISRG's expertise in these emerging technologies, our partners at the [SIROS Foundation](https://siros.org/) plan to integrate this work into wwWallet, their European Union Digital Identity wallet.
+
+A zero knowledge proof system is just one piece of a big puzzle, and there's lots of other exciting developments underway in this space. For example, [Crescent](https://www.microsoft.com/en-us/research/blog/crescent-library-brings-privacy-to-digital-identity-systems/) is a different system designed by researchers at UC Berkeley and Microsoft Research that addresses similar constraints. And while compatibility with issued credentials in the field is vital for near-term success, we also need to identify longer term solutions based on post-quantum cryptography, so that we can ensure security and privacy even in the face of cryptographically relevant quantum computers. Standards development organizations like the Internet Engineering Task Force are starting to [take notice](https://mailman3.ietf.org/mailman3/lists/zip.ietf.org/) of this problem space, and we look forward to collaborating with industry, academia and government in such venues.
