@@ -10,7 +10,7 @@
       {{ .Summary }}
       {{ end }}
       <br>
-      <a href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br>
+      <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a><br>
       <br>
     {{ end }}
   {{ with .Site.Home.OutputFormats.Get "RSS" -}}
