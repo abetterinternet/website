@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body style="background-color: #c2e9e9; min-height: 100vh;">
+    <style>section { background-color: transparent !important; }</style>
+    <main>
+      {{ .Content }}
+    </main>
+    <script src="/purpose-theme/libs/jquery/dist/jquery.min.js"></script>
+    <script src="/purpose-theme/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/newsletter-iframe.js"></script>
+  </body>
+</html>
