@@ -62,7 +62,7 @@ The fifth criterion has to do with how quickly we think something might get adop
 
 ## Conclusion
 
-These criteria really get to the head of what we're trying to do with Prossimo. Hopefully this post has helped to understand them more clearly.
+These criteria really get to the heart of what we're trying to do with Prossimo. Hopefully this post has helped to understand them more clearly.
 
 We've helped to build some great software, like the [Rustls TLS library](https://github.com/rustls/rustls/), [Hickory DNS](https://github.com/hickory-dns/hickory-dns), [a memory safe NTP implementation](https://github.com/pendulum-project/ntpd-rs), and a [memory safe implementation of sudo](https://github.com/trifectatechfoundation/sudo-rs). If you run software like this, we encourage you to try these implementations out.
 

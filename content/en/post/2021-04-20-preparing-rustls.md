@@ -10,7 +10,7 @@ SSL/TLS libraries are critical software infrastructure for the Internet. Unfortu
 
 Rustls is an excellent alternative to OpenSSL and similar libraries. Much of its critical code is written in Rust so it’s largely memory-safe without sacrificing performance. It has [been audited](https://github.com/ctz/rustls/blob/main/audit/TLS-01-report.pdf) and found to be a high quality implementation. Here’s one of our favorite lines from the report:
 
-“Using the type system to statically encode properties such as the TLS state transition function is one just one example of great defense-in-depth design decisions.”
+“Using the type system to statically encode properties such as the TLS state transition function is just one example of great defense-in-depth design decisions.”
 
 With financial support from Google, we’ve contracted with Dirkjan Ochtman, an experienced Rust developer and Rustls contributor, to make a number of additional improvements to Rustls, including:
 
