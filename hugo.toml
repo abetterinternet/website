@@ -5,6 +5,9 @@ contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[taxonomies]
+# Explicitly empty to disable Hugo's default tags/categories taxonomies
+
 [params]
 copyrighthtml = "Internet Security Research Group"
 address = "548 Market St, PMB 77519, San Francisco, California 94104-5401"

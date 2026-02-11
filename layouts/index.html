@@ -35,15 +35,12 @@
   <section class="slice">
     <div class="container">
       <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
-      {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }} {{ range $posts }}
-      <div class="row row-grid">
-        <div class="col-md-12 col-lg-12">
-          <h2 class="heading h2">{{ .Title }}</h2>
-          <p>{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
-          <a href="{{ .RelPermalink }}" class="link font-weight-bold" data-link="1">{{ i18n "read_more" }}</a>
-        </div>
-      </div>
+      <div class="cmp-BlogPostList">
+      {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") | first 3 }}
+      {{ range $posts }}
+      {{ partial "blog-post-item.html" . }}
       {{ end }}
+      </div>
     </div>
   </section>
 

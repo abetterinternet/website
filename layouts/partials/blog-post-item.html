@@ -1,0 +1,10 @@
+<a href="{{ .RelPermalink }}" class="cmp-BlogPostItem">
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <div class="post-date">{{ .Date.Format $.Site.Params.time_format_default }}</div>
+      <p class="cmp-BlogPostItem__title heading h2">{{ .Title }}</p>
+      <p class="cmp-BlogPostItem__description">{{ with .Params.excerpt }}{{ . | markdownify }}{{ else }}{{ .Summary }}{{ end }}</p>
+      <span class="cmp-BlogPostItem__read-more link font-weight-bold">{{ i18n "read_more" }}</span>
+    </div>
+  </div>
+</a>

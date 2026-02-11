@@ -1,9 +1,10 @@
 {{ define "main" }}
 <div>
   <header>
-    <p>{{ .Params.author }}<br />{{ .Date.Format $.Site.Params.time_format_default }}</p>
+    <div class="post-date">{{ .Date.Format $.Site.Params.time_format_default }}</div>
+    {{ with .Params.author }}<p class="post-author">{{ . }}</p>{{ end }}
   </header>
-  <article>{{ .Content }}</article>
+  <article class="post-article">{{ .Content }}</article>
   {{ if eq .Params.display_default_footer true }}
   <div class="post-footer">
     <h6><span>Support Our Work</span></h6>

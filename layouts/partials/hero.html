@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
+        {{ if and (eq .Type "post") .IsPage }}<div class="post-breadcrumb"><a href="/blog/">Blog</a></div>{{ end }}
         <h1 id="page-title" class="display-4 text-black">{{ .Params.Title }}</h1>
         {{ if .Params.subtitle }}
         <h5 class="mb-4 text-black">{{ .Params.Subtitle }}</h5>
