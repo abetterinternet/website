@@ -1,13 +1,13 @@
 {{ define "main" }}
 <div>
     <div class="cmp-BlogPostList">
+    <div class="text-right mb-3">
+      {{ partial "rss-feed-link.html" . }}
+    </div>
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts }}
     {{ partial "blog-post-item.html" . }}
     {{ end }}
     </div>
-  {{ with .Site.Home.OutputFormats.Get "RSS" -}}
-  <p>{{ i18n "subscribe_rss" . | safeHTML }}</p>
-  {{ end  }}
 </div>
 {{ end }}
