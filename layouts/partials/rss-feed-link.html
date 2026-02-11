@@ -1,0 +1,6 @@
+{{- with site.Home.OutputFormats.Get "RSS" -}}
+<a href="{{ .RelPermalink }}" class="rss-feed-link" title="Subscribe via RSS">
+  <span class="rss-icon" aria-hidden="true"></span>
+  RSS Feed
+</a>
+{{- end -}}

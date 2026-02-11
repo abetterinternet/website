@@ -8,6 +8,9 @@
   <link type="text/css" href="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
   <link type="text/css" href="/purpose-theme/css/theme.min.css" rel="stylesheet" />
   <link type="text/css" href="/_additional-styles.css" rel="stylesheet" />
+  {{ with site.Home.OutputFormats.Get "RSS" -}}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}">
+  {{- end }}
   {{ if .Params.include_tenthanniversary_assets }}
   <script src="/tenth-anniversary.js"></script>
   <link type="text/css" rel="stylesheet" href="/tenth-anniversary.css" />
