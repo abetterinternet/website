@@ -497,6 +497,9 @@
 #page-title {
   transform: translateX(-3px); /* Fix slightly offset left edge of font using in the "I" glyph */
 }
+#page-title:last-child {
+  margin-bottom: 0;
+}
 
 .display-6 {
   font-size: 36px;
@@ -594,6 +597,9 @@
   max-width: 555px;
 }
 
+.link {
+  transition: none;
+}
 .font-weight-bold {
   font-weight: 700 !important; /* Fix bootstrap assigning bold to 600 */
 }
@@ -785,6 +791,71 @@ figure figcaption {
   display: block;
   color: #6c7686;
   margin-top: 10px;
+}
+
+/* Shared post styles */
+.post-breadcrumb {
+  color: #6c7686;
+  font-size: 14px;
+  margin-bottom: 0.25rem;
+}
+.post-breadcrumb a {
+  color: #6c7686;
+}
+.post-breadcrumb a:hover {
+  color: #000;
+}
+.post-date {
+  color: #6c7686;
+  font-size: 14px;
+}
+.post-date + .cmp-BlogPostItem__title {
+  margin-top: 0.5rem;
+}
+.post-author {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.post-article {
+  margin-top: 20px;
+}
+
+/* Blog post list */
+.cmp-BlogPostList {
+  --blog-post-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--blog-post-gap);
+}
+
+/* Blog post list items */
+a.cmp-BlogPostItem,
+a.cmp-BlogPostItem:hover {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+a.cmp-BlogPostItem .post-date,
+a.cmp-BlogPostItem:hover .post-date {
+  color: #6c7686;
+}
+a.cmp-BlogPostItem .cmp-BlogPostItem__description,
+a.cmp-BlogPostItem:hover .cmp-BlogPostItem__description {
+  color: #000;
+}
+a.cmp-BlogPostItem .cmp-BlogPostItem__read-more {
+  color: #3771c8;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+a.cmp-BlogPostItem:hover .cmp-BlogPostItem__title {
+  color: #3771c8;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+a.cmp-BlogPostItem:hover .cmp-BlogPostItem__read-more {
+  border-bottom-color: #3771c8;
 }
 
 div[data-netlify-deploy-id] {

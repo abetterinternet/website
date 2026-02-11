@@ -1,18 +1,11 @@
 {{ define "main" }}
 <div>
+    <div class="cmp-BlogPostList">
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts }}
-      {{ .Date.Format $.Site.Params.time_format_default }}
-      <h2>{{ .Title }}</h2>
-      {{ with .Params.excerpt }}
-      {{ . | markdownify }}
-      {{ else }}
-      {{ .Summary }}
-      {{ end }}
-      <br>
-      <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a><br>
-      <br>
+    {{ partial "blog-post-item.html" . }}
     {{ end }}
+    </div>
   {{ with .Site.Home.OutputFormats.Get "RSS" -}}
   <p>{{ i18n "subscribe_rss" . | safeHTML }}</p>
   {{ end  }}
