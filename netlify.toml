@@ -7,6 +7,13 @@ command = "hugo -D -F -d public"
   HUGO_VERSION = "0.148.2"
   NODE_VERSION = "24.5.0"
 
+# https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "frame-ancestors 'none'"
+
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 
 [[redirects]]
