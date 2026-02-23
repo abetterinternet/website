@@ -3,7 +3,7 @@ author: Sarah Gran
 date: 2024-03-12T00:12:00Z
 title: "White House, Craig Newmark Support Memory Safe Software"
 excerpt: "Growing attention on the solvability of memory safety."
-display_default_footer: true
+display_support_us_footer: true
 slug: growing-support
 ---
 

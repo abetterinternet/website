@@ -4,7 +4,7 @@ date: 2024-01-03T00:00:00Z
 slug: ISRG-Financial-Support
 title: "Public benefit Internet infrastructure is not a “one-and-done” project"
 excerpt: "ISRG’s Board Chair reflects on our financial support."
-display_default_footer: true
+display_support_us_footer: true
 ---
 
 This past year we [celebrated 10 years](https://www.abetterinternet.org/tenth-anniversary/) of continuous service to the community, providing free, open and automated digital certificates, creating a more secure and privacy-respecting Web for users all over the world. In that time, we have seen demand for Let's Encrypt certificates continue to grow year on year, so that now Let's Encrypt provides certificates to more than [360 million websites worldwide](http://letsencrypt.org/stats).

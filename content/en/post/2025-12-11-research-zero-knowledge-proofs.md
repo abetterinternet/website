@@ -4,7 +4,7 @@ date: 2025-12-11T00:00:00Z
 slug: research-zero-knowledge-proofs
 title: "Zero Knowledge Proofs from Credentials"
 excerpt: "Developing solutions for security and privacy in digital identities"
-display_default_footer: true
+display_support_us_footer: true
 display_inline_newsletter_embed: false
 ---
 

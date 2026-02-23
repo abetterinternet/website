@@ -4,7 +4,7 @@ date: 2025-05-06T00:00:00Z
 slug: digital-identity-harms-detection
 title: "Detecting Privacy Harms in Digital Identity using Divvi Up"
 excerpt: "Proving your identity to online services can open the door to deanonymization and other privacy risks, but privacy enhancing technologies like Divvi Up can help detect and mitigate such harms in cases where preventing them is impossible or difficult."
-display_default_footer: true
+display_support_us_footer: true
 ---
 
 _This post explores thoughts from the Divvi Up engineers working on this topic._

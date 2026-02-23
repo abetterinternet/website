@@ -4,7 +4,7 @@ date: 2025-02-14T00:00:00Z
 slug: encryption-for-everybody
 title: "Encryption for Everybody"
 excerpt: "Celebrating ten years of Let's Encrypt."
-display_default_footer: true
+display_support_us_footer: true
 ---
 
 <div class="card border-0 pic-quote-right">

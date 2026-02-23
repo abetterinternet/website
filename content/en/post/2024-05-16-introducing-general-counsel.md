@@ -3,7 +3,7 @@ author: Josh Aas
 date: 2024-05-16T00:00:00Z
 title: "Kristin Berdan joins ISRG as new General Counsel"
 excerpt: "Join us in welcoming Kristin Berdan to the ISRG team as our new General Counsel."
-display_default_footer: true
+display_support_us_footer: true
 slug: introducing-general-counsel
 ---
 

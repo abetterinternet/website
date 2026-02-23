@@ -4,7 +4,7 @@ date: 2025-04-29T00:00:00Z
 slug: "humandigitalidentityspace"
 title: "Researching the Human Digital Identity Space"
 excerpt: "Today we are announcing an effort that will allow ISRG to learn about systems for human digital identity."
-display_default_footer: true
+display_support_us_footer: true
 display_newsletter_embed: false
 ---
 
