@@ -16,7 +16,15 @@ aliases:
         <p>Many organizations match donations to nonprofits made by employees. Check if your organization has a matching program and double your impact!</p>
         <div id=dd-wrapper class="pt-2">
           <div id=dd-container>
-            <script src=https://donorbox.org/widget.js type=text/javascript></script><iframe src=https://donorbox.org/company_matching/let-s-encrypt/embed style="min-width:310px;min-height:330px!important" width="100%"" name="donorbox" frameborder="0" scrolling="no"></iframe>
+            <script src=https://donorbox.org/widget.js type=text/javascript></script><iframe src=https://donorbox.org/company_matching/let-s-encrypt/embed style="min-width:310px;min-height:330px!important" width="100%" name="donorbox" id="dbox-form-embed" frameborder="0" scrolling="no"></iframe>
+            <div id="donorbox-fallback" class="mt-2">
+              <a href="https://donorbox.org/company_matching/let-s-encrypt/embed" class="btn btn-sm btn-primary btn-circle btn-icon">Check Company Matching on Donorbox</a>
+            </div>
+            <script>
+              document.getElementById('dbox-form-embed').addEventListener('load', function() {
+                document.getElementById('donorbox-fallback').style.display = 'none';
+              });
+            </script>
           </div>
         </div>
       </div>
