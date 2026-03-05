@@ -11,7 +11,15 @@ slug: donate
         <h4>Donation Form</h4>
       </div>
       <div class="col-md-9 col-lg-9">
-        <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/support-isrg" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+        <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/support-isrg" name="donorbox" id="dbox-form-embed" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+          <div id="donorbox-fallback" class="mt-2">
+            <a href="https://donorbox.org/support-isrg" class="btn btn-primary btn-circle">Donate on Donorbox</a>
+          </div>
+          <script>
+            document.getElementById('dbox-form-embed').addEventListener('load', function() {
+              document.getElementById('donorbox-fallback').style.display = 'none';
+            });
+          </script>
       </div>
     </div>
 
@@ -78,7 +86,15 @@ slug: donate
         <p>Many organizations match donations to nonprofits made by employees. Check if your organization has a matching program and double your impact!</p>
         <div id=dd-wrapper>
           <div id=dd-container>
-            <script src=https://donorbox.org/widget.js type=text/javascript></script><iframe src=https://donorbox.org/company_matching/let-s-encrypt/embed style=min-width:310px;min-height:330px!important width=100% name=donorbox frameborder=0 scrolling=no></iframe>
+            <script src=https://donorbox.org/widget.js type=text/javascript></script><iframe src=https://donorbox.org/company_matching/let-s-encrypt/embed style=min-width:310px;min-height:330px!important width=100% name=donorbox id=match-form-embed frameborder=0 scrolling=no></iframe>
+            <div id="match-fallback" class="mt-2">
+              <a href="https://donorbox.org/company_matching/let-s-encrypt/embed" class="btn btn-primary btn-circle">Check Company Matching on Donorbox</a>
+            </div>
+            <script>
+              document.getElementById('match-form-embed').addEventListener('load', function() {
+                document.getElementById('match-fallback').style.display = 'none';
+              });
+            </script>
           </div>
         </div>
       </div>
