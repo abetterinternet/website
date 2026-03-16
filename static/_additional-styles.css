@@ -758,6 +758,113 @@
   text-decoration: underline;
   color: #00386e;
 }
+
+/* Newsletter archive */
+#cmp-NewsletterArchive {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.cmp-NewsletterArchive__intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #c2e9e9;
+  border-radius: 24px;
+}
+
+.cmp-NewsletterArchive__intro-copy {
+  max-width: 42rem;
+}
+
+.cmp-NewsletterArchive__intro-text > *:last-child {
+  margin-bottom: 0;
+}
+
+.cmp-NewsletterArchive__intro-text p {
+  font-size: 21px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.cmp-NewsletterArchive__empty {
+  margin-bottom: 0;
+}
+
+a.cmp-NewsletterArchiveItem,
+a.cmp-NewsletterArchiveItem:hover {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(55, 113, 200, 0.18);
+}
+
+a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
+  display: inline-block;
+}
+
+#cmp-NewsletterDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cmp-NewsletterDetail__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cmp-NewsletterDetail__article {
+  margin-top: 0;
+}
+
+.cmp-NewsletterDetail__frame {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid rgba(55, 113, 200, 0.16);
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(26, 35, 51, 0.08);
+}
+
+.cmp-NewsletterDetail__iframe {
+  display: block;
+  width: 100%;
+  min-height: 720px;
+  border: 0;
+  border-radius: 16px;
+  background: #f9f7ed;
+}
+
+@media screen and (max-width: 767.98px) {
+  .cmp-NewsletterArchive__intro {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .cmp-NewsletterArchive__intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
+    margin-top: 0.25rem;
+  }
+
+  .cmp-NewsletterDetail__frame {
+    padding: 0.5rem;
+    border-radius: 18px;
+  }
+
+  .cmp-NewsletterDetail__iframe {
+    min-height: 540px;
+    border-radius: 14px;
+  }
+}
 .fosdem-page .fosdem-inline-link {
   font-weight: bold;
   color: #00386e;

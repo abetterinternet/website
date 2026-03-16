@@ -1,0 +1,11 @@
+<a href="{{ .RelPermalink }}" class="cmp-BlogPostItem cmp-NewsletterArchiveItem">
+  <div class="row align-items-md-center">
+    <div class="col-md-8 col-lg-9">
+      <div class="post-date">{{ .Date.Format $.Site.Params.time_format_default }}</div>
+      <p class="cmp-BlogPostItem__title heading h2 mb-0">{{ .Title }}</p>
+    </div>
+    <div class="col-md-4 col-lg-3 mt-3 mt-md-0 text-md-right">
+      <span class="cmp-BlogPostItem__read-more link font-weight-bold">Read newsletter</span>
+    </div>
+  </div>
+</a>
