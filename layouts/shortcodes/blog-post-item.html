@@ -1,0 +1,7 @@
+{{- $slug := .Get 0 -}}
+{{- $matches := where site.RegularPages "Params.slug" $slug -}}
+{{- $post := cond (gt (len $matches) 0) (index $matches 0) nil -}}
+{{- if not $post -}}
+  {{- errorf "blog-post-item shortcode could not find post for slug %q on page %q" $slug .Page.File.Path -}}
+{{- end -}}
+{{ partial "blog-post-item.html" $post }}
