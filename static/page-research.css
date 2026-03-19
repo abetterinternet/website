@@ -1,0 +1,101 @@
+.page-research .research-topic {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid #c2e9e9 !important;
+}
+
+.page-research .research-topic-header {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #c2e9e9 0%, #e7f5f5 100%);
+  border-bottom: 1px solid rgba(43, 73, 129, 0.12);
+}
+
+.page-research .research-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.page-research .research-section-last {
+  margin-bottom: 0;
+}
+
+.page-research .research-section > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-research .research-section p + p {
+  margin-top: 1rem;
+}
+
+.page-research .research-card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page-research .research-card-grid-item {
+  min-width: 0;
+}
+
+.page-research .cmp-ResearchLinkCard {
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.page-research .cmp-ResearchLinkCard .list-group-content {
+  width: 100%;
+}
+
+.page-research .cmp-ResearchLinkCard .list-group-content .h5 {
+  margin-bottom: 0.25rem;
+}
+
+.page-research .cmp-ResearchLinkCard .list-group-content p {
+  margin-bottom: 0 !important;
+  line-height: 1.4;
+}
+
+.page-research .research-post-snippet {
+  height: 100%;
+  border-radius: 0.75rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.page-research .research-post-snippet .cmp-BlogPostItem__title {
+  font-size: 1.35rem;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.page-research .research-post-snippet .cmp-BlogPostItem__description {
+  margin-bottom: 0.75rem;
+}
+
+.page-research .research-post-snippet .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page-research .research-post-snippet [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .page-research .research-topic-header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .page-research .research-card-grid {
+    flex-direction: row;
+  }
+
+  .page-research .research-card-grid-item {
+    flex: 1 1 0;
+  }
+}

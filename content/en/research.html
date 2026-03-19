@@ -1,0 +1,119 @@
+---
+title: Research
+slug: research
+subtitle: Investigating promising or emerging technologies that advance security and privacy.
+description: "ISRG research explores promising and emerging technologies that can advance security and privacy for people using the Internet."
+custom_css_file: page-research.css
+---
+
+<main id="cmp-ResearchPage" class="page-research">
+  <section id="cmp-ResearchIntro" class="slice slice-sm">
+    <div class="container">
+      <article class="px-4 px-lg-5">
+        <p class="mb-0">
+          Occasionally, ISRG explores ideas that we believe have the potential for positive impact on security and privacy for people using the Internet. Our interest in this work is to advance promising technologies, typically by developing a proof of concept or implementing them. We have also worked on specification and standards development, but that is usually a necessary byproduct of getting code up and running.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="cmp-CurrentResearchHeading" class="slice slice-sm pt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h2 class="display-5 mb-0">Current Research</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cmp-ResearchDigitalIdentitySection" class="slice slice-sm">
+    <div class="container">
+      <div id="cmp-ResearchDigitalIdentity" class="research-topic card border-0 box-shadow-2">
+        <div class="research-topic-header">
+          <h3 class="mb-0">Digital Identity</h3>
+        </div>
+
+        <div class="card-body p-4 p-lg-5">
+          <div class="research-section">
+            <h4>Background</h4>
+            <p>
+            There is growing momentum for managing human identities digitally; this reflects the integration between our everyday lives and the digital space. The technical concepts in this arena have great potential to make things better and/or easier, but there is also potential for policy and technology decisions to be harmful. Organizations globally have
+            <a href="https://mailarchive.ietf.org/arch/browse/zip/" target="_blank" rel="noopener noreferrer">sought solutions</a>
+            that allow for attestation of specific identity information digitally.
+            </p>
+            <p class="mb-0">
+            In 2024, an interesting idea emerged from folks at Google.
+            <a href="https://eprint.iacr.org/2024/2010.pdf" target="_blank" rel="noopener noreferrer">Longfellow</a>
+            is a zero knowledge proof (ZKP) system that is optimized for proving statements from widely-deployed cryptography like ECDSA with P256 curves and SHA-256 digests. Longfellow is compatible with existing credentials, provides greatly enhanced security from today's paradigm, and is fast enough for Internet scale.
+            </p>
+          </div>
+
+          <div class="research-section">
+            <h4>Our Work</h4>
+            <p>
+            ISRG has developed deep expertise in authenticating digital infrastructure through our work on the Let's Encrypt Certificate Authority. We were naturally interested in the idea of using ZKPs as applied to the digital identity space. Since ZKPs are a family of techniques that enable proving statements without revealing anything other than the strict minimum of required information, they offer the potential to add security and privacy to an area of society that handles significant personal data, allowing computers to check assertions that a person is old enough, or a resident, rather than sharing specifics such as birth date and location, or even credentialing and licensing.
+            </p>
+            <p>
+            The decades of theoretical development in ZKPs has put that field in an excellent position for the recent rapid advances in practical applicability.
+            </p>
+            <p class="mb-0">
+            ISRG engineers are developing an open-source implementation of Longfellow in Rust, in partnership with the
+            <a href="https://siros.org/" target="_blank" rel="noopener noreferrer">SIROS Foundation</a>.
+            It will serve as the PKI back-end of SIROS's EU digital identity effort, named wwWallet.
+            </p>
+          </div>
+
+          <div class="research-section">
+            <h4>From our Blog</h4>
+            <div class="research-card-grid">
+              <div class="research-card-grid-item">
+                <div class="research-post-snippet box-shadow-2">
+                  {{< blog-post-item "humandigitalidentityspace" >}}
+                </div>
+              </div>
+              <div class="research-card-grid-item">
+                <div class="research-post-snippet box-shadow-2">
+                  {{< blog-post-item "research-zero-knowledge-proofs" >}}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-section">
+            <h4>Next Steps</h4>
+            <p class="mb-0">
+            In addition to Longfellow, there are similar anonymous credential systems such as
+            <a href="https://eprint.iacr.org/2025/2094" target="_blank" rel="noopener noreferrer">Vega</a>
+            and
+            <a href="https://eprint.iacr.org/2024/2013" target="_blank" rel="noopener noreferrer">Crescent</a>,
+            which have distinct properties that might make them useful in different use cases. This is a rapidly evolving area of research and ISRG is continuing to explore it. There may be opportunities to leverage anonymous credentials for various authentication needs, which is an area of research that ISRG is well-suited to pursue due to our experience operating privacy-enhancing technologies at internet-scale.
+            </p>
+          </div>
+
+          <div class="research-section research-section-last">
+            <h4>Open Source Repositories</h4>
+            <div class="research-card-grid">
+              <div class="research-card-grid-item">
+                <a href="https://github.com/abetterinternet/zk-cred-longfellow" target="_blank" rel="noopener noreferrer" class="cmp-ResearchLinkCard list-group-item list-group-item-action d-flex flex-column text-left box-shadow-2">
+                  <div class="list-group-content">
+                    <div class="h5 mb-1">ISRG Implementation of Longfellow</div>
+                    <p class="text-sm mb-0">github.com/abetterinternet/zk-cred-longfellow</p>
+                  </div>
+                </a>
+              </div>
+              <div class="research-card-grid-item">
+                <a href="https://github.com/google/longfellow-zk/" target="_blank" rel="noopener noreferrer" class="cmp-ResearchLinkCard list-group-item list-group-item-action d-flex flex-column text-left box-shadow-2">
+                  <div class="list-group-content">
+                    <div class="h5 mb-1">Google Implementation of Longfellow</div>
+                    <p class="text-sm mb-0">github.com/google/longfellow-zk</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
