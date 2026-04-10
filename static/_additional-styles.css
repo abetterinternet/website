@@ -779,16 +779,7 @@
 
 .cmp-NewsletterArchive__intro-copy {
   max-width: 42rem;
-}
-
-.cmp-NewsletterArchive__intro-text > *:last-child {
-  margin-bottom: 0;
-}
-
-.cmp-NewsletterArchive__intro-text p {
-  font-size: 21px;
-  line-height: 1.7;
-  font-weight: 400;
+  margin-bottom: 0 !important;
 }
 
 .cmp-NewsletterArchive__empty {
@@ -844,11 +835,6 @@ a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
   .cmp-NewsletterArchive__intro {
     padding: 1.5rem;
     border-radius: 20px;
-  }
-
-  .cmp-NewsletterArchive__intro-text p {
-    font-size: 18px;
-    line-height: 1.6;
   }
 
   a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
