@@ -1,6 +1,7 @@
 ---
 title: "Ending TLS Client Authentication Certificate Support in 2026"
 date: "2025-05-14T07:53:17-07:00"
+excerpt: ""
 type: "newsletter"
 ---
 

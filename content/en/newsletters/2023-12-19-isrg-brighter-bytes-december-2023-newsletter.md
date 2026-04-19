@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes December 2023 Newsletter"
 date: "2023-12-19T09:32:20-08:00"
+excerpt: "2023 in Review • Issuing a Challenge • Shifting the Memory Safety Paradigm • Helping Fellow Helpers • We are delighted to introduce a new Silver sponsor! • 2024 Sponsorships"
 type: "newsletter"
 ---
 

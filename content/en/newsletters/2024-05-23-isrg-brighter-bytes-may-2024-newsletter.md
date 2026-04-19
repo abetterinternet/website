@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes May 2024 Newsletter"
 date: "2024-05-23T09:16:20-07:00"
+excerpt: "REMINDER: Let's Encrypt switching to new intermediates June 6 • Takeaways from Tailscale's adoption of ARI • Kristin Berdan joins ISRG as General Counsel • Rustls gains OpenSSL and Nginx compatibility • Fedora Linux RPM packages for ntpd-rs and sudo-rs • Privacy, enforced by technology"
 type: "newsletter"
 ---
 

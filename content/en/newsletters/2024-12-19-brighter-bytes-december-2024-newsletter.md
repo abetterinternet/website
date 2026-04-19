@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - December 2024 Newsletter"
 date: "2024-12-19T07:21:43-08:00"
+excerpt: "ISRG's 2024 annual report • Growing momentum for Rustls adoption • Ending OCSP services in 2025 • Welcome New Sponsors! • Consider a Let's Encrypt Sponsorship in 2025"
 type: "newsletter"
 ---
 

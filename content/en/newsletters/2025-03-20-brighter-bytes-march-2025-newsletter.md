@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - March 2025 Newsletter"
 date: "2025-03-20T08:43:31-07:00"
+excerpt: "Ten Years of Let's Encrypt: Announcing support from Jeff Atwood • A refreshed Let's Encrypt Website • Out and about • Reminder: how to stay engaged with us • New ISRG email newsletters now available. • Stay on top of cert expiration, if you need it. • A community here for you. • Recurring Donations make our work possible • Building a community of supporters"
 type: "newsletter"
 ---
 

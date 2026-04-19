@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - July 2023 Newsletter"
 date: "2023-07-20T06:03:15-07:00"
+excerpt: "The Big Byte: Shortening the Let's Encrypt Chain of Trust • $1.5M from Sovereign Tech Fund to Fuel Memory Safety • National Cybersecurity Strategy Implementation Plan • Chainguard: Advancing memory safe programming • From The Register: Out-of-bounds, out of control • ACME is Uptime • IETF 117 • From Berkeley: A hub for real-world MPC deployments • Ten Years of building a brighter Web • 2023 is ISRG's 10th Anniversary • People Spotlight: Meet Ameer • Join our team • Supporting our nonprofit mission"
 type: "newsletter"
 ---
 

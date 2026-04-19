@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - November 2025 Newsletter"
 date: "2025-11-13T12:59:08-08:00"
+excerpt: ""
 type: "newsletter"
 ---
 

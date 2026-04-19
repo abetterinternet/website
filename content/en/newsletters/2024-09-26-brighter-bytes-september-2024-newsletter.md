@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - September 2024 Newsletter"
 date: "2024-09-26T12:03:28-07:00"
+excerpt: "Let's Encrypt Growth • Eliminating Memory Safety Vulnerabilities at the Source • Big Steps Forward for River • Bringing Memory Safety to AV1 Video Decoding • Take9 • Add a Let's Encrypt Sponsorship to your 2025 budget!"
 type: "newsletter"
 ---
 

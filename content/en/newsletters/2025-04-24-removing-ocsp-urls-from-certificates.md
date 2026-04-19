@@ -1,6 +1,7 @@
 ---
 title: "Removing OCSP URLs from Certificates"
 date: "2025-04-24T13:49:55-07:00"
+excerpt: ""
 type: "newsletter"
 ---
 

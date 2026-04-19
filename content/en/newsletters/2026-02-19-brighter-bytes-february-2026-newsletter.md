@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - February 2026 Newsletter"
 date: "2026-02-19T10:03:51-08:00"
+excerpt: "DNS-PERSIST-01: A New Model for DNS-based Challenge Validation • Renewed Funding from Craig Newmark Philanthropies • On the Importance of \"Hello\" and \"Thanks\""
 type: "newsletter"
 ---
 

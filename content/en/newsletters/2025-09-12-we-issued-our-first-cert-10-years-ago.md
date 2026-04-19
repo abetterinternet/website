@@ -1,6 +1,7 @@
 ---
 title: "We issued our first cert 10 years ago!"
 date: "2025-09-12T14:10:12-07:00"
+excerpt: "Ten Years Since our First Certificate!"
 type: "newsletter"
 ---
 

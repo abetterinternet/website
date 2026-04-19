@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - March 2026 Newsletter"
 date: "2026-03-20T12:08:18-07:00"
+excerpt: "Six-Day and IP Address Certificates Available in Certbot • Say Hello at RSAC! • ISRG Named One of Six Awardees in Common Good Cyber Fund Pilot • Zero Knowledge Proofs"
 type: "newsletter"
 ---
 

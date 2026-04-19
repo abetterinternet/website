@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes November 2023 Newsletter"
 date: "2023-11-16T12:06:24-08:00"
+excerpt: "Celebrating a decade of helping build a more secure Internet • The Beginning of Let's Encrypt • Tectonics 2023: A Productive Convening to Accelerate Memory Safety • IETF 118 • Simplifying Issuance for Very Long Domain Names • We are thrilled to introduce a new Silver sponsor! • Consider a Sponsorship"
 type: "newsletter"
 ---
 

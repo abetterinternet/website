@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - July 2024 Newsletter"
 date: "2024-07-23T12:28:56-07:00"
+excerpt: "Halfway through 2024 • Memory Safety Impacts Everybody • Prossimo is on LinkedIn! • Intent to End OCSP Service • Welcome to our newest Silver Sponsor!"
 type: "newsletter"
 ---
 

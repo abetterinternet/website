@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - November 2024 Newsletter: Special Edition"
 date: "2024-11-26T10:38:39-08:00"
+excerpt: "\"As a nonprofit, 100% of our funding comes from charitable contributions.\" • Welcome New Sponsors • We're thrilled to welcome three new Sponsors this month! • Add Let's Encrypt Sponsorship to your 2025 budget"
 type: "newsletter"
 ---
 

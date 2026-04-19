@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - August 2024 Newsletter"
 date: "2024-08-22T09:17:38-07:00"
+excerpt: "Encryption for Everybody • TRanslating All C TO Rust • Privacy preserving telemetry with Divvi Up - a command line introduction • Combining privacy preserving telemetry with differential privacy • Nonprofits helping nonprofits • Welcome to our newest Silver Sponsor!"
 type: "newsletter"
 ---
 

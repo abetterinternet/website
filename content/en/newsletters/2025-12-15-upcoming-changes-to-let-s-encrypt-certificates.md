@@ -1,6 +1,7 @@
 ---
 title: "Upcoming Changes to Let’s Encrypt Certificates"
 date: "2025-12-15T11:11:51-08:00"
+excerpt: ""
 type: "newsletter"
 ---
 

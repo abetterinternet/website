@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - February 2025 Newsletter"
 date: "2025-02-20T12:22:30-08:00"
+excerpt: "We Issued Our First Six Day Cert • Our FOSDEM Recap • New ISRG email newsletters now available. • Stay on top of cert expiration, if you need it. • A community here for you. • Encryption for Everybody • Join our global community of sponsors!"
 type: "newsletter"
 ---
 

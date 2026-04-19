@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - July 2025 Newsletter"
 date: "2025-07-02T09:04:59-07:00"
+excerpt: "We've Issued Our First IP Address Certificate • Expiration Notification Service Has Ended • Reflections on a Year of Sunlight • Prossimo Updates • Compatibility with C is Key for Memory Safe Software • Divvi Up Updates • ICYMI: Detecting Privacy Harms in Digital Identity using Divvi Up"
 type: "newsletter"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes April 2024 Newsletter"
 date: "2024-04-25T09:30:40-07:00"
+excerpt: "No more rate limits for certificate renewals with ARI • Readout from Tectonics • Deploying New Issuance Chains for Let’s Encrypt • PQ Key Exchange Support in the Rustls TLS Library"
 type: "newsletter"
 ---
 

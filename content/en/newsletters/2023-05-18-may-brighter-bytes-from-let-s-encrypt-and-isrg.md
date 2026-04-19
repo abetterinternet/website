@@ -1,6 +1,7 @@
 ---
 title: "May Brighter Bytes from Let's Encrypt and ISRG"
 date: "2023-05-18T09:01:00-07:00"
+excerpt: "The Big Bytes: Let's Encrypt and the Certificate Ecosystem • News from our Parent Organization, ISRG! • Updates from our Sibling Projects • Event Round-Up: Visit us at Open Source North! • New Sponsors!"
 type: "newsletter"
 ---
 

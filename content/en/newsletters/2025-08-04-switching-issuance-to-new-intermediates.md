@@ -1,6 +1,7 @@
 ---
 title: "Switching issuance to new intermediates"
 date: "2025-08-04T12:18:00-07:00"
+excerpt: ""
 type: "newsletter"
 ---
 

@@ -3,6 +3,7 @@
     <div class="col-md-8 col-lg-9">
       <div class="post-date">{{ .Date.Format $.Site.Params.time_format_default }}</div>
       <p class="cmp-BlogPostItem__title heading h2 mb-0">{{ .Title }}</p>
+      {{ with .Params.excerpt }}<p class="cmp-BlogPostItem__description">{{ . | markdownify }}</p>{{ end }}
     </div>
   </div>
 </a>

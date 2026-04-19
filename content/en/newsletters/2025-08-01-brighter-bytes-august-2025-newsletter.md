@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - August 2025 Newsletter"
 date: "2025-08-01T12:09:47-07:00"
+excerpt: "A Reminder: Ending OSCP Support August 6, 2025 • Prossimo Updates • sudo-rs Headed to Ubuntu • Opportunistic Encryption Is Coming to Hickory DNS • Welcome New Sponsors"
 type: "newsletter"
 ---
 

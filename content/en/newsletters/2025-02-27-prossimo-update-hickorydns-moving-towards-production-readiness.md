@@ -1,6 +1,7 @@
 ---
 title: "Prossimo Update: HickoryDNS moving towards production readiness"
 date: "2025-02-27T10:22:25-08:00"
+excerpt: "Hickory DNS is Moving Toward Production Readiness"
 type: "newsletter"
 ---
 

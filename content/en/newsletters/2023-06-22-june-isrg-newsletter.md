@@ -1,6 +1,7 @@
 ---
 title: "June ISRG Newsletter"
 date: "2023-06-22T08:00:00-07:00"
+excerpt: "The Big Bytes: The Anniversary of our 100 Millionth Cert • More Bright Bytes People Spotlight: New Staff Round-Up • News from our Parent Organization, ISRG! Learn about the 10th Anniversary of ISRG from our Executive Director • Updates from Our Sibling Projects News from sudo and su • Event Round-Up: Smallstep at OSN and ISRG visits the Cyber Civil Defense Summit ISRG Joins Smallstep at OSN"
 type: "newsletter"
 ---
 

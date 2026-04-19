@@ -1,6 +1,7 @@
 ---
 title: "ISRG Celebrates 10 Year Anniversary"
 date: "2023-05-24T08:10:00-07:00"
+excerpt: "10 Years of Building a Better Internet • A Timeline of ISRG’s Accomplishments"
 type: "newsletter"
 ---
 

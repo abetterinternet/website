@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - April 2025 Newsletter"
 date: "2025-04-29T12:00:09-07:00"
+excerpt: "Researching the Human Digital Identity Space • Now Serving 600,000,000 Active Domains • Tenth Anniversary Sponsorships Available • New Sponsorship Tier Celebrates Ten Years of Let's Encrypt. • Recurring Donations make our work possible • Building a community of supporters"
 type: "newsletter"
 ---
 

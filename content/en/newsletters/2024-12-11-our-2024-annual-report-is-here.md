@@ -1,6 +1,7 @@
 ---
 title: "Our 2024 Annual Report Is Here"
 date: "2024-12-11T10:47:49-08:00"
+excerpt: ""
 type: "newsletter"
 ---
 

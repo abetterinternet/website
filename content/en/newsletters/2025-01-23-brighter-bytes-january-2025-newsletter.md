@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - January 2025 Newsletter"
 date: "2025-01-23T12:14:19-08:00"
+excerpt: "Ten Years of Let's Encrypt! • Optional Short-Lived Certificates Coming Soon • Introducing Profile Selection for Certificates • FOSDEM, here we come! • Memory Safety Highlighted by the Global Cyber Alliance • Plan to End Certificate Expiration Notification Emails"
 type: "newsletter"
 ---
 

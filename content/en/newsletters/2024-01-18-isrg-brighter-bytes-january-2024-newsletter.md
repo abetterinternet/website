@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes January 2024 Newsletter"
 date: "2024-01-18T08:45:55-08:00"
+excerpt: "Public benefit Internet infrastructure is not a “one-and-done” project • Small but Mighty • Securing the Web: Rustls on track to outperform OpenSSL • Data Privacy Week: January 21 - 27 • We are thrilled to announce a new Silver sponsor!"
 type: "newsletter"
 ---
 

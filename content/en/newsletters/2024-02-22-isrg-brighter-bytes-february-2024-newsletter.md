@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes February 2024 Newsletter"
 date: "2024-02-22T11:17:42-08:00"
+excerpt: "I went to FOSDEM and all I got was this free cert… well, actually there was so much more! • Our 2023 Annual Report • Automating releases for bindgen • The first step in shortening the Let’s Encrypt chain of trust • Data Privacy Week Recap • Writing standards for the Distributed Aggregation Protocol at the IETF • We are thrilled to announce a new Silver sponsor!"
 type: "newsletter"
 ---
 

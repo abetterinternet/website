@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes October 2023 Newsletter"
 date: "2023-10-26T13:26:53-07:00"
+excerpt: "Securing Our World • Global Encryption Day • (Re)Introducing Hickory DNS • Secure by Design • Bringing Privacy-Respecting Telemetry to Human Rights Defenders • Divvi Up and Firefox • Ten Years of Building a Brighter Web • Learning from Let's Encrypt's Ten Years of Success • Consider a Sponsorship!"
 type: "newsletter"
 ---
 

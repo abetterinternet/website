@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - May 2025 Newsletter"
 date: "2025-05-21T09:48:18-07:00"
+excerpt: "Ending TLS Client Authentication Certificate Support in 2026 • How Pebble Supports ACME Client Developers • Prossimo Updates • $20,000 rav1d AV1 Decoder Performance Bounty • Rustls Server-Side Performance • Divvi Up Updates • Detecting Privacy Harms in Digital Identity using Divvi Up • Ten Years of Let's Encrypt • Sustaining a More Secure Internet: The Power of Recurring Donations • Welcome New Sponsors"
 type: "newsletter"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - January 2026 Newsletter"
 date: "2026-01-22T11:15:27-08:00"
+excerpt: "6-day Certs For All! • Prossimo Updates • Sponsor Shout-Out • Say Hello! • Happy New Year! • ICYMI: A Note from our Executive Director"
 type: "newsletter"
 ---
 

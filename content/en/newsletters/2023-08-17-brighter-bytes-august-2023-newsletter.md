@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - August 2023 Newsletter"
 date: "2023-08-17T08:00:00-07:00"
+excerpt: "The Big Byte: All sorts of security and privacy news • Let’s Encrypt issues 35 certs every second • CISA’s Cybersecurity Strategic Plan • Sovereign Tech Fund invests in Pendulum • Confluent and Let’s Encrypt • Omidyar Network funds Divvi Up • Now Open: The Divvi Up waitlist • Ten Years of building a brighter Web • From EFF: Celebrating Ten Years of Encrypting the Web"
 type: "newsletter"
 ---
 

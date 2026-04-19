@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes March 2024 Newsletter"
 date: "2024-03-21T08:08:41-07:00"
+excerpt: "Introducing Sunlight! • ☀️ Help us build a brighter Internet! ☀️ • River Reverse Proxy • Reducing Dependencies in sudo-rs • New Intermediate Certificates • Rustls TLS library using AWS Libcrypto, now has FIPS support • 2024: The Year of Memory Safety"
 type: "newsletter"
 ---
 

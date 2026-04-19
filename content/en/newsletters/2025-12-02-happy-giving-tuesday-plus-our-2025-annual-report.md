@@ -1,6 +1,7 @@
 ---
 title: "Happy Giving Tuesday! Plus… our 2025 Annual Report"
 date: "2025-12-02T08:32:23-08:00"
+excerpt: ""
 type: "newsletter"
 ---
 

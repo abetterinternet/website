@@ -1,6 +1,7 @@
 ---
 title: "Prossimo Update: Risk & Opportunity | Linux Kernel Update"
 date: "2025-03-06T09:03:43-08:00"
+excerpt: "How Prossimo's Risk and Opportunity Criteria Help Us Plan • An Update on Memory Safety in the Linux Kernel"
 type: "newsletter"
 ---
 

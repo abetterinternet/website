@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes June 2024 Newsletter"
 date: "2024-06-25T08:43:25-07:00"
+excerpt: "Memory Safe NTP for Let’s Encrypt: Deploying ntpd-rs • Representing Prossimo at AWS re:Inforce • Encrypted Client Hello (ECH) Support for Rustls • Prossimo is now on LinkedIn! • Increasing domain validation security from BGP attacks"
 type: "newsletter"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Your Email Address and Let’s Encrypt"
 date: "2025-06-26T12:00:16-07:00"
+excerpt: "Your email address and Let's Encrypt"
 type: "newsletter"
 ---
 

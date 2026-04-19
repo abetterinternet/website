@@ -1,6 +1,7 @@
 ---
 title: "Help us build a brighter web year round"
 date: "2023-09-12T09:09:34-07:00"
+excerpt: "Just like back to school, our fundraising campaign is in full swing."
 type: "newsletter"
 ---
 

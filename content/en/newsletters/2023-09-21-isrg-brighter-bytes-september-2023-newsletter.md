@@ -1,6 +1,7 @@
 ---
 title: "ISRG Brighter Bytes September 2023 Newsletter"
 date: "2023-09-21T12:09:48-07:00"
+excerpt: "The Big Byte: Let's Encrypt turns eight • Increase your security governance with CAA • OpenSSF provides $530k for Rustls and Rust for Linux • The first stable release of a memory safe sudo implementation • Join us for Tectonics • How HTTPS Works • Hoodie for your thoughts? • Ten Years of building a brighter Web • Thanks to our community of donors around the world"
 type: "newsletter"
 ---
 

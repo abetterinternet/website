@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - October 2024 Newsletter"
 date: "2024-10-24T08:23:37-07:00"
+excerpt: "Rustls Outperforms OpenSSL and BoringSSL • Secure Our World • Partnering with Princeton to improve Internet security • Divvi Up at All Things Open • Welcome new Silver Sponsor! • Add Let's Encrypt Sponsorship to your 2025 budget"
 type: "newsletter"
 ---
 

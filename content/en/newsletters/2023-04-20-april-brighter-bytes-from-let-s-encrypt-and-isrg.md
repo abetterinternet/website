@@ -1,6 +1,7 @@
 ---
 title: "April Brighter Bytes from Let’s Encrypt and ISRG"
 date: "2023-04-20T08:20:00-07:00"
+excerpt: "The Big Bytes: Let's Encrypt Issues Three Million Certificates Daily • Updates from our Sibling Projects • Divvi Up and Distributed Aggregation Protocol (DAP) Developments • Major Initiative Updates From Prossimo • Event Round-Up: IETF, OSS, and Tweede golf, Oh My! • Be Part of ISRG's 10th Anniversary • If you’re interested in supporting Let’s Encrypt or one of our sibling projects, visit www.abetterinternet.org/sponsor/ for more information."
 type: "newsletter"
 ---
 

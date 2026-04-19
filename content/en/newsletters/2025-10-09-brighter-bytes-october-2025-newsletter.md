@@ -1,6 +1,7 @@
 ---
 title: "Brighter Bytes - October 2025 Newsletter"
 date: "2025-10-09T14:41:43-07:00"
+excerpt: "Let’s Encrypt Updates • ACME Renewal Information (ARI) Published as RFC 9773 • Native ACME Support Comes to NGINX • OCSP Service Reaches End of Life • RFC 6962 Certificate Transparency Logs EOL • Prossimo Updates • Improving Error Handling in Rustls for Better Usability • Rustls Joins the Rust Foundation’s Rust Innovation Lab • New Sponsor and Donor Announcement • Say Hello at ATO! • We are Hiring! • Director of Advancement (Corporate Sponsorships) • Assistant Director of Advancement (Grants)"
 type: "newsletter"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "March Brighter Bytes from Let's Encrypt and ISRG"
 date: "2023-03-24T08:03:13-07:00"
+excerpt: "The Big Bytes: CAA and ARI • More Bright Bytes • A Look at our Engineering Culture • Thanking our 2023 Renewing Sponsors • News from our Parent Organization, ISRG! • ISRG is now a Member of the Linux Foundation • Craig Newmark Funding • Updates from Our Sibling Projects • A Big Quarter for Prossimo and Memory Safety • New Sponsors!"
 type: "newsletter"
 ---
 
