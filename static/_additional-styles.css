@@ -799,36 +799,82 @@ a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
 #cmp-NewsletterDetail {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .cmp-NewsletterDetail__header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cmp-NewsletterDetail__date {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.cmp-NewsletterDetail__nav {
+  display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(55, 113, 200, 0.12);
+  border-bottom: 1px solid rgba(55, 113, 200, 0.12);
+}
+
+.cmp-NewsletterDetail__nav-link {
+  color: #3771c8;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.cmp-NewsletterDetail__nav-link:hover {
+  color: #1a2333;
+}
+
+.cmp-NewsletterDetail__nav-arrows {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cmp-NewsletterDetail__actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .cmp-NewsletterDetail__article {
   margin-top: 0;
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
 .cmp-NewsletterDetail__frame {
-  padding: 1rem;
   background: #fff;
   border: 1px solid rgba(55, 113, 200, 0.16);
   border-radius: 24px;
   box-shadow: 0 24px 60px rgba(26, 35, 51, 0.08);
+  overflow: hidden;
 }
 
 .cmp-NewsletterDetail__iframe {
   display: block;
   width: 100%;
-  min-height: 720px;
+  height: 720px;
   border: 0;
-  border-radius: 16px;
+  border-radius: 24px;
   background: #f9f7ed;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -842,13 +888,12 @@ a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
   }
 
   .cmp-NewsletterDetail__frame {
-    padding: 0.5rem;
     border-radius: 18px;
   }
 
   .cmp-NewsletterDetail__iframe {
-    min-height: 540px;
-    border-radius: 14px;
+    height: 540px;
+    border-radius: 18px;
   }
 }
 .fosdem-page .fosdem-inline-link {

@@ -1,5 +1,5 @@
 {{ $rawContent := trim .RawContent "\r\n\t " }}
-{{ $injectedHead := `<meta name="viewport" content="width=device-width, initial-scale=1"><base target="_blank"><style>html,body{margin:0;padding:0;background:#f9f7ed;}img{max-width:100% !important;height:auto !important;}.original-only{display:none !important;}</style>` }}
+{{ $injectedHead := `<meta name="viewport" content="width=device-width, initial-scale=1"><base target="_blank"><style>html,body{margin:0;padding:0;height:auto !important;min-height:0 !important;overflow:hidden;background:#f9f7ed;}img{max-width:100% !important;height:auto !important;}.original-only{display:none !important;}</style><script src="/js/newsletter-archive-frame.js"></script>` }}
 {{ $newsletterHTML := $rawContent }}
 
 {{ if gt (len (findRE `(?is)<html\b` $rawContent 1)) 0 }}
@@ -14,15 +14,24 @@
   {{ $newsletterHTML = printf `<!DOCTYPE html><html><head><meta charset="utf-8">%s</head><body>%s</body></html>` $injectedHead .Content }}
 {{ end }}
 
-<section id="cmp-NewsletterDetail" class="cmp-NewsletterDetail">
-  <div class="post-breadcrumb"><a href="/newsletters/">Newsletter Archive</a></div>
-  <div class="cmp-NewsletterDetail__header">
-    {{ with .Date }}<div class="post-date">{{ .Format $.Site.Params.time_format_default }}</div>{{ end }}
-    <div class="cmp-NewsletterDetail__actions">
-      <a href="/newsletter/" class="btn btn-outline-primary btn-sm btn-circle">Subscribe</a>
+<section id="cmp-NewsletterDetail">
+  <div class="container">
+    <div class="cmp-NewsletterDetail__header">
+      {{ with .Date }}<time class="cmp-NewsletterDetail__date">{{ .Format $.Site.Params.time_format_default }}</time>{{ end }}
+      <nav class="cmp-NewsletterDetail__nav">
+        <a href="/newsletters/" class="cmp-NewsletterDetail__nav-link">View All Newsletters</a>
+        <div class="cmp-NewsletterDetail__nav-arrows">
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}" class="cmp-NewsletterDetail__nav-link">&larr; Older</a>{{ end }}
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}" class="cmp-NewsletterDetail__nav-link">Newer &rarr;</a>{{ end }}
+        </div>
+      </nav>
+      <div class="cmp-NewsletterDetail__actions">
+        <a href="#" id="cmp-NewsletterDetail__popout" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm btn-circle">Open in New Tab</a>
+        <a href="#footer-newsletter-column" class="btn btn-outline-primary btn-sm btn-circle js-smooth-scroll">Subscribe</a>
+      </div>
     </div>
   </div>
-  <article class="post-article cmp-NewsletterDetail__article">
+  <article class="cmp-NewsletterDetail__article">
     <div class="cmp-NewsletterDetail__frame">
       <iframe
         id="cmp-NewsletterDetail__iframe"

@@ -1,4 +1,6 @@
 {{ define "main" }}
+<section class="slice slice-sm">
+<div class="container">
 <section id="cmp-NewsletterArchive" class="cmp-NewsletterArchive">
   <div class="cmp-NewsletterArchive__intro">
     <p class="cmp-NewsletterArchive__intro-copy">{{ .Content | plainify | strings.TrimRight "\n" }} You can sign up to receive these emails at the bottom of this page.</p>
@@ -17,5 +19,7 @@
   {{ else }}
   <p class="cmp-NewsletterArchive__empty">No newsletters have been published yet.</p>
   {{ end }}
+</section>
+</div>
 </section>
 {{ end }}
