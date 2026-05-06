@@ -55,32 +55,13 @@
       <div class="blurable--hover">
         <a href="/sponsors/">
           <div class="row blurable-item align-items-center grid-cols-7">
+            {{ range .Site.Data.sponsors.diamond }}
             <div class="grid-col">
               <div class="px-4 py-4">
-                <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
+                <img src="/images/sponsors/{{ .image }}" alt="{{ .name }}" class="img-fluid img-grayscale" />
               </div>
             </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col d-flex align-items-center">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
+            {{ end }}
           </div>
           <span class="blurable-hidden btn btn-sm btn-primary btn-circle">See all sponsors</span>
         </a>
