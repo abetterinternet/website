@@ -1,7 +1,7 @@
 ---
 title: "Brighter Bytes - December 2025 Newsletter"
 date: "2025-12-18T06:56:15-08:00"
-excerpt: "Decreasing Certificate Lifetimes to 45 Days • New \"Generation Y\" Hierarchy of Root and Intermediate Certificates • Exciting news about the Certificate Transparency (CT) logs operated by Let's Encrypt • 10 Years of Let's Encrypt Certificates • Research Updates • Zero Knowledge Proofs from Credentials • Sponsor Shout-Out • Say Hello at FOSDEM! • ISRG Wrapped: 2025 Edition • ISRG's 2025 results are in. We helped keep the Internet more secure - billions of times. • Before We Say Goodbye to 2025…"
+excerpt: "Decreasing Certificate Lifetimes to 45 Days &bull; New \"Generation Y\" Hierarchy of Root and Intermediate Certificates &bull; Let's Encrypt CT Log Update &bull; 10 Years of Let's Encrypt Certificates &bull; Zero Knowledge Proofs from Credentials &bull; Sponsor Shout-Out &bull; Say Hello at FOSDEM!"
 type: "newsletter"
 ---
 

@@ -770,7 +770,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   padding: 2rem;
   background: #c2e9e9;
@@ -786,15 +786,6 @@
   margin-bottom: 0;
 }
 
-a.cmp-NewsletterArchiveItem,
-a.cmp-NewsletterArchiveItem:hover {
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(55, 113, 200, 0.18);
-}
-
-a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
-  display: inline-block;
-}
 
 #cmp-NewsletterDetail {
   display: flex;
@@ -880,10 +871,6 @@ a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
   .cmp-NewsletterArchive__intro {
     padding: 1.5rem;
     border-radius: 20px;
-  }
-
-  a.cmp-NewsletterArchiveItem .cmp-BlogPostItem__read-more {
-    margin-top: 0.25rem;
   }
 
   .cmp-NewsletterDetail__frame {
@@ -1039,6 +1026,72 @@ article img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Blog/Newsletter tabs */
+#cmp-BlogNewsletterTabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.cmp-BlogNewsletterTabs__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.cmp-BlogNewsletterTabs__nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a.cmp-BlogNewsletterTabs__tab,
+a.cmp-BlogNewsletterTabs__tab:hover {
+  display: block;
+  border-bottom: 3px solid transparent;
+  padding: 0.75rem 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6c7686;
+  text-decoration: none;
+  margin-bottom: -2px;
+  transition: color 150ms, border-color 150ms;
+}
+
+a.cmp-BlogNewsletterTabs__tab:hover {
+  color: #3771c8;
+}
+
+a.cmp-BlogNewsletterTabs__tab--active,
+a.cmp-BlogNewsletterTabs__tab--active:hover {
+  color: #3771c8;
+  border-bottom-color: #3771c8;
+}
+
+.cmp-BlogNewsletterTabs__feed {
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 575.98px) {
+  .cmp-BlogNewsletterTabs__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .cmp-BlogNewsletterTabs__feed {
+    align-self: flex-end;
+  }
+
+  a.cmp-BlogNewsletterTabs__tab,
+  a.cmp-BlogNewsletterTabs__tab:hover {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
 }
 
 /* RSS Feed Link */

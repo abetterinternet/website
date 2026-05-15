@@ -1,9 +1,7 @@
 {{ define "main" }}
-<div>
+<div id="cmp-BlogNewsletterTabs">
+    {{ partial "blog-newsletter-tabs.html" (dict "active" "blog" "feedContent" (partial "rss-feed-link.html" .)) }}
     <div class="cmp-BlogPostList">
-    <div class="text-right mb-3">
-      {{ partial "rss-feed-link.html" . }}
-    </div>
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts }}
     {{ partial "blog-post-item.html" . }}

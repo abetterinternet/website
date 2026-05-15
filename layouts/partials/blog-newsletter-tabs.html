@@ -1,0 +1,11 @@
+<nav class="cmp-BlogNewsletterTabs__header" aria-label="Content type">
+  <ul class="cmp-BlogNewsletterTabs__nav">
+    <li>
+      <a href="/blog/" class="cmp-BlogNewsletterTabs__tab{{ if eq .active "blog" }} cmp-BlogNewsletterTabs__tab--active{{ end }}"{{ if eq .active "blog" }} aria-current="page"{{ end }}>Blog</a>
+    </li>
+    <li>
+      <a href="/newsletters/" class="cmp-BlogNewsletterTabs__tab{{ if eq .active "newsletters" }} cmp-BlogNewsletterTabs__tab--active{{ end }}"{{ if eq .active "newsletters" }} aria-current="page"{{ end }}>Newsletters</a>
+    </li>
+  </ul>
+  {{ with .feedContent }}{{ . }}{{ end }}
+</nav>
