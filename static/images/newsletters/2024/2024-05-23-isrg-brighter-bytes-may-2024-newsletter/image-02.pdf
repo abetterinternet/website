@@ -1,0 +1,16 @@
+	<head>
+		<script>
+			/**
+			* This check is in addition to the user agent check isMobileOrIpad.
+			* With the latest update, iPads have default "Desktop View" enabled for Safari browser causing the PDF to be displayed using the mydomain instead of redirecting to storage.pardot.com (which is required for iPads and mobile devices).
+			*/
+			const iPad = /(iPad)/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+			const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+			if ((window.chrome && !navigator.pdfViewerEnabled) || (iPad && isSafari)) {
+				window.location.replace('https://storage.pardot.com/1011011/1710861960eqTjtPky/sunlight_logo_main.pdf');
+			}
+		</script>
+	</head>
+	<body>
+		<embed type='application/pdf' src='https://storage.pardot.com/1011011/1710861960eqTjtPky/sunlight_logo_main.pdf' width='100%' height='100%' />
+	</body>

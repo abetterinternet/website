@@ -1,0 +1,46 @@
+{{ $rawContent := trim .RawContent "\r\n\t " }}
+{{ $injectedHead := `<meta name="viewport" content="width=device-width, initial-scale=1"><base target="_blank"><style>html,body{margin:0;padding:0;height:auto !important;min-height:0 !important;overflow:hidden;background:#f9f7ed;}img{max-width:100% !important;height:auto !important;}table{width:100% !important;max-width:600px !important;}#bodyTable{margin:0 auto !important;}.original-only{display:none !important;}</style><script src="/js/newsletter-archive-frame.js"></script>` }}
+{{ $newsletterHTML := $rawContent }}
+
+{{ if gt (len (findRE `(?is)<html\b` $rawContent 1)) 0 }}
+  {{ if gt (len (findRE `(?is)</head>` $newsletterHTML 1)) 0 }}
+    {{ $newsletterHTML = replaceRE `(?is)</head>` (printf `%s</head>` $injectedHead) $newsletterHTML }}
+  {{ else if gt (len (findRE `(?is)<body\b` $newsletterHTML 1)) 0 }}
+    {{ $newsletterHTML = replaceRE `(?is)<body\b` (printf `<head>%s</head><body` $injectedHead) $newsletterHTML }}
+  {{ end }}
+{{ else if gt (len (findRE `(?is)<[a-z][^>]*>` $rawContent 1)) 0 }}
+  {{ $newsletterHTML = printf `<!DOCTYPE html><html><head><meta charset="utf-8">%s</head><body>%s</body></html>` $injectedHead $rawContent }}
+{{ else }}
+  {{ $newsletterHTML = printf `<!DOCTYPE html><html><head><meta charset="utf-8">%s</head><body>%s</body></html>` $injectedHead .Content }}
+{{ end }}
+
+<section id="cmp-NewsletterDetail">
+  <div class="container">
+    <div class="cmp-NewsletterDetail__header">
+      <nav class="cmp-NewsletterDetail__nav text-sm">
+        <div class="cmp-NewsletterDetail__nav-prev">
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">&larr; Older</a>{{ end }}
+        </div>
+        <a href="/newsletters/">All Newsletters</a>
+        <div class="cmp-NewsletterDetail__nav-next">
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">Newer &rarr;</a>{{ end }}
+        </div>
+      </nav>
+      <div class="cmp-NewsletterDetail__meta text-sm">
+        {{ with .Date }}<time class="cmp-NewsletterDetail__date">{{ .Format $.Site.Params.time_format_default }}</time>{{ end }}
+        <a href="#" id="cmp-NewsletterDetail__popout" target="_blank" rel="noopener">Open in New Tab</a>
+      </div>
+    </div>
+  </div>
+  <article class="cmp-NewsletterDetail__article">
+    <div class="cmp-NewsletterDetail__frame">
+      <iframe
+        id="cmp-NewsletterDetail__iframe"
+        class="cmp-NewsletterDetail__iframe"
+        title="{{ .Title }}"
+        srcdoc="{{ $newsletterHTML }}"
+        scrolling="no"></iframe>
+    </div>
+  </article>
+</section>
+<script src="/js/newsletter-archive.js"></script>

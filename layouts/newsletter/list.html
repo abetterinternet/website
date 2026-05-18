@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="slice slice-sm">
+<div class="container">
+<div id="cmp-BlogNewsletterTabs">
+  {{ partial "blog-newsletter-tabs.html" (dict "active" "newsletters") }}
+  <section id="cmp-NewsletterArchive" class="cmp-NewsletterArchive">
+    <div class="cmp-NewsletterArchive__intro">
+      <p class="cmp-NewsletterArchive__intro-copy">{{ .Content | plainify | strings.TrimRight "\n" }} You can sign up to receive these emails at the bottom of this page.</p>
+      <div class="cmp-NewsletterArchive__intro-actions">
+        <a href="#footer-newsletter-column" class="btn btn-primary btn-circle btn-lg js-smooth-scroll">Subscribe</a>
+      </div>
+    </div>
+
+    {{ $newsletters := .RegularPagesRecursive.ByDate.Reverse }}
+    {{ if gt (len $newsletters) 0 }}
+    <div class="cmp-BlogPostList">
+      {{ range $newsletters }}
+      {{ partial "newsletter-archive-item.html" . }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="cmp-NewsletterArchive__empty">No newsletters have been published yet.</p>
+    {{ end }}
+  </section>
+</div>
+</div>
+</section>
+{{ end }}

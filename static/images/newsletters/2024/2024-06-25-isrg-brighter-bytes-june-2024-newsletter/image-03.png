@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="generator" content="Hugo 0.148.2">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <title> Internet Security Research Group</title>
+  <link href="/favicon.png" rel="icon" type="image/png" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet" />
+  <link type="text/css" href="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
+  <link type="text/css" href="/purpose-theme/css/theme.min.css" rel="stylesheet" />
+  <link type="text/css" href="/_additional-styles.css" rel="stylesheet" />
+  
+  <link rel="alternate" type="application/rss+xml" title="Internet Security Research Group" href="/index.xml">
+   <meta property="og:url" content="https://www.abetterinternet.org/">
+  <meta property="og:site_name" content="Internet Security Research Group">
+  <meta property="og:title" content="Internet Security Research Group">
+  <meta property="og:description" content="ISRG’s mission is to reduce financial, technological, and educational barriers to secure communication over the Internet.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.abetterinternet.org/images/opengraph/ISRG-opengraph-wide.png">
+
+  
+  <meta name="twitter:card" content="summary" />
+  
+  <meta name="twitter:image" content="https://www.abetterinternet.org/images/opengraph/ISRG-opengraph-square.png" />
+  
+  <meta name="twitter:image:src" content="https://www.abetterinternet.org/images/opengraph/ISRG-opengraph-square.png" />
+  
+</head>
+ <body>
+  <header class="header-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3" id="navbar-main">
+      <div class="container">
+        <a class="navbar-brand mr-lg-5" href="/"><img src="/images/ISRG-Logo-Blue.svg" style="width: 160px; padding: 0px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-main-collapse">
+          <ul class="navbar-nav align-items-lg-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+              <div class="dropdown-menu dropdown-menu-lg py-0">
+                <div class="list-group list-group-flush">
+                  <a href="/about/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">About ISRG</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/policies/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Policies</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/careers/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Careers</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/contact/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Contact</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/annual-reports/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Annual Reports</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/radiantaward/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Radiant Award</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/tenth-anniversary/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Celebrating 10 Years</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/research/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Research</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+              <div class="dropdown-menu dropdown-menu-lg py-0">
+                <div class="list-group list-group-flush">
+                  <a href="https://letsencrypt.org/" target="_blank" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Let's Encrypt</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://www.memorysafety.org/" target="_blank" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Prossimo</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://divviup.org/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Divvi Up</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contribute</a>
+              <div class="dropdown-menu dropdown-menu-lg py-0">
+                <div class="list-group list-group-flush">
+                  <a href="/sponsors/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Current Sponsors and Donors</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/sponsor/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Become a Sponsor</h2>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="/getinvolved/" class="list-group-item list-group-item-action">
+                    <div class="media d-flex align-items-center">
+                      <div class="media-body ml-3">
+                        <h2 class="heading h6 mb-1">Get Involved</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item mr-0">
+              <a href="/donate/" class="nav-link d-lg-none">Donate now</a>
+              <a href="/donate/" class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
+                <span class="btn-inner--text">Donate now</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main></main>
+</body>
+
+  <section class="slice slice-isrg bg-cover bg-size--cover overflow-hidden" data-spotlight="fullscreen" data-separator="rounded-left" data-separator-orientation="bottom">
+    <span class="mask bg-gradient-secondary opacity-8"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="pt-lg-md pb-lg-md">
+            <h1 id="page-title" class="heading display-4 font-weight-300 lh-110 mb-4">Internet Security Research Group</h1>
+            <p class="lead lh-180">Digital infrastructure for a more secure and privacy-respecting world. Read all about our nonprofit work this year in our <a href="/documents/2025-ISRG-Annual-Report.pdf">2025 Annual Report</a>.</p>
+            <div class="mt-5">
+              <a href="/about/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Learn about ISRG</a>
+              <a href="/sponsor/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">Become a sponsor</a>
+              <a href="/annual-reports/" class="btn btn-primary btn-sm btn-circle btn-translate--hover mr-2 mt-2">2025 Annual Report</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 homepage-logos-column">
+          <div class="pt-lg-md pb-lg-md">
+            <div>
+              <a href="https://letsencrypt.org"><img src="/images/LE-Logo-Standard.svg" /></a>
+            </div>
+            <div>
+              <a href="https://memorysafety.org"><img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" /></a>
+            </div>
+            <div>
+              <a href="https://divviup.org"><img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slice">
+    <div class="container">
+      <h2 class="eyebrow-text"><a href="/blog">From our Blog</a></h2>
+      <div class="cmp-BlogPostList">
+      
+      
+      <a href="/post/2026-craig-newmark/" class="cmp-BlogPostItem">
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <div class="post-date">Feb 11, 2026</div>
+      <p class="cmp-BlogPostItem__title heading h2">Four Years of Momentum: Craig Newmark Philanthropies and the Future of Memory Safety</p>
+      <p class="cmp-BlogPostItem__description">Continued support will advance ISRG's mission.</p>
+      <span class="cmp-BlogPostItem__read-more link font-weight-bold">Read more</span>
+    </div>
+  </div>
+</a>
+
+      
+      <a href="/post/fosdem2026/" class="cmp-BlogPostItem">
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <div class="post-date">Feb 5, 2026</div>
+      <p class="cmp-BlogPostItem__title heading h2">On the Importance of &#34;Hello&#34; and &#34;Thanks&#34;</p>
+      <p class="cmp-BlogPostItem__description">Our experience at FOSDEM 2026.</p>
+      <span class="cmp-BlogPostItem__read-more link font-weight-bold">Read more</span>
+    </div>
+  </div>
+</a>
+
+      
+      <a href="/post/ip-and-6day-general-availability/" class="cmp-BlogPostItem">
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <div class="post-date">Jan 15, 2026</div>
+      <p class="cmp-BlogPostItem__title heading h2">6-day and IP Address Certificates are Generally Available</p>
+      <p class="cmp-BlogPostItem__description">Short certificates are good for security and now available to all Let's Encrypt subscribers.</p>
+      <span class="cmp-BlogPostItem__read-more link font-weight-bold">Read more</span>
+    </div>
+  </div>
+</a>
+
+      
+      </div>
+    </div>
+  </section>
+
+  <div id="isrg-projects-column">
+    <section class="slice delimiter-top">
+      <div class="container">
+        <h2 class="eyebrow-text">ISRG Projects</h2>
+        <div class="row row-grid align-items-center">
+          <section class="isrg-project-column-single">
+  <div class="container">
+    <div class="row row-grid align-items-center">
+      <div class="col-md-4 col-lg-3 order-lg-2 order-md-2 ml-lg-auto align-self-start pt-4">
+        <img src="/images/LE-Logo-Standard.svg" class="img-center img-fluid" />
+      </div>
+      <div class="col-md-8 col-lg-9 order-lg-1 order-md-1">
+        <div class="pr-md-4">
+          <h2 class="heading h2">Free TLS Certificates</h2>
+          <p class="lead text-gray my-4">Let&#39;s Encrypt is a free, automated, and open Certificate Authority. More than 500 million websites around the world use Let&#39;s Encrypt certificates to provide security and privacy to their visitors.</p>
+          <a href="https://letsencrypt.org/" target="_blank" class="link font-weight-bold" data-link="1">Visit Let&#39;s Encrypt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section class="isrg-project-column-single">
+  <div class="container">
+    <div class="row row-grid align-items-center">
+      <div class="col-md-4 col-lg-3 order-lg-2 order-md-2 ml-lg-auto align-self-start pt-4">
+        <img src="/images/trademarks/prossimo/Prossimo%20Horizontal%20Full%20Color.svg" class="img-center img-fluid" />
+      </div>
+      <div class="col-md-8 col-lg-9 order-lg-1 order-md-1">
+        <div class="pr-md-4">
+          <h2 class="heading h2">Memory Safety for Critical Infrastructure</h2>
+          <p class="lead text-gray my-4">Prossimo is an effort to move the Internet&#39;s security-sensitive software infrastructure to memory safe code. We provide strategic planning, facilitation, and communication to bring memory safety to high impact projects.</p>
+          <a href="https://memorysafety.org/" target="_blank" class="link font-weight-bold" data-link="1">Visit Prossimo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section class="isrg-project-column-single">
+  <div class="container">
+    <div class="row row-grid align-items-center">
+      <div class="col-md-4 col-lg-3 order-lg-2 order-md-2 ml-lg-auto align-self-start pt-4">
+        <img src="/images/divviup/Divvi-Up-Large-Full-Color-Logo.png" class="img-center img-fluid" />
+      </div>
+      <div class="col-md-8 col-lg-9 order-lg-1 order-md-1">
+        <div class="pr-md-4">
+          <h2 class="heading h2">Privacy Preserving Application Telemetry</h2>
+          <p class="lead text-gray my-4">Divvi Up is a privacy preserving telemetry service. It enables application owners to gain insights into a user base while respecting users&#39; individual privacy, eliminating the need to store PII for telemetry, and mitigating compliance risks.</p>
+          <a href="/divviup/" target="" class="link font-weight-bold" data-link="1">Visit Divvi Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <section class="slice delimiter-top">
+    <div class="container">
+      <h2 class="eyebrow-text"><a href="/sponsors">Our Sponsors & Funders</a></h2>
+    </div>
+
+    <div class="container">
+      <div class="blurable--hover">
+        <a href="/sponsors/">
+          <div class="row blurable-item align-items-center grid-cols-7">
+            <div class="grid-col">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/mozilla-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="grid-col">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/eff-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="grid-col">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/sovereign-tech-agency-logo.svg" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="grid-col">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/ovh-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="grid-col d-flex align-items-center">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/google-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+            <div class="grid-col">
+              <div class="px-4 py-4">
+                <img src="/images/sponsors/open-technology-fund-logo.png" class="img-fluid img-grayscale" />
+              </div>
+            </div>
+          </div>
+          <span class="blurable-hidden btn btn-sm btn-primary btn-circle">See all sponsors</span>
+        </a>
+      </div>
+    </div>
+  </section>
+      </main>
+    <footer class="footer py-5 bg-secondary" data-separator="rounded-right" data-separator-orientation="top">
+        <div class="container mt-4">
+            <div class="row row-grid">
+                <div id="footer-copyright-column" class="col-12 col-md-6 col-lg-6 align-items-start">
+                    <div class="">
+                        <span class="d-block">
+                        <div class="mb-2"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a> | <a href="/terms-of-service/">Terms of Service</a><br></div>
+                        <div class="mb-2">&copy; 2026 Internet Security Research Group</div>
+                        <div class="mb-2">548 Market St, PMB 77519, San Francisco, California 94104-5401</div>
+                        <p> Send all mail or inquiries to:
+                            <span itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="streetAddress">PO Box 18666</span>,
+                            <span itemprop="addressLocality">Minneapolis</span>,
+                            <span itemprop="addressRegion">MN</span>
+                            <span itemprop="postalCode">55418-0666</span>,
+                            <span itemprop="addressCountry">USA</span>
+                            </span>
+                        </p>
+                        </span>
+                    </div>
+                </div>
+    
+                <div id="footer-newsletter-column" class="col-12 col-md-6 col-lg-6">
+                    <div class="mb-4">
+                        Read all about our nonprofit work this year in our <a href="/documents/2025-ISRG-Annual-Report.pdf">2025 Annual Report</a>.
+                    </div>
+                    <h6 class="font-weight-bold">Subscribe for email updates about ISRG and our projects</h6>
+                    <iframe id="newsletter-iframe" src="https://outreach.abetterinternet.org/l/1011011/2025-01-14/31v6r" width="100%"  type="text/html" frameborder="0" allowTransparency="true" style="border: 0; min-height: 375px;"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="/purpose-theme/libs/jquery/dist/jquery.min.js"></script>
+    <script src="/purpose-theme/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/purpose-theme/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="/purpose-theme/js/purpose.js"></script>
+    <script src="/js/newsletter-iframe.js"></script>
+</body>
+
+</html>
