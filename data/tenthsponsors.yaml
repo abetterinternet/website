@@ -7,9 +7,6 @@
 - name: ngrok
   image: ngrok-black-lrg.png
   url: https://ngrok.com
-- name: Zoho
-  image: logo-zoho.svg
-  url: https://www.zoho.com/
 - name: Springer Nature Ltd
   image: SN_Technology_simple_black.png
   url: https://www.springernature.com/
