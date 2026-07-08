@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 slug: privacy-policy
-subtitle: Updated June 28, 2024
+subtitle: "Last updated: July 06, 2026"
 aliases:
   - privacy
 ---
@@ -21,7 +21,7 @@ Any ISRG project without its own privacy policy is subject to this general ISRG 
 
 ## Visitor
 
-When you are a Visitor browsing an ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected, and stored in ISRG's Salesforce database and Sage Intacct as necessary. We collect your name and email address, and, if you provide it, your mailing address when you donate. Once you donate, we will use your information for our legitimate interest in processing and managing your contribution, including fundraising reminders and renewals. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full), [Shopify](https://www.shopify.com/legal/privacy), [Salesforce](https://www.salesforce.com/company/privacy/), [Printful](https://www.printful.com/policies/privacy), [Formstack](https://www.formstack.com/legal), and [Sage Intacct](https://www.sageintacct.com/privacy_policy_website) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations.
+When you are a Visitor browsing an ISRG web site, you have the option to make a donation. Donations are processed by our trusted payment partners including DonorBox, Stripe, Shopify, and PayPal, depending on the payment method selected, and stored in ISRG's Salesforce database and Sage Intacct as necessary. We collect your name, mailing address, and email address when you donate. Depending on your gift, we may also collect merchandise preferences (such as t-shirt size) to fulfill donor benefits. Once you donate, we will use your information for our legitimate interest in processing and managing your contribution, including fundraising reminders and renewals or mailing a thank-you gift. We may also use your mailing address to identify and consolidate duplicate donor records in order to maintain the accuracy of our donor database. Your interactions with [DonorBox](https://donorbox.org/privacy), [Stripe](https://stripe.com/privacy/), [PayPal](https://www.paypal.com/us/webapps/mpp/ua/privacy-full), [Shopify](https://www.shopify.com/legal/privacy), [The Giving Block](https://thegivingblock.com/about/privacy-policy/), [Salesforce](https://www.salesforce.com/company/privacy/), [Monday Merch](https://www.mondaymerch.com/us/?utm_source=google&utm_medium=cpc&utm_campaign=16492171655&utm_term=monday%20merch&utm_content=617104787162&device=c&gad_source=1&gad_campaignid=16492171655&gbraid=0AAAAAoJDcr7ya1W0nL-JvR-IT1K5ukBlW&gclid=Cj0KCQjw9ZLSBhCcARIsAEhGKgPNjYuVASfYUth2U_4eWM9kd26Wc-cnfVR5J547kvirRv1s0pqI-YoaAuRvEALw_wcB), [Formstack](https://www.formstack.com/legal), [BoldSign](https://boldsign.com/privacy-policy/), and [Sage Intacct](https://www.sageintacct.com/privacy_policy_website) are governed by their respective privacy policies. We do not collect or retain any credit card or bank information related to donations.
 
 You may provide your email address to receive communications related to ISRG projects through a signup on an ISRG web site and via other marketing materials. Any communication delivered via Salesforce and your interactions with [Salesforce](https://www.salesforce.com/company/privacy/) are governed by their privacy policies. We may occasionally use your email address to send personalized communications related to ISRG and its projects. You can request to have your email address removed by opting out via the footer of our emails or emailing us at press@abetterinternet.org.
 
@@ -66,7 +66,7 @@ We process personal data as described in this policy. The purpose and lawful bas
 
 **Lawful Basis:** Legitimate Interests
 
-**Additional Information:** We collect and process information in order to process and support donations.
+**Additional Information:** We collect and process information in order to process and support donations, fulfill donor benefits, and maintain the accuracy of our donor records..
 
 **Purpose:** Legal Obligations and Extenuating Circumstances
 
