@@ -24,7 +24,8 @@
     { "name": "Craig Newmark Philanthropies", "url": "https://craignewmarkphilanthropies.org/", "image": "CNP-Logo.svg" },
     { "name": "SerpApi", "url": "https://serpapi.com/", "image": "SerpApi-black.png" },
     { "name": "Snowflake", "url": "https://www.snowflake.com/", "image": "snowflake-logo.png" },
-    { "name": "ALL-INKL.COM", "url": "https://all-inkl.com/", "image": "all-inkl-com-logo.png" }
+    { "name": "ALL-INKL.COM", "url": "https://all-inkl.com/", "image": "all-inkl-com-logo.png" },
+    { "name": "Wix", "url": "https://www.wix.com/", "image": "wix-logo.png" }
   ],
   "silver": [
     { "name": "Automattic", "url": "https://automattic.com/", "image": "automattic-logo.png" },
@@ -36,11 +37,9 @@
     { "name": "Hébergement web", "url": "https://www.planethoster.com/", "image": "planethoster-logo.png" },
     { "name": "Fastly", "url": "https://www.fastly.com/", "image": "fastly-logo.png" },
     { "name": "3CX", "url": "https://www.3cx.com/", "image": "3cx-logo.png" },
-    { "name": "Jimdo", "url": "https://www.jimdo.com/", "image": "jimdo-logo.png" },
     { "name": "Zendesk", "url": "https://www.zendesk.com/", "image": "zendesk-logo.png" },
     { "name": "Netlify", "url": "https://www.netlify.com/", "image": "netlify-logo.png" },
     { "name": "dnsimple", "url": "https://dnsimple.com/letsencrypt", "image": "dnsimple-logo.png" },
-    { "name": "Shiguredo", "url": "https://shiguredo.jp/", "image": "shiguredo-v2-logo.svg" },
     { "name": "Discourse", "url": "https://www.discourse.org/", "image": "discourse-logo.png" },
     { "name": "driving-tests.org", "url": "https://driving-tests.org/", "image": "driving-tests-logo.png" },
     { "name": "DuoCircle", "url": "https://www.duocircle.com/", "image": "duocircle-logo.png" },
@@ -55,7 +54,6 @@
     { "name": "GreenGeeks", "url": "https://www.greengeeks.com/", "image": "greengeeks-logo.png" },
     { "name": "RedHat", "url": "https://www.redhat.com/", "image": "redhat-logo.png" },
     { "name": "Nabu Casa", "url": "https://www.nabucasa.com/", "image": "nabu-casa-logo.png" },
-    { "name": "Wix", "url": "https://www.wix.com/", "image": "wix-logo.png" },
     { "name": "WPBeginner", "url": "https://www.wpbeginner.com/", "image": "wpbeginner-logo.png" },
     { "name": "Hoststar", "url": "https://www.hoststar.ch/", "image": "hoststar-logo.png" },
     { "name": "one.com", "url": "https://www.one.com/", "image": "one-com-logo.png" },
@@ -72,7 +70,6 @@
     { "name": "Video Downloader", "url": "https://www.4kdownload.com/-1uvr6/video-downloader", "image": "4kdownload-logo.png" },
     { "name": "Entri", "url": "https://www.entri.com/", "image": "entri-logo.svg" },
     { "name": "Confluent", "url": "https://www.confluent.io/", "image": "confluent-logo.svg" },
-    { "name": "Ngrok", "url": "https://ngrok.com/", "image": "ngrok-logo.png" },
     { "name": "SecureW2", "url": "https://www.securew2.com/", "image": "securew2-logo.png" },
     { "name": "20i", "url": "https://www.20i.com/", "image": "20i-logo.svg" },
     { "name": "Chainguard", "url": "https://www.chainguard.dev/", "image": "chainguard-logo.svg" },
@@ -155,6 +152,11 @@
       "name": "Fly.io",
       "url": "https://fly.io/",
       "image": "fly-io-logo.png"
+    },
+    {
+      "name": "Red Sift",
+      "url": "https://redsift.com/",
+      "image": "red-sift-logo.png"
     }
   ]
 }
