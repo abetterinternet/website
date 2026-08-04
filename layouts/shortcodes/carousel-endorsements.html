@@ -1,4 +1,4 @@
-{{ $endorsements := index .Site.Data "endorsements" }}
+{{ $endorsements := index hugo.Data "endorsements" }}
 
 {{ $quotesPerSlide := .Get "quotesPerSlide" | default 1 }}
 <div id="carousel-endorsement-quotes-wrapper" class="py-3">
@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <div id="carousel-endorsement-quotes{{$quotesPerSlide}}" class="carousel-for-quotes carousel slide" data-interval="6000" data-ride="carousel">
 
-          {{ $quotes := $.Site.Data.endorsements }}
+          {{ $quotes := hugo.Data.endorsements }}
           {{ $quotesCount := len $endorsements }}
           {{ $groupsCount := math.Ceil (div (float $quotesCount) (float $quotesPerSlide)) }}
 

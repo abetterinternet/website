@@ -5,7 +5,7 @@
 
         <div id="carouselISRGHistory" class="carousel slide" data-interval="false" data-ride="carousel">
 
-          {{ $milestones := $.Site.Data.isrg_highlights }}
+          {{ $milestones := hugo.Data.isrg_highlights }}
           {{ $milestonesCount := len $milestones }}
 
           <!-- Add carousel indicators -->

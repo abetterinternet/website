@@ -18,7 +18,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           # same as netlify.toml
-          hugo-version: '0.148.2'
+          hugo-version: '0.164.0'
           extended: true
       - name: Build
         run: hugo -D -F -d public

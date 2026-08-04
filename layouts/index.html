@@ -55,7 +55,7 @@
       <div class="blurable--hover">
         <a href="/sponsors/">
           <div class="row blurable-item align-items-center grid-cols-7">
-            {{ range .Site.Data.sponsors.diamond }}
+            {{ range hugo.Data.sponsors.diamond }}
             <div class="grid-col">
               <div class="px-4 py-4">
                 <img src="/images/sponsors/{{ .image }}" alt="{{ .name }}" class="img-fluid img-grayscale" />

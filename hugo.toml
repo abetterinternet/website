@@ -1,5 +1,5 @@
 baseURL = "https://www.abetterinternet.org/"
-languageCode = "en-us"
+locale = "en-us"
 
 contentDir = "content/en"
 defaultContentLanguage = "en"
@@ -21,6 +21,12 @@ time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
 time_format_RFC822 = "Mon, 02 Jan 2006 15:04:05 -0700"
 time_format_default = "Jan 2, 2006"
 
+[security]
+# Hugo's default content policy is ['! ^text/html$'], which rejects HTML
+# content files. Much of this site's content is authored as .html, so allow all
+# content media types.
+allowContent = ['.']
+
 [markup]
 defaultMarkdownHandler = "goldmark"
 
@@ -36,7 +42,7 @@ autoHeadingIDType = "blackfriday"
 [languages]
 [languages.en]
 title = "Internet Security Research Group"
-languageName ="English"
+label = "English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]

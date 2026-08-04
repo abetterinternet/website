@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <div id="carouselQuotes{{$quotesPerSlide}}" class="carousel-for-quotes carousel slide" data-interval="6000" data-ride="carousel">
 
-          {{ $quotes := $.Site.Data.quotes }}
+          {{ $quotes := hugo.Data.quotes }}
           {{ $quotesCount := len $quotes }}
           {{ $groupsCount := math.Ceil (div (float $quotesCount) (float $quotesPerSlide)) }}
 
