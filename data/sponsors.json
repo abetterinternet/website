@@ -58,7 +58,6 @@
     { "name": "Cargo", "url": "https://cargo.site/", "image": "cargo-logo.png" },
     { "name": "RACK::SPEED", "url": "https://rackspeed.de/", "image": "rack-speed-logo.png" },
     { "name": "Duda", "url": "https://www.duda.co/", "image": "duda-logo.png" },
-    { "name": "Ads.com", "url": "https://www.ads.com/", "image": "ads-com-logo.png" },
     { "name": "cdmon", "url": "https://www.cdmon.com/es/", "image": "cdmon-logo.png" },
     { "name": "Teleport", "url": "https://goteleport.com/", "image": "teleport-logo.png" },
     { "name": "NGINX", "url": "https://www.nginx.com/", "image": "nginx-logo.png" },
@@ -69,8 +68,6 @@
     { "name": "Entri", "url": "https://www.entri.com/", "image": "entri-logo.svg" },
     { "name": "Confluent", "url": "https://www.confluent.io/", "image": "confluent-logo.svg" },
     { "name": "SecureW2", "url": "https://www.securew2.com/", "image": "securew2-logo.png" },
-    { "name": "20i", "url": "https://www.20i.com/", "image": "20i-logo.svg" },
-    { "name": "Chainguard", "url": "https://www.chainguard.dev/", "image": "chainguard-logo.svg" },
     { "name": "ICUK", "url": "https://www.icuk.net/", "image": "icuk-logo-red.svg" },
     { "name": "Interserver", "url": "https://www.interserver.net/", "image": "interserver-logo.png" },
     { "name": "DigitalOcean", "url": "https://www.digitalocean.com/", "image": "DigitalOcean_logo.svg" },
@@ -155,6 +152,16 @@
       "name": "Red Sift",
       "url": "https://redsift.com/",
       "image": "red-sift-wide-logo.svg"
+    },
+    {
+      "name": "Datum",
+      "url": "https://www.datum.net/",
+      "image": "datum-logo.svg"
+    },
+    {
+      "name": "Exclaimer",
+      "url": "https://exclaimer.com/",
+      "image": "exclaimer-logo-dark.svg"
     }
   ]
 }
