@@ -1,4 +1,4 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.Language.Lang }}">
   {{ partial "head.html" . }} {{ partial "header.html" . }} {{ if not .Params.nohero }}{{ partial "hero.html" . }}{{ end }} {{ block "main" . }}{{ end }} {{ partial "footer.html" . }}
 </html>

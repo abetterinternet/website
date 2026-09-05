@@ -1,5 +1,5 @@
 baseURL = "https://www.abetterinternet.org/"
-locale = "en-us"
+locale = "en-US"
 
 contentDir = "content/en"
 defaultContentLanguage = "en"
