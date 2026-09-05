@@ -1,0 +1,9 @@
+{{- /*
+  Plain-text description for a page, shared by the meta description and the
+  Open Graph tags. Order: front matter description, then a post or newsletter
+  excerpt, then the site description from hugo.toml.
+*/ -}}
+{{- $desc := .Description -}}
+{{- if not $desc }}{{ with .Params.excerpt }}{{ $desc = . | markdownify | plainify }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
+{{- return ($desc | htmlUnescape | strings.TrimSpace) -}}

@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
+  <meta name="description" content="{{ partial "page-description.html" . }}" />
   <title>{{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }} {{ .Site.Title }}</title>
   <link href="/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet" />
@@ -17,7 +17,7 @@
   {{ if .Params.include_tenthanniversary_assets }}
   <script src="/tenth-anniversary.js"></script>
   <link type="text/css" rel="stylesheet" href="/tenth-anniversary.css" />
-  {{ end }} {{ template "_internal/opengraph.html" . }}
+  {{ end }} {{ partial "opengraph.html" . }}
   <!-- -->
   <meta name="twitter:card" content="{{ .Param "twitter_card_format" }}" />
   <!-- -->
