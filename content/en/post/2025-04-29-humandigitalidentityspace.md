@@ -8,7 +8,7 @@ display_support_us_footer: true
 display_newsletter_embed: false
 ---
 
-Today we are announcing an effort that will allow ISRG to learn about systems for human digital identity. We're partnering with the [SIROS Foundation](https://www.siros.org/) for this exploration, and our work has been generously funded by Stina Ehrensvard, founder of SIROS Foundation and co-founder of Yubico.
+Today we are announcing an effort that will allow ISRG to learn about systems for human digital identity. We're partnering with the [SIROS Foundation](https://www.siros.org/) for this exploration, and our work has been generously funded by Stina Ehrensvärd, founder of SIROS Foundation and co-founder of Yubico.
 
 ISRG has a wealth of experience in authenticating digital infrastructure via [Let's Encrypt](https://letsencrypt.org). When considering how we might leverage that experience to improve other aspects of our digital lives, we started thinking about various efforts around the world to manage digital identity for humans and whether or not we might be able to help. There's a lot of potential for such systems to make things better and/or easier, but there is also the potential for policy and technology decisions to be harmful. This space presents a potential opportunity for us to further pursue our mission to lower monetary, technological, and informational barriers to a more secure and privacy-respecting Internet.
 
