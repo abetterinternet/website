@@ -1,6 +1,6 @@
 - title: ISRG Founded
   year: 2013
-  copy: ISRG was founded in May of 2013 by Josh Aas and Eric Rescorla as a home for public benefit digital infrastructure. Josh and Eric were later joined by Alex Halderman and Peter Eckersley, who were at the time developing a protocol for automatically issuing and renewing certificates. These combined efforts were the genesis of Let’s Encrypt. The four started ISRG as a nonprofit, hoping that nonprofit governance requirements would keep the organization transparent and reliable in the long term.ISRG was founded thanks in part to early sponsors and partners Mozilla, the Electronic Frontier Foundation, Akamai, Cisco, and the University of Michigan.
+  copy: ISRG was founded in May of 2013 by Josh Aas and Eric Rescorla as a home for public benefit digital infrastructure. Josh and Eric were later joined by Alex Halderman and Peter Eckersley, who were at the time developing a protocol for automatically issuing and renewing certificates. These combined efforts were the genesis of Let’s Encrypt. The four started ISRG as a nonprofit, hoping that nonprofit governance requirements would keep the organization transparent and reliable in the long term. ISRG was founded thanks in part to early sponsors and partners Mozilla, the Electronic Frontier Foundation, Akamai, Cisco, and the University of Michigan.
   image: "articles-of-incorporation-doc_timeline-highlights.png"
   image_class: "py-4 px-4 max-200-img"
 
