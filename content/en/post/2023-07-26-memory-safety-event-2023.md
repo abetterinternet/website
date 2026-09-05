@@ -29,4 +29,5 @@ In a day-long convening, Tectonics will use part of the day to hear from leaders
 Through proctored conversations, the end-result of Tectonics will be clear and actionable recommendations that Prossimo will publish and distribute. We're excited about the idea of a 2.0 conversation that will bring clarity to our collective work to build a more secure Internet for everyone, everywhere.
 
 Tectonics [sponsorships begin at $5,000](https://tectonics.memorysafety.org/pdf/Memory%20Safety%20Event%20Prospectus.pdf) and are available now. Registration will open later this year, however you can [save the date](https://tectonics.memorysafety.org/#save-the-date) now to be notified once registration opens.
+
 [Prossimo](https://memorysafety.org) is a project of [Internet Security Research Group (ISRG)](https://abetterinternet.org), a 501(c)(3) nonprofit organization. ISRG launched Prossimo in 2020 to bring greater attention and resources to tackling the problem of a lack of memory safety in the Internet's critical infrastructure. Since its founding, Prossimo has funded nine initiatives with more than $5M in funding to rewrite critical components of the Internet.

@@ -25,4 +25,5 @@ Over the last few months, we successfully executed a test of Divvi Up with live 
 The next big area of development will be ensuring that Divvi Up is easy to use and leverages automation to pave the path for wide-scale adoption. This will include refining the way subscribers interact with the Divvi Up system to improve ease of use, developing the subscriber sign-up flow on our website, and expanding the available aggregation schemes to provide more options for metrics computations. We will soon begin testing with the [Poplar aggregation scheme](https://eprint.iacr.org/2021/017.pdf), which will allow commonly reported values like URLs to be discovered without impinging on the privacy of individual reports.
 
 We're grateful to our funders for supporting the development of this work. If you or your organization want to support privacy-preserving metrics, please get in touch via sponsor@abetterinternet.org.
+
 Divvi Up is a project of the 501(c)3 nonprofit [Internet Security Research Group](https://abetterinternet.org/) (ISRG), the organization behind [Let's Encrypt](https://letsencrypt.org/) and [Prossimo](https://www.memorysafety.org/).
