@@ -17,12 +17,7 @@
   {{ if .Params.include_tenthanniversary_assets }}
   <script src="/tenth-anniversary.js"></script>
   <link type="text/css" rel="stylesheet" href="/tenth-anniversary.css" />
-  {{ end }} {{ partial "opengraph.html" . }}
-  <!-- -->
-  <meta name="twitter:card" content="{{ .Param "twitter_card_format" }}" />
-  <!-- -->
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ if eq (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_square" }}{{ end }}{{ if ne (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_wide" }}{{ end }}" />
-  <!-- -->
-  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}{{ if eq (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_square" }}{{ end }}{{ if ne (.Param "twitter_card_format") "summary" }}{{ .Param "social_share_twitter_wide" }}{{ end }}" />
-  <!-- -->
+  {{ end }}
+  {{ partial "opengraph.html" . }}
+  <meta name="twitter:card" content="summary_large_image" />
 </head>
