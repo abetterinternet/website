@@ -19,11 +19,11 @@
     <div class="cmp-NewsletterDetail__header">
       <nav class="cmp-NewsletterDetail__nav text-sm">
         <div class="cmp-NewsletterDetail__nav-prev">
-          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">&larr; Older</a>{{ end }}
+          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">&larr; Older</a>{{ end }}
         </div>
         <a href="/newsletters/">All Newsletters</a>
         <div class="cmp-NewsletterDetail__nav-next">
-          {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">Newer &rarr;</a>{{ end }}
+          {{ with .NextInSection }}<a href="{{ .RelPermalink }}">Newer &rarr;</a>{{ end }}
         </div>
       </nav>
       <div class="cmp-NewsletterDetail__meta text-sm">
