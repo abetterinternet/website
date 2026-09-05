@@ -47,5 +47,5 @@ label = "English"
 weight = 1
 [languages.en.params]
 description = """
-  ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to secure communication over the Internet.
+  ISRG&rsquo;s mission is to protect Internet users by lowering monetary, technological, and informational barriers to a more secure and privacy-respecting Internet.
 """
