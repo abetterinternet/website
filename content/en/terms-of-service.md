@@ -5,7 +5,7 @@ slug: terms-of-service
 
 ## Introduction and Acceptance
 
-Welcome to the Internet Security Research Group (ISRG) websites. By accessing or using [www.abetterinternet.org](https://www.abetterinternet.org), [www.letsencrypt.org](http://www.letsencrypt.org), [www.memorysafety.org](http://www.memorysafety.org), <https://community.letsencrypt.org>, and [www.divviup.org](http://www.divviup.org) (ISRG's "Websites"), you agree to comply with and be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our Websites. By visiting our Websites, you agree that we may handle your information as set forth in [ISRG's Privacy Policy](https://www.abetterinternet.org/privacy-policy/).
+Welcome to the Internet Security Research Group (ISRG) websites. By accessing or using [www.abetterinternet.org](https://www.abetterinternet.org), [www.letsencrypt.org](https://www.letsencrypt.org), [www.memorysafety.org](https://www.memorysafety.org), <https://community.letsencrypt.org>, and [www.divviup.org](https://www.divviup.org) (ISRG's "Websites"), you agree to comply with and be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our Websites. By visiting our Websites, you agree that we may handle your information as set forth in [ISRG's Privacy Policy](https://www.abetterinternet.org/privacy-policy/).
 
 ## Use of the Websites
 
