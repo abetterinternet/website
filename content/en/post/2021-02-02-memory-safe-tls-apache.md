@@ -22,7 +22,7 @@ The [Apache HTTP Server](https://httpd.apache.org/), httpd, is an important piec
 
 One of the biggest issues with httpd is the fact that it’s written in C, which is not a memory safe language. Memory safety issues dominate its list of [security vulnerabilities](https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-66/Apache-Http-Server.html). Rewriting httpd from scratch or moving its users to a memory safe alternative would be incredibly difficult, but fortunately we can tackle httpd’s memory safety problem incrementally.
 
-ISRG is starting by facilitating the creation of a new TLS module for httpd called mod_tls. The new module will use the excellent [Rustls](https://github.com/ctz/rustls) library for TLS instead of OpenSSL. We hope that someday mod_tls will replace mod_ssl as the default in httpd.
+ISRG is starting by facilitating the creation of a new TLS module for httpd called mod_tls. The new module will use the excellent [Rustls](https://github.com/rustls/rustls) library for TLS instead of OpenSSL. We hope that someday mod_tls will replace mod_ssl as the default in httpd.
 
 We have contracted [Stefan Eissing](https://eissing.org/) of [Greenbytes](https://www.greenbytes.de/), also an httpd committer, to do the work. [Google](https://www.google.com/) has generously provided the funding.
 

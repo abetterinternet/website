@@ -13,7 +13,7 @@ slug: growing-support
 
 Initial signs point to 2024 being a big year for memory safety and we aim to continue Prossimo's work to accelerate the momentum.
 
-Last month, the White House's Office of the National Cyber Director (ONCD) issued a [report](https://www.whitehouse.gov/oncd/briefing-room/2024/02/26/memory-safety-fact-sheet/) that strongly endorses the use of memory safe languages. We've been formally working on improving memory safety for critical Internet infrastructure for years now and are proud to be the only 501c3 nonprofit referenced in this report. The report highlights a few points that are well-aligned with Prossimo's outlook:
+Last month, the White House's Office of the National Cyber Director (ONCD) issued a [report](https://bidenwhitehouse.archives.gov/oncd/briefing-room/2024/02/26/memory-safety-fact-sheet/) that strongly endorses the use of memory safe languages. We've been formally working on improving memory safety for critical Internet infrastructure for years now and are proud to be the only 501c3 nonprofit referenced in this report. The report highlights a few points that are well-aligned with Prossimo's outlook:
 
 1.  Now is the time to make memory safe choices since it effectively solves an avoidable problem,
 
