@@ -298,12 +298,12 @@ Our standard logo. Outside of a few exceptions, this is the default, go-to versi
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Medium.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.svg" alt="Divvi Up Standard White logo" class="logo-img logo-with-checkerboard-bg mh-125" />
         <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Medium.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.svg" alt="Divvi Up Standard Black logo" class="logo-img logo-with-checkerboard-bg mh-125" />
         <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Medium.png" download>PNG</a>
     </div>
@@ -320,12 +320,12 @@ A version of our logo that includes a descriptive tag. Use this in contexts wher
         <a href="/images/trademarks/divvi-up/Divviup-Full-color-logo-Large.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Large.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/divvi-up/white/Divviup - White logo - Large.svg" alt="Divvi Up White logo with tag" class="logo-img logo-with-checkerboard-bg mh-125" />
         <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Large.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/white/Divviup - White logo - Large.png" download>PNG</a>
     </div>
     <div class="logo-row__item">
-        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.svg" alt="Divvi Up Standard Full Color logo" class="logo-img logo-with-checkerboard-bg mh-125" />
+        <img src="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.svg" alt="Divvi Up Black logo with tag" class="logo-img logo-with-checkerboard-bg mh-125" />
         <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.svg" download>SVG</a>
         <a href="/images/trademarks/divvi-up/black/Divviup - Black logo - Large.png" download>PNG</a>
     </div>
