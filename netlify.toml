@@ -1,11 +1,17 @@
 [build]
 
 publish = "./public/"
-command = "hugo -D -F -d public"
+command = "hugo -d public"
 
 [build.environment]
   HUGO_VERSION = "0.164.0"
   NODE_VERSION = "24.5.0"
+
+[context.deploy-preview]
+  command = "hugo -D -F -d public"
+
+[context.branch-deploy]
+  command = "hugo -D -F -d public"
 
 # https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file
 [[headers]]

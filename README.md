@@ -18,4 +18,8 @@ And open <a href="http://localhost:1313/">http://localhost:1313/</a> in your
 browser. Note that the -F flag will show items to be published in the future
 (like blog posts with dates in the future).
 
+Production builds on Netlify run `hugo` without `-D` or `-F`, so drafts and
+future-dated content stay unpublished until a deploy happens on or after their
+date. Netlify deploy previews and branch deploys do include them.
+
 Contributions welcome.
