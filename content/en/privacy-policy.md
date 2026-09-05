@@ -66,7 +66,7 @@ We process personal data as described in this policy. The purpose and lawful bas
 
 **Lawful Basis:** Legitimate Interests
 
-**Additional Information:** We collect and process information in order to process and support donations, fulfill donor benefits, and maintain the accuracy of our donor records..
+**Additional Information:** We collect and process information in order to process and support donations, fulfill donor benefits, and maintain the accuracy of our donor records.
 
 **Purpose:** Legal Obligations and Extenuating Circumstances
 

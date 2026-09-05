@@ -47,7 +47,7 @@ _Use it as a Mark_. Trademarks, including the ISRG Marks, are adjectives, and wh
 - Acceptable: I installed a Let’s Encrypt certificate on our website.
 - Unacceptable: I installed Let’s Encrypt on our website.
 
-_Mark the Mark_. The first or most prominent mention of an ISRG Mark should be accompanied by a “tm’”’ symbol (”&trade;”), to indicate that it is a trademark; you may also use the “r in a circle” symbol (”&reg;”), if the trademark in question is a registered trademark. If you aren’t sure, using the “tm” symbol (”&trade;”) is fine. The first or most prominent mention of an ISRG Mark should also be set apart from surrounding text, either by capitalizing, italicizing, bolding, or underlining it.
+_Mark the Mark_. The first or most prominent mention of an ISRG Mark should be accompanied by a “tm” symbol (“&trade;”), to indicate that it is a trademark; you may also use the “r in a circle” symbol (“&reg;”), if the trademark in question is a registered trademark. If you aren’t sure, using the “tm” symbol (“&trade;”) is fine. The first or most prominent mention of an ISRG Mark should also be set apart from surrounding text, either by capitalizing, italicizing, bolding, or underlining it.
 
 _Credit the Mark_. The following notice text should appear somewhere nearby your first or most prominent mention of an ISRG Mark. If that’s not practical, you may include it on the credits page instead:
 

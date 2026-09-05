@@ -8,7 +8,7 @@ slug: growing-support
 ---
 
 <div class="card border-0 pic-quote-right">
-    <img alt="Logos for craig newmark philanthrophies and the White House" class="rounded mx-auto img-fluid" src="/images/blog/blog-white-house-craig-newmark-philanthropies.png" />
+    <img alt="Logos for Craig Newmark Philanthropies and the White House" class="rounded mx-auto img-fluid" src="/images/blog/blog-white-house-craig-newmark-philanthropies.png" />
 </div>
 
 Initial signs point to 2024 being a big year for memory safety and we aim to continue Prossimo's work to accelerate the momentum.
