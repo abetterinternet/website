@@ -10,7 +10,8 @@
     { "name": "Mozilla", "url": "https://www.mozilla.org/", "image": "mozilla-logo.png" },
     { "name": "Electronic Frontier Foundation", "url": "https://www.eff.org/", "image": "eff-logo.png" },
     { "name": "OVH", "url": "https://www.ovh.com/", "image": "ovh-logo.png" },
-    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" }
+    { "name": "Internet Society", "url": "https://www.internetsociety.org/", "image": "isoc-foundation-logo.png" },
+    { "name": "Meta", "url": "https://www.meta.com/", "image": "meta-logo.svg" }
   ],
   "gold": [
     { "name": "Cisco", "url": "https://www.cisco.com/", "image": "cisco-logo.png" },
