@@ -2,110 +2,138 @@
 title: Donate
 subtitle: Support a more secure and privacy-respecting Internet.
 slug: donate
+custom_css_file: donate.css
 ---
 
-<section class="slice slice-sm">
-  <div class="container">
-    <div class="row pt-4 row-grid">
-      <div class="col-md-3 col-lg-3">
-        <h4>Donation Form</h4>
+<section class="donate-page">
+  <div class="container donate-grid">
+    <div class="donate-form" aria-label="Donation form">
+      <div class="donate-tabs" role="tablist" aria-label="Donation methods" hidden>
+        <button type="button" id="donate-tab-card" role="tab" aria-selected="true" aria-controls="donate-panel-card">Card, PayPal, Bank</button>
+        <button type="button" id="donate-tab-other" role="tab" aria-selected="false" aria-controls="donate-panel-other" tabindex="-1">Crypto, Stock, DAF</button>
       </div>
-      <div class="col-md-9 col-lg-9">
-        <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/support-isrg" name="donorbox" id="dbox-form-embed" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
-          <div id="donorbox-fallback" class="mt-2">
-            <a href="https://donorbox.org/support-isrg" class="btn btn-primary btn-circle">Donate on Donorbox</a>
-          </div>
-          <script>
-            document.getElementById('dbox-form-embed').addEventListener('load', function() {
-              document.getElementById('donorbox-fallback').style.display = 'none';
-            });
-          </script>
-      </div>
+      <section id="donate-panel-card" class="donate-panel" aria-label="Card, PayPal, Bank">
+        <iframe src="https://donorbox.org/embed/support-isrg" name="donorbox" id="dbox-form-embed" title="Donate to Internet Security Research Group" allow="payment" allowpaymentrequest="allowpaymentrequest" scrolling="no" height="900" class="donate-card-frame"></iframe>
+        <a href="https://donorbox.org/support-isrg" class="donate-fallback">Donate on Donorbox</a>
+      </section>
+      <section id="donate-panel-other" class="donate-panel" aria-label="Crypto, Stock, DAF">
+        <h2 class="donate-no-script-heading">Crypto, Stock, DAF</h2>
+        <div id="giving-block-form"></div>
+        <a href="https://thegivingblock.com/donate/internet-security-research-group/" class="donate-fallback">Donate on The Giving Block</a>
+      </section>
     </div>
-
-
-    <div class="row pt-4 row-grid">
-      <div class="col-md-3 col-lg-3">
-        <h4>Donations of Stock</h4>
-      </div>
-      <div class="col-md-9 col-lg-9">
-        <p>Appreciated securities or mutual fund shares that you’ve owned for more than one year can be excellent charitable gifts.</p>
-                  <table class=key-value-table>
-                     <tr>
-                        <th>Brokerage Firm:</th>
-                        <td>Vanguard</td>
-                     </tr>
-                     <tr>
-                        <th>Account Name:</th>
-                        <td>Internet Security Research Group</td>
-                     </tr>
-                     <tr>
-                        <th>ISRG Account #:</th>
-                        <td>44865458</td>
-                     </tr>
-                     <tr>
-                        <th>DTC #:</th>
-                        <td>0062</td>
-                     </tr>
-                     <tr>
-                        <th>Tax ID #:</th>
-                        <td>46-3344200</td>
-                     </tr>
-                  </table>
-                  <p>Please let us know if you are transferring securities at <a href=mailto:sponsor@abetterinternet.org>sponsor@abetterinternet.org</a>. You may also want to
-                     email the letter of authorization from your broker.
-                  </p>
-      </div>
-    </div>
-
-    <div class="row pt-4 row-grid">
-      <div class="col-md-3 col-lg-3">
-        <h4>Gifts of Cryptocurrency</h4>
-      </div>
-      <div class="col-md-9 col-lg-9">
-        <p>We are able to accept most cryptocurrency donations <a href="https://thegivingblock.com/donate/internet-security-research-group/">here</a>.</p>
-      </div>
-    </div>
-
-    <div class="row pt-4 row-grid">
-      <div class="col-md-3 col-lg-3">
-        <h4>Donor Advised Funds</h4>
-      </div>
-      <div class="col-md-9 col-lg-9">
-        <p>Recommend a donation to Internet Security Research Group from your gift fund. 100% of your donation will go to support a secure and privacy-respecting Internet.</p>
-
-      </div>
-    </div>
-    <div class="row pt-4 row-grid">
-      <div class="col-md-3 col-lg-3">
-        <h4>In Your Workplace</h4>
-      </div>
-      <div class="col-md-9 col-lg-9">
-        <p>Recommend that your employer supports our work through <a href="/sponsor/">Sponsorship</a>.</p>
-        <a name=double-donation></a>
-        <p>Many organizations match donations to nonprofits made by employees. Check if your organization has a matching program and double your impact!</p>
-        <div id=dd-wrapper>
-          <div id=dd-container>
-            <script src=https://donorbox.org/widget.js type=text/javascript></script><iframe src=https://donorbox.org/company_matching/let-s-encrypt/embed style=min-width:310px;min-height:330px!important width=100% name=donorbox id=match-form-embed frameborder=0 scrolling=no></iframe>
-            <div id="match-fallback" class="mt-2">
-              <a href="https://donorbox.org/company_matching/let-s-encrypt/embed" class="btn btn-primary btn-circle">Check Company Matching on Donorbox</a>
-            </div>
-            <script>
-              document.getElementById('match-form-embed').addEventListener('load', function() {
-                document.getElementById('match-fallback').style.display = 'none';
-              });
-            </script>
-          </div>
+    <div class="donate-ways" aria-labelledby="ways-to-give-title">
+      <h2 id="ways-to-give-title">More Ways to Give</h2>
+      <details id="employer-matching-gifts" class="donate-option">
+        <summary>Employer matching gifts<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>Many organizations match donations to nonprofits made by employees. Check if your organization has a matching program and double your impact!</p>
+          <div id="double-donation"><iframe src="https://donorbox.org/company_matching/let-s-encrypt/embed" id="match-form-embed" title="Find your employer’s matching gift program" class="donate-matching-frame" loading="lazy" name="donorbox" scrolling="no"></iframe> <a href="https://donorbox.org/company_matching/let-s-encrypt/embed" class="donate-fallback">Check Company Matching on Donorbox</a></div>
         </div>
-      </div>
+      </details>
+      <details id="become-a-sponsor" class="donate-option">
+        <summary>Become a sponsor<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>Recommend that your employer supports our work through <a href="/sponsor/">Sponsorship</a>.</p>
+        </div>
+      </details>
+      <details id="donate-stock" class="donate-option">
+        <summary>Donate stock<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>Appreciated securities or mutual fund shares that you've owned for more than one year can be excellent charitable gifts.</p>
+          <table class="donate-account">
+            <tr>
+              <th scope="row">Brokerage Firm:</th>
+              <td>Vanguard</td>
+            </tr>
+            <tr>
+              <th scope="row">Account Name:</th>
+              <td>Internet Security Research Group</td>
+            </tr>
+            <tr>
+              <th scope="row">Account #:</th>
+              <td>44865458</td>
+            </tr>
+            <tr>
+              <th scope="row">DTC #:</th>
+              <td>0062</td>
+            </tr>
+            <tr>
+              <th scope="row">Tax ID #:</th>
+              <td>46-3344200</td>
+            </tr>
+          </table>
+          <p>Please contact us if you are transferring securities at <a href="mailto:donate@abetterinternet.org">donate@abetterinternet.org</a> to ensure that we are able to credit you for your gift.</p>
+          <p>You can also donate stock in a couple clicks via <a href="https://thegivingblock.com/donate/internet-security-research-group/">The Giving Block</a>. We do incur processing fees through these transactions, so please consider covering the fees to help ensure your gift has the greatest impact.</p>
+        </div>
+      </details>
+      <details id="donate-cryptocurrency" class="donate-option">
+        <summary>Donate cryptocurrency<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>We are able to accept most cryptocurrencies. You can donate by visiting <a href="https://thegivingblock.com/donate/internet-security-research-group/">The Giving Block</a>. We do incur processing fees through these transactions, so please consider covering the fees to help ensure your gift has the greatest impact.</p>
+        </div>
+      </details>
+      <details id="donor-advised-funds" class="donate-option">
+        <summary>Donor Advised Funds (DAFs)<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>Simply inform your DAF sponsor that you’d like to make a gift to:</p>
+          <address>
+            Internet Security Research Group<br />
+            EIN: 46-3344200<br />
+            548 Market St<br />
+            PMB 77519<br />
+            San Francisco, California 94104-5401
+          </address>
+          <p>You can also donate through your DAF via DAFpay in a couple clicks via <a href="https://thegivingblock.com/donate/internet-security-research-group/">The Giving Block</a>. We do incur processing fees this way, so please consider covering the fees to help ensure your gift has the greatest impact.</p>
+        </div>
+      </details>
+      <details id="planned-legacy-giving" class="donate-option">
+        <summary>Planned/Legacy giving<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>Please consider making ISRG a beneficiary of your will or retirement plan to help protect Internet users by lowering monetary, technological, and informational barriers to a more secure and privacy-respecting Internet.</p>
+          <p>Have you already included ISRG in your estate plans? <a href="https://docs.google.com/forms/d/e/1FAIpQLSehKBhx5Z4s3wRC9RpnS_ivT9w4ftcCyfLo0hswQyZFG3AxiA/viewform?usp=publish-editor">Let us know here</a>.</p>
+          <p>While documenting your planned gift is confidential and non-binding, it allows us to plan for the future and thank you for your generosity today.</p>
+          <p>Please seek the advice of your financial or legal advisor.</p>
+        </div>
+      </details>
+      <details id="qualified-charitable-distribution" class="donate-option">
+        <summary>Qualified Charitable Distribution<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>If you are 70½ or older, you can give directly from your US-based IRA to ISRG without paying income tax on the distribution. This option is often called an IRA charitable rollover or a qualified charitable distribution (QCD). You can give up to an annual maximum set by the IRS, which adjusts each year, so confirm the current amount with your advisor.</p>
+          <p>Please seek the advice of your financial or legal advisor.</p>
+          <p>To make your gift, ask your IRA administrator to send the distribution directly to ISRG. Give them our legal name and federal tax ID so they can identify us. Please also let us know about your gift. Many IRA administrators send distributions without identifying the donor, so a quick note from you lets us thank you and honor your wishes for the gift.</p>
+          <address>
+            Internet Security Research Group<br />
+            EIN: 46-3344200<br />
+            548 Market St<br />
+            PMB 77519<br />
+            San Francisco, California 94104-5401
+          </address>
+          <h3>Mailing Address</h3>
+          <p>(only for check-processing)</p>
+          <address>
+            Internet Security Research Group<br />
+            ATTN: Advancement Department<br />
+            PO Box 18666<br />
+            Minneapolis, MN 55418-0666, USA
+          </address>
+        </div>
+      </details>
+      <details id="donate-by-check" class="donate-option">
+        <summary>Donate by check<span class="donate-option-icon" aria-hidden="true"></span></summary>
+        <div class="donate-option-content">
+          <p>You can donate by personal check payable to "ISRG" at the address below:</p>
+          <address>
+            Internet Security Research Group<br />
+            ATTN: Advancement Department<br />
+            PO Box 18666<br />
+            Minneapolis, MN 55418-0666, USA
+          </address>
+        </div>
+      </details>
     </div>
-    <div class="row mt-5">
-      <div class="col-12">
-        <p>
-          Internet Security Research Group is the 501(c)(3) public benefit
-          organization behind Let's Encrypt. You can find our <a href="/gift-acceptance-policy">Gift Acceptance Policy here</a>. Our EIN is: 46-3344200.
-        </p>
-      </div>
-    </div>
+    <p class="donate-legal">Internet Security Research Group is the 501(c)(3) public benefit organization behind Let's Encrypt. You can find our <a href="/gift-acceptance-policy">Gift Acceptance Policy here</a>. Our EIN is: 46-3344200.</p>
   </div>
 </section>
+<script src="/donate.js" defer></script>
+<script src="https://donorbox.org/widget.js" paypalExpress="true" defer></script>
