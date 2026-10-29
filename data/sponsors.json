@@ -65,7 +65,7 @@
     { "name": "Tailscale", "url": "https://tailscale.com/", "image": "tailscale-logo.svg" },
     { "name": "BitLaunch", "url": "https://bitlaunch.io/", "image": "bitlaunch-logo.svg" },
     { "name": "IBAN", "url": "https://www.iban.com/", "image": "iban-logo.png" },
-    { "name": "Video Downloader", "url": "https://www.4kdownload.com/-1uvr6/video-downloader", "image": "4kdownload-logo.png" },
+    { "name": "YouTube Downloader", "url": "https://youtube.4kdownload.com", "image": "4kdownload-logo.png" },
     { "name": "Entri", "url": "https://www.entri.com/", "image": "entri-logo.svg" },
     { "name": "Confluent", "url": "https://www.confluent.io/", "image": "confluent-logo.svg" },
     { "name": "SecureW2", "url": "https://www.securew2.com/", "image": "securew2-logo.png" },
