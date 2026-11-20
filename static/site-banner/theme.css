@@ -1,0 +1,12 @@
+.site-banner {
+  --site-banner-bg: #3771c8;
+  --site-banner-text: #ffffff;
+  --site-banner-button: #ffffff;
+  --site-banner-button-text: #3771c8;
+  --site-banner-gutter: 16px;
+}
+
+/* Like the header's navbar, drop the container padding below 992px. */
+@media (max-width: 991.98px) {
+  .site-banner .container { padding-left: 0; padding-right: 0; }
+}
